@@ -14489,8 +14489,8 @@ const site = {
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
-        "center": [38, -79.5],
-        "zoom": 7,
+        "center": [38.9936, -77.3135],
+        "zoom": 8,
         "height": "430px",
         "subto": [
           "main_plot"

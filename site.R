@@ -173,8 +173,8 @@ page_section(
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
-        center = c(38, -79.5),
-        zoom = 7,
+        center = c(38.9936, -77.3135),
+        zoom = 8,
         height = "430px"
       ),
       background_shapes = "tract",
