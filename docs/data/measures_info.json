@@ -4,6 +4,26 @@
     "short_name": "Year",
     "full_name": "time"
   },
+  "dei:norm_dei": {
+    "category": "Broadband",
+    "short_name": "Digital Equity Index",
+    "long_name": "Digital Equity Index",
+    "description": "Relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+    "statement": "The digital equity index for {features.name} is {value}.",
+	"type": "index",
+    "source": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
   "speed_measurements:avg_down_using_devices": {
     "category": "Broadband",
     "short_name": "Average Download Speed",

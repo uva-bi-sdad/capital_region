@@ -1,6 +1,6 @@
 const site = {
   "settings": {
-    "digits": 3,
+    "digits": 2,
     "summary_selection": "all",
     "color_by_order": false,
     "boxplots": true,
@@ -13,13 +13,13 @@ const site = {
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["county", "tract", "block_group"],
-    "variables": ["time", "speed_measurements:avg_down_using_devices", "speed_measurements:devices", "speed_measurements:avg_up_using_devices", "percent_above_threshold:perc_w_int_25_3_using_devices", "percent_above_threshold:perc_w_int_100_20_using_devices", "percent_above_threshold:perc_total_25_3_using_devices", "percent_above_threshold:perc_total_100_20_using_devices"],
+    "variables": ["time", "dei:norm_dei", "speed_measurements:avg_down_using_devices", "speed_measurements:devices", "speed_measurements:avg_up_using_devices", "percent_above_threshold:perc_w_int_25_3_using_devices", "percent_above_threshold:perc_w_int_100_20_using_devices", "percent_above_threshold:perc_total_25_3_using_devices", "percent_above_threshold:perc_total_100_20_using_devices"],
     "info": {
       "block_group": {
-        "bytes": 5455064,
+        "bytes": 5618614,
         "encoding": "ISO-8859-1",
-        "md5": "90f557e3ac3e87a636a8765df96771b2",
-        "sha512": "5ee813e5add75a88155a34e95888736083fcf9462a40ebaa7f23b8e85f72146e5f39d554ed8c514a33a0648c862abbe0a264457bc4485af301a67140db7741ff",
+        "md5": "2815babde5b5bf6d5f3fc78f1048ba38",
+        "sha512": "545dfea0d77f01ce891f3158535cdf34df89b0b90ed3100b0add1dbffbac431eac28a8e639af6095a85d8f10016578b1b418a60eead3e47b0ec0daba7c633bf4",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv",
@@ -9768,7 +9768,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-06 16:35:06",
+        "created": "2022-01-11 17:06:20",
         "last_modified": "2022-01-06 16:35:05",
         "rowcount": 9735,
         "schema": {
@@ -9787,6 +9787,36 @@ const site = {
               "sd": 0.8165,
               "min": 2019,
               "max": 2021
+            },
+            {
+              "name": "dei:norm_dei",
+              "duplicates": 57,
+              "info": {
+                "category": "Broadband",
+                "short_name": "Digital Equity Index",
+                "long_name": "Digital Equity Index",
+                "description": "Relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "statement": "The digital equity index for {features.name} is {value}.",
+                "type": "index",
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  },
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 54,
+              "mean": 28.8048,
+              "sd": 5.8144,
+              "min": 0,
+              "max": 100
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
@@ -9968,10 +9998,10 @@ const site = {
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 2140608,
+        "bytes": 2202094,
         "encoding": "ISO-8859-1",
-        "md5": "39899e80a854140f75c6eeea8b76efcc",
-        "sha512": "cb2f5f83ef52f388e3496fbc5eedeff2dc5d45949bfb77ed663004f7693cfd9021388d192613231397152454cb05c95a2533f0539f7c9b114b4793bfd8dd7a99",
+        "md5": "80f7051cb361c99b2244dab69e45ba9b",
+        "sha512": "d1370fe1fc70ab842085c0a1bd7363758352aab8559db0a0134cca63f15ba8116521d23a08cd625b10f24730848dd5acaad45170a05f558cebae9e0dca9c8b68",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -13657,7 +13687,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-06 16:35:06",
+        "created": "2022-01-11 17:06:21",
         "last_modified": "2022-01-06 16:35:06",
         "rowcount": 3672,
         "schema": {
@@ -13676,6 +13706,36 @@ const site = {
               "sd": 0.8166,
               "min": 2019,
               "max": 2021
+            },
+            {
+              "name": "dei:norm_dei",
+              "duplicates": 33,
+              "info": {
+                "category": "Broadband",
+                "short_name": "Digital Equity Index",
+                "long_name": "Digital Equity Index",
+                "description": "Relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "statement": "The digital equity index for {features.name} is {value}.",
+                "type": "index",
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  },
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 30,
+              "mean": 34.5123,
+              "sd": 7.7519,
+              "min": 0,
+              "max": 100
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
@@ -13857,10 +13917,10 @@ const site = {
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 26091,
+        "bytes": 26232,
         "encoding": "ISO-8859-1",
-        "md5": "63a2f90a928b3b0c96ad5a27225bb8d9",
-        "sha512": "ed9d72cc239003300d1e5b10da1c4a1125435968a26f70b4c4b0d06c5b5947749406663ec18532ffcee37b26c86373abb97fc0645ade254dec31304630cf9a28",
+        "md5": "d69909f22acc47e8427ca331473900f0",
+        "sha512": "c3eb977d0611778ab1a3adae31755a00b3495954d936fd5bcf0227ada09c15cd522f0eceb36e96473b6bd70009ecc782021c4b505ea7c0eb5b9bab99137f1d1f",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -13916,7 +13976,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-06 16:35:06",
+        "created": "2022-01-11 17:06:21",
         "last_modified": "2022-01-06 16:35:06",
         "rowcount": 42,
         "schema": {
@@ -13935,6 +13995,32 @@ const site = {
               "sd": 0.8264,
               "min": 2019,
               "max": 2021
+            },
+            {
+              "name": "dei:norm_dei",
+              "duplicates": 41,
+              "info": {
+                "category": "Broadband",
+                "short_name": "Digital Equity Index",
+                "long_name": "Digital Equity Index",
+                "description": "Relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "statement": "The digital equity index for {features.name} is {value}.",
+                "type": "index",
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  },
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 42
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
