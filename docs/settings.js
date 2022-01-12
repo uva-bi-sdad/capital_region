@@ -18,8 +18,8 @@ const site = {
       "block_group": {
         "bytes": 5618614,
         "encoding": "ISO-8859-1",
-        "md5": "2815babde5b5bf6d5f3fc78f1048ba38",
-        "sha512": "545dfea0d77f01ce891f3158535cdf34df89b0b90ed3100b0add1dbffbac431eac28a8e639af6095a85d8f10016578b1b418a60eead3e47b0ec0daba7c633bf4",
+        "md5": "13380fc4bee9c580e6b12f62ec96290f",
+        "sha512": "f23ac502116da739d770c03bc079f73bba342095994d8770ebf93c22ad0331e22997f998c81d3ca250b5de210b887af3f69106b0f4beb13634f7a90fb72a5682",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv",
@@ -9768,7 +9768,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-11 17:06:20",
+        "created": "2022-01-12 17:53:29",
         "last_modified": "2022-01-06 16:35:05",
         "rowcount": 9735,
         "schema": {
@@ -10000,8 +10000,8 @@ const site = {
       "tract": {
         "bytes": 2202094,
         "encoding": "ISO-8859-1",
-        "md5": "80f7051cb361c99b2244dab69e45ba9b",
-        "sha512": "d1370fe1fc70ab842085c0a1bd7363758352aab8559db0a0134cca63f15ba8116521d23a08cd625b10f24730848dd5acaad45170a05f558cebae9e0dca9c8b68",
+        "md5": "5d3588a166d2283050beb3b6b5ddd749",
+        "sha512": "8cc3a5ab597b1228ffa629fdc2eeedd86db85abec76883c442118cf04e78cfa13ad0f37f4920a66e4eef72e25857927c368516392e27282bf99743463a890194",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -13687,7 +13687,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-11 17:06:21",
+        "created": "2022-01-12 17:53:30",
         "last_modified": "2022-01-06 16:35:06",
         "rowcount": 3672,
         "schema": {
@@ -13917,10 +13917,10 @@ const site = {
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 26232,
+        "bytes": 26734,
         "encoding": "ISO-8859-1",
-        "md5": "d69909f22acc47e8427ca331473900f0",
-        "sha512": "c3eb977d0611778ab1a3adae31755a00b3495954d936fd5bcf0227ada09c15cd522f0eceb36e96473b6bd70009ecc782021c4b505ea7c0eb5b9bab99137f1d1f",
+        "md5": "b174fa970813e33030e485249e084d6b",
+        "sha512": "03382cf9aac80500d7761557a6cf403900aa6c6c36e11bce6df5993401bd68aa4d7fb233e7172f6506ef2833cfb407b9b59f789f2b98a3959615550efbbbfed6",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -13976,7 +13976,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-11 17:06:21",
+        "created": "2022-01-12 17:53:30",
         "last_modified": "2022-01-06 16:35:06",
         "rowcount": 42,
         "schema": {
@@ -13998,7 +13998,7 @@ const site = {
             },
             {
               "name": "dei:norm_dei",
-              "duplicates": 41,
+              "duplicates": 4,
               "info": {
                 "category": "Broadband",
                 "short_name": "Digital Equity Index",
@@ -14019,8 +14019,12 @@ const site = {
                   }
                 ]
               },
-              "type": "unknown",
-              "missing": 42
+              "type": "float",
+              "missing": 0,
+              "mean": 52.796,
+              "sd": 24.868,
+              "min": 0,
+              "max": 100
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
