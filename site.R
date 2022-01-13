@@ -13,10 +13,7 @@ page_navbar(
     backdrop = "false",
     items = list(
       input_switch("Dark Theme", id = "settings.theme_dark"),
-      input_select(
-        "Color Palette", options = "palettes", default = "rdylbu7", id = "settings.palette",
-        floating_label = FALSE
-      ),
+      input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
         "Color by Order", id = "settings.color_by_order",
         title = paste(
