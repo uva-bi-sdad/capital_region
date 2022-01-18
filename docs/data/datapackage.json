@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 26734,
+      "bytes": 29142,
       "encoding": "ISO-8859-1",
-      "md5": "b174fa970813e33030e485249e084d6b",
-      "sha512": "03382cf9aac80500d7761557a6cf403900aa6c6c36e11bce6df5993401bd68aa4d7fb233e7172f6506ef2833cfb407b9b59f789f2b98a3959615550efbbbfed6",
+      "md5": "1dfb2241935ea0181991b4204c2196f0",
+      "sha512": "dd16de6e9360ed05853848698d7ac1f9418cd44278ebf4a33495d985d795bf523d1719935ceead9e29446d28782b6a56c021f2f008815033d9e65aa72200ee3b",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -25,7 +25,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-13 00:03:31",
+      "created": "2022-01-18 14:40:26",
       "last_modified": "2022-01-06 16:35:06",
       "rowcount": 42,
       "schema": {
@@ -499,15 +499,156 @@
             "sd": 0.058954,
             "min": 0.772918,
             "max": 0.972683
+          },
+          {
+            "name": "demographics:afr_amer_alone",
+            "duplicates": 41,
+            "info": {
+              "category": "Equity",
+              "short_name": "African American population",
+              "long_name": "African American population (count)",
+              "description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The African American population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:amr_ind_alone",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:asian_alone",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:female",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:female0_4",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:female10_14",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:female15_17",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:female5_9",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:male",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:male0_4",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:male10_14",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:male15_17",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:male5_9",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:total_pop",
+            "duplicates": 41,
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "demographics:wht_alone",
+            "duplicates": 41,
+            "info": {
+              "category": "Equity",
+              "short_name": "White population",
+              "long_name": "White population (count)",
+              "description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The White population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 42
+          },
+          {
+            "name": "mrfei:mrfei",
+            "duplicates": 41,
+            "info": {
+              "category": "Equity",
+              "short_name": "Retail food environment index",
+              "long_name": "Retail food environment index",
+              "description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+              "statement": "The Retail food environment index is {value} in {features.name}.",
+              "type": "index",
+              "source": [
+                {
+                  "name": "OpenStreetMap",
+                  "date_accessed": 2021,
+                  "url": "https://www.openstreetmap.org/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 42
           }
         ]
       }
     },
     {
-      "bytes": 2202094,
+      "bytes": 2379352,
       "encoding": "ISO-8859-1",
-      "md5": "5d3588a166d2283050beb3b6b5ddd749",
-      "sha512": "8cc3a5ab597b1228ffa629fdc2eeedd86db85abec76883c442118cf04e78cfa13ad0f37f4920a66e4eef72e25857927c368516392e27282bf99743463a890194",
+      "md5": "cd35dcadc30aea44850ca51d85d9d710",
+      "sha512": "a3ffa8b5ba5f303b2a76352d1f8875a801c3539fbdb038bcd6241d731258c3c74229be50abb84c7a00d14e5857054698d0f4170a700923d023cd8564a85db665",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -520,7 +661,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-13 00:03:31",
+      "created": "2022-01-18 14:40:26",
       "last_modified": "2022-01-06 16:35:06",
       "rowcount": 3672,
       "schema": {
@@ -994,15 +1135,160 @@
             "sd": 0.109386,
             "min": 0.256818,
             "max": 0.999999
+          },
+          {
+            "name": "demographics:afr_amer_alone",
+            "duplicates": 3671,
+            "info": {
+              "category": "Equity",
+              "short_name": "African American population",
+              "long_name": "African American population (count)",
+              "description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The African American population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:amr_ind_alone",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:asian_alone",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:female",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:female0_4",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:female10_14",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:female15_17",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:female5_9",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:male",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:male0_4",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:male10_14",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:male15_17",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:male5_9",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:total_pop",
+            "duplicates": 3671,
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "demographics:wht_alone",
+            "duplicates": 3671,
+            "info": {
+              "category": "Equity",
+              "short_name": "White population",
+              "long_name": "White population (count)",
+              "description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The White population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 3672
+          },
+          {
+            "name": "mrfei:mrfei",
+            "duplicates": 3628,
+            "info": {
+              "category": "Equity",
+              "short_name": "Retail food environment index",
+              "long_name": "Retail food environment index",
+              "description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+              "statement": "The Retail food environment index is {value} in {features.name}.",
+              "type": "index",
+              "source": [
+                {
+                  "name": "OpenStreetMap",
+                  "date_accessed": 2021,
+                  "url": "https://www.openstreetmap.org/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 3613,
+            "mean": 28.313402,
+            "sd": 19.792084,
+            "min": 0,
+            "max": 80
           }
         ]
       }
     },
     {
-      "bytes": 5618614,
+      "bytes": 6086286,
       "encoding": "ISO-8859-1",
-      "md5": "13380fc4bee9c580e6b12f62ec96290f",
-      "sha512": "f23ac502116da739d770c03bc079f73bba342095994d8770ebf93c22ad0331e22997f998c81d3ca250b5de210b887af3f69106b0f4beb13634f7a90fb72a5682",
+      "md5": "9e0bb9876798f01ae832dccaad63c691",
+      "sha512": "fe1e5761b0091f9eabe60dd426c2aff463679d41a0a8399def31bc1291c8a758443e53edee8081435f3ab3916422797eaf49c17562a5cd4d572de6e538da6e1e",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv",
@@ -1015,7 +1301,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-13 00:03:30",
+      "created": "2022-01-18 14:40:26",
       "last_modified": "2022-01-06 16:35:05",
       "rowcount": 9735,
       "schema": {
@@ -1489,6 +1775,714 @@
             "sd": 12.30737,
             "min": 20.247655,
             "max": 99.999976
+          },
+          {
+            "name": "demographics:afr_amer_alone",
+            "duplicates": 9734,
+            "info": {
+              "category": "Equity",
+              "short_name": "African American population",
+              "long_name": "African American population (count)",
+              "description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The African American population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:amr_ind_alone",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:asian_alone",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:female",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:female0_4",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:female10_14",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:female15_17",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:female5_9",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:male",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:male0_4",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:male10_14",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:male15_17",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:male5_9",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:total_pop",
+            "duplicates": 9734,
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "demographics:wht_alone",
+            "duplicates": 9734,
+            "info": {
+              "category": "Equity",
+              "short_name": "White population",
+              "long_name": "White population (count)",
+              "description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The White population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 9735
+          },
+          {
+            "name": "mrfei:mrfei",
+            "duplicates": 9734,
+            "info": {
+              "category": "Equity",
+              "short_name": "Retail food environment index",
+              "long_name": "Retail food environment index",
+              "description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+              "statement": "The Retail food environment index is {value} in {features.name}.",
+              "type": "index",
+              "source": [
+                {
+                  "name": "OpenStreetMap",
+                  "date_accessed": 2021,
+                  "url": "https://www.openstreetmap.org/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 9735
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 48522,
+      "encoding": "ISO-8859-1",
+      "md5": "57abb94876056b778b909c27272c07eb",
+      "sha512": "ff631d0808d270313844a18459ce02b74ae919fa0b06dcc9c021edbf110731c1f8a8257b1bff9e21e1b2ef722cea819aaea7b8ac0734fc30888a87d8723d4859",
+      "format": "csv",
+      "name": "civic_association",
+      "filename": "civic_association.csv",
+      "source": [],
+      "ids": [
+        {
+          "variable": "ID"
+        }
+      ],
+      "time": "time",
+      "profile": "data-resource",
+      "created": "2022-01-18 14:40:26",
+      "last_modified": "2022-01-18 14:40:26",
+      "rowcount": 186,
+      "schema": {
+        "fields": [
+          {
+            "name": "time",
+            "duplicates": 183,
+            "info": {
+              "type": "year",
+              "short_name": "Year",
+              "full_name": "time"
+            },
+            "type": "integer",
+            "missing": 0,
+            "mean": 2020,
+            "sd": 0.8187,
+            "min": 2019,
+            "max": 2021
+          },
+          {
+            "name": "speed_measurements:avg_down_using_devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Average Download Speed",
+              "long_name": "Average Download Speed",
+              "description": "Average download speed weighted by number of devices.",
+              "statement": "The average download speed is {value} MB/s in {features.name}.",
+              "type": "average",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Number of devices",
+              "long_name": "Number of devices",
+              "description": "The number of unique devices accessing Ookla Internet speed tests.",
+              "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:avg_up_using_devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Average Upload Speed",
+              "long_name": "Average Upload Speed",
+              "description": "Average upload speed weighted by number of devices.",
+              "statement": "The average upload speed is {value} MB/s in {features.name}.",
+              "type": "average",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:avg_lat_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:avg_down_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:avg_up_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:avg_lat_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "speed_measurements:tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "dei:norm_dei",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Digital Equity Index",
+              "long_name": "Digital Equity Index",
+              "description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
+              "statement": "The digital equity index for {features.name} is {value}.",
+              "type": "index",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_100_down_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_100_20_using_devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Percent Fast (internet-connected)",
+              "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+              "description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+              "statement": "{value} percent of the internet-connected population in {features.name} has a fast internet speed.",
+              "type": "percent",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_25_down_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_20_up_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_3_up_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_100_down_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_25_down_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_20_up_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_above_3_up_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_25_3_using_devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Percent Good (internet-connected)",
+              "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+              "description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+              "statement": "{value} percent of the internet-connected population in {features.name} has a good internet speed.",
+              "type": "percent",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_100_20_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_w_int_25_3_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_100_down_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_3_up_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_25_down_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_25_down_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_20_up_using_devices",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_20_up_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_100_20_using_devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Percent Fast (total)",
+              "long_name": "Percent of the Total Population with Fast Internet Speed",
+              "description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+              "statement": "{value} percent of the total population in {features.name} has a fast internet speed.",
+              "type": "percent",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_100_down_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_above_3_up_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_25_3_using_devices",
+            "duplicates": 185,
+            "info": {
+              "category": "Broadband",
+              "short_name": "Percent Good (total)",
+              "long_name": "Percent of the Total Population with Good Internet Speed",
+              "description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+              "statement": "{value} percent of the total population in {features.name} has a good internet speed.",
+              "type": "percent",
+              "source": [
+                {
+                  "name": "Ookla",
+                  "date_accessed": 2021,
+                  "url": "https://www.ookla.com/ookla-for-good/open-data"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_100_20_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "percent_above_threshold:perc_total_25_3_using_tests",
+            "duplicates": 185,
+            "type": "unknown",
+            "missing": 186
+          },
+          {
+            "name": "demographics:afr_amer_alone",
+            "duplicates": 128,
+            "info": {
+              "category": "Equity",
+              "short_name": "African American population",
+              "long_name": "African American population (count)",
+              "description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The African American population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 124,
+            "mean": 449.671086,
+            "sd": 1004.371042,
+            "min": 0,
+            "max": 7086.858893
+          },
+          {
+            "name": "demographics:amr_ind_alone",
+            "duplicates": 163,
+            "type": "float",
+            "missing": 124,
+            "mean": 17.27309,
+            "sd": 38.943422,
+            "min": 0,
+            "max": 179.80035
+          },
+          {
+            "name": "demographics:asian_alone",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 463.509763,
+            "sd": 811.73813,
+            "min": 3.957343,
+            "max": 5430.606969
+          },
+          {
+            "name": "demographics:female",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 2097.144775,
+            "sd": 2196.603066,
+            "min": 69.107143,
+            "max": 13037.473846
+          },
+          {
+            "name": "demographics:female0_4",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 123.943569,
+            "sd": 169.431967,
+            "min": 0,
+            "max": 1216.959169
+          },
+          {
+            "name": "demographics:female10_14",
+            "duplicates": 124,
+            "type": "float",
+            "missing": 124,
+            "mean": 96.586941,
+            "sd": 121.319351,
+            "min": 0,
+            "max": 820.337128
+          },
+          {
+            "name": "demographics:female15_17",
+            "duplicates": 125,
+            "type": "float",
+            "missing": 124,
+            "mean": 49.549367,
+            "sd": 65.635754,
+            "min": 0,
+            "max": 403.12575
+          },
+          {
+            "name": "demographics:female5_9",
+            "duplicates": 124,
+            "type": "float",
+            "missing": 124,
+            "mean": 103.413931,
+            "sd": 136.800252,
+            "min": 0,
+            "max": 947.353495
+          },
+          {
+            "name": "demographics:male",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 2127.112446,
+            "sd": 2437.165251,
+            "min": 62.053571,
+            "max": 15688.658429
+          },
+          {
+            "name": "demographics:male0_4",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 138.808709,
+            "sd": 190.268054,
+            "min": 0,
+            "max": 1422.187071
+          },
+          {
+            "name": "demographics:male10_14",
+            "duplicates": 124,
+            "type": "float",
+            "missing": 124,
+            "mean": 94.592426,
+            "sd": 111.724787,
+            "min": 0,
+            "max": 803.132701
+          },
+          {
+            "name": "demographics:male15_17",
+            "duplicates": 127,
+            "type": "float",
+            "missing": 124,
+            "mean": 47.520293,
+            "sd": 42.003465,
+            "min": 0,
+            "max": 182.586072
+          },
+          {
+            "name": "demographics:male5_9",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 112.10479,
+            "sd": 126.543811,
+            "min": 0,
+            "max": 833.634315
+          },
+          {
+            "name": "demographics:total_pop",
+            "duplicates": 123,
+            "type": "float",
+            "missing": 124,
+            "mean": 4224.257221,
+            "sd": 4616.299816,
+            "min": 131.160714,
+            "max": 28726.132275
+          },
+          {
+            "name": "demographics:wht_alone",
+            "duplicates": 123,
+            "info": {
+              "category": "Equity",
+              "short_name": "White population",
+              "long_name": "White population (count)",
+              "description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+              "statement": "The White population is {value} in {features.name}.",
+              "type": "count",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 124,
+            "mean": 2882.018039,
+            "sd": 2518.993214,
+            "min": 101.517857,
+            "max": 10705.716987
+          },
+          {
+            "name": "mrfei:mrfei",
+            "duplicates": 146,
+            "info": {
+              "category": "Equity",
+              "short_name": "Retail food environment index",
+              "long_name": "Retail food environment index",
+              "description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+              "statement": "The Retail food environment index is {value} in {features.name}.",
+              "type": "index",
+              "source": [
+                {
+                  "name": "OpenStreetMap",
+                  "date_accessed": 2021,
+                  "url": "https://www.openstreetmap.org/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 124,
+            "mean": 33.615776,
+            "sd": 25.090687,
+            "min": 0,
+            "max": 90
           }
         ]
       }

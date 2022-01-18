@@ -146,12 +146,33 @@
 </div>
 </div>
 <div class="row form-row" id="sec32">
+<div class="row">
+<div class="col-4">
+<div class="wrapper checkbox-wrapper">
+<fieldset>
+<legend>Shapes</legend>
+<div class="auto-input" role="group" auto-type="radio" id="shape_type" default="0" >
+<div class="form-check">
+<input type="radio" autocomplete="off" class="form-check-input" name="shape_type_options" id="shape_type_option1" value="tract">
+<label class="form-check-label" for="shape_type_option1">Census</label>
+</div>
+<div class="form-check">
+<input type="radio" autocomplete="off" class="form-check-input" name="shape_type_options" id="shape_type_option2" value="civic_association">
+<label class="form-check-label" for="shape_type_option2">Civic</label>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+<div class="col-8">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="selected_tract" auto-options="ids" default="-1" data-view="primary_view" dataset="tract">
 </select>
-<label for="selected_tract">Tracts</label>
+<label for="selected_tract">Census Tracts</label>
 <button type="button" class="btn select-reset">Reset</button>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -162,7 +183,8 @@
 <div class="row form-row">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
-<select class="auto-input form-select" auto-type="select" id="variable_type" auto-options="Broadband" default="Broadband">
+<select class="auto-input form-select" auto-type="select" id="variable_type"  default="Broadband">
+<option value="Equity">Equity</option>
 <option value="Broadband">Broadband</option>
 </select>
 <label for="variable_type">Variable Category</label>
@@ -206,8 +228,8 @@
 </div>
 <div class="content container-fluid">
 <div class="col">
-<p auto-type="text" id="text7" class="auto-output output-text"></p>
-<h1 auto-type="text" id="text8" class="auto-output output-text text-center"></h1>
+<p auto-type="text" id="text8" class="auto-output output-text"></p>
+<h1 auto-type="text" id="text9" class="auto-output output-text text-center"></h1>
 <div class="row">
 <div class="col">
 <div class="auto-output leaflet" data-view="primary_view" click="region_select" id="main_map" auto-type="map"></div>
@@ -220,10 +242,10 @@
 <div class="row mb-auto">
 <div class="row">
 <div class="row">
-<div class="auto-output text-display" auto-type="info" id="info11"></div>
+<div class="auto-output text-display" auto-type="info" id="info12"></div>
 </div>
 <div class="row">
-<div class="auto-output text-display" auto-type="info" id="info12"></div>
+<div class="auto-output text-display" auto-type="info" id="info13"></div>
 </div>
 </div>
 </div>
@@ -240,17 +262,17 @@
 <div class="col-7">
 <nav>
 <div class="nav nav-tabs">
-<button type="button" data-bs-toggle="tab" aria-controls="tg161" class="nav-link active" aria-current="page" data-bs-target="#tg161" id="tg161-tab">Plot</button>
-<button type="button" data-bs-toggle="tab" aria-controls="tg162" class="nav-link" data-bs-target="#tg162" id="tg162-tab">Data</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg171" class="nav-link active" aria-current="page" data-bs-target="#tg171" id="tg171-tab">Plot</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg172" class="nav-link" data-bs-target="#tg172" id="tg172-tab">Data</button>
 </div>
 </nav>
 <div class="tab-content">
-<div role="tabpanel" aria-labelledby="tg161-tab" class="tab-pane fade show active" id="tg161"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="main_plot" auto-type="plot"></div></div>
-<div role="tabpanel" aria-labelledby="tg162-tab" class="tab-pane fade" id="tg162"><table class="auto-output datatables compact" data-view="primary_view" id="table17" auto-type="table"></table></div>
+<div role="tabpanel" aria-labelledby="tg171-tab" class="tab-pane fade show active" id="tg171"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="main_plot" auto-type="plot"></div></div>
+<div role="tabpanel" aria-labelledby="tg172-tab" class="tab-pane fade" id="tg172"><table class="auto-output datatables compact" data-view="primary_view" id="table18" auto-type="table"></table></div>
 </div>
 </div>
 <div class="col-5">
-<table class="auto-output datatables compact" data-view="primary_view" id="table19" auto-type="table"></table>
+<table class="auto-output datatables compact" data-view="primary_view" id="table20" auto-type="table"></table>
 </div>
 </div>
 </div>

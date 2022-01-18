@@ -71,9 +71,18 @@ page_menu(
       "Counties", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
-    input_select(
-      "Tracts", options = "ids", dataset = "tract", dataview = "primary_view",
-      id = "selected_tract", reset_button = TRUE
+    page_section(
+      type = "row",
+      wraps = "col",
+      sizes = c(4, 8),
+      input_checkbox(
+        "Shapes", c("tract", "civic_association"), 0, c("Census", "Civic"),
+        id = "shape_type", multi = FALSE
+      ),
+      input_select(
+        "Census Tracts", options = "ids", dataset = "tract", dataview = "primary_view",
+        id = "selected_tract", reset_button = TRUE
+      )
     ),
     conditions = c("", "selected_county")
   ),
@@ -108,8 +117,8 @@ page_menu(
   sizes = c(NA, NA, 4)
 )
 input_variable("shapes", list(
-  "selected_county && !selected_tract" = "tract",
-  "selected_tract" = "block_group"
+  "selected_county && !selected_tract" = "shape_type",
+  "selected_tract && shape_type == tract" = "block_group"
 ), "county")
 input_variable("region_select", list(
   "shapes == county" = "selected_county"
@@ -128,6 +137,7 @@ input_dataview(
     list(variable = "selected_variable", type = "<=", value = "variable_min"),
     list(variable = "selected_variable", type = ">=", value = "variable_max")
   ),
+  time = "time",
   time_agg = "selected_year",
   time_filters = list(
     list(
@@ -151,7 +161,8 @@ page_section(
   )),
   output_text(list(
     "default" = "National Capital Region",
-    "selected_county" = "{selected_county} Tracts",
+    "selected_county && shapes == tract" = "{selected_county} Tracts",
+    "selected_county && shapes == civic_association" = "{selected_county} Civic Associations",
     "selected_tract" = "{selected_tract} Block Groups"
   ), tag = "h1", class = "text-center"),
   page_section(
@@ -159,10 +170,13 @@ page_section(
     wraps = "col",
     sizes = c(NA, 4),
     output_map(
-      lapply(list(c("county", "counties"), c("tract", "tracts"), c("block_group", "blockgroups")), function(s) list(
-        name = s[1],
-        url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s[2], ".geojson")
-      )),
+      c(
+        lapply(list(c("county", "counties"), c("tract", "tracts"), c("block_group", "blockgroups")), function(s) list(
+          name = s[1],
+          url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s[2], ".geojson")
+        )),
+        list(list(name = "civic_association", url = "../capital_region/docs/data/civic_associations.geojson"))
+      ),
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",

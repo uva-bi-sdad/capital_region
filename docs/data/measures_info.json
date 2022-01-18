@@ -4,6 +4,51 @@
     "short_name": "Year",
     "full_name": "time"
   },
+  "mrfei:mrfei": {
+    "category": "Equity",
+    "short_name": "Retail food environment index",
+    "long_name": "Retail food environment index",
+    "description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+    "statement": "The Retail food environment index is {value} in {features.name}.",
+    "type": "index",
+    "source": [
+      {
+        "name": "OpenStreetMap",
+        "date_accessed": 2021,
+        "url": "https://www.openstreetmap.org/"
+      }
+    ]
+  },
+  "demographics:afr_amer_alone": {
+    "category": "Equity",
+    "short_name": "African American population",
+    "long_name": "African American population (count)",
+    "description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "The African American population is {value} in {features.name}.",
+    "type": "count",
+    "source": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:wht_alone": {
+    "category": "Equity",
+    "short_name": "White population",
+    "long_name": "White population (count)",
+    "description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "count",
+    "source": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "dei:norm_dei": {
     "category": "Broadband",
     "short_name": "Digital Equity Index",
