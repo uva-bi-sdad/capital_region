@@ -2,7 +2,11 @@ library(community)
 
 init_site("../capital_region", "capital_region")
 
-data_reformat_sdad("../capital_region/docs/data/original", out = "../capital_region/docs/data")
+data_reformat_sdad(
+  "../capital_region/docs/data/original",
+  formatter = list(region_name = function(x) sub(",.*$", "", x)),
+  out = "../capital_region/docs/data"
+)
 
 data_add(
   c(
@@ -23,7 +27,7 @@ data_add(
       )
     }),
     list(list(
-      ids = list(variable = "ID"),
+      ids = list(variable = "ID", map = "data/entity_info.json"),
       time = "time",
       variables = "measures_info.json"
     ))

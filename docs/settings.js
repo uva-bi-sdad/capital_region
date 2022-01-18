@@ -32,7 +32,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-18 14:40:26",
+        "created": "2022-01-18 17:04:50",
         "last_modified": "2022-01-06 16:35:05",
         "rowcount": 9735,
         "schema": {
@@ -341,7 +341,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-18 14:40:26",
+        "created": "2022-01-18 17:04:51",
         "last_modified": "2022-01-06 16:35:06",
         "rowcount": 3672,
         "schema": {
@@ -648,12 +648,13 @@ const site = {
         "source": [],
         "ids": [
           {
-            "variable": "ID"
+            "variable": "ID",
+            "map": "data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-18 14:40:26",
+        "created": "2022-01-18 17:04:51",
         "last_modified": "2022-01-18 14:40:26",
         "rowcount": 186,
         "schema": {
@@ -942,7 +943,7 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-18 14:40:26",
+        "created": "2022-01-18 17:04:51",
         "last_modified": "2022-01-06 16:35:06",
         "rowcount": 42,
         "schema": {
