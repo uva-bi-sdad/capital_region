@@ -24,13 +24,12 @@ page_navbar(
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
       input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
-        display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
+        "Summary Level", options = c("dataset", "all"), default = "dataset",
+        display = c("All Regions", "Selected Region"), id = "settings.summary_selection",
         floating_label = FALSE,
         title = paste(
           "Determins which regions are included in summaries for box-plots and color scaling;",
-          "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
-          "Selected Region are filtered by region selection."
+          "All-Regions are state-wide, and Selected Region are filtered by region selection."
         )
       ),
       input_number("Variable Min", "variable_min", step = 1, floating_label = FALSE),
@@ -40,6 +39,10 @@ page_navbar(
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
+      input_switch(
+        "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
+        title = "Define the outer fences of the box plots by the first and third quantiles -/+ 1.5 * interquartile range (true) or min and max (false)"
+      ),
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
   ),
@@ -72,7 +75,7 @@ page_menu(
       id = "selected_county", reset_button = TRUE
     ),
     page_section(
-      type = "row",
+      type = "row form-row",
       wraps = "col",
       sizes = c(4, 8),
       input_checkbox(
@@ -259,7 +262,8 @@ page_section(
             ),
             data = data.frame(
               type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
-              hoverinfo = "text", mode = "lines+markers", showlegend = FALSE, name = c(NA, "Summary")
+              hoverinfo = c("text", NA), mode = "lines+markers", showlegend = FALSE,
+              name = c(NA, "Summary"), marker.line.color = "#767676", marker.line.width = 1
             ),
             config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
           )

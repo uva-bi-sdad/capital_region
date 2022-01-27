@@ -8,7 +8,8 @@ const site = {
     "partial_init": true,
     "palette": "rdylbu7",
     "hide_url_parameters": false,
-    "background_shapes": true
+    "background_shapes": true,
+    "iqr_box": true
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -1597,15 +1598,18 @@ const site = {
           "type": "plot_type",
           "hoverinfo": "text",
           "mode": "lines+markers",
-          "showlegend": false
+          "showlegend": false,
+          "marker.line.color": "#767676",
+          "marker.line.width": 1
         },
         {
           "type": "box",
           "fillcolor": "transparent",
-          "hoverinfo": "text",
           "mode": "lines+markers",
           "showlegend": false,
-          "name": "Summary"
+          "name": "Summary",
+          "marker.line.color": "#767676",
+          "marker.line.width": 1
         }
       ],
       "subto": [
