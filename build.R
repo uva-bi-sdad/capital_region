@@ -4,7 +4,7 @@ init_site("../capital_region", "capital_region")
 
 data_reformat_sdad(
   "../capital_region/docs/data/original",
-  formatter = list(region_name = function(x) sub(",.*$", "", x)),
+  formatters = list(region_name = function(x) sub(",.*$", "", x)),
   out = "../capital_region/docs/data"
 )
 

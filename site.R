@@ -36,12 +36,20 @@ page_navbar(
       input_number("Variable Max", "variable_max", step = 1, floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", id = "settings.background_shapes"),
+      input_number(
+        "Outline Weight", "settings.polygon_outline", default = 2, step = 1, floating_label = FALSE,
+        title = "Thickness of the outline around region shapes."
+      ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
         "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
         title = "Define the outer fences of the box plots by the first and third quantiles -/+ 1.5 * interquartile range (true) or min and max (false)"
+      ),
+      input_number(
+        "Trace Limit", "settings.trace_limit", default = 40, step = 1, floating_label = FALSE,
+        title = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
@@ -173,17 +181,17 @@ page_section(
     wraps = "col",
     sizes = c(NA, 4),
     output_map(
-      c(
+      rev(c(
         lapply(list(c("county", "counties"), c("tract", "tracts"), c("block_group", "blockgroups")), function(s) list(
           name = s[1],
           url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s[2], ".geojson")
         )),
         list(list(name = "civic_association", url = "../capital_region/docs/data/civic_associations.geojson"))
-      ),
+      )),
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
-      subto = "main_plot",
+      subto = c("main_plot", "rank_table"),
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
@@ -227,7 +235,7 @@ page_section(
           title = "features.name",
           default = c(title = "National Capital Region", body = "Hover over or select a region for more information."),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot")
+          subto = c("main_map", "main_plot", "rank_table")
         ),
         output_info(
           body = c(
@@ -236,7 +244,7 @@ page_section(
           ),
           row_style = c("table", "stack"),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot"),
+          subto = c("main_map", "main_plot", "rank_table"),
           variable_info = FALSE
         )
       ),
@@ -253,12 +261,12 @@ page_section(
         name = "Plot",
         output_plot(
           x = "time", y = "selected_variable", dataview = "primary_view",
-          click = "region_select", subto = "main_map", id = "main_plot",
+          click = "region_select", subto = c("main_map", "rank_table"), id = "main_plot",
           options = list(
             layout = list(
               showlegend = FALSE,
               xaxis = list(title = FALSE, fixedrange = TRUE),
-              yaxis = list(fixedrange = TRUE, zeroline = FALSE)
+              yaxis = list(zeroline = FALSE)
             ),
             data = data.frame(
               type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
@@ -276,8 +284,8 @@ page_section(
           features = c(ID = "id", Name = "name"),
           options = list(
             scrollY = 400,
-            rowGroup = list(dataSrc = "features.name"),
-            columnDefs = list(list(targets = "features.name", visible = FALSE)),
+            rowGroup = list(dataSrc = "entity.features.name"),
+            columnDefs = list(list(targets = "entity.features.name", visible = FALSE)),
             buttons = c('copy', 'csv', 'excel', 'print'),
             dom = "<'row't><'row'<'col-sm'B><'col'f>>"
           )
@@ -287,7 +295,7 @@ page_section(
     output_table("selected_variable", dataview = "primary_view", options = list(
       info = FALSE,
       searching = FALSE
-    ))
+    ), id = "rank_table", subto = c("main_map", "main_plot"), click = "region_select")
   )
 )
 

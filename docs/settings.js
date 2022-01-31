@@ -9,11 +9,12 @@ const site = {
     "palette": "rdylbu7",
     "hide_url_parameters": false,
     "background_shapes": true,
-    "iqr_box": true
+    "iqr_box": true,
+    "polygon_outline": 2
   },
   "metadata": {
     "package": "data/datapackage.json",
-    "datasets": ["civic_association", "tract", "county", "block_group"],
+    "datasets": ["block_group", "tract", "civic_association", "county"],
     "variables": ["time", "mrfei:mrfei", "demographics:afr_amer_alone", "demographics:wht_alone", "dei:norm_dei", "speed_measurements:avg_down_using_devices", "speed_measurements:devices", "speed_measurements:avg_up_using_devices", "percent_above_threshold:perc_w_int_25_3_using_devices", "percent_above_threshold:perc_w_int_100_20_using_devices", "percent_above_threshold:perc_total_25_3_using_devices", "percent_above_threshold:perc_total_100_20_using_devices"],
     "info": {
       "block_group": {
@@ -1237,7 +1238,7 @@ const site = {
         "site_file": "county.json"
       }
     },
-    "files": ["civic_association.csv", "tract.csv", "county.csv", "block_group.csv"]
+    "files": ["block_group.csv", "tract.csv", "civic_association.csv", "county.csv"]
   },
   "rules": [
     {
@@ -1245,7 +1246,8 @@ const site = {
         {
           "id": "selected_county",
           "type": "",
-          "value": ""
+          "value": "",
+          "any": false
         }
       ],
       "effects": {
@@ -1262,12 +1264,14 @@ const site = {
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             },
             {
               "id": "selected_tract",
               "type": "!",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "shape_type"
@@ -1277,12 +1281,14 @@ const site = {
             {
               "id": "selected_tract",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             },
             {
               "id": "shape_type",
               "type": "=",
-              "value": "tract"
+              "value": "tract",
+              "any": false
             }
           ],
           "value": "block_group"
@@ -1298,7 +1304,8 @@ const site = {
             {
               "id": "shapes",
               "type": "=",
-              "value": "county"
+              "value": "county",
+              "any": false
             }
           ],
           "value": "selected_county"
@@ -1314,7 +1321,8 @@ const site = {
             {
               "id": "selected_tract",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "selected_tract"
@@ -1387,7 +1395,7 @@ const site = {
       },
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot"],
+      "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     },
     "info13": {
@@ -1407,7 +1415,7 @@ const site = {
       "default": [],
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot"],
+      "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     }
   },
@@ -1431,7 +1439,8 @@ const site = {
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "button": {
@@ -1451,7 +1460,8 @@ const site = {
             {
               "id": "selected_tract",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "text": [" > ", "selected_tract"]
@@ -1467,7 +1477,8 @@ const site = {
               {
                 "id": "default",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -1477,12 +1488,14 @@ const site = {
               {
                 "id": "selected_county",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               },
               {
                 "id": "shapes",
                 "type": "=",
-                "value": "tract"
+                "value": "tract",
+                "any": false
               }
             ]
           },
@@ -1492,12 +1505,14 @@ const site = {
               {
                 "id": "selected_county",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               },
               {
                 "id": "shapes",
                 "type": "=",
-                "value": "civic_association"
+                "value": "civic_association",
+                "any": false
               }
             ]
           },
@@ -1507,7 +1522,8 @@ const site = {
               {
                 "id": "selected_tract",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           }
@@ -1524,11 +1540,11 @@ const site = {
     "table18": {
       "scrollY": 400,
       "rowGroup": {
-        "dataSrc": "features.name"
+        "dataSrc": "entity.features.name"
       },
       "columnDefs": [
         {
-          "targets": "features.name",
+          "targets": "entity.features.name",
           "visible": false
         }
       ],
@@ -1553,10 +1569,11 @@ const site = {
       "scrollX": 500,
       "scrollCollapse": true
     },
-    "table20": {
+    "rank_table": {
       "info": false,
       "searching": false,
       "variables": "selected_variable",
+      "subto": ["main_map", "main_plot"],
       "single_variable": true,
       "wide": true,
       "paging": false,
@@ -1574,7 +1591,6 @@ const site = {
           "fixedrange": true
         },
         "yaxis": {
-          "fixedrange": true,
           "zeroline": false
         },
         "hovermode": "closest",
@@ -1612,22 +1628,15 @@ const site = {
           "marker.line.width": 1
         }
       ],
-      "subto": [
-        "main_map"
-      ]
+      "subto": ["main_map", "rank_table"]
     }
   },
   "maps": {
     "main_map": {
       "shapes": [
         {
-          "name": "county",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/counties.geojson",
-          "id_property": "GEOID"
-        },
-        {
-          "name": "tract",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/tracts.geojson",
+          "name": "civic_association",
+          "url": "../capital_region/docs/data/civic_associations.geojson",
           "id_property": "GEOID"
         },
         {
@@ -1636,8 +1645,13 @@ const site = {
           "id_property": "GEOID"
         },
         {
-          "name": "civic_association",
-          "url": "../capital_region/docs/data/civic_associations.geojson",
+          "name": "tract",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/tracts.geojson",
+          "id_property": "GEOID"
+        },
+        {
+          "name": "county",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/counties.geojson",
           "id_property": "GEOID"
         }
       ],
@@ -1647,9 +1661,7 @@ const site = {
         "center": [38.9936, -77.3135],
         "zoom": 8,
         "height": "430px",
-        "subto": [
-          "main_plot"
-        ],
+        "subto": ["main_plot", "rank_table"],
         "background_shapes": "tract"
       },
       "tiles": {
