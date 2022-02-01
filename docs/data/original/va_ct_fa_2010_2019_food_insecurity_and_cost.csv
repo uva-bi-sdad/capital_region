@@ -1,0 +1,451 @@
+"","geoid","region_type","region_name","year","measure","value","measure_type","measure_units"
+"1",51600,"county","Fairfax city, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"2",51013,"county","Arlington County, Virginia",2018,"Child_Food_Insecurity_Rate",4.1,"percent",NA
+"3",51153,"county","Prince William County, Virginia",2011,"Food_Insecurity_Rate",8.4,"percent",NA
+"4",51685,"county","Manassas Park city, Virginia",2015,"Num_Food_Insecure",570,"count",NA
+"5",51153,"county","Prince William County, Virginia",2012,"Num_Child_Food_Insecure",14200,"count",NA
+"6",51600,"county","Fairfax city, Virginia",2014,"Child_Food_Insecurity_Rate",10.8,"percent",NA
+"7",51600,"county","Fairfax city, Virginia",2013,"Food_Insecurity_Rate",6.2,"percent",NA
+"8",51610,"county","Falls Church city, Virginia",2013,"Num_Child_Food_Insecure",350,"count",NA
+"9",51059,"county","Fairfax County, Virginia",2019,"Num_Food_Insecure",66320,"count",NA
+"10",51683,"county","Manassas city, Virginia",2013,"Food_Insecurity_Rate",7.3,"percent",NA
+"11",51013,"county","Arlington County, Virginia",2014,"Num_Food_Insecure",18410,"count",NA
+"12",51013,"county","Arlington County, Virginia",2011,"Num_Child_Food_Insecure",4180,"count",NA
+"13",51059,"county","Fairfax County, Virginia",2012,"Child_Food_Insecurity_Rate",12.3,"percent",NA
+"14",51510,"county","Alexandria city, Virginia",2018,"Food_Insecurity_Rate",8.4,"percent",NA
+"15",51685,"county","Manassas Park city, Virginia",2017,"Child_Food_Insecurity_Rate",11.4,"percent",NA
+"16",51153,"county","Prince William County, Virginia",2016,"Num_Child_Food_Insecure",12210,"count",NA
+"17",51683,"county","Manassas city, Virginia",2015,"Cost_Per_Meal",3.05,"cost",NA
+"18",51059,"county","Fairfax County, Virginia",2013,"Food_Insecurity_Rate",6.1,"percent",NA
+"19",51510,"county","Alexandria city, Virginia",2012,"Cost_Per_Meal",3.71779194830857,"cost",NA
+"20",51683,"county","Manassas city, Virginia",2017,"Num_Child_Food_Insecure",1210,"count",NA
+"21",51510,"county","Alexandria city, Virginia",2019,"Food_Insecurity_Rate",8.4,"percent",NA
+"22",51107,"county","Loudoun County, Virginia",2011,"Cost_Per_Meal",3.05,"cost",NA
+"23",51610,"county","Falls Church city, Virginia",2011,"Child_Food_Insecurity_Rate",12.8,"percent",NA
+"24",51610,"county","Falls Church city, Virginia",2019,"Cost_Per_Meal",3.94,"cost",NA
+"25",51013,"county","Arlington County, Virginia",2013,"Food_Insecurity_Rate",8.7,"percent",NA
+"26",51600,"county","Fairfax city, Virginia",2017,"Num_Food_Insecure",1130,"count",NA
+"27",51013,"county","Arlington County, Virginia",2016,"Child_Food_Insecurity_Rate",8.3,"percent",NA
+"28",51013,"county","Arlington County, Virginia",2016,"Cost_Per_Meal",4.1,"cost",NA
+"29",51013,"county","Arlington County, Virginia",2012,"Num_Child_Food_Insecure",4190,"count",NA
+"30",51685,"county","Manassas Park city, Virginia",2010,"Num_Food_Insecure",1050,"count",NA
+"31",51107,"county","Loudoun County, Virginia",2011,"Food_Insecurity_Rate",5.6,"percent",NA
+"32",51610,"county","Falls Church city, Virginia",2010,"Num_Child_Food_Insecure",330,"count",NA
+"33",51685,"county","Manassas Park city, Virginia",2017,"Num_Food_Insecure",730,"count",NA
+"34",51683,"county","Manassas city, Virginia",2012,"Food_Insecurity_Rate",9.8,"percent",NA
+"35",51685,"county","Manassas Park city, Virginia",2017,"Cost_Per_Meal",3.2,"cost",NA
+"36",51153,"county","Prince William County, Virginia",2010,"Num_Food_Insecure",31940,"count",NA
+"37",51153,"county","Prince William County, Virginia",2015,"Num_Food_Insecure",26300,"count",NA
+"38",51059,"county","Fairfax County, Virginia",2016,"Food_Insecurity_Rate",5,"percent",NA
+"39",51153,"county","Prince William County, Virginia",2013,"Food_Insecurity_Rate",6.9,"percent",NA
+"40",51600,"county","Fairfax city, Virginia",2015,"Num_Food_Insecure",1110,"count",NA
+"41",51683,"county","Manassas city, Virginia",2016,"Food_Insecurity_Rate",4.6,"percent",NA
+"42",51153,"county","Prince William County, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"43",51610,"county","Falls Church city, Virginia",2018,"Food_Insecurity_Rate",4.5,"percent",NA
+"44",51153,"county","Prince William County, Virginia",2014,"Num_Child_Food_Insecure",13630,"count",NA
+"45",51059,"county","Fairfax County, Virginia",2011,"Child_Food_Insecurity_Rate",12,"percent",NA
+"46",51013,"county","Arlington County, Virginia",2018,"Cost_Per_Meal",4.38,"cost",NA
+"47",51683,"county","Manassas city, Virginia",2019,"Num_Food_Insecure",2240,"count",NA
+"48",51610,"county","Falls Church city, Virginia",2018,"Num_Food_Insecure",630,"count",NA
+"49",51013,"county","Arlington County, Virginia",2017,"Food_Insecurity_Rate",7.3,"percent",NA
+"50",51059,"county","Fairfax County, Virginia",2016,"Num_Food_Insecure",56820,"count",NA
+"51",51685,"county","Manassas Park city, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"52",51685,"county","Manassas Park city, Virginia",2014,"Num_Food_Insecure",920,"count",NA
+"53",51510,"county","Alexandria city, Virginia",2012,"Food_Insecurity_Rate",11.9,"percent",NA
+"54",51600,"county","Fairfax city, Virginia",2012,"Num_Food_Insecure",1730,"count",NA
+"55",51600,"county","Fairfax city, Virginia",2018,"Num_Child_Food_Insecure",260,"count",NA
+"56",51107,"county","Loudoun County, Virginia",2017,"Child_Food_Insecurity_Rate",8.2,"percent",NA
+"57",51600,"county","Fairfax city, Virginia",2016,"Num_Child_Food_Insecure",350,"count",NA
+"58",51510,"county","Alexandria city, Virginia",2014,"Num_Food_Insecure",16050,"count",NA
+"59",51683,"county","Manassas city, Virginia",2010,"Num_Child_Food_Insecure",2040,"count",NA
+"60",51107,"county","Loudoun County, Virginia",2013,"Cost_Per_Meal",3.34,"cost",NA
+"61",51600,"county","Fairfax city, Virginia",2014,"Food_Insecurity_Rate",5.7,"percent",NA
+"62",51610,"county","Falls Church city, Virginia",2018,"Num_Child_Food_Insecure",90,"count",NA
+"63",51059,"county","Fairfax County, Virginia",2012,"Num_Food_Insecure",72970,"count",NA
+"64",51683,"county","Manassas city, Virginia",2016,"Num_Food_Insecure",1890,"count",NA
+"65",51685,"county","Manassas Park city, Virginia",2016,"Cost_Per_Meal",3.19,"cost",NA
+"66",51683,"county","Manassas city, Virginia",2010,"Child_Food_Insecurity_Rate",20.3,"percent",NA
+"67",51685,"county","Manassas Park city, Virginia",2015,"Num_Child_Food_Insecure",440,"count",NA
+"68",51510,"county","Alexandria city, Virginia",2010,"Food_Insecurity_Rate",9,"percent",NA
+"69",51685,"county","Manassas Park city, Virginia",2018,"Food_Insecurity_Rate",6.8,"percent",NA
+"70",51153,"county","Prince William County, Virginia",2017,"Num_Food_Insecure",26320,"count",NA
+"71",51013,"county","Arlington County, Virginia",2018,"Num_Food_Insecure",15570,"count",NA
+"72",51107,"county","Loudoun County, Virginia",2017,"Cost_Per_Meal",3.66,"cost",NA
+"73",51107,"county","Loudoun County, Virginia",2013,"Child_Food_Insecurity_Rate",10.5,"percent",NA
+"74",51685,"county","Manassas Park city, Virginia",2011,"Child_Food_Insecurity_Rate",14,"percent",NA
+"75",51685,"county","Manassas Park city, Virginia",2018,"Cost_Per_Meal",3.33,"cost",NA
+"76",51683,"county","Manassas city, Virginia",2013,"Num_Food_Insecure",2880,"count",NA
+"77",51510,"county","Alexandria city, Virginia",2013,"Num_Food_Insecure",15540,"count",NA
+"78",51059,"county","Fairfax County, Virginia",2019,"Food_Insecurity_Rate",5.8,"percent",NA
+"79",51683,"county","Manassas city, Virginia",2015,"Num_Child_Food_Insecure",1230,"count",NA
+"80",51059,"county","Fairfax County, Virginia",2017,"Num_Child_Food_Insecure",25720,"count",NA
+"81",51059,"county","Fairfax County, Virginia",2011,"Num_Food_Insecure",76000,"count",NA
+"82",51610,"county","Falls Church city, Virginia",2011,"Num_Food_Insecure",1100,"count",NA
+"83",51510,"county","Alexandria city, Virginia",2019,"Cost_Per_Meal",3.95,"cost",NA
+"84",51600,"county","Fairfax city, Virginia",2016,"Num_Food_Insecure",980,"count",NA
+"85",51600,"county","Fairfax city, Virginia",2013,"Cost_Per_Meal",3.87,"cost",NA
+"86",51683,"county","Manassas city, Virginia",2016,"Cost_Per_Meal",3.02,"cost",NA
+"87",51685,"county","Manassas Park city, Virginia",2017,"Food_Insecurity_Rate",4.6,"percent",NA
+"88",51600,"county","Fairfax city, Virginia",2018,"Child_Food_Insecurity_Rate",4.8,"percent",NA
+"89",51685,"county","Manassas Park city, Virginia",2010,"Num_Child_Food_Insecure",640,"count",NA
+"90",51683,"county","Manassas city, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"91",51059,"county","Fairfax County, Virginia",2016,"Cost_Per_Meal",3.75,"cost",NA
+"92",51059,"county","Fairfax County, Virginia",2012,"Cost_Per_Meal",3.35728187601321,"cost",NA
+"93",51107,"county","Loudoun County, Virginia",2011,"Num_Child_Food_Insecure",9220,"count",NA
+"94",51510,"county","Alexandria city, Virginia",2019,"Num_Child_Food_Insecure",2700,"count",NA
+"95",51059,"county","Fairfax County, Virginia",2014,"Cost_Per_Meal",3.46,"cost",NA
+"96",51059,"county","Fairfax County, Virginia",2014,"Num_Food_Insecure",63460,"count",NA
+"97",51610,"county","Falls Church city, Virginia",2014,"Child_Food_Insecurity_Rate",9.9,"percent",NA
+"98",51600,"county","Fairfax city, Virginia",2014,"Num_Child_Food_Insecure",550,"count",NA
+"99",51107,"county","Loudoun County, Virginia",2013,"Num_Child_Food_Insecure",10360,"count",NA
+"100",51510,"county","Alexandria city, Virginia",2014,"Cost_Per_Meal",3.8,"cost",NA
+"101",51600,"county","Fairfax city, Virginia",2012,"Num_Child_Food_Insecure",650,"count",NA
+"102",51610,"county","Falls Church city, Virginia",2019,"Food_Insecurity_Rate",6,"percent",NA
+"103",51013,"county","Arlington County, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"104",51153,"county","Prince William County, Virginia",2011,"Cost_Per_Meal",2.73,"cost",NA
+"105",51510,"county","Alexandria city, Virginia",2016,"Num_Child_Food_Insecure",3010,"count",NA
+"106",51059,"county","Fairfax County, Virginia",2011,"Cost_Per_Meal",3.22,"cost",NA
+"107",51685,"county","Manassas Park city, Virginia",2012,"Cost_Per_Meal",2.86893722725331,"cost",NA
+"108",51107,"county","Loudoun County, Virginia",2014,"Child_Food_Insecurity_Rate",9.5,"percent",NA
+"109",51610,"county","Falls Church city, Virginia",2012,"Num_Food_Insecure",1010,"count",NA
+"110",51059,"county","Fairfax County, Virginia",2015,"Child_Food_Insecurity_Rate",10.2,"percent",NA
+"111",51600,"county","Fairfax city, Virginia",2019,"Num_Food_Insecure",1410,"count",NA
+"112",51153,"county","Prince William County, Virginia",2011,"Num_Food_Insecure",32700,"count",NA
+"113",51600,"county","Fairfax city, Virginia",2017,"Cost_Per_Meal",3.04,"cost",NA
+"114",51510,"county","Alexandria city, Virginia",2016,"Num_Food_Insecure",15150,"count",NA
+"115",51059,"county","Fairfax County, Virginia",2017,"Child_Food_Insecurity_Rate",9.5,"percent",NA
+"116",51683,"county","Manassas city, Virginia",2017,"Child_Food_Insecurity_Rate",10.9,"percent",NA
+"117",51510,"county","Alexandria city, Virginia",2012,"Child_Food_Insecurity_Rate",14.4,"percent",NA
+"118",51600,"county","Fairfax city, Virginia",2011,"Food_Insecurity_Rate",8.3,"percent",NA
+"119",51013,"county","Arlington County, Virginia",2012,"Num_Food_Insecure",19550,"count",NA
+"120",51153,"county","Prince William County, Virginia",2013,"Num_Child_Food_Insecure",14250,"count",NA
+"121",51610,"county","Falls Church city, Virginia",2018,"Cost_Per_Meal",3.92,"cost",NA
+"122",51510,"county","Alexandria city, Virginia",2016,"Child_Food_Insecurity_Rate",11,"percent",NA
+"123",51059,"county","Fairfax County, Virginia",2013,"Child_Food_Insecurity_Rate",11.9,"percent",NA
+"124",51683,"county","Manassas city, Virginia",2010,"Num_Food_Insecure",3770,"count",NA
+"125",51153,"county","Prince William County, Virginia",2010,"Num_Child_Food_Insecure",13740,"count",NA
+"126",51153,"county","Prince William County, Virginia",2014,"Food_Insecurity_Rate",6.9,"percent",NA
+"127",51013,"county","Arlington County, Virginia",2018,"Food_Insecurity_Rate",6.7,"percent",NA
+"128",51107,"county","Loudoun County, Virginia",2011,"Child_Food_Insecurity_Rate",10,"percent",NA
+"129",51683,"county","Manassas city, Virginia",2012,"Num_Food_Insecure",3730,"count",NA
+"130",51683,"county","Manassas city, Virginia",2018,"Cost_Per_Meal",3.19,"cost",NA
+"131",51683,"county","Manassas city, Virginia",2017,"Food_Insecurity_Rate",5,"percent",NA
+"132",51610,"county","Falls Church city, Virginia",2014,"Num_Food_Insecure",820,"count",NA
+"133",51013,"county","Arlington County, Virginia",2015,"Num_Child_Food_Insecure",3810,"count",NA
+"134",51685,"county","Manassas Park city, Virginia",2018,"Num_Food_Insecure",1120,"count",NA
+"135",51013,"county","Arlington County, Virginia",2013,"Child_Food_Insecurity_Rate",12,"percent",NA
+"136",51610,"county","Falls Church city, Virginia",2017,"Food_Insecurity_Rate",4.9,"percent",NA
+"137",51107,"county","Loudoun County, Virginia",2012,"Num_Food_Insecure",16510,"count",NA
+"138",51683,"county","Manassas city, Virginia",2015,"Num_Food_Insecure",2050,"count",NA
+"139",51013,"county","Arlington County, Virginia",2010,"Child_Food_Insecurity_Rate",12.8,"percent",NA
+"140",51685,"county","Manassas Park city, Virginia",2014,"Child_Food_Insecurity_Rate",12,"percent",NA
+"141",51153,"county","Prince William County, Virginia",2014,"Num_Food_Insecure",29520,"count",NA
+"142",51153,"county","Prince William County, Virginia",2010,"Child_Food_Insecurity_Rate",12.6,"percent",NA
+"143",51683,"county","Manassas city, Virginia",2011,"Child_Food_Insecurity_Rate",20,"percent",NA
+"144",51683,"county","Manassas city, Virginia",2019,"Food_Insecurity_Rate",5.5,"percent",NA
+"145",51610,"county","Falls Church city, Virginia",2010,"Num_Food_Insecure",820,"count",NA
+"146",51683,"county","Manassas city, Virginia",2011,"Num_Food_Insecure",4010,"count",NA
+"147",51510,"county","Alexandria city, Virginia",2014,"Food_Insecurity_Rate",11,"percent",NA
+"148",51683,"county","Manassas city, Virginia",2019,"Cost_Per_Meal",3.27,"cost",NA
+"149",51153,"county","Prince William County, Virginia",2013,"Cost_Per_Meal",2.99,"cost",NA
+"150",51610,"county","Falls Church city, Virginia",2019,"Num_Child_Food_Insecure",50,"count",NA
+"151",51013,"county","Arlington County, Virginia",2013,"Cost_Per_Meal",3.68,"cost",NA
+"152",51059,"county","Fairfax County, Virginia",2015,"Num_Child_Food_Insecure",27580,"count",NA
+"153",51600,"county","Fairfax city, Virginia",2017,"Num_Child_Food_Insecure",450,"count",NA
+"154",51510,"county","Alexandria city, Virginia",2014,"Num_Child_Food_Insecure",3200,"count",NA
+"155",51610,"county","Falls Church city, Virginia",2016,"Cost_Per_Meal",3.77,"cost",NA
+"156",51107,"county","Loudoun County, Virginia",2013,"Food_Insecurity_Rate",4.7,"percent",NA
+"157",51059,"county","Fairfax County, Virginia",2018,"Food_Insecurity_Rate",5.4,"percent",NA
+"158",51685,"county","Manassas Park city, Virginia",2012,"Food_Insecurity_Rate",7.5,"percent",NA
+"159",51685,"county","Manassas Park city, Virginia",2016,"Child_Food_Insecurity_Rate",10.3,"percent",NA
+"160",51153,"county","Prince William County, Virginia",2019,"Cost_Per_Meal",3.41,"cost",NA
+"161",51685,"county","Manassas Park city, Virginia",2011,"Num_Food_Insecure",1070,"count",NA
+"162",51510,"county","Alexandria city, Virginia",2013,"Food_Insecurity_Rate",10.8,"percent",NA
+"163",51107,"county","Loudoun County, Virginia",2018,"Num_Food_Insecure",14700,"count",NA
+"164",51153,"county","Prince William County, Virginia",2015,"Num_Child_Food_Insecure",12730,"count",NA
+"165",51107,"county","Loudoun County, Virginia",2010,"Child_Food_Insecurity_Rate",11.4,"percent",NA
+"166",51610,"county","Falls Church city, Virginia",2014,"Num_Child_Food_Insecure",330,"count",NA
+"167",51685,"county","Manassas Park city, Virginia",2018,"Child_Food_Insecurity_Rate",8.4,"percent",NA
+"168",51059,"county","Fairfax County, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"169",51685,"county","Manassas Park city, Virginia",2016,"Food_Insecurity_Rate",3.7,"percent",NA
+"170",51685,"county","Manassas Park city, Virginia",2019,"Food_Insecurity_Rate",5,"percent",NA
+"171",51107,"county","Loudoun County, Virginia",2012,"Cost_Per_Meal",3.20827717840922,"cost",NA
+"172",51610,"county","Falls Church city, Virginia",2012,"Child_Food_Insecurity_Rate",12.8,"percent",NA
+"173",51013,"county","Arlington County, Virginia",2019,"Num_Child_Food_Insecure",1130,"count",NA
+"174",51510,"county","Alexandria city, Virginia",2011,"Food_Insecurity_Rate",12.3,"percent",NA
+"175",51013,"county","Arlington County, Virginia",2012,"Food_Insecurity_Rate",9.4,"percent",NA
+"176",51610,"county","Falls Church city, Virginia",2017,"Num_Food_Insecure",680,"count",NA
+"177",51107,"county","Loudoun County, Virginia",2019,"Food_Insecurity_Rate",4,"percent",NA
+"178",51107,"county","Loudoun County, Virginia",2017,"Food_Insecurity_Rate",3.4,"percent",NA
+"179",51107,"county","Loudoun County, Virginia",2018,"Num_Child_Food_Insecure",4380,"count",NA
+"180",51107,"county","Loudoun County, Virginia",2016,"Num_Child_Food_Insecure",8090,"count",NA
+"181",51510,"county","Alexandria city, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"182",51013,"county","Arlington County, Virginia",2019,"Num_Food_Insecure",18270,"count",NA
+"183",51107,"county","Loudoun County, Virginia",2012,"Num_Child_Food_Insecure",10180,"count",NA
+"184",51600,"county","Fairfax city, Virginia",2015,"Child_Food_Insecurity_Rate",8.8,"percent",NA
+"185",51107,"county","Loudoun County, Virginia",2018,"Food_Insecurity_Rate",3.8,"percent",NA
+"186",51107,"county","Loudoun County, Virginia",2018,"Cost_Per_Meal",3.72,"cost",NA
+"187",51059,"county","Fairfax County, Virginia",2012,"Num_Child_Food_Insecure",32280,"count",NA
+"188",51683,"county","Manassas city, Virginia",2014,"Food_Insecurity_Rate",7.2,"percent",NA
+"189",51610,"county","Falls Church city, Virginia",2013,"Food_Insecurity_Rate",6.7,"percent",NA
+"190",51600,"county","Fairfax city, Virginia",2010,"Num_Child_Food_Insecure",600,"count",NA
+"191",51013,"county","Arlington County, Virginia",2017,"Cost_Per_Meal",4.22,"cost",NA
+"192",51685,"county","Manassas Park city, Virginia",2013,"Num_Child_Food_Insecure",560,"count",NA
+"193",51683,"county","Manassas city, Virginia",2013,"Cost_Per_Meal",2.72,"cost",NA
+"194",51610,"county","Falls Church city, Virginia",2012,"Num_Child_Food_Insecure",390,"count",NA
+"195",51013,"county","Arlington County, Virginia",2013,"Num_Food_Insecure",18750,"count",NA
+"196",51683,"county","Manassas city, Virginia",2015,"Food_Insecurity_Rate",5,"percent",NA
+"197",51059,"county","Fairfax County, Virginia",2017,"Num_Food_Insecure",56350,"count",NA
+"198",51107,"county","Loudoun County, Virginia",2016,"Child_Food_Insecurity_Rate",7.6,"percent",NA
+"199",51683,"county","Manassas city, Virginia",2016,"Child_Food_Insecurity_Rate",10.7,"percent",NA
+"200",51013,"county","Arlington County, Virginia",2016,"Num_Child_Food_Insecure",3190,"count",NA
+"201",51059,"county","Fairfax County, Virginia",2014,"Food_Insecurity_Rate",5.7,"percent",NA
+"202",51685,"county","Manassas Park city, Virginia",2015,"Cost_Per_Meal",3.11,"cost",NA
+"203",51013,"county","Arlington County, Virginia",2010,"Num_Food_Insecure",13160,"count",NA
+"204",51107,"county","Loudoun County, Virginia",2015,"Child_Food_Insecurity_Rate",9.1,"percent",NA
+"205",51510,"county","Alexandria city, Virginia",2017,"Child_Food_Insecurity_Rate",12.1,"percent",NA
+"206",51153,"county","Prince William County, Virginia",2016,"Food_Insecurity_Rate",6,"percent",NA
+"207",51685,"county","Manassas Park city, Virginia",2010,"Food_Insecurity_Rate",7.9,"percent",NA
+"208",51059,"county","Fairfax County, Virginia",2010,"Num_Food_Insecure",69140,"count",NA
+"209",51510,"county","Alexandria city, Virginia",2011,"Num_Food_Insecure",16850,"count",NA
+"210",51107,"county","Loudoun County, Virginia",2017,"Num_Food_Insecure",12570,"count",NA
+"211",51610,"county","Falls Church city, Virginia",2013,"Num_Food_Insecure",860,"count",NA
+"212",51600,"county","Fairfax city, Virginia",2015,"Cost_Per_Meal",3.04,"cost",NA
+"213",51600,"county","Fairfax city, Virginia",2019,"Num_Child_Food_Insecure",160,"count",NA
+"214",51107,"county","Loudoun County, Virginia",2016,"Food_Insecurity_Rate",3.7,"percent",NA
+"215",51510,"county","Alexandria city, Virginia",2010,"Num_Food_Insecure",12090,"count",NA
+"216",51059,"county","Fairfax County, Virginia",2012,"Food_Insecurity_Rate",6.7,"percent",NA
+"217",51059,"county","Fairfax County, Virginia",2015,"Cost_Per_Meal",3.55,"cost",NA
+"218",51683,"county","Manassas city, Virginia",2018,"Num_Food_Insecure",2490,"count",NA
+"219",51107,"county","Loudoun County, Virginia",2016,"Cost_Per_Meal",3.59,"cost",NA
+"220",51600,"county","Fairfax city, Virginia",2013,"Num_Child_Food_Insecure",590,"count",NA
+"221",51013,"county","Arlington County, Virginia",2014,"Child_Food_Insecurity_Rate",10.5,"percent",NA
+"222",51683,"county","Manassas city, Virginia",2019,"Num_Child_Food_Insecure",690,"count",NA
+"223",51683,"county","Manassas city, Virginia",2016,"Num_Child_Food_Insecure",1180,"count",NA
+"224",51153,"county","Prince William County, Virginia",2018,"Cost_Per_Meal",3.36,"cost",NA
+"225",51610,"county","Falls Church city, Virginia",2017,"Child_Food_Insecurity_Rate",7.8,"percent",NA
+"226",51107,"county","Loudoun County, Virginia",2017,"Num_Child_Food_Insecure",8920,"count",NA
+"227",51153,"county","Prince William County, Virginia",2011,"Child_Food_Insecurity_Rate",11.6,"percent",NA
+"228",51683,"county","Manassas city, Virginia",2018,"Num_Child_Food_Insecure",760,"count",NA
+"229",51107,"county","Loudoun County, Virginia",2019,"Num_Food_Insecure",15670,"count",NA
+"230",51600,"county","Fairfax city, Virginia",2018,"Food_Insecurity_Rate",5.4,"percent",NA
+"231",51510,"county","Alexandria city, Virginia",2018,"Num_Child_Food_Insecure",2600,"count",NA
+"232",51013,"county","Arlington County, Virginia",2015,"Food_Insecurity_Rate",8,"percent",NA
+"233",51107,"county","Loudoun County, Virginia",2011,"Num_Food_Insecure",16950,"count",NA
+"234",51610,"county","Falls Church city, Virginia",2014,"Cost_Per_Meal",3.52,"cost",NA
+"235",51107,"county","Loudoun County, Virginia",2014,"Food_Insecurity_Rate",4.3,"percent",NA
+"236",51510,"county","Alexandria city, Virginia",2015,"Food_Insecurity_Rate",10.1,"percent",NA
+"237",51107,"county","Loudoun County, Virginia",2010,"Num_Child_Food_Insecure",10000,"count",NA
+"238",51059,"county","Fairfax County, Virginia",2011,"Food_Insecurity_Rate",7.1,"percent",NA
+"239",51685,"county","Manassas Park city, Virginia",2019,"Num_Food_Insecure",850,"count",NA
+"240",51685,"county","Manassas Park city, Virginia",2015,"Food_Insecurity_Rate",3.6,"percent",NA
+"241",51600,"county","Fairfax city, Virginia",2013,"Num_Food_Insecure",1420,"count",NA
+"242",51107,"county","Loudoun County, Virginia",2019,"Num_Child_Food_Insecure",1900,"count",NA
+"243",51510,"county","Alexandria city, Virginia",2016,"Cost_Per_Meal",3.75,"cost",NA
+"244",51510,"county","Alexandria city, Virginia",2017,"Num_Food_Insecure",15520,"count",NA
+"245",51107,"county","Loudoun County, Virginia",2013,"Num_Food_Insecure",15380,"count",NA
+"246",51685,"county","Manassas Park city, Virginia",2014,"Cost_Per_Meal",3.06,"cost",NA
+"247",51153,"county","Prince William County, Virginia",2017,"Cost_Per_Meal",3.22,"cost",NA
+"248",51510,"county","Alexandria city, Virginia",2019,"Num_Food_Insecure",13300,"count",NA
+"249",51510,"county","Alexandria city, Virginia",2014,"Child_Food_Insecurity_Rate",12.5,"percent",NA
+"250",51059,"county","Fairfax County, Virginia",2017,"Food_Insecurity_Rate",4.9,"percent",NA
+"251",51610,"county","Falls Church city, Virginia",2016,"Child_Food_Insecurity_Rate",6.4,"percent",NA
+"252",51610,"county","Falls Church city, Virginia",2015,"Num_Child_Food_Insecure",310,"count",NA
+"253",51153,"county","Prince William County, Virginia",2016,"Cost_Per_Meal",3.21,"cost",NA
+"254",51107,"county","Loudoun County, Virginia",2016,"Num_Food_Insecure",13390,"count",NA
+"255",51600,"county","Fairfax city, Virginia",2019,"Food_Insecurity_Rate",6,"percent",NA
+"256",51510,"county","Alexandria city, Virginia",2017,"Cost_Per_Meal",3.56,"cost",NA
+"257",51013,"county","Arlington County, Virginia",2010,"Num_Child_Food_Insecure",3920,"count",NA
+"258",51153,"county","Prince William County, Virginia",2013,"Num_Food_Insecure",28650,"count",NA
+"259",51610,"county","Falls Church city, Virginia",2013,"Cost_Per_Meal",3.49,"cost",NA
+"260",51685,"county","Manassas Park city, Virginia",2019,"Cost_Per_Meal",3.39,"cost",NA
+"261",51153,"county","Prince William County, Virginia",2019,"Child_Food_Insecurity_Rate",6,"percent",NA
+"262",51059,"county","Fairfax County, Virginia",2018,"Cost_Per_Meal",3.88,"cost",NA
+"263",51153,"county","Prince William County, Virginia",2014,"Child_Food_Insecurity_Rate",11.2,"percent",NA
+"264",51107,"county","Loudoun County, Virginia",2018,"Child_Food_Insecurity_Rate",3.9,"percent",NA
+"265",51683,"county","Manassas city, Virginia",2018,"Food_Insecurity_Rate",6,"percent",NA
+"266",51600,"county","Fairfax city, Virginia",2018,"Cost_Per_Meal",3.23,"cost",NA
+"267",51685,"county","Manassas Park city, Virginia",2013,"Cost_Per_Meal",3,"cost",NA
+"268",51610,"county","Falls Church city, Virginia",2016,"Food_Insecurity_Rate",5,"percent",NA
+"269",51683,"county","Manassas city, Virginia",2011,"Num_Child_Food_Insecure",2100,"count",NA
+"270",51510,"county","Alexandria city, Virginia",2017,"Food_Insecurity_Rate",10,"percent",NA
+"271",51610,"county","Falls Church city, Virginia",2019,"Num_Food_Insecure",840,"count",NA
+"272",51510,"county","Alexandria city, Virginia",2010,"Child_Food_Insecurity_Rate",12.9,"percent",NA
+"273",51685,"county","Manassas Park city, Virginia",2012,"Num_Food_Insecure",1090,"count",NA
+"274",51059,"county","Fairfax County, Virginia",2017,"Cost_Per_Meal",3.75,"cost",NA
+"275",51685,"county","Manassas Park city, Virginia",2016,"Num_Child_Food_Insecure",440,"count",NA
+"276",51013,"county","Arlington County, Virginia",2012,"Child_Food_Insecurity_Rate",12.7,"percent",NA
+"277",51153,"county","Prince William County, Virginia",2018,"Child_Food_Insecurity_Rate",6.9,"percent",NA
+"278",51685,"county","Manassas Park city, Virginia",2011,"Cost_Per_Meal",2.76,"cost",NA
+"279",51600,"county","Fairfax city, Virginia",2010,"Num_Food_Insecure",1480,"count",NA
+"280",51600,"county","Fairfax city, Virginia",2019,"Child_Food_Insecurity_Rate",3,"percent",NA
+"281",51510,"county","Alexandria city, Virginia",2011,"Cost_Per_Meal",3.52,"cost",NA
+"282",51683,"county","Manassas city, Virginia",2017,"Cost_Per_Meal",3.04,"cost",NA
+"283",51683,"county","Manassas city, Virginia",2013,"Num_Child_Food_Insecure",1700,"count",NA
+"284",51685,"county","Manassas Park city, Virginia",2017,"Num_Child_Food_Insecure",490,"count",NA
+"285",51153,"county","Prince William County, Virginia",2015,"Food_Insecurity_Rate",6,"percent",NA
+"286",51510,"county","Alexandria city, Virginia",2013,"Child_Food_Insecurity_Rate",13.7,"percent",NA
+"287",51153,"county","Prince William County, Virginia",2017,"Num_Child_Food_Insecure",12500,"count",NA
+"288",51510,"county","Alexandria city, Virginia",2012,"Num_Child_Food_Insecure",3470,"count",NA
+"289",51610,"county","Falls Church city, Virginia",2012,"Food_Insecurity_Rate",8.2,"percent",NA
+"290",51685,"county","Manassas Park city, Virginia",2019,"Child_Food_Insecurity_Rate",6.2,"percent",NA
+"291",51510,"county","Alexandria city, Virginia",2018,"Num_Food_Insecure",13200,"count",NA
+"292",51610,"county","Falls Church city, Virginia",2011,"Num_Child_Food_Insecure",370,"count",NA
+"293",51610,"county","Falls Church city, Virginia",2015,"Num_Food_Insecure",690,"count",NA
+"294",51013,"county","Arlington County, Virginia",2014,"Food_Insecurity_Rate",8.4,"percent",NA
+"295",51610,"county","Falls Church city, Virginia",2014,"Food_Insecurity_Rate",6.2,"percent",NA
+"296",51153,"county","Prince William County, Virginia",2015,"Cost_Per_Meal",3.12,"cost",NA
+"297",51013,"county","Arlington County, Virginia",2011,"Num_Food_Insecure",19980,"count",NA
+"298",51683,"county","Manassas city, Virginia",2011,"Food_Insecurity_Rate",10.9,"percent",NA
+"299",51600,"county","Fairfax city, Virginia",2014,"Num_Food_Insecure",1350,"count",NA
+"300",51683,"county","Manassas city, Virginia",2014,"Child_Food_Insecurity_Rate",13.9,"percent",NA
+"301",51153,"county","Prince William County, Virginia",2010,"Food_Insecurity_Rate",8.4,"percent",NA
+"302",51059,"county","Fairfax County, Virginia",2010,"Food_Insecurity_Rate",6.6,"percent",NA
+"303",51510,"county","Alexandria city, Virginia",2013,"Cost_Per_Meal",3.76,"cost",NA
+"304",51510,"county","Alexandria city, Virginia",2010,"Num_Child_Food_Insecure",2890,"count",NA
+"305",51153,"county","Prince William County, Virginia",2018,"Num_Child_Food_Insecure",8700,"count",NA
+"306",51510,"county","Alexandria city, Virginia",2016,"Food_Insecurity_Rate",10,"percent",NA
+"307",51153,"county","Prince William County, Virginia",2019,"Num_Child_Food_Insecure",7540,"count",NA
+"308",51013,"county","Arlington County, Virginia",2010,"Food_Insecurity_Rate",6.7,"percent",NA
+"309",51013,"county","Arlington County, Virginia",2014,"Cost_Per_Meal",3.73,"cost",NA
+"310",51107,"county","Loudoun County, Virginia",2019,"Cost_Per_Meal",3.77,"cost",NA
+"311",51059,"county","Fairfax County, Virginia",2016,"Child_Food_Insecurity_Rate",8.7,"percent",NA
+"312",51059,"county","Fairfax County, Virginia",2014,"Num_Child_Food_Insecure",28610,"count",NA
+"313",51059,"county","Fairfax County, Virginia",2014,"Child_Food_Insecurity_Rate",10.6,"percent",NA
+"314",51059,"county","Fairfax County, Virginia",2010,"Child_Food_Insecurity_Rate",12.4,"percent",NA
+"315",51685,"county","Manassas Park city, Virginia",2013,"Num_Food_Insecure",930,"count",NA
+"316",51153,"county","Prince William County, Virginia",2012,"Food_Insecurity_Rate",7.9,"percent",NA
+"317",51153,"county","Prince William County, Virginia",2019,"Food_Insecurity_Rate",4.8,"percent",NA
+"318",51610,"county","Falls Church city, Virginia",2016,"Num_Food_Insecure",680,"count",NA
+"319",51013,"county","Arlington County, Virginia",2011,"Food_Insecurity_Rate",9.8,"percent",NA
+"320",51153,"county","Prince William County, Virginia",2016,"Child_Food_Insecurity_Rate",9.8,"percent",NA
+"321",51013,"county","Arlington County, Virginia",2016,"Food_Insecurity_Rate",7.5,"percent",NA
+"322",51059,"county","Fairfax County, Virginia",2013,"Cost_Per_Meal",3.43,"cost",NA
+"323",51107,"county","Loudoun County, Virginia",2015,"Num_Child_Food_Insecure",9500,"count",NA
+"324",51510,"county","Alexandria city, Virginia",2011,"Num_Child_Food_Insecure",3310,"count",NA
+"325",51610,"county","Falls Church city, Virginia",2013,"Child_Food_Insecurity_Rate",11,"percent",NA
+"326",51107,"county","Loudoun County, Virginia",2012,"Child_Food_Insecurity_Rate",10.7,"percent",NA
+"327",51107,"county","Loudoun County, Virginia",2010,"Food_Insecurity_Rate",5.8,"percent",NA
+"328",51013,"county","Arlington County, Virginia",2017,"Num_Child_Food_Insecure",3690,"count",NA
+"329",51013,"county","Arlington County, Virginia",2014,"Num_Child_Food_Insecure",3790,"count",NA
+"330",51610,"county","Falls Church city, Virginia",2011,"Food_Insecurity_Rate",9.3,"percent",NA
+"331",51600,"county","Fairfax city, Virginia",2012,"Cost_Per_Meal",3.81423442952983,"cost",NA
+"332",51600,"county","Fairfax city, Virginia",2010,"Child_Food_Insecurity_Rate",13.7,"percent",NA
+"333",51610,"county","Falls Church city, Virginia",2015,"Food_Insecurity_Rate",5.2,"percent",NA
+"334",51107,"county","Loudoun County, Virginia",2010,"Num_Food_Insecure",17030,"count",NA
+"335",51153,"county","Prince William County, Virginia",2019,"Num_Food_Insecure",22000,"count",NA
+"336",51685,"county","Manassas Park city, Virginia",2011,"Food_Insecurity_Rate",7.8,"percent",NA
+"337",51107,"county","Loudoun County, Virginia",2012,"Food_Insecurity_Rate",5.2,"percent",NA
+"338",51059,"county","Fairfax County, Virginia",2010,"Num_Child_Food_Insecure",31370,"count",NA
+"339",51600,"county","Fairfax city, Virginia",2015,"Num_Child_Food_Insecure",430,"count",NA
+"340",51059,"county","Fairfax County, Virginia",2016,"Num_Child_Food_Insecure",23650,"count",NA
+"341",51107,"county","Loudoun County, Virginia",2014,"Num_Child_Food_Insecure",9660,"count",NA
+"342",51685,"county","Manassas Park city, Virginia",2011,"Num_Child_Food_Insecure",560,"count",NA
+"343",51059,"county","Fairfax County, Virginia",2018,"Child_Food_Insecurity_Rate",5.6,"percent",NA
+"344",51683,"county","Manassas city, Virginia",2019,"Child_Food_Insecurity_Rate",6.3,"percent",NA
+"345",51153,"county","Prince William County, Virginia",2012,"Cost_Per_Meal",2.85734703773059,"cost",NA
+"346",51600,"county","Fairfax city, Virginia",2016,"Cost_Per_Meal",3.09,"cost",NA
+"347",51610,"county","Falls Church city, Virginia",2019,"Child_Food_Insecurity_Rate",1.4,"percent",NA
+"348",51013,"county","Arlington County, Virginia",2011,"Cost_Per_Meal",3.34,"cost",NA
+"349",51107,"county","Loudoun County, Virginia",2014,"Num_Food_Insecure",14410,"count",NA
+"350",51013,"county","Arlington County, Virginia",2019,"Child_Food_Insecurity_Rate",2.7,"percent",NA
+"351",51510,"county","Alexandria city, Virginia",2015,"Cost_Per_Meal",4,"cost",NA
+"352",51600,"county","Fairfax city, Virginia",2019,"Cost_Per_Meal",3.26,"cost",NA
+"353",51510,"county","Alexandria city, Virginia",2015,"Num_Food_Insecure",15100,"count",NA
+"354",51600,"county","Fairfax city, Virginia",2011,"Num_Child_Food_Insecure",640,"count",NA
+"355",51107,"county","Loudoun County, Virginia",2015,"Num_Food_Insecure",14170,"count",NA
+"356",51683,"county","Manassas city, Virginia",2010,"Food_Insecurity_Rate",10.5,"percent",NA
+"357",51510,"county","Alexandria city, Virginia",2017,"Num_Child_Food_Insecure",3390,"count",NA
+"358",51685,"county","Manassas Park city, Virginia",2014,"Num_Child_Food_Insecure",470,"count",NA
+"359",51013,"county","Arlington County, Virginia",2016,"Num_Food_Insecure",17040,"count",NA
+"360",51153,"county","Prince William County, Virginia",2017,"Child_Food_Insecurity_Rate",10,"percent",NA
+"361",51013,"county","Arlington County, Virginia",2012,"Cost_Per_Meal",3.52188620419621,"cost",NA
+"362",51600,"county","Fairfax city, Virginia",2010,"Food_Insecurity_Rate",6.7,"percent",NA
+"363",51013,"county","Arlington County, Virginia",2013,"Num_Child_Food_Insecure",4120,"count",NA
+"364",51610,"county","Falls Church city, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"365",51510,"county","Alexandria city, Virginia",2019,"Child_Food_Insecurity_Rate",9.4,"percent",NA
+"366",51610,"county","Falls Church city, Virginia",2010,"Child_Food_Insecurity_Rate",12,"percent",NA
+"367",51600,"county","Fairfax city, Virginia",2014,"Cost_Per_Meal",4.02,"cost",NA
+"368",51610,"county","Falls Church city, Virginia",2018,"Child_Food_Insecurity_Rate",2.4,"percent",NA
+"369",51600,"county","Fairfax city, Virginia",2016,"Child_Food_Insecurity_Rate",7.1,"percent",NA
+"370",51013,"county","Arlington County, Virginia",2011,"Child_Food_Insecurity_Rate",13.1,"percent",NA
+"371",51059,"county","Fairfax County, Virginia",2019,"Num_Child_Food_Insecure",11840,"count",NA
+"372",51610,"county","Falls Church city, Virginia",2015,"Cost_Per_Meal",3.6,"cost",NA
+"373",51610,"county","Falls Church city, Virginia",2015,"Child_Food_Insecurity_Rate",9.2,"percent",NA
+"374",51683,"county","Manassas city, Virginia",2014,"Num_Child_Food_Insecure",1550,"count",NA
+"375",51610,"county","Falls Church city, Virginia",2017,"Cost_Per_Meal",3.77,"cost",NA
+"376",51013,"county","Arlington County, Virginia",2019,"Food_Insecurity_Rate",7.8,"percent",NA
+"377",51510,"county","Alexandria city, Virginia",2018,"Cost_Per_Meal",3.78,"cost",NA
+"378",51685,"county","Manassas Park city, Virginia",2012,"Child_Food_Insecurity_Rate",13.4,"percent",NA
+"379",51600,"county","Fairfax city, Virginia",2011,"Child_Food_Insecurity_Rate",14.4,"percent",NA
+"380",51153,"county","Prince William County, Virginia",2018,"Num_Food_Insecure",25620,"count",NA
+"381",51510,"county","Alexandria city, Virginia",2011,"Child_Food_Insecurity_Rate",14.2,"percent",NA
+"382",51013,"county","Arlington County, Virginia",2015,"Num_Food_Insecure",18010,"count",NA
+"383",51013,"county","Arlington County, Virginia",2018,"Num_Child_Food_Insecure",1660,"count",NA
+"384",51013,"county","Arlington County, Virginia",2015,"Child_Food_Insecurity_Rate",10.2,"percent",NA
+"385",51685,"county","Manassas Park city, Virginia",2012,"Num_Child_Food_Insecure",550,"count",NA
+"386",51059,"county","Fairfax County, Virginia",2018,"Num_Food_Insecure",61710,"count",NA
+"387",51153,"county","Prince William County, Virginia",2014,"Cost_Per_Meal",3.04,"cost",NA
+"388",51107,"county","Loudoun County, Virginia",2019,"Child_Food_Insecurity_Rate",1.7,"percent",NA
+"389",51683,"county","Manassas city, Virginia",2015,"Child_Food_Insecurity_Rate",11.2,"percent",NA
+"390",51683,"county","Manassas city, Virginia",2018,"Child_Food_Insecurity_Rate",6.8,"percent",NA
+"391",51153,"county","Prince William County, Virginia",2018,"Food_Insecurity_Rate",5.6,"percent",NA
+"392",51059,"county","Fairfax County, Virginia",2018,"Num_Child_Food_Insecure",15210,"count",NA
+"393",51510,"county","Alexandria city, Virginia",2015,"Num_Child_Food_Insecure",3020,"count",NA
+"394",51059,"county","Fairfax County, Virginia",2011,"Num_Child_Food_Insecure",30930,"count",NA
+"395",51600,"county","Fairfax city, Virginia",2018,"Num_Food_Insecure",1290,"count",NA
+"396",51107,"county","Loudoun County, Virginia",2015,"Food_Insecurity_Rate",4,"percent",NA
+"397",51685,"county","Manassas Park city, Virginia",2013,"Food_Insecurity_Rate",6.1,"percent",NA
+"398",51153,"county","Prince William County, Virginia",2012,"Num_Food_Insecure",32110,"count",NA
+"399",51610,"county","Falls Church city, Virginia",2017,"Num_Child_Food_Insecure",270,"count",NA
+"400",51153,"county","Prince William County, Virginia",2015,"Child_Food_Insecurity_Rate",10.3,"percent",NA
+"401",51153,"county","Prince William County, Virginia",2013,"Child_Food_Insecurity_Rate",12,"percent",NA
+"402",51610,"county","Falls Church city, Virginia",2016,"Num_Child_Food_Insecure",220,"count",NA
+"403",51685,"county","Manassas Park city, Virginia",2019,"Num_Child_Food_Insecure",270,"count",NA
+"404",51013,"county","Arlington County, Virginia",2017,"Num_Food_Insecure",16710,"count",NA
+"405",51683,"county","Manassas city, Virginia",2014,"Cost_Per_Meal",2.93,"cost",NA
+"406",51683,"county","Manassas city, Virginia",2017,"Num_Food_Insecure",2080,"count",NA
+"407",51107,"county","Loudoun County, Virginia",2015,"Cost_Per_Meal",3.47,"cost",NA
+"408",51685,"county","Manassas Park city, Virginia",2018,"Num_Child_Food_Insecure",350,"count",NA
+"409",51153,"county","Prince William County, Virginia",2011,"Num_Child_Food_Insecure",13210,"count",NA
+"410",51059,"county","Fairfax County, Virginia",2015,"Food_Insecurity_Rate",5.3,"percent",NA
+"411",51685,"county","Manassas Park city, Virginia",2010,"Child_Food_Insecurity_Rate",16.6,"percent",NA
+"412",51107,"county","Loudoun County, Virginia",2014,"Cost_Per_Meal",3.43,"cost",NA
+"413",51685,"county","Manassas Park city, Virginia",2014,"Food_Insecurity_Rate",6.1,"percent",NA
+"414",51683,"county","Manassas city, Virginia",2012,"Cost_Per_Meal",2.68581460706844,"cost",NA
+"415",51013,"county","Arlington County, Virginia",2017,"Child_Food_Insecurity_Rate",9.3,"percent",NA
+"416",51059,"county","Fairfax County, Virginia",2013,"Num_Child_Food_Insecure",31710,"count",NA
+"417",51685,"county","Manassas Park city, Virginia",2013,"Child_Food_Insecurity_Rate",13.2,"percent",NA
+"418",51683,"county","Manassas city, Virginia",2011,"Cost_Per_Meal",2.68,"cost",NA
+"419",51153,"county","Prince William County, Virginia",2017,"Food_Insecurity_Rate",5.8,"percent",NA
+"420",51600,"county","Fairfax city, Virginia",2016,"Food_Insecurity_Rate",4.2,"percent",NA
+"421",51600,"county","Fairfax city, Virginia",2011,"Num_Food_Insecure",1840,"count",NA
+"422",51059,"county","Fairfax County, Virginia",2015,"Num_Food_Insecure",59940,"count",NA
+"423",51059,"county","Fairfax County, Virginia",2013,"Num_Food_Insecure",67190,"count",NA
+"424",51510,"county","Alexandria city, Virginia",2018,"Child_Food_Insecurity_Rate",9.1,"percent",NA
+"425",51683,"county","Manassas city, Virginia",2012,"Num_Child_Food_Insecure",1940,"count",NA
+"426",51600,"county","Fairfax city, Virginia",2017,"Food_Insecurity_Rate",4.8,"percent",NA
+"427",51059,"county","Fairfax County, Virginia",2019,"Child_Food_Insecurity_Rate",4.4,"percent",NA
+"428",51610,"county","Falls Church city, Virginia",2011,"Cost_Per_Meal",3.26,"cost",NA
+"429",51610,"county","Falls Church city, Virginia",2012,"Cost_Per_Meal",3.41205665095434,"cost",NA
+"430",51683,"county","Manassas city, Virginia",2012,"Child_Food_Insecurity_Rate",18.1,"percent",NA
+"431",51107,"county","Loudoun County, Virginia",2010,"Cost_Per_Meal",NA,"cost",NA
+"432",51013,"county","Arlington County, Virginia",2019,"Cost_Per_Meal",4.38,"cost",NA
+"433",51510,"county","Alexandria city, Virginia",2015,"Child_Food_Insecurity_Rate",11.4,"percent",NA
+"434",51683,"county","Manassas city, Virginia",2013,"Child_Food_Insecurity_Rate",15.4,"percent",NA
+"435",51600,"county","Fairfax city, Virginia",2011,"Cost_Per_Meal",3.61,"cost",NA
+"436",51600,"county","Fairfax city, Virginia",2015,"Food_Insecurity_Rate",4.7,"percent",NA
+"437",51600,"county","Fairfax city, Virginia",2012,"Food_Insecurity_Rate",7.6,"percent",NA
+"438",51153,"county","Prince William County, Virginia",2016,"Num_Food_Insecure",26440,"count",NA
+"439",51153,"county","Prince William County, Virginia",2012,"Child_Food_Insecurity_Rate",12.2,"percent",NA
+"440",51013,"county","Arlington County, Virginia",2015,"Cost_Per_Meal",3.82,"cost",NA
+"441",51610,"county","Falls Church city, Virginia",2010,"Food_Insecurity_Rate",7.1,"percent",NA
+"442",51510,"county","Alexandria city, Virginia",2012,"Num_Food_Insecure",16660,"count",NA
+"443",51685,"county","Manassas Park city, Virginia",2015,"Child_Food_Insecurity_Rate",10.2,"percent",NA
+"444",51685,"county","Manassas Park city, Virginia",2016,"Num_Food_Insecure",590,"count",NA
+"445",51059,"county","Fairfax County, Virginia",2019,"Cost_Per_Meal",3.9,"cost",NA
+"446",51510,"county","Alexandria city, Virginia",2013,"Num_Child_Food_Insecure",3420,"count",NA
+"447",51600,"county","Fairfax city, Virginia",2013,"Child_Food_Insecurity_Rate",12.1,"percent",NA
+"448",51600,"county","Fairfax city, Virginia",2017,"Child_Food_Insecurity_Rate",8.8,"percent",NA
+"449",51683,"county","Manassas city, Virginia",2014,"Num_Food_Insecure",2920,"count",NA
+"450",51600,"county","Fairfax city, Virginia",2012,"Child_Food_Insecurity_Rate",14.1,"percent",NA
