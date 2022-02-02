@@ -1,211 +1,4 @@
 {
-  "mrfei:mrfei": {
-    "category": "Nutrition and Food Security",
-    "measure_table": "va_catr_sdad_2021_mrfei",
-    "full_name": "mrfei:mrfei",
-    "measure": "mrfei",
-    "short_name": "Retail food environment index",
-    "long_name": "Retail food environment index",
-    "short_description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
-    "statement": "The Retail food environment index is {value} in {features.name}.",
-    "type": "index",
-    "sources": [
-      {
-        "name": "OpenStreetMap",
-        "date_accessed": 2021,
-        "url": "https://www.openstreetmap.org/"
-      }
-    ]
-  },
-  "demographics:afr_amer_alone": {
-    "category": "Equity",
-    "measure_table": "va_ca_sdad_2019_demographics",
-    "full_name": "demographics:afr_amer_alone",
-    "measure": "afr_amer_alone",
-    "short_name": "African American population",
-    "long_name": "African American population (count)",
-    "short_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "The African American population is {value} in {features.name}.",
-    "type": "count",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "demographics:wht_alone": {
-    "category": "Equity",
-    "measure_table": "va_ca_sdad_2019_demographics",
-    "full_name": "demographics:wht_alone",
-    "measure": "wht_alone",
-    "short_name": "White population",
-    "long_name": "White population (count)",
-    "short_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "count",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "dei:norm_dei": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_sdad_2019_2021_dei",
-    "full_name": "dei:norm_dei",
-    "measure": "norm_dei",
-    "short_name": "Digital Equity Index",
-    "long_name": "Digital Equity Index",
-    "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
-    "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-    "statement": "The digital equity index for {features.name} is {value}.",
-    "type": "index",
-    "citations": [
-    "gallardo20"
-    ],
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "speed_measurements:avg_down_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
-    "full_name": "speed_measurements:avg_down_using_devices",
-    "measure": "avg_down_using_devices",
-    "short_name": "Average Download Speed",
-    "long_name": "Average Download Speed",
-    "short_description": "Average download speed weighted by number of devices.",
-    "statement": "The average download speed is {value} MB/s in {features.name}.",
-    "type": "average",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "speed_measurements:devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
-    "full_name": "speed_measurements:devices",
-    "measure": "devices",
-    "short_name": "Number of devices",
-    "long_name": "Number of devices",
-    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
-    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
-    "type": "count",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "speed_measurements:avg_up_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
-    "full_name": "speed_measurements:avg_up_using_devices",
-    "measure": "avg_up_using_devices",
-    "short_name": "Average Upload Speed",
-    "long_name": "Average Upload Speed",
-    "short_description": "Average upload speed weighted by number of devices.",
-    "statement": "The average upload speed is {value} MB/s in {features.name}.",
-    "type": "average",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "percent_above_threshold:perc_w_int_25_3_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
-    "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
-    "measure": "perc_w_int_25_3_using_devices",
-    "short_name": "Percent Good (internet-connected)",
-    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
-    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "statement": "{value} percent of the internet-connected population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "percent_above_threshold:perc_w_int_100_20_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
-    "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
-    "measure": "perc_w_int_100_20_using_devices",
-    "short_name": "Percent Fast (internet-connected)",
-    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
-    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "statement": "{value} percent of the internet-connected population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "percent_above_threshold:perc_total_25_3_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
-    "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
-    "measure": "perc_total_25_3_using_devices",
-    "short_name": "Percent Good (total)",
-    "long_name": "Percent of the Total Population with Good Internet Speed",
-    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "statement": "{value} percent of the total population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "percent_above_threshold:perc_total_100_20_using_devices": {
-    "category": "Broadband",
-    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
-    "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
-    "measure": "perc_total_100_20_using_devices",
-    "short_name": "Percent Fast (total)",
-    "long_name": "Percent of the Total Population with Fast Internet Speed",
-    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "statement": "{value} percent of the total population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
   "_references": {
     "lou04": {
       "id": "lou04",
@@ -549,6 +342,69 @@
       }
     ]
   },
+  "dei:norm_dei": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_sdad_2019_2021_dei",
+    "full_name": "dei:norm_dei",
+    "measure": "norm_dei",
+    "short_name": "Digital Equity Index",
+    "long_name": "Digital Equity Index",
+    "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+    "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
+    "statement": "The digital equity index for {features.name} is {value}.",
+    "type": "index",
+    "citations": [
+      "gallardo20"
+    ],
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "demographics:afr_amer_alone": {
+    "category": "Demographics",
+    "measure_table": "va_ca_sdad_2019_demographics",
+    "full_name": "demographics:afr_amer_alone",
+    "measure": "afr_amer_alone",
+    "short_name": "African American population",
+    "long_name": "African American population (count)",
+    "short_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "The African American population is {value} in {features.name}.",
+    "type": "count",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "demographics:wht_alone": {
+    "category": "Demographics",
+    "measure_table": "va_ca_sdad_2019_demographics",
+    "full_name": "demographics:wht_alone",
+    "measure": "wht_alone",
+    "short_name": "White population",
+    "long_name": "White population (count)",
+    "short_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "count",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "dentists_access_scores:dent_e2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -666,6 +522,25 @@
         "name": "Virginia Department of Health",
         "date_accessed": "2021",
         "url": "https://www.vdh.virginia.gov/opioid-data/deaths/"
+      }
+    ]
+  },
+  "earnings_per_job:earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "earnings_per_job",
+    "full_name": "earnings_per_job:earnings_per_job",
+    "measure": "earnings_per_job",
+    "type": "ratio",
+    "short_name": "Earnings per job",
+    "long_name": "Earnings per job",
+    "short_description": "Average of earnings per job.",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "statement": "Earnings per job in {features.name} is ${value}",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
       }
     ]
   },
@@ -936,6 +811,114 @@
       }
     ]
   },
+  "latino_east_african_gravity_models:avocado_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+    "measure": "avocado_ecdf_idx",
+    "type": "float",
+    "short_name": "Avocado access score",
+    "long_name": "Avocado access score (Empirical cumulative density function)",
+    "short_description": "Avocado access score by item availability using an empirical cumulative density function",
+    "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+    "statement": "The avocado access score in {features.name} is {value}",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:avocado_ecdf_idx.1": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+    "measure": "avocado_ecdf_idx",
+    "type": "float",
+    "short_name": "Avocado access score",
+    "long_name": "Avocado access score (Empirical cumulative density function)",
+    "short_description": "Avocado access score by item availability using an empirical cumulative density function",
+    "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+    "statement": "The avocado access score in {features.name} is {value}",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:favabeans_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+    "measure": "favabeans_ecdf_idx",
+    "type": "float",
+    "short_name": "Fava bean access score",
+    "long_name": "Fava bean access score (Empirical cumulative density function)",
+    "short_description": "Fava bean access score by item availability using an empirical cumulative density function",
+    "long_description": "Fava bean access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+    "statement": "The fava bean access score in {features.name} is {value}",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:nopalitos_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+    "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+    "type": "float",
+    "short_name": "Nopalito access score",
+    "long_name": "Nopalito access score (Empirical cumulative density function)",
+    "short_description": "Nopalito access score by item availability using an empirical cumulative density function.",
+    "long_description": "Nopalito access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+    "statement": "The nopalito access score in {features.name} is {value}",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:teff_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+    "measure": "teff_ecdf_idx",
+    "type": "float",
+    "short_name": "Teff access score",
+    "long_name": "Teff access score (Empirical cumulative density function)",
+    "short_description": "Teff access score by item availability using an empirical cumulative density function",
+    "long_description": "Teff access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+    "statement": "The teff access score in {features.name} is {value}",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:tomatillos_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+    "measure": "tomatillos_ecdf_idx",
+    "type": "float",
+    "short_name": "Tomatillo access score",
+    "long_name": "Tomatillo access score (Empirical cumulative density function)",
+    "short_description": "Tomatillo access score by item availability using an empirical cumulative density function",
+    "long_description": "Tomatillo access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+    "statement": "The tomatillo access score in {features.name} is {value}",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
   "mental_access_scores:mental_10near_median": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -996,6 +979,24 @@
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ]
+  },
+  "mrfei:mrfei": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "va_catr_sdad_2021_mrfei",
+    "full_name": "mrfei:mrfei",
+    "measure": "mrfei",
+    "short_name": "Retail food environment index",
+    "long_name": "Retail food environment index",
+    "short_description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+    "statement": "The Retail food environment index is {value} in {features.name}.",
+    "type": "index",
+    "sources": [
+      {
+        "name": "OpenStreetMap",
+        "date_accessed": 2021,
+        "url": "https://www.openstreetmap.org/"
       }
     ]
   },
@@ -1178,6 +1179,78 @@
       }
     ]
   },
+  "percent_above_threshold:perc_total_100_20_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+    "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
+    "measure": "perc_total_100_20_using_devices",
+    "short_name": "Percent Fast (total)",
+    "long_name": "Percent of the Total Population with Fast Internet Speed",
+    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "statement": "{value} percent of the total population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "percent_above_threshold:perc_total_25_3_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+    "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
+    "measure": "perc_total_25_3_using_devices",
+    "short_name": "Percent Good (total)",
+    "long_name": "Percent of the Total Population with Good Internet Speed",
+    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "statement": "{value} percent of the total population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "percent_above_threshold:perc_w_int_100_20_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+    "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
+    "measure": "perc_w_int_100_20_using_devices",
+    "short_name": "Percent Fast (internet-connected)",
+    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "statement": "{value} percent of the internet-connected population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "percent_above_threshold:perc_w_int_25_3_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+    "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
+    "measure": "perc_w_int_25_3_using_devices",
+    "short_name": "Percent Good (internet-connected)",
+    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "statement": "{value} percent of the internet-connected population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
   "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
@@ -1279,6 +1352,60 @@
       }
     ]
   },
+  "speed_measurements:avg_down_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+    "full_name": "speed_measurements:avg_down_using_devices",
+    "measure": "avg_down_using_devices",
+    "short_name": "Average Download Speed",
+    "long_name": "Average Download Speed",
+    "short_description": "Average download speed weighted by number of devices.",
+    "statement": "The average download speed is {value} MB/s in {features.name}.",
+    "type": "average",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "speed_measurements:avg_up_using_devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+    "full_name": "speed_measurements:avg_up_using_devices",
+    "measure": "avg_up_using_devices",
+    "short_name": "Average Upload Speed",
+    "long_name": "Average Upload Speed",
+    "short_description": "Average upload speed weighted by number of devices.",
+    "statement": "The average upload speed is {value} MB/s in {features.name}.",
+    "type": "average",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
+  "speed_measurements:devices": {
+    "category": "Broadband",
+    "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+    "full_name": "speed_measurements:devices",
+    "measure": "devices",
+    "short_name": "Number of devices",
+    "long_name": "Number of devices",
+    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
+    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+    "type": "count",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ]
+  },
   "substance_access_scores:subs_10near_median": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -1364,25 +1491,6 @@
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
-      }
-    ]
-  },
-  "earnings_per_job:earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "earnings_per_job",
-    "full_name": "earnings_per_job:earnings_per_job",
-    "measure": "earnings_per_job",
-    "type": "ratio",
-    "short_name": "Earnings per job",
-    "long_name": "Earnings per job",
-    "short_description": "Average of earnings per job.",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "statement": "Earnings per job in {features.name} is ${value}",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url" : "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
       }
     ]
   }
