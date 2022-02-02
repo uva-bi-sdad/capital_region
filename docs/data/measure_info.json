@@ -533,7 +533,7 @@
     "short_name": "Day care access score",
     "long_name": "Day care access score (3-step floating catchment area)",
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
-    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
+    "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}",
     "citations": [
       "lou04",
@@ -549,29 +549,10 @@
       }
     ]
   },
-  "dentist_access_scores:dent_cnt": {
+  "dentists_access_scores:dent_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-    "full_name": "dentist_access_scores:dent_cnt",
-    "measure": "dent_cnt",
-    "type": "count",
-    "short_name": "Dental care access (count)",
-    "long_name": "Dental care access by count",
-    "short_description": "Count of dentists based on provider locations",
-    "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} dentists in {features.name}",
-    "sources": [
-      {
-        "name": "SafeGraph Core",
-        "date_accessed": 2021,
-        "url": "https://www.safegraph.com/products/core"
-      }
-    ]
-  },
-  "dentist_access_scores:dent_e2sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
-    "full_name": "dentist_access_scores:dent_e2sfca",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+    "full_name": "dentists_access_scores:dent_e2sfca",
     "measure": "dent_e2sfca",
     "type": "index",
     "short_name": "Dental care access score",
@@ -1037,30 +1018,11 @@
       }
     ]
   },
-  "obgyn_access_scores:obgyn_cnt": {
+  "obgyn_access_scores:obgyns_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "obgyn_access_scores:obgyn_cnt",
-    "measure": "obgyn_cnt",
-    "type": "count",
-    "short_name": "OBGYN care access (count)",
-    "long_name": "OBGYN care access by count",
-    "short_description": "Count of OBGYNs based on provider locations",
-    "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} OBGYNs in {features.name}",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "obgyn_access_scores:obgyn_e2sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
-    "full_name": "obgyn_access_scores:obgyn_e2sfca",
-    "measure": "obgyn_e2sfca",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+    "full_name": "obgyn_access_scores:obgyns_e2sfca",
+    "measure": "obgyns_e2sfca",
     "type": "index",
     "short_name": "OBGYN care access score",
     "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
@@ -1119,30 +1081,11 @@
       }
     ]
   },
-  "pediatrics_access_scores:ped_cnt": {
+  "pediatrics_access_scores:pediat_e2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "pediatrics_access_scores:ped_cnt",
-    "measure": "ped_cnt",
-    "type": "count",
-    "short_name": "Pediatric care access (count)",
-    "long_name": "Pediatric care access by count",
-    "short_description": "Count of pediatricians based on provider locations",
-    "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} pediatricians in {features.name}",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "pediatrics_access_scores:ped_e2sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "pediatrics_access_scores:ped_e2sfca",
-    "measure": "ped_e2sfca",
+    "full_name": "pediatrics_access_scores:pediat_e2sfca",
+    "measure": "pediat_e2sfca",
     "type": "index",
     "short_name": "Pediatric care access score",
     "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
@@ -1311,30 +1254,11 @@
       }
     ]
   },
-  "primary_care_access_scores:prim_cnt": {
+  "primcare_access_scores:primcare_e2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
-    "full_name": "primary_care_access_scores:prim_cnt",
-    "measure": "prim_cnt",
-    "type": "count",
-    "short_name": "Primary care access (count)",
-    "long_name": "Primary care access by count",
-    "short_description": "Count of primary care physicians based on provider locations",
-    "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} primary care physicians in {features.name}",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "primary_care_access_scores:prim_e2sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
-    "full_name": "primary_care_access_scores:prim_e2sfca",
-    "measure": "prim_e2sfca",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+    "full_name": "primcare_access_scores:primcare_e2sfca",
+    "measure": "primcare_e2sfca",
     "type": "index",
     "short_name": "Primary care access score",
     "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
