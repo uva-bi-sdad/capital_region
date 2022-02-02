@@ -23,18 +23,18 @@ data_add(
           map = "data/entity_info.json"
         ),
         time = "time",
-        variables = "measures_info.json"
+        variables = "measure_info.json"
       )
     }),
     list(list(
       ids = list(variable = "ID", map = "data/entity_info.json"),
       time = "time",
-      variables = "measures_info.json"
+      variables = "measure_info.json"
     ))
   ),
   dir = "../capital_region/docs/data",
   refresh = TRUE
 )
 
-meta <- jsonlite::read_json("../capital_region/docs/data/measures_info.json")
+meta <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
 site_build("../capital_region", variables = names(meta))

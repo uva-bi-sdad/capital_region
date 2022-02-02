@@ -11,6 +11,7 @@ page_navbar(
   list(
     name = "Settings",
     backdrop = "false",
+    class = "menu-compact",
     items = list(
       input_switch("Dark Theme", id = "settings.theme_dark"),
       input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
@@ -22,22 +23,29 @@ page_navbar(
         )
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
-      input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
+      input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Summary Level", options = c("dataset", "all"), default = "dataset",
-        display = c("All Regions", "Selected Region"), id = "settings.summary_selection",
+        "Color Scale Center", options = c("", "median", "mean"), default = 1,
+        display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
+        floating_label = FALSE,
+        title = "Determines whether and on what the color scale should be centered."
+      ),
+      input_select(
+        "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
+        display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
         floating_label = FALSE,
         title = paste(
           "Determins which regions are included in summaries for box-plots and color scaling;",
-          "All-Regions are state-wide, and Selected Region are filtered by region selection."
+          "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
+          "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", step = 1, floating_label = FALSE),
-      input_number("Variable Max", "variable_max", step = 1, floating_label = FALSE),
+      input_number("Variable Min", "variable_min", floating_label = FALSE),
+      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", id = "settings.background_shapes"),
       input_number(
-        "Outline Weight", "settings.polygon_outline", default = 2, step = 1, floating_label = FALSE,
+        "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         title = "Thickness of the outline around region shapes."
       ),
       '<p class="section-heading">Plot Options</p>',
@@ -45,13 +53,19 @@ page_navbar(
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
         "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
-        title = "Define the outer fences of the box plots by the first and third quantiles -/+ 1.5 * interquartile range (true) or min and max (false)"
+        title = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)"
       ),
       input_number(
-        "Trace Limit", "settings.trace_limit", default = 40, step = 1, floating_label = FALSE,
+        "Trace Limit", "settings.trace_limit", default = 20, floating_label = FALSE,
         title = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
-      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
+      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer"),
+      '<p class="section-heading">Table Options</p>',
+      input_switch("Autoscroll", default_on = TRUE, id = "settings.table_autoscroll"),
+      input_select(
+        "Scroll Behavior", c("instant", "smooth", "auto"), "auto",
+        id = "settings.table_scroll_behavior", floating_label = FALSE
+      )
     )
   ),
   list(
@@ -101,8 +115,8 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     {
-      vars <- jsonlite::read_json('../capital_region/docs/data/measures_info.json')
-      varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
+      vars <- jsonlite::read_json('../capital_region/docs/data/measure_info.json')
+      varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
       input_select("Variable Category", options = varcats, default = "Broadband", id = "variable_type")
     },
     input_select(
@@ -225,7 +239,7 @@ page_section(
       type = "d-flex flex-column col align-items-end compact",
       output_info(
         title = "variables.short_name",
-        body = c(Year = "data.time", "variables.source"),
+        body = c(Year = "data.time", "variables.sources"),
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
@@ -248,7 +262,10 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_legend("settings.palette", "Below", "Region Median", "Above"),
+      output_legend(
+        "settings.palette", "Below", "Above", dataview = "primary_view",
+        subto = c("main_map", "main_plot", "rank_table")
+      ),
       wraps = c("row", "row mb-auto", "row")
     )
   ),
@@ -266,7 +283,7 @@ page_section(
             layout = list(
               showlegend = FALSE,
               xaxis = list(title = FALSE, fixedrange = TRUE),
-              yaxis = list(zeroline = FALSE)
+              yaxis = list(fixedrange = TRUE, zeroline = FALSE)
             ),
             data = data.frame(
               type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
@@ -299,5 +316,5 @@ page_section(
   )
 )
 
-vars <- jsonlite::read_json('../capital_region/docs/data/measures_info.json')
+vars <- jsonlite::read_json('../capital_region/docs/data/measure_info.json')
 site_build('../capital_region', variables = names(vars))
