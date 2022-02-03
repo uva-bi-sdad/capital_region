@@ -829,24 +829,6 @@
       }
     ]
   },
-  "latino_east_african_gravity_models:avocado_ecdf_idx.1": {
-    "category": "Nutrition and Food Security",
-    "measure_table": "latino_east_african_gravity_models",
-    "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
-    "measure": "avocado_ecdf_idx",
-    "type": "float",
-    "short_name": "Avocado access score",
-    "long_name": "Avocado access score (Empirical cumulative density function)",
-    "short_description": "Avocado access score by item availability using an empirical cumulative density function",
-    "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
-    "statement": "The avocado access score in {features.name} is {value}",
-    "sources": [
-      {
-        "name": "Grocery Retailers with Online Presence",
-        "date_accessed": "2021"
-      }
-    ]
-  },
   "latino_east_african_gravity_models:favabeans_ecdf_idx": {
     "category": "Nutrition and Food Security",
     "measure_table": "latino_east_african_gravity_models",

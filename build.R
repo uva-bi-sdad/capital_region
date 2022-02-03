@@ -2,6 +2,22 @@ library(community)
 
 init_site("../capital_region", "capital_region")
 
+# remove any non-NCR entries
+
+## get all NCR geoids
+ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
+  vapply(jsonlite::read_json(paste0(
+    "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s, ".geojson"
+  ))$features, function(d) d$properties$GEOID, "")
+)), use.names = FALSE)
+
+## trim and save files
+for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
+  d <- read.csv(f)
+  d <- d[d$geoid %in% ids | d$region_type == "civic association", colnames(d) != 'X']
+  write.csv(d, f, row.names = FALSE)
+}
+
 data_reformat_sdad(
   "../capital_region/docs/data/original",
   formatters = list(region_name = function(x) sub(",.*$", "", x)),

@@ -1,64 +1,64 @@
-"","geoid","region_type","region_name","year","measure","value","measure_type","measure_units"
-"1",51107,"county","Loudoun County, Virginia",2019,"avg_overdose_per_100k",7.15936495176849,"rate per 100k",NA
-"2",51153,"county","Prince William County, Virginia",2019,"avg_overdose_per_100k",8.84321758792845,"rate per 100k",NA
-"3",51059,"county","Fairfax County, Virginia",2019,"avg_overdose_per_100k",7.63055693378249,"rate per 100k",NA
-"4",51600,"county","Fairfax city, Virginia",2017,"avg_overdose_per_100k",9.20272660692736,"rate per 100k",NA
-"5",51685,"county","Manassas Park city, Virginia",2021,"avg_overdose_per_100k",12.3107122944521,"rate per 100k",NA
-"6",51013,"county","Arlington County, Virginia",2019,"avg_overdose_per_100k",6.95138992332191,"rate per 100k",NA
-"7",51059,"county","Fairfax County, Virginia",2020,"avg_overdose_per_100k",9.20059051826632,"rate per 100k",NA
-"8",51153,"county","Prince William County, Virginia",2020,"avg_overdose_per_100k",12.208413431279,"rate per 100k",NA
-"9",51510,"county","Alexandria city, Virginia",2020,"avg_overdose_per_100k",10.4341867563695,"rate per 100k",NA
-"10",51510,"county","Alexandria city, Virginia",2017,"avg_overdose_per_100k",12.588874208284,"rate per 100k",NA
-"11",51013,"county","Arlington County, Virginia",2016,"avg_overdose_per_100k",8.76621024414982,"rate per 100k",NA
-"12",51510,"county","Alexandria city, Virginia",2021,"avg_overdose_per_100k",10.2449590619799,"rate per 100k",NA
-"13",51685,"county","Manassas Park city, Virginia",2015,"avg_overdose_per_100k",6.77518749594962,"rate per 100k",NA
-"14",51685,"county","Manassas Park city, Virginia",2018,"avg_overdose_per_100k",9.91463816368108,"rate per 100k",NA
-"15",51685,"county","Manassas Park city, Virginia",2016,"avg_overdose_per_100k",10.7619597561229,"rate per 100k",NA
-"16",51107,"county","Loudoun County, Virginia",2016,"avg_overdose_per_100k",10.0402907149983,"rate per 100k",NA
-"17",51059,"county","Fairfax County, Virginia",2016,"avg_overdose_per_100k",10.5296998433645,"rate per 100k",NA
-"18",51059,"county","Fairfax County, Virginia",2018,"avg_overdose_per_100k",9.19597937741956,"rate per 100k",NA
-"19",51013,"county","Arlington County, Virginia",2018,"avg_overdose_per_100k",6.49032834677505,"rate per 100k",NA
-"20",51153,"county","Prince William County, Virginia",2018,"avg_overdose_per_100k",9.91463816368108,"rate per 100k",NA
-"21",51107,"county","Loudoun County, Virginia",2017,"avg_overdose_per_100k",9.04353718110613,"rate per 100k",NA
-"22",51610,"county","Falls Church city, Virginia",2020,"avg_overdose_per_100k",9.20059051826632,"rate per 100k",NA
-"23",51059,"county","Fairfax County, Virginia",2021,"avg_overdose_per_100k",9.59204579602365,"rate per 100k",NA
-"24",51600,"county","Fairfax city, Virginia",2019,"avg_overdose_per_100k",7.63055693378249,"rate per 100k",NA
-"25",51600,"county","Fairfax city, Virginia",2018,"avg_overdose_per_100k",9.19597937741956,"rate per 100k",NA
-"26",51510,"county","Alexandria city, Virginia",2019,"avg_overdose_per_100k",9.52916549504796,"rate per 100k",NA
-"27",51683,"county","Manassas city, Virginia",2019,"avg_overdose_per_100k",8.84321758792845,"rate per 100k",NA
-"28",51059,"county","Fairfax County, Virginia",2017,"avg_overdose_per_100k",9.20272660692736,"rate per 100k",NA
-"29",51600,"county","Fairfax city, Virginia",2015,"avg_overdose_per_100k",7.8733663294465,"rate per 100k",NA
-"30",51510,"county","Alexandria city, Virginia",2018,"avg_overdose_per_100k",10.3623165765822,"rate per 100k",NA
-"31",51013,"county","Arlington County, Virginia",2020,"avg_overdose_per_100k",6.94675418173551,"rate per 100k",NA
-"32",51683,"county","Manassas city, Virginia",2017,"avg_overdose_per_100k",10.8580596674309,"rate per 100k",NA
-"33",51153,"county","Prince William County, Virginia",2021,"avg_overdose_per_100k",12.3107122944521,"rate per 100k",NA
-"34",51600,"county","Fairfax city, Virginia",2020,"avg_overdose_per_100k",9.20059051826632,"rate per 100k",NA
-"35",51610,"county","Falls Church city, Virginia",2018,"avg_overdose_per_100k",9.19597937741956,"rate per 100k",NA
-"36",51600,"county","Fairfax city, Virginia",2021,"avg_overdose_per_100k",9.59204579602365,"rate per 100k",NA
-"37",51510,"county","Alexandria city, Virginia",2016,"avg_overdose_per_100k",10.696788823995,"rate per 100k",NA
-"38",51610,"county","Falls Church city, Virginia",2016,"avg_overdose_per_100k",10.5296998433645,"rate per 100k",NA
-"39",51013,"county","Arlington County, Virginia",2015,"avg_overdose_per_100k",5.6364292239037,"rate per 100k",NA
-"40",51013,"county","Arlington County, Virginia",2021,"avg_overdose_per_100k",8.11605298985071,"rate per 100k",NA
-"41",51600,"county","Fairfax city, Virginia",2016,"avg_overdose_per_100k",10.5296998433645,"rate per 100k",NA
-"42",51013,"county","Arlington County, Virginia",2017,"avg_overdose_per_100k",8.06069499601722,"rate per 100k",NA
-"43",51683,"county","Manassas city, Virginia",2018,"avg_overdose_per_100k",9.91463816368108,"rate per 100k",NA
-"44",51683,"county","Manassas city, Virginia",2021,"avg_overdose_per_100k",12.3107122944521,"rate per 100k",NA
-"45",51107,"county","Loudoun County, Virginia",2021,"avg_overdose_per_100k",8.92031418851203,"rate per 100k",NA
-"46",51685,"county","Manassas Park city, Virginia",2019,"avg_overdose_per_100k",8.84321758792845,"rate per 100k",NA
-"47",51153,"county","Prince William County, Virginia",2017,"avg_overdose_per_100k",10.8580596674309,"rate per 100k",NA
-"48",51610,"county","Falls Church city, Virginia",2021,"avg_overdose_per_100k",9.59204579602365,"rate per 100k",NA
-"49",51107,"county","Loudoun County, Virginia",2018,"avg_overdose_per_100k",8.05951902465166,"rate per 100k",NA
-"50",51610,"county","Falls Church city, Virginia",2015,"avg_overdose_per_100k",7.8733663294465,"rate per 100k",NA
-"51",51107,"county","Loudoun County, Virginia",2020,"avg_overdose_per_100k",8.7460571054033,"rate per 100k",NA
-"52",51153,"county","Prince William County, Virginia",2015,"avg_overdose_per_100k",6.77518749594962,"rate per 100k",NA
-"53",51510,"county","Alexandria city, Virginia",2015,"avg_overdose_per_100k",7.81702939854473,"rate per 100k",NA
-"54",51683,"county","Manassas city, Virginia",2015,"avg_overdose_per_100k",6.77518749594962,"rate per 100k",NA
-"55",51683,"county","Manassas city, Virginia",2016,"avg_overdose_per_100k",10.7619597561229,"rate per 100k",NA
-"56",51610,"county","Falls Church city, Virginia",2019,"avg_overdose_per_100k",7.63055693378249,"rate per 100k",NA
-"57",51685,"county","Manassas Park city, Virginia",2020,"avg_overdose_per_100k",12.208413431279,"rate per 100k",NA
-"58",51610,"county","Falls Church city, Virginia",2017,"avg_overdose_per_100k",9.20272660692736,"rate per 100k",NA
-"59",51107,"county","Loudoun County, Virginia",2015,"avg_overdose_per_100k",8.03097382434973,"rate per 100k",NA
-"60",51685,"county","Manassas Park city, Virginia",2017,"avg_overdose_per_100k",10.8580596674309,"rate per 100k",NA
-"61",51153,"county","Prince William County, Virginia",2016,"avg_overdose_per_100k",10.7619597561229,"rate per 100k",NA
-"62",51059,"county","Fairfax County, Virginia",2015,"avg_overdose_per_100k",7.8733663294465,"rate per 100k",NA
-"63",51683,"county","Manassas city, Virginia",2020,"avg_overdose_per_100k",12.208413431279,"rate per 100k",NA
+"geoid","region_type","region_name","year","measure","value","measure_type","measure_units"
+51107,"county","Loudoun County, Virginia",2019,"avg_overdose_per_100k",7.15936495176849,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2019,"avg_overdose_per_100k",8.84321758792845,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2019,"avg_overdose_per_100k",7.63055693378249,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2017,"avg_overdose_per_100k",9.20272660692736,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2021,"avg_overdose_per_100k",12.3107122944521,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2019,"avg_overdose_per_100k",6.95138992332191,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2020,"avg_overdose_per_100k",9.20059051826632,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2020,"avg_overdose_per_100k",12.208413431279,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2020,"avg_overdose_per_100k",10.4341867563695,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2017,"avg_overdose_per_100k",12.588874208284,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2016,"avg_overdose_per_100k",8.76621024414982,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2021,"avg_overdose_per_100k",10.2449590619799,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2015,"avg_overdose_per_100k",6.77518749594962,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2018,"avg_overdose_per_100k",9.91463816368108,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2016,"avg_overdose_per_100k",10.7619597561229,"rate per 100k",NA
+51107,"county","Loudoun County, Virginia",2016,"avg_overdose_per_100k",10.0402907149983,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2016,"avg_overdose_per_100k",10.5296998433645,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2018,"avg_overdose_per_100k",9.19597937741956,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2018,"avg_overdose_per_100k",6.49032834677505,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2018,"avg_overdose_per_100k",9.91463816368108,"rate per 100k",NA
+51107,"county","Loudoun County, Virginia",2017,"avg_overdose_per_100k",9.04353718110613,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2020,"avg_overdose_per_100k",9.20059051826632,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2021,"avg_overdose_per_100k",9.59204579602365,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2019,"avg_overdose_per_100k",7.63055693378249,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2018,"avg_overdose_per_100k",9.19597937741956,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2019,"avg_overdose_per_100k",9.52916549504796,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2019,"avg_overdose_per_100k",8.84321758792845,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2017,"avg_overdose_per_100k",9.20272660692736,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2015,"avg_overdose_per_100k",7.8733663294465,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2018,"avg_overdose_per_100k",10.3623165765822,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2020,"avg_overdose_per_100k",6.94675418173551,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2017,"avg_overdose_per_100k",10.8580596674309,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2021,"avg_overdose_per_100k",12.3107122944521,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2020,"avg_overdose_per_100k",9.20059051826632,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2018,"avg_overdose_per_100k",9.19597937741956,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2021,"avg_overdose_per_100k",9.59204579602365,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2016,"avg_overdose_per_100k",10.696788823995,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2016,"avg_overdose_per_100k",10.5296998433645,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2015,"avg_overdose_per_100k",5.6364292239037,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2021,"avg_overdose_per_100k",8.11605298985071,"rate per 100k",NA
+51600,"county","Fairfax city, Virginia",2016,"avg_overdose_per_100k",10.5296998433645,"rate per 100k",NA
+51013,"county","Arlington County, Virginia",2017,"avg_overdose_per_100k",8.06069499601722,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2018,"avg_overdose_per_100k",9.91463816368108,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2021,"avg_overdose_per_100k",12.3107122944521,"rate per 100k",NA
+51107,"county","Loudoun County, Virginia",2021,"avg_overdose_per_100k",8.92031418851203,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2019,"avg_overdose_per_100k",8.84321758792845,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2017,"avg_overdose_per_100k",10.8580596674309,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2021,"avg_overdose_per_100k",9.59204579602365,"rate per 100k",NA
+51107,"county","Loudoun County, Virginia",2018,"avg_overdose_per_100k",8.05951902465166,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2015,"avg_overdose_per_100k",7.8733663294465,"rate per 100k",NA
+51107,"county","Loudoun County, Virginia",2020,"avg_overdose_per_100k",8.7460571054033,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2015,"avg_overdose_per_100k",6.77518749594962,"rate per 100k",NA
+51510,"county","Alexandria city, Virginia",2015,"avg_overdose_per_100k",7.81702939854473,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2015,"avg_overdose_per_100k",6.77518749594962,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2016,"avg_overdose_per_100k",10.7619597561229,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2019,"avg_overdose_per_100k",7.63055693378249,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2020,"avg_overdose_per_100k",12.208413431279,"rate per 100k",NA
+51610,"county","Falls Church city, Virginia",2017,"avg_overdose_per_100k",9.20272660692736,"rate per 100k",NA
+51107,"county","Loudoun County, Virginia",2015,"avg_overdose_per_100k",8.03097382434973,"rate per 100k",NA
+51685,"county","Manassas Park city, Virginia",2017,"avg_overdose_per_100k",10.8580596674309,"rate per 100k",NA
+51153,"county","Prince William County, Virginia",2016,"avg_overdose_per_100k",10.7619597561229,"rate per 100k",NA
+51059,"county","Fairfax County, Virginia",2015,"avg_overdose_per_100k",7.8733663294465,"rate per 100k",NA
+51683,"county","Manassas city, Virginia",2020,"avg_overdose_per_100k",12.208413431279,"rate per 100k",NA

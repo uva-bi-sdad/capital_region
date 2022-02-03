@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 153190,
+      "bytes": 208342,
       "encoding": "ISO-8859-1",
-      "md5": "d09051f2d4e276473cdc4e0308f28130",
-      "sha512": "07e6b075cb422329c8a1bcac35cbd365feb5a731350f5523cf7f5bbbde6a85689b64d283af5e3fa76b9523e87b1ba4d286d637e7d0b96ea20fe1fe86552bb009",
+      "md5": "3655dd0e02b70dd6472d583066a7ae93",
+      "sha512": "098be7e0bb454c55a0d69eea70dfa72594458ac3e836de42a69a4334628ca2d3127ba62efb2ae9a5b71489689b704daaf9621e2eaf7849565e96814071d4b665",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -25,7 +25,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-02 13:07:22",
+      "created": "2022-02-02 23:36:59",
       "last_modified": "2022-01-06 16:35:06",
       "rowcount": 168,
       "schema": {
@@ -720,10 +720,694 @@
             "max": 0.972683
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 167,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado access score",
+              "long_name": "Avocado access score (Empirical cumulative density function)",
+              "short_description": "Avocado access score by item availability using an empirical cumulative density function",
+              "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 167,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito access score",
+              "long_name": "Nopalito access score (Empirical cumulative density function)",
+              "short_description": "Nopalito access score by item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 167,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo access score",
+              "long_name": "Tomatillo access score (Empirical cumulative density function)",
+              "short_description": "Tomatillo access score by item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 167,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean access score",
+              "long_name": "Fava bean access score (Empirical cumulative density function)",
+              "short_description": "Fava bean access score by item availability using an empirical cumulative density function",
+              "long_description": "Fava bean access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 167,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff access score",
+              "long_name": "Teff access score (Empirical cumulative density function)",
+              "short_description": "Teff access score by item availability using an empirical cumulative density function",
+              "long_description": "Teff access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_norm_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_ecdf_idx",
+            "duplicates": 167,
+            "type": "unknown",
+            "missing": 168
+          },
+          {
             "name": "demographics:afr_amer_alone",
             "duplicates": 167,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:afr_amer_alone",
               "measure": "afr_amer_alone",
@@ -825,7 +1509,7 @@
             "name": "demographics:wht_alone",
             "duplicates": 167,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:wht_alone",
               "measure": "wht_alone",
@@ -2784,138 +3468,6 @@
             "max": 9.925115
           },
           {
-            "name": "perc_income_on_internet:perc_income_med_price_25",
-            "duplicates": 158,
-            "type": "float",
-            "missing": 159,
-            "mean": 1.02184,
-            "sd": 0.147892,
-            "min": 0.816844,
-            "max": 1.27725
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_med_price_100",
-            "duplicates": 158,
-            "type": "float",
-            "missing": 159,
-            "mean": 0.739613,
-            "sd": 0.44445,
-            "min": 0.43588,
-            "max": 1.597062
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 158,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_100",
-              "measure": "perc_income_min_price_100",
-              "type": "percent",
-              "short_name": "Percent of income for fast internet",
-              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "float",
-            "missing": 159,
-            "mean": 0.492079,
-            "sd": 0.124049,
-            "min": 0.260117,
-            "max": 0.638761
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
-            "duplicates": 158,
-            "type": "float",
-            "missing": 159,
-            "mean": 0.441338,
-            "sd": 0.110856,
-            "min": 0.226393,
-            "max": 0.600979
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 158,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_25",
-              "measure": "perc_income_min_price_25",
-              "type": "percent",
-              "short_name": "Percent of income for good internet",
-              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "float",
-            "missing": 159,
-            "mean": 0.339234,
-            "sd": 0.071343,
-            "min": 0.209531,
-            "max": 0.450697
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 158,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "measure": "perc_income_avg_nat_package",
-              "type": "percent",
-              "short_name": "Percent of income for internet (average)",
-              "long_name": "The national average price for internet as a percent of average income",
-              "short_description": "The national average price for internet ($64) as a percent of average income",
-              "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "float",
-            "missing": 159,
-            "mean": 0.736998,
-            "sd": 0.132225,
-            "min": 0.562911,
-            "max": 0.961807
-          },
-          {
             "name": "primary_care_access_scores:prim_fca",
             "duplicates": 158,
             "type": "float",
@@ -3180,6 +3732,138 @@
             "max": 96.21
           },
           {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 158,
+            "type": "float",
+            "missing": 159,
+            "mean": 1.02184,
+            "sd": 0.147892,
+            "min": 0.816844,
+            "max": 1.27725
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 158,
+            "type": "float",
+            "missing": 159,
+            "mean": 0.739613,
+            "sd": 0.44445,
+            "min": 0.43588,
+            "max": 1.597062
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 158,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 159,
+            "mean": 0.492079,
+            "sd": 0.124049,
+            "min": 0.260117,
+            "max": 0.638761
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 158,
+            "type": "float",
+            "missing": 159,
+            "mean": 0.441338,
+            "sd": 0.110856,
+            "min": 0.226393,
+            "max": 0.600979
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 158,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 159,
+            "mean": 0.339234,
+            "sd": 0.071343,
+            "min": 0.209531,
+            "max": 0.450697
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 158,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 159,
+            "mean": 0.736998,
+            "sd": 0.132225,
+            "min": 0.562911,
+            "max": 0.961807
+          },
+          {
             "name": "pct_pop_broadband:perc_w_broadband",
             "duplicates": 140,
             "info": {
@@ -3373,10 +4057,10 @@
       }
     },
     {
-      "bytes": 12013675,
+      "bytes": 16381267,
       "encoding": "ISO-8859-1",
-      "md5": "0b032eef6bee051990dd707380520a4b",
-      "sha512": "04e48e1c58e6527c75e73f569cb1cf753457235fb155afe19fc4e6194227022a0d224e5996963f934813bc689b9b573d50aa73ab515a2b7915beaa5da62483ed",
+      "md5": "cdff06fc77aca39a6f7ab83fed785192",
+      "sha512": "6ae6e2d68620b468c470fba00abcd940dfbf43c14bcbe0dc00384d6812754a163c5d73a07add86f003fa25da652af6feccb3bd630d54cc7ffc8a4a8f38de62eb",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -3389,7 +4073,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-02 13:07:22",
+      "created": "2022-02-02 23:36:59",
       "last_modified": "2022-01-06 16:35:06",
       "rowcount": 14688,
       "schema": {
@@ -4084,10 +4768,694 @@
             "max": 0.999999
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 14687,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado access score",
+              "long_name": "Avocado access score (Empirical cumulative density function)",
+              "short_description": "Avocado access score by item availability using an empirical cumulative density function",
+              "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 14687,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito access score",
+              "long_name": "Nopalito access score (Empirical cumulative density function)",
+              "short_description": "Nopalito access score by item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 14687,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo access score",
+              "long_name": "Tomatillo access score (Empirical cumulative density function)",
+              "short_description": "Tomatillo access score by item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 14687,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean access score",
+              "long_name": "Fava bean access score (Empirical cumulative density function)",
+              "short_description": "Fava bean access score by item availability using an empirical cumulative density function",
+              "long_description": "Fava bean access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 14687,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff access score",
+              "long_name": "Teff access score (Empirical cumulative density function)",
+              "short_description": "Teff access score by item availability using an empirical cumulative density function",
+              "long_description": "Teff access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_norm_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_ecdf_idx",
+            "duplicates": 14687,
+            "type": "unknown",
+            "missing": 14688
+          },
+          {
             "name": "demographics:afr_amer_alone",
             "duplicates": 14687,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:afr_amer_alone",
               "measure": "afr_amer_alone",
@@ -4189,7 +5557,7 @@
             "name": "demographics:wht_alone",
             "duplicates": 14687,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:wht_alone",
               "measure": "wht_alone",
@@ -6116,138 +7484,6 @@
             "missing": 14688
           },
           {
-            "name": "perc_income_on_internet:perc_income_med_price_25",
-            "duplicates": 14195,
-            "type": "float",
-            "missing": 14189,
-            "mean": 0.969375,
-            "sd": 0.369848,
-            "min": 0.391329,
-            "max": 2.836931
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_med_price_100",
-            "duplicates": 14194,
-            "type": "float",
-            "missing": 14189,
-            "mean": 0.939394,
-            "sd": 0.65547,
-            "min": 0.191951,
-            "max": 4.255538
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 14194,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_100",
-              "measure": "perc_income_min_price_100",
-              "type": "percent",
-              "short_name": "Percent of income for fast internet",
-              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "float",
-            "missing": 14189,
-            "mean": 0.511625,
-            "sd": 0.216889,
-            "min": 0.168468,
-            "max": 1.702045
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
-            "duplicates": 14197,
-            "type": "float",
-            "missing": 14189,
-            "mean": 0.41928,
-            "sd": 0.171959,
-            "min": 0.168468,
-            "max": 1.285439
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 14196,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_25",
-              "measure": "perc_income_min_price_25",
-              "type": "percent",
-              "short_name": "Percent of income for good internet",
-              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "float",
-            "missing": 14189,
-            "mean": 0.317825,
-            "sd": 0.132087,
-            "min": 0.143951,
-            "max": 1.141
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 14183,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "measure": "perc_income_avg_nat_package",
-              "type": "percent",
-              "short_name": "Percent of income for internet (average)",
-              "long_name": "The national average price for internet as a percent of average income",
-              "short_description": "The national average price for internet ($64) as a percent of average income",
-              "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "float",
-            "missing": 14175,
-            "mean": 0.672353,
-            "sd": 0.260665,
-            "min": 0.307199,
-            "max": 2.057216
-          },
-          {
             "name": "primary_care_access_scores:prim_fca",
             "duplicates": 14176,
             "type": "float",
@@ -6512,6 +7748,138 @@
             "max": 99.57
           },
           {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 14195,
+            "type": "float",
+            "missing": 14189,
+            "mean": 0.969375,
+            "sd": 0.369848,
+            "min": 0.391329,
+            "max": 2.836931
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 14194,
+            "type": "float",
+            "missing": 14189,
+            "mean": 0.939394,
+            "sd": 0.65547,
+            "min": 0.191951,
+            "max": 4.255538
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 14194,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 14189,
+            "mean": 0.511625,
+            "sd": 0.216889,
+            "min": 0.168468,
+            "max": 1.702045
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 14197,
+            "type": "float",
+            "missing": 14189,
+            "mean": 0.41928,
+            "sd": 0.171959,
+            "min": 0.168468,
+            "max": 1.285439
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 14196,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 14189,
+            "mean": 0.317825,
+            "sd": 0.132087,
+            "min": 0.143951,
+            "max": 1.141
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 14183,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 14175,
+            "mean": 0.672353,
+            "sd": 0.260665,
+            "min": 0.307199,
+            "max": 2.057216
+          },
+          {
             "name": "pct_pop_broadband:perc_w_broadband",
             "duplicates": 13176,
             "info": {
@@ -6705,10 +8073,10 @@
       }
     },
     {
-      "bytes": 30488898,
+      "bytes": 42430220,
       "encoding": "ISO-8859-1",
-      "md5": "8dbc62f128fcd654285bc126d7b69543",
-      "sha512": "5e8d6dce66fff3ffda0cea9d8031700309c4d6ab612903c59e9241c5c56ed6bc156494e61e999a2f3a6fb71024d678a0117133fadc292ee87d710ae8eb86c193",
+      "md5": "318cf134e10bfeeabe600aa980dc0f54",
+      "sha512": "56a89d938ee39451b63399bc6c41904ed780d76895d93c38e890d28f3373e650e5d1e3bc9fd73a29d2ebce8838fb2e0e8c37c9e0c21b2fa0e92897248848b48b",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv",
@@ -6721,7 +8089,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-02 13:07:19",
+      "created": "2022-02-02 23:36:55",
       "last_modified": "2022-01-06 16:35:05",
       "rowcount": 38940,
       "schema": {
@@ -7480,10 +8848,1090 @@
             "max": 99.999976
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 38758,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado access score",
+              "long_name": "Avocado access score (Empirical cumulative density function)",
+              "short_description": "Avocado access score by item availability using an empirical cumulative density function",
+              "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.570761,
+            "sd": 0.417236,
+            "min": 0.114473,
+            "max": 3.484547
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 13.539417,
+            "sd": 12.380618,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.791007,
+            "sd": 0.439579,
+            "min": 0.146534,
+            "max": 4.24435
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 15.727224,
+            "sd": 10.727155,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.877769,
+            "sd": 0.583478,
+            "min": 0.141537,
+            "max": 5.253063
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.403371,
+            "sd": 11.414954,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.87044,
+            "sd": 0.587639,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 13.961705,
+            "sd": 11.502447,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.875146,
+            "sd": 0.583965,
+            "min": 0.141537,
+            "max": 5.253063
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.352057,
+            "sd": 11.42448,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.609802,
+            "sd": 0.407713,
+            "min": 0.130098,
+            "max": 3.49746
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.245704,
+            "sd": 12.107797,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.528374,
+            "sd": 0.341195,
+            "min": 0.027517,
+            "max": 3.344096
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 15.101622,
+            "sd": 10.287547,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.775764,
+            "sd": 0.537878,
+            "min": 0.05377,
+            "max": 5.099929
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.3078,
+            "sd": 10.659154,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.141231,
+            "sd": 0.12716,
+            "min": 0,
+            "max": 1.092393
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 12.928605,
+            "sd": 11.640464,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 38758,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito access score",
+              "long_name": "Nopalito access score (Empirical cumulative density function)",
+              "short_description": "Nopalito access score by item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.358306,
+            "sd": 0.294006,
+            "min": 0.080226,
+            "max": 3.017916
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 9.465964,
+            "sd": 10.008075,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.749343,
+            "sd": 0.444935,
+            "min": 0.130909,
+            "max": 4.231437
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 15.081806,
+            "sd": 10.85068,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.711883,
+            "sd": 0.447195,
+            "min": 0.116393,
+            "max": 4.197143
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.592655,
+            "sd": 10.958654,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 38758,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo access score",
+              "long_name": "Tomatillo access score (Empirical cumulative density function)",
+              "short_description": "Tomatillo access score by item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 9.635678,
+            "sd": 5.995858,
+            "min": 1.728726,
+            "max": 55.886464
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.599856,
+            "sd": 11.071101,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.722614,
+            "sd": 0.45161,
+            "min": 0.130909,
+            "max": 4.231437
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.429964,
+            "sd": 11.013458,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.766901,
+            "sd": 0.444635,
+            "min": 0.146534,
+            "max": 4.24435
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 15.138959,
+            "sd": 10.850542,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.714259,
+            "sd": 0.446778,
+            "min": 0.116393,
+            "max": 4.197143
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.650885,
+            "sd": 10.948418,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.771924,
+            "sd": 0.444698,
+            "min": 0.146534,
+            "max": 4.24435
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 15.261549,
+            "sd": 10.852064,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_idx",
+            "duplicates": 38765,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.14572,
+            "sd": 0.160009,
+            "min": 0,
+            "max": 1.449352
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_norm_idx",
+            "duplicates": 38765,
+            "type": "float",
+            "missing": 38759,
+            "mean": 10.054134,
+            "sd": 11.040024,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 38765,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean access score",
+              "long_name": "Fava bean access score (Empirical cumulative density function)",
+              "short_description": "Fava bean access score by item availability using an empirical cumulative density function",
+              "long_description": "Fava bean access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.303715,
+            "sd": 28.922022,
+            "min": 1.657459,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.812331,
+            "sd": 0.454574,
+            "min": 0.146534,
+            "max": 4.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 16.162295,
+            "sd": 11.034852,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.873063,
+            "sd": 0.587008,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.013047,
+            "sd": 11.490101,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.881885,
+            "sd": 0.581768,
+            "min": 0.141537,
+            "max": 5.253063
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.483896,
+            "sd": 11.381497,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.358306,
+            "sd": 0.294006,
+            "min": 0.080226,
+            "max": 3.017916
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 9.465964,
+            "sd": 10.008075,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 38758,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff access score",
+              "long_name": "Teff access score (Empirical cumulative density function)",
+              "short_description": "Teff access score by item availability using an empirical cumulative density function",
+              "long_description": "Teff access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 0.897169,
+            "sd": 0.580845,
+            "min": 0.157162,
+            "max": 5.265976
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_norm_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 14.484899,
+            "sd": 11.369473,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_ecdf_idx",
+            "duplicates": 38758,
+            "type": "float",
+            "missing": 38759,
+            "mean": 50.276243,
+            "sd": 28.947148,
+            "min": 0.552486,
+            "max": 100
+          },
+          {
             "name": "demographics:afr_amer_alone",
             "duplicates": 38939,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:afr_amer_alone",
               "measure": "afr_amer_alone",
@@ -7585,7 +10033,7 @@
             "name": "demographics:wht_alone",
             "duplicates": 38939,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:wht_alone",
               "measure": "wht_alone",
@@ -9096,114 +11544,6 @@
             "missing": 38940
           },
           {
-            "name": "perc_income_on_internet:perc_income_med_price_25",
-            "duplicates": 38939,
-            "type": "unknown",
-            "missing": 38940
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_med_price_100",
-            "duplicates": 38939,
-            "type": "unknown",
-            "missing": 38940
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 38939,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_100",
-              "measure": "perc_income_min_price_100",
-              "type": "percent",
-              "short_name": "Percent of income for fast internet",
-              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "unknown",
-            "missing": 38940
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
-            "duplicates": 38939,
-            "type": "unknown",
-            "missing": 38940
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 38939,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_25",
-              "measure": "perc_income_min_price_25",
-              "type": "percent",
-              "short_name": "Percent of income for good internet",
-              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "unknown",
-            "missing": 38940
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 38939,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "measure": "perc_income_avg_nat_package",
-              "type": "percent",
-              "short_name": "Percent of income for internet (average)",
-              "long_name": "The national average price for internet as a percent of average income",
-              "short_description": "The national average price for internet ($64) as a percent of average income",
-              "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "unknown",
-            "missing": 38940
-          },
-          {
             "name": "primary_care_access_scores:prim_fca",
             "duplicates": 38939,
             "type": "unknown",
@@ -9400,6 +11740,138 @@
             "missing": 38940
           },
           {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 37662,
+            "type": "float",
+            "missing": 37595,
+            "mean": 1.013255,
+            "sd": 0.571384,
+            "min": 0.210526,
+            "max": 7.37547
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 37655,
+            "type": "float",
+            "missing": 37588,
+            "mean": 0.979923,
+            "sd": 0.803256,
+            "min": 0.157552,
+            "max": 9.371934
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 37655,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 37588,
+            "mean": 0.540485,
+            "sd": 0.319739,
+            "min": 0.102789,
+            "max": 3.748399
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 37670,
+            "type": "float",
+            "missing": 37588,
+            "mean": 0.445366,
+            "sd": 0.265126,
+            "min": 0.102789,
+            "max": 3.47035
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 37677,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 37595,
+            "mean": 0.333748,
+            "sd": 0.19693,
+            "min": 0.102789,
+            "max": 2.602546
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 37666,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 37579,
+            "mean": 0.703215,
+            "sd": 0.403759,
+            "min": 0.307199,
+            "max": 5.553949
+          },
+          {
             "name": "pct_pop_broadband:perc_w_broadband",
             "duplicates": 38939,
             "info": {
@@ -9589,10 +12061,10 @@
       }
     },
     {
-      "bytes": 519634,
+      "bytes": 745858,
       "encoding": "ISO-8859-1",
-      "md5": "12999f0fdf796f3991b539fff78916e4",
-      "sha512": "83918f6383ac53159d345489cb17c54d038fc973f1565a59172784e159b2b13a7dca8754d037edcab54a5553a8649b67b69dca0b736031087eb7d82456cab30c",
+      "md5": "b45520ea81609b6b47b8433be52c0fa2",
+      "sha512": "7cd10ea0af8f6683114b8032eab9352f38c69db86d6f96c7c057c5f0a45a79965c5a3607d833c6eb6c8dc6aa7b2f13f8f05e866c07e31f659f41b1142dd38a5c",
       "format": "csv",
       "name": "civic_association",
       "filename": "civic_association.csv",
@@ -9605,7 +12077,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-02 13:07:22",
+      "created": "2022-02-02 23:36:59",
       "last_modified": "2022-01-18 14:40:26",
       "rowcount": 744,
       "schema": {
@@ -10168,10 +12640,694 @@
             "missing": 744
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 743,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado access score",
+              "long_name": "Avocado access score (Empirical cumulative density function)",
+              "short_description": "Avocado access score by item availability using an empirical cumulative density function",
+              "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:beets_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:cheese_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:crackers_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:legumes_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:masa_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 743,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito access score",
+              "long_name": "Nopalito access score (Empirical cumulative density function)",
+              "short_description": "Nopalito access score by item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:peppers_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:rice_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:salsa_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:squash_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 743,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo access score",
+              "long_name": "Tomatillo access score (Empirical cumulative density function)",
+              "short_description": "Tomatillo access score by item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:all_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:barley_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 743,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean access score",
+              "long_name": "Fava bean access score (Empirical cumulative density function)",
+              "short_description": "Fava bean access score by item availability using an empirical cumulative density function",
+              "long_description": "Fava bean access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:lentils_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:basmati_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:pasta_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 743,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff access score",
+              "long_name": "Teff access score (Empirical cumulative density function)",
+              "short_description": "Teff access score by item availability using an empirical cumulative density function",
+              "long_description": "Teff access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff access score in {features.name} is {value}",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_norm_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "latino_east_african_gravity_models:tuna_ecdf_idx",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
             "name": "demographics:afr_amer_alone",
             "duplicates": 686,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:afr_amer_alone",
               "measure": "afr_amer_alone",
@@ -10329,7 +13485,7 @@
             "name": "demographics:wht_alone",
             "duplicates": 681,
             "info": {
-              "category": "Equity",
+              "category": "Demographics",
               "measure_table": "va_ca_sdad_2019_demographics",
               "full_name": "demographics:wht_alone",
               "measure": "wht_alone",
@@ -11848,114 +15004,6 @@
             "missing": 744
           },
           {
-            "name": "perc_income_on_internet:perc_income_med_price_25",
-            "duplicates": 743,
-            "type": "unknown",
-            "missing": 744
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_med_price_100",
-            "duplicates": 743,
-            "type": "unknown",
-            "missing": 744
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 743,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_100",
-              "measure": "perc_income_min_price_100",
-              "type": "percent",
-              "short_name": "Percent of income for fast internet",
-              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "unknown",
-            "missing": 744
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
-            "duplicates": 743,
-            "type": "unknown",
-            "missing": 744
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 743,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_min_price_25",
-              "measure": "perc_income_min_price_25",
-              "type": "percent",
-              "short_name": "Percent of income for good internet",
-              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "unknown",
-            "missing": 744
-          },
-          {
-            "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 743,
-            "info": {
-              "category": "Broadband",
-              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
-              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "measure": "perc_income_avg_nat_package",
-              "type": "percent",
-              "short_name": "Percent of income for internet (average)",
-              "long_name": "The national average price for internet as a percent of average income",
-              "short_description": "The national average price for internet ($64) as a percent of average income",
-              "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                },
-                {
-                  "name": "Broadband Now",
-                  "date_accessed": 2021,
-                  "url": "https://broadbandnow.com/"
-                }
-              ]
-            },
-            "type": "unknown",
-            "missing": 744
-          },
-          {
             "name": "primary_care_access_scores:prim_fca",
             "duplicates": 743,
             "type": "unknown",
@@ -12145,6 +15193,114 @@
                   "name": "American Community Survey",
                   "date_accessed": "2021",
                   "url": "https://www.census.gov/programs-surveys/acs.html"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 743,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 743,
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 743,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 744
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 743,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "sources": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
                 }
               ]
             },
