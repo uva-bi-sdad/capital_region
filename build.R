@@ -14,8 +14,8 @@ ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
 ## trim and save files
 for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
   d <- read.csv(f)
-  d <- d[d$geoid %in% ids | d$region_type == "civic association", colnames(d) != 'X']
-  write.csv(d, f, row.names = FALSE)
+  nd <- d[d$geoid %in% ids | d$region_type == "civic association", colnames(d) != 'X']
+  if (!identical(d, nd)) write.csv(nd, f, row.names = FALSE)
 }
 
 data_reformat_sdad(
