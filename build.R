@@ -49,6 +49,7 @@ data_add(
     ))
   ),
   dir = "../capital_region/docs/data",
+  clean = TRUE,
   refresh = TRUE
 )
 

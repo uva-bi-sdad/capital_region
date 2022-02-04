@@ -694,7 +694,7 @@
     "short_name": "Childhood food insecurity rate",
     "long_name": "Childhood food insecurity rate",
     "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "statement": "The childhood food insecurity rate in {features.name} is {value}",
     "sources": [
       {
@@ -731,8 +731,8 @@
     "type": "percent",
     "short_name": "Food insecurity rate",
     "long_name": "Food insecurity rate",
-    "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-    "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "statement": "The food insecurity rate in {features.name} is {value}",
     "sources": [
       {
@@ -751,7 +751,7 @@
     "short_name": "Population of food insecure children",
     "long_name": "Count of population of food insecure children",
     "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "statement": "The population of food insecure children in {features.name} is {value}",
     "sources": [
       {
@@ -834,7 +834,7 @@
     "type": "float",
     "short_name": "Hospital access (drive time)",
     "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-    "short_description": "Median drive time (minutes) to the ten closest hospital s",
+    "short_description": "Median drive time (minutes) to the ten closest hospitals",
     "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
     "sources": [
