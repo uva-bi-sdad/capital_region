@@ -3365,7 +3365,7 @@
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
               "statement": "The health literacy estimate for {features.name} is {value}",
-              "citations": "stavitz20, liang17",
+              "citations": ["savitz20", "liang17"],
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",
@@ -8453,7 +8453,7 @@
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
               "statement": "The health literacy estimate for {features.name} is {value}",
-              "citations": "stavitz20, liang17",
+              "citations": ["savitz20", "liang17"],
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",
@@ -13823,7 +13823,7 @@
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
               "statement": "The health literacy estimate for {features.name} is {value}",
-              "citations": "stavitz20, liang17",
+              "citations": ["savitz20", "liang17"],
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",
@@ -18697,7 +18697,7 @@
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
               "statement": "The health literacy estimate for {features.name} is {value}",
-              "citations": "stavitz20, liang17",
+              "citations": ["savitz20", "liang17"],
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",

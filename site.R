@@ -43,7 +43,7 @@ page_navbar(
       input_number("Variable Min", "variable_min", floating_label = FALSE),
       input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
-      input_switch("Show Background Shapes", id = "settings.background_shapes"),
+      input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         title = "Thickness of the outline around region shapes."
@@ -200,7 +200,7 @@ page_section(
           name = s[1],
           url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s[2], ".geojson")
         )),
-        list(list(name = "civic_association", url = "../capital_region/docs/data/civic_associations.geojson"))
+        list(list(name = "civic_association", url = "data/civic_associations.geojson"))
       )),
       dataview = "primary_view",
       click = "region_select",
