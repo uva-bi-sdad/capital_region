@@ -16,25 +16,26 @@ page_navbar(
       input_switch("Dark Theme", id = "settings.theme_dark"),
       input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
-        "Color by Order", id = "settings.color_by_order",
-        title = paste(
+        "Color by Rank", id = "settings.color_by_order",
+        note = paste(
           "Switch from coloring by value to coloring by sorted index.",
           "This may help differentiate regions with similar values."
         )
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
+      input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Color Scale Center", options = c("", "median", "mean"), default = 1,
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
         floating_label = FALSE,
-        title = "Determines whether and on what the color scale should be centered."
+        note = "Determines whether and on what the color scale should be centered."
       ),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
         floating_label = FALSE,
-        title = paste(
+        note = paste(
           "Determins which regions are included in summaries for box-plots and color scaling;",
           "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
           "Selected Region are filtered by region selection."
@@ -46,26 +47,26 @@ page_navbar(
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
-        title = "Thickness of the outline around region shapes."
+        note = "Thickness of the outline around region shapes."
       ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
         "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
-        title = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)"
+        note = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)."
       ),
       input_number(
         "Trace Limit", "settings.trace_limit", default = 20, floating_label = FALSE,
-        title = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
+        note = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
-      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer"),
       '<p class="section-heading">Table Options</p>',
       input_switch("Autoscroll", default_on = TRUE, id = "settings.table_autoscroll"),
       input_select(
         "Scroll Behavior", c("instant", "smooth", "auto"), "auto",
         id = "settings.table_scroll_behavior", floating_label = FALSE
-      )
+      ),
+      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
   ),
   list(
@@ -312,7 +313,8 @@ page_section(
     output_table("selected_variable", dataview = "primary_view", options = list(
       info = FALSE,
       searching = FALSE,
-      scrollY = 455
+      scrollY = 455,
+      dom = "<'row't>"
     ), id = "rank_table", subto = c("main_map", "main_plot"), click = "region_select")
   )
 )
