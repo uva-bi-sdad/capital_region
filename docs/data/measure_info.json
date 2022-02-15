@@ -210,11 +210,11 @@
     "full_name": "civilian_employment_rate:employment_rate",
     "measure": "employment_rate",
     "type": "percent",
-    "short_name": "Employment rate",
-    "long_name": "Civilian employment rate",
+    "short_name": "Employed population",
+    "long_name": "Civilian employed population",
     "short_description": "Population self-reported as employed divided by total civilian workforce population.",
     "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "statement": "The employment rate in {features.name} is {value}.",
+    "statement": "{value} of the population in {features.name} is employed.",
     "sources": [
       {
         "name": "American Community Survey",
@@ -594,7 +594,7 @@
     "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
     "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
     "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
+    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
     "sources": [
       {
         "name": "Virginia Department of Health",
@@ -695,7 +695,7 @@
     "long_name": "Childhood food insecurity rate",
     "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "statement": "The childhood food insecurity rate in {features.name} is {value}.",
+    "statement": "{value} of the population of children in {features.name} are food insecure.",
     "sources": [
       {
         "name": "Feeding America",
@@ -733,7 +733,7 @@
     "long_name": "Food insecurity rate",
     "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "statement": "The food insecurity rate in {features.name} is {value}.",
+    "statement": "{value} of the population in {features.name} are food insecure.",
     "sources": [
       {
         "name": "Feeding America",
@@ -758,44 +758,6 @@
         "name": "Feeding America",
         "date_accessed": "2021",
         "url": "https://www.feedingamerica.org/"
-      }
-    ]
-  },
-  "have_computer:perc_have_computer": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
-    "full_name": "have_computer:perc_have_computer",
-    "measure": "perc_have_computer",
-    "type": "percent",
-    "short_name": "Population with a computer",
-    "long_name": "Percent of population with a computer",
-    "short_description": "Percent of the population self-reported to have a computer at home",
-    "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} have a computer.",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "have_internet:perc_have_internet_access": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
-    "full_name": "have_internet:perc_have_internet_access",
-    "measure": "perc_have_internet_access",
-    "type": "percent",
-    "short_name": "Population with internet access",
-    "long_name": "Percent of population with internet access",
-    "short_description": "Percent of the population self-reported to have internet access at home",
-    "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} have internet access.",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
   },
@@ -1105,44 +1067,6 @@
       }
     ]
   },
-  "pct_pop_broadband:perc_w_broadband": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
-    "full_name": "pct_pop_broadband:perc_w_broadband",
-    "measure": "perc_w_broadband",
-    "type": "percent",
-    "short_name": "Population with broadband",
-    "long_name": "Percent of population with broadband",
-    "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a broadband connection.",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL": {
-    "category": "Broadband",
-    "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
-    "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-    "measure": "perc_w_cable_fiber_DSL",
-    "type": "percent",
-    "short_name": "Population with cable, fiber optic, or DSL",
-    "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-    "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
   "pediatrics_access_scores:pediat_e2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -1379,7 +1303,7 @@
     "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
     "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
     "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+    "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
     "sources": [
       {
         "name": "County Health Rankings",
@@ -1552,6 +1476,82 @@
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_with_broadband": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+    "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+    "measure": "perc_hh_with_broadband",
+    "type": "percent",
+    "short_name": "Households with broadband",
+    "long_name": "Percent of households with broadband",
+    "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the households in {features.name} has a broadband connection.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+    "measure": "perc_hh_with_cable_fiber_dsl",
+    "type": "percent",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_without_compdev": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+    "measure": "perc_hh_without_compdev",
+    "type": "percent",
+    "short_name": "Households without a computer",
+    "long_name": "Percent of households without a computer",
+    "short_description": "Percent of the households self-reported to not have a computer or device at home",
+    "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the households in {features.name} have a computer or device.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "broadband_withoutint_compdev:perc_hh_without_internet": {
+    "category": "Broadband",
+    "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+    "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
+    "measure": "perc_hh_without_internet",
+    "type": "percent",
+    "short_name": "Households without internet access",
+    "long_name": "Percent of households without internet access",
+    "short_description": "Percent of households self-reported to not have internet access at home",
+    "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the households in {features.name} have not internet access.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
   }
