@@ -102,7 +102,7 @@ page_menu(
       wraps = "col",
       sizes = c(4, 8),
       input_checkbox(
-        "Shapes", c("tract", "civic_association"), 0, c("Census", "Civic"),
+        "Shapes", c("tract", "neighborhood"), 0, c("Census", "Neighborhood"),
         id = "shape_type", multi = FALSE
       ),
       input_select(
@@ -188,7 +188,7 @@ page_section(
   output_text(list(
     "default" = "National Capital Region",
     "selected_county && shapes == tract" = "{selected_county} Tracts",
-    "selected_county && shapes == civic_association" = "{selected_county} Civic Associations",
+    "selected_county && shapes == neighborhood" = "{selected_county} Neighborhoods",
     "selected_tract" = "{selected_tract} Block Groups"
   ), tag = "h1", class = "text-center"),
   page_section(
@@ -201,7 +201,7 @@ page_section(
           name = s[1],
           url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s[2], ".geojson")
         )),
-        list(list(name = "civic_association", url = "data/civic_associations.geojson"))
+        list(list(name = "neighborhood", url = "data/neighborhoods.geojson", id_property = "geoid"))
       )),
       dataview = "primary_view",
       click = "region_select",

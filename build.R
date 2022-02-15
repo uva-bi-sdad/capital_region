@@ -14,8 +14,22 @@ ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
 ## trim and save files
 for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
   d <- read.csv(f)
-  nd <- d[d$geoid %in% ids | d$region_type == "civic association", colnames(d) != 'X']
-  if (!identical(d, nd)) write.csv(nd, f, row.names = FALSE)
+  cids <- trimws(format(d$geoid, scientific = FALSE))
+  su <- which(!cids %in% ids & d$region_type != "neighborhood")
+  if (length(su)) {
+    rewrite <- TRUE
+    su <- su[grepl("0{6}$", cids[su])]
+    cids[su] <- paste0(
+      substr(cids[su], 1, 5),
+      substr(paste0(gsub(
+        "^.*\\s(?=\\d{2})|\\D", "", d[su, "region_name"], perl = TRUE
+      ), "00"), 1, 6),
+      gsub("^Block Group |,.*$", "", d[su, "region_name"])
+    )
+    d$geoid <- as.numeric(cids)
+  }
+  nd <- d[cids %in% ids | d$region_type == "neighborhood", colnames(d) != 'X']
+  if (length(su) || !identical(d, nd)) write.csv(nd, f, row.names = FALSE)
 }
 
 data_reformat_sdad(
@@ -29,19 +43,17 @@ data_add(
     county = "county.csv",
     tract = "tract.csv",
     block_group = "block_group.csv",
-    civic_association = "civic_association.csv"
+    neighborhood = "neighborhood.csv"
   ),
   c(
-    lapply(c("counties", "tracts", "blockgroups"), function(s){
-      list(
-        ids = list(
-          variable = "ID",
-          map = "data/entity_info.json"
-        ),
-        time = "time",
-        variables = "measure_info.json"
-      )
-    }),
+    rep(list(list(
+      ids = list(
+        variable = "ID",
+        map = "data/entity_info.json"
+      ),
+      time = "time",
+      variables = "measure_info.json"
+    )), 3),
     list(list(
       ids = list(variable = "ID", map = "data/entity_info.json"),
       time = "time",
