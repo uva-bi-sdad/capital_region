@@ -26,7 +26,7 @@ page_navbar(
       input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Color Scale Center", options = c("", "median", "mean"), default = 1,
+        "Color Scale Center", options = c("none", "median", "mean"), default = 1,
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
         floating_label = FALSE,
         note = "Determines whether and on what the color scale should be centered."
@@ -264,7 +264,7 @@ page_section(
         )
       ),
       output_legend(
-        "settings.palette", "Below", "Above", dataview = "primary_view",
+        "settings.palette", dataview = "primary_view",
         subto = c("main_map", "main_plot")
       ),
       wraps = c("row", "row mb-auto", "row")
