@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 312300,
+      "bytes": 312117,
       "encoding": "ISO-8859-1",
-      "md5": "eb0122a1ae26af0446bea5158512d887",
-      "sha512": "8970f007707e68e8697f3570c9fdef5a84e99523b8a76be618fd4f0ea3e145496064e25c77452e05f03111657b29b4520caeb6bbeb7d818b715edc7b146f8b28",
+      "md5": "a197f85bb3b449c163f5680a9328ba94",
+      "sha512": "17e928c7039978c3e845572511cd269a7712aa40bfe2fd2a2093aaf07932dbc5d307e9914a9ce14370a136814d23002912d5d0b3d81bd5b1ee839b30c00accd6",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -25,8 +25,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-03 06:30:40",
-      "last_modified": "2022-01-06 16:35:06",
+      "created": "2022-03-03 16:04:16",
+      "last_modified": "2022-03-03 16:04:16",
       "row_count": 182,
       "entity_count": 14,
       "schema": {
@@ -2430,23 +2430,7 @@
             "min": 692,
             "max": 569478,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:afr_amer_alone",
-              "measure": "afr_amer_alone",
-              "type": "count",
-              "short_name": "African American population",
-              "long_name": "African American population (count)",
-              "short_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The African American population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -2461,23 +2445,7 @@
             "min": 13,
             "max": 3283,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:amr_ind_alone",
-              "measure": "amr_ind_alone",
-              "type": "count",
-              "short_name": "American Indian population",
-              "long_name": "American Indian population (count)",
-              "short_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The American Indian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -2492,23 +2460,7 @@
             "min": 1396,
             "max": 219697,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:asian_alone",
-              "measure": "asian_alone",
-              "type": "count",
-              "short_name": "Asian population",
-              "long_name": "Asian population (count)",
-              "short_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The Asian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -2523,23 +2475,7 @@
             "min": 7260,
             "max": 577689,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:female",
-              "measure": "female",
-              "type": "count",
-              "short_name": "Female population",
-              "long_name": "Female population (count)",
-              "short_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The female population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -2614,23 +2550,7 @@
             "min": 6868,
             "max": 568173,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:male",
-              "measure": "male",
-              "type": "count",
-              "short_name": "Male population",
-              "long_name": "Male population (count)",
-              "short_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The male population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -2705,23 +2625,7 @@
             "min": 14128,
             "max": 1145862,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:total_pop",
-              "measure": "total_pop",
-              "type": "count",
-              "short_name": "Total population",
-              "long_name": "Total population (count)",
-              "short_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The total population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -2736,23 +2640,7 @@
             "min": 10576,
             "max": 701055,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:wht_alone",
-              "measure": "wht_alone",
-              "type": "count",
-              "short_name": "White population",
-              "long_name": "White population (count)",
-              "short_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The White population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -6597,10 +6485,10 @@
       }
     },
     {
-      "bytes": 23906393,
+      "bytes": 23890480,
       "encoding": "ISO-8859-1",
-      "md5": "1d12968b67a265092a107a3dfc333e6c",
-      "sha512": "9fa3bfd470b017e81f8b66aa4a8634728c93a320cb53cb9ed47db7ab086d02e6ba0f521914e4fa74c3633b0b57f0fe4a04eb6d820497dd4c6af78647b243cba3",
+      "md5": "e7f1964df9cbea8947395ef88e7cb221",
+      "sha512": "47576c2eb02805e22d81d97299ed9cb39dad323e1c0f89622763426324b130e90457dd7207cbbed06913ab5c2bd4147e63a460932d07e3179e49d9fc11404d7d",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -6613,8 +6501,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-03 06:30:46",
-      "last_modified": "2022-01-06 16:35:06",
+      "created": "2022-03-03 16:04:07",
+      "last_modified": "2022-03-03 16:04:07",
       "row_count": 15912,
       "entity_count": 1224,
       "schema": {
@@ -9002,23 +8890,7 @@
             "min": 0,
             "max": 9254,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:afr_amer_alone",
-              "measure": "afr_amer_alone",
-              "type": "count",
-              "short_name": "African American population",
-              "long_name": "African American population (count)",
-              "short_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The African American population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -9033,23 +8905,7 @@
             "min": 0,
             "max": 408,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:amr_ind_alone",
-              "measure": "amr_ind_alone",
-              "type": "count",
-              "short_name": "American Indian population",
-              "long_name": "American Indian population (count)",
-              "short_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The American Indian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -9064,23 +8920,7 @@
             "min": 0,
             "max": 6391,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:asian_alone",
-              "measure": "asian_alone",
-              "type": "count",
-              "short_name": "Asian population",
-              "long_name": "Asian population (count)",
-              "short_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The Asian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -9095,23 +8935,7 @@
             "min": 0,
             "max": 9718,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:female",
-              "measure": "female",
-              "type": "count",
-              "short_name": "Female population",
-              "long_name": "Female population (count)",
-              "short_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The female population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -9186,23 +9010,7 @@
             "min": 0,
             "max": 9720,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:male",
-              "measure": "male",
-              "type": "count",
-              "short_name": "Male population",
-              "long_name": "Male population (count)",
-              "short_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The male population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -9277,23 +9085,7 @@
             "min": 0,
             "max": 19438,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:total_pop",
-              "measure": "total_pop",
-              "type": "count",
-              "short_name": "Total population",
-              "long_name": "Total population (count)",
-              "short_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The total population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -9308,23 +9100,7 @@
             "min": 0,
             "max": 9390,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:wht_alone",
-              "measure": "wht_alone",
-              "type": "count",
-              "short_name": "White population",
-              "long_name": "White population (count)",
-              "short_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The White population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -13149,10 +12925,10 @@
       }
     },
     {
-      "bytes": 57286425,
+      "bytes": 57244239,
       "encoding": "ISO-8859-1",
-      "md5": "36375c9327ecdcb0002584cf2c04674a",
-      "sha512": "c77ecd3d3d3fb4b5c2bf4b9ec9e4a0eebeda7df96c3e6c0ba96d7104f993af7234e790a61f9ffcea39d50c26276633070ff5a7839272b2fec33b57b296553605",
+      "md5": "98d7009e77eb8998b35bea457cd7dc72",
+      "sha512": "1e732db25285ef19922d287fde0421812dfd187bb7de2d9ab18ededc89ab59f4d56c5b9aec0909e68dfcb7fad6a14c6e171aba07e40fd37367e9ffcfccdd1beb",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv",
@@ -13165,8 +12941,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-03 06:30:59",
-      "last_modified": "2022-02-15 17:48:04",
+      "created": "2022-03-03 16:04:24",
+      "last_modified": "2022-03-03 16:04:24",
       "row_count": 42185,
       "entity_count": 3245,
       "schema": {
@@ -15594,23 +15370,7 @@
             "min": 0,
             "max": 6450,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:afr_amer_alone",
-              "measure": "afr_amer_alone",
-              "type": "count",
-              "short_name": "African American population",
-              "long_name": "African American population (count)",
-              "short_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The African American population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -15625,23 +15385,7 @@
             "min": 0,
             "max": 408,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:amr_ind_alone",
-              "measure": "amr_ind_alone",
-              "type": "count",
-              "short_name": "American Indian population",
-              "long_name": "American Indian population (count)",
-              "short_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The American Indian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -15656,23 +15400,7 @@
             "min": 0,
             "max": 3342,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:asian_alone",
-              "measure": "asian_alone",
-              "type": "count",
-              "short_name": "Asian population",
-              "long_name": "Asian population (count)",
-              "short_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The Asian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -15687,23 +15415,7 @@
             "min": 0,
             "max": 5148,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:female",
-              "measure": "female",
-              "type": "count",
-              "short_name": "Female population",
-              "long_name": "Female population (count)",
-              "short_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The female population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -15778,23 +15490,7 @@
             "min": 0,
             "max": 4344,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:male",
-              "measure": "male",
-              "type": "count",
-              "short_name": "Male population",
-              "long_name": "Male population (count)",
-              "short_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The male population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -15869,23 +15565,7 @@
             "min": 0,
             "max": 8987,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:total_pop",
-              "measure": "total_pop",
-              "type": "count",
-              "short_name": "Total population",
-              "long_name": "Total population (count)",
-              "short_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The total population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -15900,23 +15580,7 @@
             "min": 0,
             "max": 4415,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:wht_alone",
-              "measure": "wht_alone",
-              "type": "count",
-              "short_name": "White population",
-              "long_name": "White population (count)",
-              "short_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The White population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -19657,10 +19321,10 @@
       }
     },
     {
-      "bytes": 2026547,
+      "bytes": 2024934,
       "encoding": "ISO-8859-1",
-      "md5": "c9509fb1486dac2b7013a9053a5aad49",
-      "sha512": "6d5f7114aac5708cac31fcd0ef49d60295f6e17a1e562bfdf03bb9a5bc20a92a41418577ae5add748d5eba8a1445fdfed4d5ee68bae4adc493faca17dc22c622",
+      "md5": "a2a1439df8b087de10bdf7aae39ea9f7",
+      "sha512": "1214f2b2342bfd38aa02af18af5fda35c8a405dadb24485e276d46e558a136ea2d1f6d80874b692fbf059b52eb8d21b027e20901a1ec2a4b9cd026356ed9e4a8",
       "format": "csv",
       "name": "neighborhood",
       "filename": "neighborhood.csv",
@@ -19673,8 +19337,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-03-03 06:31:00",
-      "last_modified": "2022-02-15 17:48:04",
+      "created": "2022-03-03 16:04:10",
+      "last_modified": "2022-03-03 16:04:10",
       "row_count": 1612,
       "entity_count": 124,
       "schema": {
@@ -21758,23 +21422,7 @@
             "min": 0,
             "max": 7086.8589,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:afr_amer_alone",
-              "measure": "afr_amer_alone",
-              "type": "count",
-              "short_name": "African American population",
-              "long_name": "African American population (count)",
-              "short_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The African American population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The African American population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -21789,23 +21437,7 @@
             "min": 0,
             "max": 179.8004,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:amr_ind_alone",
-              "measure": "amr_ind_alone",
-              "type": "count",
-              "short_name": "American Indian population",
-              "long_name": "American Indian population (count)",
-              "short_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The American Indian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The American Indian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -21820,23 +21452,7 @@
             "min": 3.9573,
             "max": 5430.607,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:asian_alone",
-              "measure": "asian_alone",
-              "type": "count",
-              "short_name": "Asian population",
-              "long_name": "Asian population (count)",
-              "short_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The Asian population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The Asian population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -21851,23 +21467,7 @@
             "min": 69.1071,
             "max": 13037.4738,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:female",
-              "measure": "female",
-              "type": "count",
-              "short_name": "Female population",
-              "long_name": "Female population (count)",
-              "short_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The female population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The female population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -21942,23 +21542,7 @@
             "min": 62.0536,
             "max": 15688.6584,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:male",
-              "measure": "male",
-              "type": "count",
-              "short_name": "Male population",
-              "long_name": "Male population (count)",
-              "short_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The male population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The male population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -22033,23 +21617,7 @@
             "min": 131.1607,
             "max": 28726.1323,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:total_pop",
-              "measure": "total_pop",
-              "type": "count",
-              "short_name": "Total population",
-              "long_name": "Total population (count)",
-              "short_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The total population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The total population in {features.name} is {value}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": "2021",
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
@@ -22064,23 +21632,7 @@
             "min": 101.5179,
             "max": 10705.717,
             "info": {
-              "category": "Demographics",
-              "measure_table": "va_ca_sdad_2019_demographics",
-              "full_name": "demographics:wht_alone",
-              "measure": "wht_alone",
-              "type": "count",
-              "short_name": "White population",
-              "long_name": "White population (count)",
-              "short_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "long_description": "The White population count. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "The White population is {value} in {features.name}.",
-              "sources": [
-                {
-                  "name": "American Community Survey",
-                  "date_accessed": 2021,
-                  "url": "https://www.census.gov/programs-surveys/acs.html"
-                }
-              ],
+              "sources": {},
               "citations": {}
             }
           },
