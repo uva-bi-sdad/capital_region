@@ -171,12 +171,7 @@
     "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
     "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
     "statement": "The 2-year college accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -234,12 +229,7 @@
     "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
     "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -259,12 +249,7 @@
     "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -284,12 +269,7 @@
     "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -328,12 +308,7 @@
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
     "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Virginia Department of Social Services",
@@ -353,9 +328,7 @@
     "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
     "statement": "The Digital Equity Index for {features.name} is {value}.",
     "type": "index",
-    "citations": [
-      "gallardo20"
-    ],
+    "citations": ["gallardo20"],
     "sources": [
       {
         "name": "American Community Survey",
@@ -513,17 +486,12 @@
     "short_description": "Index of dental care accessibility based on supply and demand of providers",
     "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The dental care access score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
-        "name": "SafeGraph Core",
+        "name": "WebMD Physician Directory",
         "date_accessed": 2021,
-        "url": "https://www.safegraph.com/products/core"
+        "url": "https://doctor.webmd.com/"
       }
     ]
   },
@@ -652,12 +620,7 @@
     "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
     "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -772,10 +735,7 @@
     "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
     "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
     "statement": "The health literacy estimate for {features.name} is {value}.",
-    "citations": [
-      "savitz20",
-      "liang17"
-    ],
+    "citations": ["savitz20", "liang17"],
     "sources": [
       {
         "name": "Medical Expenditure Panel Survey",
@@ -819,12 +779,7 @@
     "short_description": "Index of hospital accessibility based on supply and demand of facilities",
     "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The hospital accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -972,12 +927,7 @@
     "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
     "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The mental health services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1053,12 +1003,7 @@
     "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
     "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
     "statement": "The OBGYN access score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1078,12 +1023,7 @@
     "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
     "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The pediatric care accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1303,7 +1243,7 @@
     "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
     "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
     "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-    "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
+    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
     "sources": [
       {
         "name": "County Health Rankings",
@@ -1323,12 +1263,7 @@
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
     "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1421,12 +1356,7 @@
     "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
     "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1465,12 +1395,7 @@
     "short_description": "Index of trade school accessibility based on supply and demand of providers",
     "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
     "statement": "The trade school accessibility score for {features.name} is {value}.",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -1550,6 +1475,234 @@
     "sources": [
       {
         "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hispanic_or_latino",
+    "measure": "perc_hispanic_or_latino",
+    "short_name": "Hispanic/Latino population",
+    "long_name": "Hispanic/Latino population (percent)",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_white": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_white",
+    "measure": "perc_white",
+    "short_name": "White population",
+    "long_name": "White population (percent)",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_black": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_black",
+    "measure": "perc_black",
+    "short_name": "Black population",
+    "long_name": "Black population (percent)",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_native": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_native",
+    "measure": "perc_native",
+    "short_name": "Native population",
+    "long_name": "Native population (percent)",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_AAPI": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_AAPI",
+    "measure": "perc_AAPI",
+    "short_name": "Asian American/Pacific Islander population",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_other": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_other",
+    "measure": "perc_other",
+    "short_name": "Other racial population",
+    "long_name": "Other racial population (percent)",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_two_or_more_races": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_two_or_more_races",
+    "measure": "perc_two_or_more_races",
+    "short_name": "Two or more races population",
+    "long_name": "Two or more races population (percent)",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_under_20": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_under_20",
+    "measure": "perc_under_20",
+    "short_name": "Under 20 population",
+    "long_name": "Under 20 population (percent)",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_20_64": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_20_64",
+    "measure": "perc_20_64",
+    "short_name": "20 to 64 population",
+    "long_name": "20 to 64 population (percent)",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_65_plus": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_65_plus",
+    "measure": "perc_65_plus",
+    "short_name": "65 plus population",
+    "long_name": "65 plus population (percent)",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_veteran": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_veteran",
+    "measure": "perc_veteran",
+    "short_name": "Veteran population",
+    "long_name": "Veteran population (percent)",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_hh_limited_english": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hh_limited_english",
+    "measure": "perc_hh_limited_english",
+    "short_name": "Limited English households",
+    "long_name": "Limited English households (percent)",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }

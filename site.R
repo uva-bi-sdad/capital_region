@@ -7,7 +7,7 @@ page_head(
 page_navbar(
   title = "National Capital Region",
   logo = "https://raw.githubusercontent.com/uva-bi-sdad/community/main/logo.svg",
-  input_button("Reset", "reset_selection", "reset.selection", class = "btn-link"),
+  input_button("Reset", "reset_selection", "reset.selection", class = "btn-link", note = "Reset the menu inputs to their defaults."),
   list(
     name = "Settings",
     backdrop = "false",
@@ -26,7 +26,7 @@ page_navbar(
       input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Color Scale Center", options = c("none", "median", "mean"), default = 1,
+        "Color Scale Center", options = c("none", "median", "mean"), default = "none",
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
         floating_label = FALSE,
         note = "Determines whether and on what the color scale should be centered."
@@ -36,13 +36,11 @@ page_navbar(
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
         floating_label = FALSE,
         note = paste(
-          "Determins which regions are included in summaries for box-plots and color scaling;",
+          "Determines which regions are included in summaries for box-plots and color scaling;",
           "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", floating_label = FALSE),
-      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_number(
@@ -131,11 +129,21 @@ page_menu(
     page_section(
       type = "row",
       wraps = "col",
-      input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
-      input_number("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
-      input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view"),
-      breakpoints = "md",
-      sizes = c(3, NA, 3)
+      input_number(
+        "First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view",
+        note = paste(
+          "First year to display in the plot and rank table, between the variable's first",
+          "available year and the specified last year."
+        )
+      ),
+      input_number(
+        "Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view",
+        note = paste(
+          "Last year to display in the plot and rank table, between the specified first year",
+          "and variable's last available year."
+        )
+      ),
+      breakpoints = "md"
     )
   ),
   position = "top",
@@ -184,7 +192,7 @@ page_section(
     "(National Capital Region)[r selected_county]",
     "? > {selected_county}[r selected_tract]",
     "? > {selected_tract}"
-  )),
+  ), class = "compact"),
   output_text(list(
     "default" = "National Capital Region",
     "selected_county && shapes == tract" = "{selected_county} Tracts",
@@ -192,9 +200,18 @@ page_section(
     "selected_tract" = "{selected_tract} Block Groups"
   ), tag = "h1", class = "text-center"),
   page_section(
+    type = "container-xsm",
+    input_number(
+      "Selected Year", min = "min_year", max = "max_year", default = "max",
+      id = "selected_year", buttons = TRUE, note = paste(
+        "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
+      )
+    )
+  ),
+  page_section(
     type = "row",
     wraps = "col",
-    sizes = c(NA, 4),
+    sizes = c(NA, 5),
     output_map(
       rev(c(
         lapply(list(c("county", "counties"), c("tract", "tracts"), c("block_group", "blockgroups")), function(s) list(
@@ -301,10 +318,10 @@ page_section(
           dataview = "primary_view", wide = FALSE, filters = list(category = "variable_type"),
           features = c(ID = "id", Name = "name"),
           options = list(
-            scrollY = 400,
+            scrollY = 380,
             rowGroup = list(dataSrc = "entity.features.name"),
             columnDefs = list(list(targets = "entity.features.name", visible = FALSE)),
-            buttons = c('copy', 'csv', 'excel', 'print'),
+            buttons = c('copy', 'csv'),
             dom = "<'row't><'row'<'col-sm'B><'col'f>>"
           )
         )
@@ -320,4 +337,4 @@ page_section(
 )
 
 vars <- jsonlite::read_json('../capital_region/docs/data/measure_info.json')
-site_build('../capital_region', variables = names(vars))
+site_build('../capital_region', variables = names(vars), sparse_time = FALSE)

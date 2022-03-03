@@ -15,7 +15,7 @@ ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
 for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
   d <- read.csv(f)
   cids <- trimws(format(d$geoid, scientific = FALSE))
-  su <- which(!cids %in% ids & d$region_type != "neighborhood")
+  su <- which(!cids %in% ids & d$region_type %in% c("block group", "tract", "county"))
   if (length(su)) {
     rewrite <- TRUE
     su <- su[grepl("0{6}$", cids[su])]
@@ -66,4 +66,4 @@ data_add(
 )
 
 meta <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
-site_build("../capital_region", variables = names(meta))
+site_build("../capital_region", variables = names(meta), sparse_time = FALSE)
