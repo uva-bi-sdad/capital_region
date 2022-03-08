@@ -41,8 +41,15 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
+      input_number("Variable Min", "variable_min", floating_label = FALSE),
+      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
+      input_select(
+        "Animations", c("fly", "zoom", "none"), "fly",
+        note = "Fly animates the whole move to different regions; Zoom only animates changes in zoom level.",
+        id = "settings.map_animations", floating_label = FALSE
+      ),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
@@ -223,7 +230,7 @@ page_section(
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
-      subto = c("main_plot", "rank_table"),
+      subto = c("main_plot", "rank_table", "main_legend"),
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
@@ -257,7 +264,7 @@ page_section(
       type = "d-flex flex-column col align-items-end compact",
       output_info(
         title = "variables.short_name",
-        body = c(Year = "data.time", "variables.sources"),
+        body = "variables.sources",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
@@ -267,7 +274,7 @@ page_section(
           title = "features.name",
           default = c(title = "National Capital Region", body = "Hover over or select a region for more information."),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot", "rank_table")
+          subto = c("main_map", "main_plot", "rank_table", "main_legend")
         ),
         output_info(
           body = c(
@@ -276,13 +283,13 @@ page_section(
           ),
           row_style = c("stack", "table"),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot", "rank_table"),
+          subto = c("main_map", "main_plot", "rank_table", "main_legend"),
           variable_info = FALSE
         )
       ),
       output_legend(
-        "settings.palette", dataview = "primary_view",
-        subto = c("main_map", "main_plot")
+        "settings.palette", dataview = "primary_view", click = "region_select",
+        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
       ),
       wraps = c("row", "row mb-auto", "row")
     )
@@ -296,7 +303,7 @@ page_section(
         name = "Plot",
         output_plot(
           x = "time", y = "selected_variable", dataview = "primary_view",
-          click = "region_select", subto = c("main_map", "rank_table"), id = "main_plot",
+          click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
           options = list(
             layout = list(
               showlegend = FALSE,
@@ -332,9 +339,9 @@ page_section(
       searching = FALSE,
       scrollY = 455,
       dom = "<'row't>"
-    ), id = "rank_table", subto = c("main_map", "main_plot"), click = "region_select")
+    ), id = "rank_table", subto = c("main_map", "main_plot", "main_legend"), click = "region_select")
   )
 )
 
 vars <- jsonlite::read_json('../capital_region/docs/data/measure_info.json')
-site_build('../capital_region', variables = names(vars), sparse_time = FALSE)
+site_build('../capital_region', variables = names(vars))

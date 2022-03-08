@@ -13,11 +13,14 @@ ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
 
 ## trim and save files
 for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
-  d <- read.csv(f)
+  d <- read.csv(gzfile(f))
+  d <- d[
+    !is.na(d$geoid) & !is.na(d$value) & !is.na(d$region_name) &
+      d$region_type %in% c("block group", "tract", "county", "neighborhood"),
+  ]
   cids <- trimws(format(d$geoid, scientific = FALSE))
-  su <- which(!cids %in% ids & d$region_type %in% c("block group", "tract", "county"))
+  su <- which(grepl("^\\d+$", cids) & !cids %in% ids & d$region_type != "neighborhood")
   if (length(su)) {
-    rewrite <- TRUE
     su <- su[grepl("0{6}$", cids[su])]
     cids[su] <- paste0(
       substr(cids[su], 1, 5),
@@ -26,10 +29,15 @@ for (f in list.files("../capital_region/docs/data/original", full.names = TRUE))
       ), "00"), 1, 6),
       gsub("^Block Group |,.*$", "", d[su, "region_name"])
     )
-    d$geoid <- as.numeric(cids)
   }
-  nd <- d[cids %in% ids | d$region_type == "neighborhood", colnames(d) != 'X']
-  if (length(su) || !identical(d, nd)) write.csv(nd, f, row.names = FALSE)
+  nd <- d[cids %in% ids | d$region_type == "neighborhood", colnames(d) != "X"]
+  uncompressed <- grepl("\\.csv$", f)
+  if (!nrow(nd)) {
+    unlink(f)
+  } else if (uncompressed || length(su) || !identical(d, nd)) {
+    if (uncompressed) unlink(f)
+    write.csv(nd, xzfile(sub("\\.csv$", ".csv.xz", f)), row.names = FALSE)
+  }
 }
 
 data_reformat_sdad(
@@ -40,10 +48,10 @@ data_reformat_sdad(
 
 data_add(
   c(
-    county = "county.csv",
-    tract = "tract.csv",
-    block_group = "block_group.csv",
-    neighborhood = "neighborhood.csv"
+    county = "county.csv.xz",
+    tract = "tract.csv.xz",
+    block_group = "block_group.csv.xz",
+    neighborhood = "neighborhood.csv.xz"
   ),
   c(
     rep(list(list(
@@ -65,5 +73,5 @@ data_add(
   refresh = TRUE
 )
 
-meta <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
-site_build("../capital_region", variables = names(meta), sparse_time = FALSE)
+vars <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
+site_build("../capital_region", variables = names(vars))
