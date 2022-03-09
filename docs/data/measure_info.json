@@ -1555,24 +1555,5 @@
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
-  },
-  "acs_demographics:perc_hh_limited_english": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_hh_limited_english",
-    "measure": "perc_hh_limited_english",
-    "short_name": "Limited English households",
-    "long_name": "Limited English households (percent)",
-    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
-    "statement": "The percent of households with limited English is {value} in {features.name}.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "American Community Survey Table C16002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
   }
 }
