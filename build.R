@@ -74,4 +74,4 @@ data_add(
 )
 
 vars <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
-site_build("../capital_region", variables = names(vars))
+site_build("../capital_region", variables = names(vars), serve = TRUE, open_after = TRUE)
