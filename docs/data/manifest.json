@@ -1,0 +1,236 @@
+{
+  "uva-bi-sdad/dc.acs.broadband": {
+    "repository": "uva-bi-sdad/dc.acs.broadband",
+    "files": [
+      {
+        "id": 55876,
+        "date": "2022-02-18T00:00:00Z",
+        "size": 539972,
+        "md5": "1954de85806bfc8a965c0afd7c4b64c1",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.acs.demographics": {
+    "repository": "uva-bi-sdad/dc.acs.demographics",
+    "files": [
+      {
+        "id": 55954,
+        "date": "2022-02-25T00:00:00Z",
+        "size": 13438328,
+        "md5": "d9a6a5fe9844c4f40878c726882a33e1",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.acs.education": {
+    "repository": "uva-bi-sdad/dc.acs.education",
+    "files": [
+      {
+        "id": 55936,
+        "date": "2022-02-23T00:00:00Z",
+        "size": 177048,
+        "md5": "2989d40b2da7e5d71b23daf7164762d7",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.acs.health": {
+    "repository": "uva-bi-sdad/dc.acs.health",
+    "files": [
+      {
+        "id": 56014,
+        "date": "2022-03-09T00:00:00Z",
+        "size": 397856,
+        "md5": "c2600bbf5e0a297433c68e559ac02ff7",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.bea.employment": {
+    "repository": "uva-bi-sdad/dc.bea.employment",
+    "files": [
+      {
+        "id": 55916,
+        "date": "2022-02-22T00:00:00Z",
+        "size": 12548,
+        "md5": "715c5be2c01baf9e201e52c28a6a0b5b",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.broadbandnow.broadband.prices": {
+    "repository": "uva-bi-sdad/dc.broadbandnow.broadband.prices",
+    "files": [
+      {
+        "id": 55948,
+        "date": "2022-02-24T00:00:00Z",
+        "size": 298344,
+        "md5": "ff1a576d1a3d7a5d12af924b91b020c6",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.chr.preventable.hospitalizations": {
+    "repository": "uva-bi-sdad/dc.chr.preventable.hospitalizations",
+    "files": [
+      {
+        "id": 55854,
+        "date": "2022-02-16T00:00:00Z",
+        "size": 6204,
+        "md5": "3c9bd9779337c69b7141bc7284b9ff4c",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.food.insecurity": {
+    "repository": "uva-bi-sdad/dc.food.insecurity",
+    "files": [
+      {
+        "id": 55917,
+        "date": "2022-02-22T00:00:00Z",
+        "size": 3984,
+        "md5": "bdde0e91300ea7694682c1b051943a08",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.hifld.ems": {
+    "repository": "uva-bi-sdad/dc.hifld.ems",
+    "files": [
+      {
+        "id": 55984,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 195376,
+        "md5": "c387e66edfef98899f139570524e807c",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.hifld.hosp": {
+    "repository": "uva-bi-sdad/dc.hifld.hosp",
+    "files": [
+      {
+        "id": 55983,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 190276,
+        "md5": "cf29cf2aee849f4d64ea47fc1594e240",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.meps.acs.health.literacy": {
+    "repository": "uva-bi-sdad/dc.meps.acs.health.literacy",
+    "files": [
+      {
+        "id": 55932,
+        "date": "2022-02-23T00:00:00Z",
+        "size": 13800,
+        "md5": "14a42ebf428eed059434b60fcc567e75",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.nces.colleges": {
+    "repository": "uva-bi-sdad/dc.nces.colleges",
+    "files": [
+      {
+        "id": 55966,
+        "date": "2022-02-25T00:00:00Z",
+        "size": 86120,
+        "md5": "eac92afdd12f9b468af9eb0f933c335a",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 55968,
+        "date": "2022-02-25T00:00:00Z",
+        "size": 79728,
+        "md5": "72f23dbc23e77070ee71d62f74c94d8d",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.nces.programs": {
+    "repository": "uva-bi-sdad/dc.nces.programs",
+    "files": [
+      {
+        "id": 55939,
+        "date": "2022-02-23T00:00:00Z",
+        "size": 5332,
+        "md5": "f2c4f691ffb12e5811c4a0b31a4d9e71",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 55944,
+        "date": "2022-02-24T00:00:00Z",
+        "size": 46680,
+        "md5": "5a5c160aa7fa0293197311836683ac71",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 55945,
+        "date": "2022-02-24T00:00:00Z",
+        "size": 47608,
+        "md5": "f71af023c99ab86d7d65d46f9312c164",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.ookla.broadband": {
+    "repository": "uva-bi-sdad/dc.ookla.broadband",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-28T02:58:17Z",
+        "size": 8955944,
+        "sha": "18bcd530dcfbfbc4604848b4585d113c87b7abb6",
+        "md5": "76e6f2e155dfb88ebe7926bc9644d63f",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      {
+        "location": "data",
+        "date": "2022-03-28T02:58:17Z",
+        "size": 3320496,
+        "sha": "0221c8235743af2a641752275250413686ea2127",
+        "md5": "822a31ea38e56e6c177dbbd095798c26",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.osm.food": {
+    "repository": "uva-bi-sdad/dc.osm.food",
+    "files": [
+      {
+        "id": 55963,
+        "date": "2022-02-25T00:00:00Z",
+        "size": 1872,
+        "md5": "35136c02bde5ead6933326578308cc63",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.samhsa.mental": {
+    "repository": "uva-bi-sdad/dc.samhsa.mental",
+    "files": [
+      {
+        "id": 55986,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 186860,
+        "md5": "73949ebe106f64c25660c877cd118654",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.samhsa.substance": {
+    "repository": "uva-bi-sdad/dc.samhsa.substance",
+    "files": [
+      {
+        "id": 55987,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 187212,
+        "md5": "f9ad06b92566d90a78bfd07408dfc950",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  }
+}

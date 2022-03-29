@@ -1,7 +1,5 @@
 library(community)
 
-init_site("../capital_region", "capital_region")
-
 # remove any non-NCR entries
 
 ## get all NCR geoids
@@ -14,23 +12,23 @@ ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
 ## trim and save files
 for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
   d <- read.csv(gzfile(f))
-  d <- d[
+  nd <- d[
     !is.na(d$geoid) & !is.na(d$value) & !is.na(d$region_name) &
       d$region_type %in% c("block group", "tract", "county", "neighborhood"),
   ]
-  cids <- trimws(format(d$geoid, scientific = FALSE))
-  su <- which(grepl("^\\d+$", cids) & !cids %in% ids & d$region_type != "neighborhood")
+  cids <- trimws(format(nd$geoid, scientific = FALSE))
+  su <- which(grepl("^\\d+$", cids) & !cids %in% ids & nd$region_type != "neighborhood")
   if (length(su)) {
     su <- su[grepl("0{6}$", cids[su])]
     cids[su] <- paste0(
       substr(cids[su], 1, 5),
       substr(paste0(gsub(
-        "^.*\\s(?=\\d{2})|\\D", "", d[su, "region_name"], perl = TRUE
+        "^.*\\s(?=\\d{2})|\\D", "", nd[su, "region_name"], perl = TRUE
       ), "00"), 1, 6),
-      gsub("^Block Group |,.*$", "", d[su, "region_name"])
+      gsub("^Block Group |,.*$", "", nd[su, "region_name"])
     )
   }
-  nd <- d[cids %in% ids | d$region_type == "neighborhood", colnames(d) != "X"]
+  nd <- nd[cids %in% ids | nd$region_type == "neighborhood", colnames(nd) != "X"]
   uncompressed <- grepl("\\.csv$", f)
   if (!nrow(nd)) {
     unlink(f)
@@ -74,4 +72,4 @@ data_add(
 )
 
 vars <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
-site_build("../capital_region", variables = names(vars), serve = TRUE, open_after = TRUE)
+site_build("../capital_region", variables = names(vars), serve = TRUE)
