@@ -29,6 +29,17 @@ for (f in list.files("../capital_region/docs/data/original", full.names = TRUE))
     )
   }
   nd <- nd[cids %in% ids | nd$region_type == "neighborhood", colnames(nd) != "X"]
+  if (nrow(nd)) {
+    crv <- grep("fca$", unique(nd$measure), value = TRUE)
+    if (length(crv)) {
+      for (v in crv) {
+        su <- nd$measure == v
+        if (max(nd[su, "value"]) < .01) {
+          nd[su, "value"] <- nd[su, "value"] * 1000
+        }
+      }
+    }
+  }
   uncompressed <- grepl("\\.csv$", f)
   if (!nrow(nd)) {
     unlink(f)

@@ -14,7 +14,6 @@ page_navbar(
     class = "menu-compact",
     items = list(
       input_switch("Dark Theme", id = "settings.theme_dark"),
-      input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
         "Color by Rank", id = "settings.color_by_order",
         note = paste(
@@ -41,8 +40,6 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", floating_label = FALSE),
-      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_select(
@@ -164,20 +161,18 @@ input_variable("shapes", list(
 input_variable("region_select", list(
   "shapes == county" = "selected_county"
 ), "selected_tract")
-
 input_variable("selected_region", list(
   "selected_tract" = "selected_tract"
 ), "selected_county")
+input_variable("set_palette", list(
+  "settings.color_by_order" = "lajolla"
+), "vik")
 input_dataview(
   "primary_view",
   y = "selected_variable",
   x = "selected_year",
   dataset = "shapes",
   ids = "selected_region",
-  variables = list(
-    list(variable = "selected_variable", type = "<=", value = "variable_min"),
-    list(variable = "selected_variable", type = ">=", value = "variable_max")
-  ),
   time = "time",
   time_agg = "selected_year",
   time_filters = list(
@@ -191,7 +186,8 @@ input_dataview(
       type = "<=",
       value = "max_year"
     )
-  )
+  ),
+  palette = "set_palette"
 )
 page_section(
   type = "col",
@@ -288,7 +284,7 @@ page_section(
         )
       ),
       output_legend(
-        "settings.palette", dataview = "primary_view", click = "region_select",
+        dataview = "primary_view", click = "region_select",
         subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
       ),
       wraps = c("row", "row mb-auto", "row")
