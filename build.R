@@ -44,8 +44,8 @@ for (f in list.files("../capital_region/docs/data/original", full.names = TRUE))
   if (!nrow(nd)) {
     unlink(f)
   } else if (uncompressed || length(su) || !identical(d, nd)) {
-    if (uncompressed) unlink(f)
-    write.csv(nd, xzfile(sub("\\.csv$", ".csv.xz", f)), row.names = FALSE)
+    unlink(f)
+    write.csv(nd, xzfile(sub("\\.csv(?:\\.[gbx]z2?)?$", ".csv.xz", f)), row.names = FALSE)
   }
 }
 
@@ -82,5 +82,4 @@ data_add(
   refresh = TRUE
 )
 
-vars <- jsonlite::read_json("../capital_region/docs/data/measure_info.json")
-site_build("../capital_region", variables = names(vars), serve = TRUE)
+site_build("../capital_region", serve = TRUE)

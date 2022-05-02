@@ -1347,44 +1347,6 @@
       }
     ]
   },
-  "acs_demographics:perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_hispanic_or_latino",
-    "measure": "perc_hispanic_or_latino",
-    "short_name": "Hispanic/Latino population",
-    "long_name": "Hispanic/Latino population (percent)",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "acs_demographics:perc_white": {
-    "category": "Demographics",
-    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
-    "full_name": "acs_demographics:perc_white",
-    "measure": "perc_white",
-    "short_name": "White population",
-    "long_name": "White population (percent)",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
   "acs_demographics:perc_black": {
     "category": "Demographics",
     "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
@@ -1433,6 +1395,44 @@
     "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
     "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_white": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_white",
+    "measure": "perc_white",
+    "short_name": "White population",
+    "long_name": "White population (percent)",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hispanic_or_latino",
+    "measure": "perc_hispanic_or_latino",
+    "short_name": "Hispanic/Latino population",
+    "long_name": "Hispanic/Latino population (percent)",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
     "type": "percent",
     "sources": [
       {
@@ -1551,6 +1551,25 @@
     "sources": [
       {
         "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "acs_demographics:perc_hh_limited_english": {
+    "category": "Demographics",
+    "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+    "full_name": "acs_demographics:perc_hh_limited_english",
+    "measure": "perc_hh_limited_english",
+    "short_name": "Limited English households",
+    "long_name": "Limited English households (percent)",
+    "short_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "long_description": "The percent of households with limited English. Based on American Community Survey ACS 2015/2019 5-year estimates Table C16002.",
+    "statement": "The percent of households with limited English is {value} in {features.name}.",
+    "type": "percent",
+    "sources": [
+      {
+        "name": "American Community Survey Table C16002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }

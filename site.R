@@ -150,9 +150,20 @@ page_menu(
       breakpoints = "md"
     )
   ),
+  page_section(
+    input_button(
+      "Download Selection", "export", dataview = "primary_view", query = list(
+        include = "selected_variable",
+        features = list(geoid = "id", name = "name")
+      ), class = "btn-full"
+    ),
+    input_button("Download All", "export", query = list(
+      features = list(geoid = "id", name = "name")
+    ), class = "btn-full")
+  ),
   position = "top",
   default_open = TRUE,
-  sizes = c(NA, NA, 4)
+  sizes = c(NA, NA, 4, 1)
 )
 input_variable("shapes", list(
   "selected_county && !selected_tract" = "shape_type",
@@ -294,40 +305,21 @@ page_section(
     type = "row",
     wraps = "col",
     sizes = c(7, 5),
-    page_tabgroup(
-      list(
-        name = "Plot",
-        output_plot(
-          x = "time", y = "selected_variable", dataview = "primary_view",
-          click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
-          options = list(
-            layout = list(
-              showlegend = FALSE,
-              xaxis = list(title = FALSE, fixedrange = TRUE),
-              yaxis = list(fixedrange = TRUE, zeroline = FALSE)
-            ),
-            data = data.frame(
-              type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
-              hoverinfo = c("text", NA), mode = "lines+markers", showlegend = FALSE,
-              name = c(NA, "Summary"), marker.line.color = "#767676", marker.line.width = 1
-            ),
-            config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
-          )
-        )
-      ),
-      list(
-        name = "Data",
-        output_table(
-          dataview = "primary_view", wide = FALSE, filters = list(category = "variable_type"),
-          features = c(ID = "id", Name = "name"),
-          options = list(
-            scrollY = 380,
-            rowGroup = list(dataSrc = "entity.features.name"),
-            columnDefs = list(list(targets = "entity.features.name", visible = FALSE)),
-            buttons = c('copy', 'csv'),
-            dom = "<'row't><'row'<'col-sm'B><'col'f>>"
-          )
-        )
+    output_plot(
+      x = "time", y = "selected_variable", dataview = "primary_view",
+      click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
+      options = list(
+        layout = list(
+          showlegend = FALSE,
+          xaxis = list(title = FALSE, fixedrange = TRUE),
+          yaxis = list(fixedrange = TRUE, zeroline = FALSE)
+        ),
+        data = data.frame(
+          type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
+          hoverinfo = c("text", NA), mode = "lines+markers", showlegend = FALSE,
+          name = c(NA, "Summary"), marker.line.color = "#767676", marker.line.width = 1
+        ),
+        config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
       )
     ),
     output_table("selected_variable", dataview = "primary_view", options = list(
@@ -339,5 +331,4 @@ page_section(
   )
 )
 
-vars <- jsonlite::read_json('../capital_region/docs/data/measure_info.json')
-site_build('../capital_region', variables = names(vars), version = "local")
+site_build("../capital_region")
