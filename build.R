@@ -3,11 +3,16 @@ library(community)
 # remove any non-NCR entries
 
 ## get all NCR geoids
-ids <- unlist(lapply(c("counties", "tracts", "blockgroups"), function(s) list(
-  vapply(jsonlite::read_json(paste0(
-    "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s, ".geojson"
-  ))$features, function(d) d$properties$GEOID, "")
-)), use.names = FALSE)
+ids <- unlist(c(
+  lapply(c("counties", "tracts", "blockgroups"), function(s) list(
+    vapply(jsonlite::read_json(paste0(
+      "https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s, ".geojson"
+    ))$features, function(d) d$properties$GEOID, "")
+  )),
+  list(
+    vapply(jsonlite::read_json("docs/data/neighborhoods.geojson")$features, function(d) d$properties$geoid, "")
+  )
+), use.names = FALSE)
 
 ## trim and save files
 for (f in list.files("../capital_region/docs/data/original", full.names = TRUE)) {
@@ -17,7 +22,7 @@ for (f in list.files("../capital_region/docs/data/original", full.names = TRUE))
       d$region_type %in% c("block group", "tract", "county", "neighborhood"),
   ]
   cids <- trimws(format(nd$geoid, scientific = FALSE))
-  su <- which(grepl("^\\d+$", cids) & !cids %in% ids & nd$region_type != "neighborhood")
+  su <- which(grepl("^\\d+$", cids) & !cids %in% ids)
   if (length(su)) {
     su <- su[grepl("0{6}$", cids[su])]
     cids[su] <- paste0(
@@ -51,6 +56,7 @@ for (f in list.files("../capital_region/docs/data/original", full.names = TRUE))
 
 data_reformat_sdad(
   "../capital_region/docs/data/original",
+  variables = names(jsonlite::read_json("../capital_region/docs/data/measure_info.json"))[-1],
   formatters = list(region_name = function(x) sub(",.*$", "", x)),
   out = "../capital_region/docs/data"
 )
