@@ -81,6 +81,9 @@ page_navbar(
           " of the [Biocomplexity Institute](https://biocomplexity.virginia.edu)."
         ),
         "View its source on [GitHub](https://github.com/uva-bi-sdad/capital_region).",
+        input_button("Download All Data", "export", query = list(
+          features = list(geoid = "id", name = "name")
+        ), class = "btn-full"),
         "Credits",
         paste(
           "Built in [R](https://www.r-project.org) with the",
@@ -150,20 +153,9 @@ page_menu(
       breakpoints = "md"
     )
   ),
-  page_section(
-    input_button(
-      "Download Selection", "export", dataview = "primary_view", query = list(
-        include = "selected_variable",
-        features = list(geoid = "id", name = "name")
-      ), class = "btn-full"
-    ),
-    input_button("Download All", "export", query = list(
-      features = list(geoid = "id", name = "name")
-    ), class = "btn-full")
-  ),
   position = "top",
   default_open = TRUE,
-  sizes = c(NA, NA, 4, 1)
+  sizes = c(NA, NA, 4)
 )
 input_variable("shapes", list(
   "selected_county && !selected_tract" = "shape_type",
@@ -275,6 +267,12 @@ page_section(
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
+      input_button(
+        "Download", "export", dataview = "primary_view", query = list(
+          include = "selected_variable",
+          features = list(geoid = "id", name = "name")
+        ), class = "btn-full"
+      ),
       page_section(
         wraps = "row",
         output_info(
@@ -298,7 +296,7 @@ page_section(
         dataview = "primary_view", click = "region_select",
         subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
       ),
-      wraps = c("row", "row mb-auto", "row")
+      wraps = c("row", "row", "row mb-auto", "row")
     )
   ),
   page_section(

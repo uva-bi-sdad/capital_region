@@ -29055,7 +29055,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info14": {
+    "info13": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -29067,7 +29067,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info15": {
+    "info14": {
       "title": "",
       "body": [
         {
@@ -29089,7 +29089,7 @@
     }
   },
   "text": {
-    "text9": {
+    "text8": {
       "text": [
         {
           "button": {
@@ -29137,7 +29137,7 @@
         }
       ]
     },
-    "text10": {
+    "text9": {
       "text": [
         [
           {
@@ -29547,21 +29547,21 @@
     }
   },
   "button": {
-    "DownloadSelection": {
+    "DownloadAllData": {
       "effects": "export",
-      "dataview": "primary_view",
+      "dataview": {},
       "query": {
-        "include": "selected_variable",
         "features": {
           "geoid": "id",
           "name": "name"
         }
       }
     },
-    "DownloadAll": {
+    "Download": {
       "effects": "export",
-      "dataview": {},
+      "dataview": "primary_view",
       "query": {
+        "include": "selected_variable",
         "features": {
           "geoid": "id",
           "name": "name"
