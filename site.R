@@ -220,11 +220,14 @@ page_section(
     sizes = c(NA, 5),
     output_map(
       rev(c(
-        lapply(list(c("county", "counties"), c("tract", "tracts"), c("block_group", "blockgroups")), function(s) list(
+        lapply(list(c("county", "counties"), c("tract", "census_tracts"), c("block_group", "census_block_groups")), function(s) list(
           name = s[1],
-          url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/capital_region/", s[2], ".geojson")
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_",
+            s[2], "/distribution/ncr_geo_census_cb_2010_", s[2], ".geojson"
+          )
         )),
-        list(list(name = "neighborhood", url = "data/neighborhoods.geojson", id_property = "geoid"))
+        list(list(name = "neighborhood", url = "data/neighborhoods.geojson"))
       )),
       dataview = "primary_view",
       click = "region_select",

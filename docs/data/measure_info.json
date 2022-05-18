@@ -166,19 +166,31 @@
     "full_name": "2year_colleges_access_scores:norm_3sfca",
     "measure": "norm_3sfca",
     "type": "index",
-    "short_name": "2-year college access score",
-    "long_name": "2 year college access score (3-step floating catchment areas)",
-    "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
-    "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-    "statement": "The 2-year college accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "short_name": "2-year college geographic availability",
+    "long_name": "2 year college geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of 3-year college availability based on supply and demand of providers",
+    "long_description": "2-year college availability based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+    "statement": "The 2-year college availability score for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
       }
-    ]
+    ],
+    "access": {
+      "dataverse": {
+        "doi": "doi:10.18130/V3/7VXR00",
+        "fileId": 55908
+      }
+    }
   },
   "3rd_grade_median_read_score:median_read_pass_rate": {
     "category": "Education",
@@ -224,12 +236,18 @@
     "full_name": "community_college_computer_sciences_fca:3sfca_capacity",
     "measure": "3sfca_capacity",
     "type": "index",
-    "short_name": "Community college computer science program access score",
-    "long_name": "Community college computer science program access score (3-step floating catchment areas)",
-    "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
-    "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-    "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "short_name": "Community college computer science program geographic availability",
+    "long_name": "Community college computer science program geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of community college computer science program availability based on supply and demand of programs",
+    "long_description": "Community college computer science program availability based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+    "statement": "The community college computer science program availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -244,12 +262,18 @@
     "full_name": "community_college_engineering_fca:3sfca_capacity",
     "measure": "3sfca_capacity",
     "type": "index",
-    "short_name": "Community college engineering program access score",
-    "long_name": "Community college engineering program access score (3-step floating catchment areas)",
-    "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
-    "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-    "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "short_name": "Community college engineering program geographic availability",
+    "long_name": "Community college engineering program geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of community college engineering program availability based on supply and demand of programs",
+    "long_description": "Community college engineering program availability based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+    "statement": "The community college engineering program availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -264,12 +288,18 @@
     "full_name": "community_college_engineering_related_fca:3sfca_capacity",
     "measure": "3sfca_capacity",
     "type": "index",
-    "short_name": "Community college engineering-related program access score",
-    "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
+    "short_name": "Community college engineering-related program geographic availability",
+    "long_name": "Community college engineering-related program geographic availability (3-step floating catchment areas)",
     "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
-    "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-    "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "long_description": "Community college engineering-related program availability based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+    "statement": "The community college engineering-related program availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -308,7 +338,12 @@
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
     "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Virginia Department of Social Services",
@@ -328,7 +363,14 @@
     "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
     "statement": "The Digital Equity Index for {features.name} is {value}.",
     "type": "index",
-    "citations": ["gallardo20"],
+    "citations": [
+      "gallardo20"
+    ],
+    "equity_category": [
+      "Accessibility",
+      "Availability",
+      "Affordability"
+    ],
     "sources": [
       {
         "name": "American Community Survey",
@@ -353,7 +395,12 @@
     "short_description": "Index of dental care accessibility based on supply and demand of providers",
     "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The dental care access score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -368,11 +415,12 @@
     "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
     "measure": "median_drive_time_top5",
     "type": "drive time",
-    "short_name": "2-year college access (drive time)",
-    "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
+    "short_name": "2-year college availability (drive time)",
+    "long_name": "2-year college availability by median drive time to the five closest colleges in minutes",
     "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
-    "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data were collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -406,11 +454,12 @@
     "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
     "measure": "median_drive_time_top5",
     "type": "drive time",
-    "short_name": "Trade school access (drive time)",
-    "long_name": "Trade school access by median drive time to the five closest schools in minutes",
+    "short_name": "Trade school availability (drive time)",
+    "long_name": "Trade school availability by median drive time to the five closest schools in minutes",
     "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
-    "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data were collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the five closest trade schools to {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -449,6 +498,7 @@
     "short_description": "Average of earnings per job.",
     "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
     "statement": "Earnings per job in {features.name} is {value}.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Bureau of Economic Analysis",
@@ -487,7 +537,12 @@
     "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
     "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -521,11 +576,12 @@
     "full_name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
     "measure": "Child_Food_Insecurity_Rate",
     "type": "percent",
-    "short_name": "Childhood food insecurity rate",
-    "long_name": "Childhood food insecurity rate",
+    "short_name": "Percentage of food insecure children",
+    "long_name": "Percentage of food insecure children",
     "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "statement": "{value} of the population of children in {features.name} are food insecure.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Feeding America",
@@ -540,11 +596,12 @@
     "full_name": "food_insecurity_and_cost:Cost_Per_Meal",
     "measure": "Cost_Per_Meal",
     "type": "dollar",
-    "short_name": "Average meal cost",
-    "long_name": "Average meal cost",
+    "short_name": "Average meal cost ($)",
+    "long_name": "Average meal cost ($)",
     "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
     "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
     "statement": "The average meal cost in {features.name} is {value}.",
+    "equity_category": "Affordability",
     "sources": [
       {
         "name": "Feeding America",
@@ -559,11 +616,12 @@
     "full_name": "food_insecurity_and_cost:Food_Insecurity_Rate",
     "measure": "Food_Insecurity_Rate",
     "type": "percent",
-    "short_name": "Food insecurity rate",
-    "long_name": "Food insecurity rate",
+    "short_name": "Percentage of food insecure",
+    "long_name": "Percentage of food insecure",
     "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "statement": "{value} of the population in {features.name} are food insecure.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Feeding America",
@@ -578,11 +636,12 @@
     "full_name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
     "measure": "Num_Child_Food_Insecure",
     "type": "count",
-    "short_name": "Population of food insecure children",
-    "long_name": "Count of population of food insecure children",
+    "short_name": "Food insecure children (count)",
+    "long_name": "Count of food insecure children",
     "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
     "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
     "statement": "The population of food insecure children in {features.name} is {value}.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Feeding America",
@@ -597,12 +656,16 @@
     "full_name": "health_literacy_estimates:health_literacy_estimate",
     "measure": "health_literacy_estimate",
     "type": "index",
-    "short_name": "Health literacy estimate",
-    "long_name": "Health literacy estimate",
-    "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
-    "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-    "statement": "The health literacy estimate for {features.name} is {value}.",
-    "citations": ["savitz20", "liang17"],
+    "short_name": "Health literacy composite",
+    "long_name": "Health literacy composite",
+    "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+    "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
+    "statement": "The health literacy composite for {features.name} is {value}.",
+    "equity_category": "Status",
+    "citations": [
+      "savitz20",
+      "liang17"
+    ],
     "sources": [
       {
         "name": "Medical Expenditure Panel Survey",
@@ -646,7 +709,12 @@
     "short_description": "Index of hospital accessibility based on supply and demand of facilities",
     "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The hospital accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -680,11 +748,12 @@
     "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
     "measure": "avocado_ecdf_idx",
     "type": "float",
-    "short_name": "Avocado access score",
-    "long_name": "Avocado access score (Empirical cumulative density function)",
-    "short_description": "Avocado access score by item availability using an empirical cumulative density function",
-    "long_description": "Avocado access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
-    "statement": "The avocado access score in {features.name} is {value}.",
+    "short_name": "Avocado availability",
+    "long_name": "Avocado availability (Empirical cumulative density function)",
+    "short_description": "Avocado item availability using an empirical cumulative density function",
+    "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+    "statement": "The avocado availability in {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Grocery Retailers with Online Presence",
@@ -698,11 +767,12 @@
     "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
     "measure": "favabeans_ecdf_idx",
     "type": "float",
-    "short_name": "Fava bean access score",
-    "long_name": "Fava bean access score (Empirical cumulative density function)",
-    "short_description": "Fava bean access score by item availability using an empirical cumulative density function",
-    "long_description": "Fava bean access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
-    "statement": "The fava bean access score in {features.name} is {value}.",
+    "short_name": "Fava bean availability",
+    "long_name": "Fava bean availability (Empirical cumulative density function)",
+    "short_description": "Fava bean item availability using an empirical cumulative density function",
+    "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+    "statement": "The fava bean availability in {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Grocery Retailers with Online Presence",
@@ -716,11 +786,12 @@
     "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
     "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
     "type": "float",
-    "short_name": "Nopalito access score",
-    "long_name": "Nopalito access score (Empirical cumulative density function)",
-    "short_description": "Nopalito access score by item availability using an empirical cumulative density function.",
-    "long_description": "Nopalito access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
-    "statement": "The nopalito access score in {features.name} is {value}.",
+    "short_name": "Nopalito availability",
+    "long_name": "Nopalito availability (Empirical cumulative density function)",
+    "short_description": "Nopalito item availability using an empirical cumulative density function.",
+    "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+    "statement": "The nopalito availability in {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Grocery Retailers with Online Presence",
@@ -734,11 +805,12 @@
     "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
     "measure": "teff_ecdf_idx",
     "type": "float",
-    "short_name": "Teff access score",
-    "long_name": "Teff access score (Empirical cumulative density function)",
-    "short_description": "Teff access score by item availability using an empirical cumulative density function",
-    "long_description": "Teff access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
-    "statement": "The teff access score in {features.name} is {value}.",
+    "short_name": "Teff availability",
+    "long_name": "Teff availability (Empirical cumulative density function)",
+    "short_description": "Teff item availability using an empirical cumulative density function",
+    "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+    "statement": "The teff availability in {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Grocery Retailers with Online Presence",
@@ -752,11 +824,12 @@
     "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
     "measure": "tomatillos_ecdf_idx",
     "type": "float",
-    "short_name": "Tomatillo access score",
-    "long_name": "Tomatillo access score (Empirical cumulative density function)",
-    "short_description": "Tomatillo access score by item availability using an empirical cumulative density function",
-    "long_description": "Tomatillo access score by item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
-    "statement": "The tomatillo access score in {features.name} is {value}.",
+    "short_name": "Tomatillo availability",
+    "long_name": "Tomatillo availability (Empirical cumulative density function)",
+    "short_description": "Tomatillo item availability using an empirical cumulative density function",
+    "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+    "statement": "The tomatillo availability in {features.name} is {value}.",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Grocery Retailers with Online Presence",
@@ -794,7 +867,12 @@
     "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
     "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The mental health services accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -829,9 +907,10 @@
     "measure": "mrfei",
     "short_name": "Retail food environment index",
     "long_name": "Retail food environment index",
-    "short_description": "The number of accessible healthy and less healthy food retailers. A higher score indicates more accessible healthy options per less healthy options. A score of 0 indicates accessible no options (food desert).",
+    "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
     "statement": "The Retail food environment index is {value} in {features.name}.",
     "type": "index",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "OpenStreetMap",
@@ -847,13 +926,15 @@
     "measure": "hlth_ins_pct",
     "type": "percent",
     "short_name": "Insured population",
-    "long_name": "Percent of population with health insurance",
-    "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-    "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of population with health insurance",
+    "short_description": "Percentage of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
+    "long_description": "Percentage of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
     "statement": "{value} of the population has health insurance in {features.name}.",
+    "equity_category": "Status",
     "sources": [
       {
-        "name": "American Community Survey, Table B27010",
+        "name": "American Community Survey",
+        "location": "Table B27010",
         "date_accessed": 2022,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -870,7 +951,12 @@
     "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
     "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
     "statement": "The OBGYN access score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -890,7 +976,12 @@
     "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
     "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The pediatric care accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -905,11 +996,12 @@
     "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
     "measure": "perc_income_avg_nat_package",
     "type": "percent",
-    "short_name": "Percent of income for internet (average)",
-    "long_name": "The national average price for internet as a percent of average income",
-    "short_description": "The national average price for internet ($64) as a percent of average income",
-    "long_description": "The national average price for internet ($64) as a percent of average income.",
-    "statement": "The national average internet package costs {value} of the average income in {features.name}.",
+    "short_name": "Percentage of income for internet (average)",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
     "sources": [
       {
         "name": "American Community Survey",
@@ -929,11 +1021,12 @@
     "full_name": "perc_income_on_internet:perc_income_min_price_100",
     "measure": "perc_income_min_price_100",
     "type": "percent",
-    "short_name": "Percent of income for fast internet",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-    "statement": "Fast internet costs {value} of the average income in {features.name}.",
+    "short_name": "Percentage of income for fast internet",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
     "sources": [
       {
         "name": "American Community Survey",
@@ -953,11 +1046,12 @@
     "full_name": "perc_income_on_internet:perc_income_min_price_25",
     "measure": "perc_income_min_price_25",
     "type": "percent",
-    "short_name": "Percent of income for good internet",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-    "statement": "Good internet costs {value} of the average income in {features.name}.",
+    "short_name": "Percentage of income for good internet",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "equity_category": "Affordability",
     "sources": [
       {
         "name": "American Community Survey",
@@ -981,6 +1075,7 @@
     "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
     "statement": "{value} of the total population in {features.name} has a fast internet speed.",
     "type": "percent",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Ookla",
@@ -999,6 +1094,7 @@
     "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
     "statement": "{value} of the total population in {features.name} has a good internet speed.",
     "type": "percent",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Ookla",
@@ -1017,6 +1113,7 @@
     "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
     "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
     "type": "percent",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Ookla",
@@ -1035,6 +1132,7 @@
     "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
     "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
     "type": "percent",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Ookla",
@@ -1049,11 +1147,12 @@
     "full_name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
     "measure": "perc_poor_ment_hlth_days_14_and_over",
     "type": "percent",
-    "short_name": "Poor mental health population",
-    "long_name": "Percent of the population with poor mental health",
+    "short_name": "Percentage reporting poor mental health",
+    "long_name": "Percentage reporting poor mental health",
     "short_description": "Percent of the population self-reporting poor mental health",
     "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
     "statement": "{value} of the population in {features.name} reports poor mental health.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -1068,11 +1167,12 @@
     "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
     "measure": "perc_poor_phys_hlth_days_14_and_over",
     "type": "percent",
-    "short_name": "Poor physical health population",
-    "long_name": "Percent of the population with poor physical health",
+    "short_name": "Percentage reporting poor physical health",
+    "long_name": "Percentage reporting poor physical health",
     "short_description": "Percent of the population self-reporting poor physical health",
     "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
     "statement": "{value} of the population in {features.name} reports poor physical health.",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -1087,14 +1187,15 @@
     "full_name": "post_hs_education:perc_post_hs_edu",
     "measure": "perc_post_hs_edu",
     "type": "percent",
-    "short_name": "Population with post-high school education",
-    "long_name": "Percent  of population with post-high school education",
-    "short_description": "Percent of the population self-reported to have post-high school level degree",
-    "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} has a post-high school education.",
+    "short_name": "Percentage with post-secondary education",
+    "long_name": "Percentage with post-secondary education",
+    "short_description": "Percentage of the population self-reported to have post-secondary education",
+    "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} has a post-secondary education.",
+    "equity_category": "Status",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B15003",
         "date_accessed": 2021,
         "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
       }
@@ -1109,8 +1210,9 @@
     "short_name": "Preventable hospitalizations per 100,000",
     "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
     "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
+    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. Data are based on Medicare claims and come from County Health Rankings.",
     "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+    "equity_category": "Status",
     "sources": [
       {
         "name": "County Health Rankings",
@@ -1130,7 +1232,12 @@
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
     "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "WebMD Physician Directory",
@@ -1149,6 +1256,7 @@
     "short_description": "Average download speed weighted by number of devices.",
     "statement": "The average download speed is {value} in {features.name}.",
     "type": "internet speed",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Ookla",
@@ -1167,6 +1275,7 @@
     "short_description": "Average upload speed weighted by number of devices.",
     "statement": "The average upload speed is {value} in {features.name}.",
     "type": "internet speed",
+    "equity_category": "Availability",
     "sources": [
       {
         "name": "Ookla",
@@ -1185,6 +1294,7 @@
     "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
     "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
     "type": "count",
+    "equity_category": "Accessibility",
     "sources": [
       {
         "name": "Ookla",
@@ -1223,7 +1333,12 @@
     "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
     "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1257,12 +1372,18 @@
     "full_name": "trade_schools_access_scores:norm_3sfca",
     "measure": "norm_3sfca",
     "type": "index",
-    "short_name": "Trade school access score",
-    "long_name": "Trade school access score (3-step floating catchment areas)",
-    "short_description": "Index of trade school accessibility based on supply and demand of providers",
-    "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-    "statement": "The trade school accessibility score for {features.name} is {value}.",
-    "citations": ["lou04", "lou09", "lou03", "saxon20"],
+    "short_name": "Trade school geographic availability",
+    "long_name": "Trade school geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of trade school availability based on supply and demand of providers",
+    "long_description": "Trade school availability based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+    "statement": "The trade school availability for {features.name} is {value}.",
+    "equity_category": "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
     "sources": [
       {
         "name": "National Center for Education Statistics",
@@ -1278,13 +1399,14 @@
     "measure": "perc_hh_with_broadband",
     "type": "percent",
     "short_name": "Households with broadband",
-    "long_name": "Percent of households with broadband",
-    "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} has a broadband connection.",
+    "long_name": "Percentage of households with broadband",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "equity_category": "Availability",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1297,13 +1419,14 @@
     "measure": "perc_hh_with_cable_fiber_dsl",
     "type": "percent",
     "short_name": "Households with cable, fiber optic, or DSL",
-    "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "equity_category": "Availability",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1316,13 +1439,14 @@
     "measure": "perc_hh_without_compdev",
     "type": "percent",
     "short_name": "Households without a computer",
-    "long_name": "Percent of households without a computer",
-    "short_description": "Percent of the households self-reported to not have a computer or device at home",
-    "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} have a computer or device.",
+    "long_name": "Percentage of households without a computer",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "equity_category": "Accessibility",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1335,13 +1459,14 @@
     "measure": "perc_hh_without_internet",
     "type": "percent",
     "short_name": "Households without internet access",
-    "long_name": "Percent of households without internet access",
-    "short_description": "Percent of households self-reported to not have internet access at home",
-    "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the households in {features.name} have not internet access.",
+    "long_name": "Percentage of households without internet access",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "equity_category": "Availability",
     "sources": [
       {
-        "name": "American Community Survey",
+        "name": "American Community Survey Table B28002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
@@ -1584,6 +1709,519 @@
         "name": "American Community Survey Table C16002",
         "date_accessed": 2021,
         "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:beets_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:beets_ecdf_idx",
+    "measure": "beets_ecdf_idx",
+    "type": "float",
+    "short_name": "Beet availability",
+    "long_name": "Beet availability (Empirical cumulative density function)",
+    "short_description": "Beet item availability using an empirical cumulative density function",
+    "long_description": "Beet item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Beet is defined as a Latino staple food by The Food Group",
+    "statement": "The beet availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:blackbeans_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
+    "measure": "blackbeans_ecdf_idx",
+    "type": "float",
+    "short_name": "Black bean availability",
+    "long_name": "Black bean availability (Empirical cumulative density function)",
+    "short_description": "Black bean item availability using an empirical cumulative density function",
+    "long_description": "Black bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Black bean is defined as a Latino staple food by The Food Group",
+    "statement": "The black bean availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:cheese_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:cheese_ecdf_idx",
+    "measure": "cheese_ecdf_idx",
+    "type": "float",
+    "short_name": "Cheese availability",
+    "long_name": "Cheese availability (Empirical cumulative density function)",
+    "short_description": "Cheese item availability using an empirical cumulative density function",
+    "long_description": "Cheese item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Cheese is defined as a Latino staple food by The Food Group",
+    "statement": "The cheese availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:corntortillas_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
+    "measure": "corntortillas_ecdf_idx",
+    "type": "float",
+    "short_name": "Corn tortilla availability",
+    "long_name": "Corn tortilla availability (Empirical cumulative density function)",
+    "short_description": "Corn tortilla item availability using an empirical cumulative density function",
+    "long_description": "Corn tortilla item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Corn tortilla is defined as a Latino staple food by The Food Group",
+    "statement": "The corn tortilla availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:crackers_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:crackers_ecdf_idx",
+    "measure": "crackers_ecdf_idx",
+    "type": "float",
+    "short_name": "Cracker availability",
+    "long_name": "Cracker availability (Empirical cumulative density function)",
+    "short_description": "Cracker item availability using an empirical cumulative density function",
+    "long_description": "Cracker item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Cracker is defined as a Latino staple food by The Food Group",
+    "statement": "The cracker availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:greenchiles_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
+    "measure": "greenchiles_ecdf_idx",
+    "type": "float",
+    "short_name": "Green chile availability",
+    "long_name": "Green chile availability (Empirical cumulative density function)",
+    "short_description": "Green chile item availability using an empirical cumulative density function",
+    "long_description": "Green chile item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Green chile is defined as a Latino staple food by The Food Group",
+    "statement": "The green chile availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:jalapenos_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
+    "measure": "jalapenos_ecdf_idx",
+    "type": "float",
+    "short_name": "Jalapeno availability",
+    "long_name": "Jalapeno availability (Empirical cumulative density function)",
+    "short_description": "Jalapeno item availability using an empirical cumulative density function",
+    "long_description": "Jalapeno item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Jalapeno is defined as a Latino staple food by The Food Group",
+    "statement": "The jalapeno availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:legumes_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:legumes_ecdf_idx",
+    "measure": "legumes_ecdf_idx",
+    "type": "float",
+    "short_name": "Legume availability",
+    "long_name": "Legume availability (Empirical cumulative density function)",
+    "short_description": "Legume item availability using an empirical cumulative density function",
+    "long_description": "Legume item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Legume is defined as a Latino staple food by The Food Group",
+    "statement": "The legume availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:masa_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:masa_ecdf_idx",
+    "measure": "masa_ecdf_idx",
+    "type": "float",
+    "short_name": "Masa availability",
+    "long_name": "Masa availability (Empirical cumulative density function)",
+    "short_description": "Masa item availability using an empirical cumulative density function",
+    "long_description": "Masa item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Masa is defined as a Latino staple food by The Food Group",
+    "statement": "The masa availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:mixedfruit_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
+    "measure": "mixedfruit_ecdf_idx",
+    "type": "float",
+    "short_name": "Mixed fruit availability",
+    "long_name": "Mixed fruit availability (Empirical cumulative density function)",
+    "short_description": "Mixed fruit item availability using an empirical cumulative density function",
+    "long_description": "Mixed fruit item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Mixed fruit is defined as a Latino staple food by The Food Group",
+    "statement": "The mixed fruit availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:peppers_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:peppers_ecdf_idx",
+    "measure": "peppers_ecdf_idx",
+    "type": "float",
+    "short_name": "Pepper availability",
+    "long_name": "Pepper availability (Empirical cumulative density function)",
+    "short_description": "Pepper item availability using an empirical cumulative density function",
+    "long_description": "Pepper item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Pepper is defined as a Latino staple food by The Food Group",
+    "statement": "The pepper availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:pintobeans_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
+    "measure": "pintobeans_ecdf_idx",
+    "type": "float",
+    "short_name": "Pinto bean availability",
+    "long_name": "Pinto bean availability (Empirical cumulative density function)",
+    "short_description": "Pinto bean item availability using an empirical cumulative density function",
+    "long_description": "Pinto bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Pinto bean is defined as a Latino staple food by The Food Group",
+    "statement": "The pinto bean availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:rice_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:rice_ecdf_idx",
+    "measure": "rice_ecdf_idx",
+    "type": "float",
+    "short_name": "Rice availability",
+    "long_name": "Rice availability (Empirical cumulative density function)",
+    "short_description": "Rice item availability using an empirical cumulative density function",
+    "long_description": "Rice item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Rice is defined as a Latino staple food by The Food Group",
+    "statement": "The rice availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:salsa_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:salsa_ecdf_idx",
+    "measure": "salsa_ecdf_idx",
+    "type": "float",
+    "short_name": "Salsa availability",
+    "long_name": "Salsa availability (Empirical cumulative density function)",
+    "short_description": "Salsa item availability using an empirical cumulative density function",
+    "long_description": "Salsa item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Salsa is defined as a Latino staple food by The Food Group",
+    "statement": "The salsa availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:squash_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:squash_ecdf_idx",
+    "measure": "squash_ecdf_idx",
+    "type": "float",
+    "short_name": "Squash availability",
+    "long_name": "Squash availability (Empirical cumulative density function)",
+    "short_description": "Squash item availability using an empirical cumulative density function",
+    "long_description": "Squash item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Squash is defined as a Latino staple food by The Food Group",
+    "statement": "The squash availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:tomatoes_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
+    "measure": "tomatoes_ecdf_idx",
+    "type": "float",
+    "short_name": "Tomato availability",
+    "long_name": "Tomato availability (Empirical cumulative density function)",
+    "short_description": "Tomato item availability using an empirical cumulative density function",
+    "long_description": "Tomato item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomato is defined as a Latino staple food by The Food Group",
+    "statement": "The tomato availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:barley_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:barley_ecdf_idx",
+    "measure": "barley_ecdf_idx",
+    "type": "float",
+    "short_name": "Barley availability",
+    "long_name": "Barley availability (Empirical cumulative density function)",
+    "short_description": "Barley item availability using an empirical cumulative density function",
+    "long_description": "Barley item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Barley is defined as an East African staple food by The Food Group",
+    "statement": "The barley availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:currypowder_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
+    "measure": "currypowder_ecdf_idx",
+    "type": "float",
+    "short_name": "Curry powder availability",
+    "long_name": "Curry powder availability (Empirical cumulative density function)",
+    "short_description": "Curry powder item availability using an empirical cumulative density function",
+    "long_description": "Curry powder item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Curry powder is defined as an East African staple food by The Food Group",
+    "statement": "The curry powder availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:blackeyepeas_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
+    "measure": "blackeyepeas_ecdf_idx",
+    "type": "float",
+    "short_name": "Black eyed pea availability",
+    "long_name": "Blacked eyed pea availability (Empirical cumulative density function)",
+    "short_description": "Black eyed pea item availability using an empirical cumulative density function",
+    "long_description": "Black eyed pea item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Black eyed pea is defined as an East African staple food by The Food Group",
+    "statement": "The black eyed pea availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:driedbeans_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
+    "measure": "driedbeans_ecdf_idx",
+    "type": "float",
+    "short_name": "Dried bean availability",
+    "long_name": "Dried bean availability (Empirical cumulative density function)",
+    "short_description": "Dried bean item availability using an empirical cumulative density function",
+    "long_description": "Dried bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Dried bean is defined as an East African staple food by The Food Group",
+    "statement": "The dried bean availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:drieddates_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
+    "measure": "drieddates_ecdf_idx",
+    "type": "float",
+    "short_name": "Dried date availability",
+    "long_name": "Dried date availability (Empirical cumulative density function)",
+    "short_description": "Dried date item availability using an empirical cumulative density function",
+    "long_description": "Dried date item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Dried date is defined as an East African staple food by The Food Group",
+    "statement": "The tomatillo availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:garbanzo_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
+    "measure": "garbanzo_ecdf_idx",
+    "type": "float",
+    "short_name": "Garbanzo bean availability",
+    "long_name": "Garbanzo bean availability (Empirical cumulative density function)",
+    "short_description": "Garbanzo bean item availability using an empirical cumulative density function",
+    "long_description": "Garbanzo bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Garbanzo bean is defined as an East African staple food by The Food Group",
+    "statement": "The garbanzo bean availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:lentils_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:lentils_ecdf_idx",
+    "measure": "lentils_ecdf_idx",
+    "type": "float",
+    "short_name": "Lentil availability",
+    "long_name": "Lentil availability (Empirical cumulative density function)",
+    "short_description": "Lentil item availability using an empirical cumulative density function",
+    "long_description": "Lentil item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Lentil is defined as an East African staple food by The Food Group",
+    "statement": "The lentil availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:basmati_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:basmati_ecdf_idx",
+    "measure": "basmati_ecdf_idx",
+    "type": "float",
+    "short_name": "Basmati rice availability",
+    "long_name": "Basmati rice availability (Empirical cumulative density function)",
+    "short_description": "Basmati rice item availability using an empirical cumulative density function",
+    "long_description": "Basmati rice item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Basmati rice is defined as an East African staple food by The Food Group",
+    "statement": "The basmati rice availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:pasta_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:pasta_ecdf_idx",
+    "measure": "pasta_ecdf_idx",
+    "type": "float",
+    "short_name": "Pasta availability",
+    "long_name": "Pasta availability (Empirical cumulative density function)",
+    "short_description": "Pasta item availability using an empirical cumulative density function",
+    "long_description": "Pasta item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Pasta is defined as an East African staple food by The Food Group",
+    "statement": "The pasta availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:tomatosauce_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
+    "measure": "tomatosauce_ecdf_idx",
+    "type": "float",
+    "short_name": "Tomato sauce availability",
+    "long_name": "Tomato sauce availability (Empirical cumulative density function)",
+    "short_description": "Tomato sauce item availability using an empirical cumulative density function",
+    "long_description": "Tomato sauce item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomato sauce is defined as an East African staple food by The Food Group",
+    "statement": "The tomato sauce availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
+      }
+    ]
+  },
+  "latino_east_african_gravity_models:tuna_ecdf_idx": {
+    "category": "Nutrition and Food Security",
+    "measure_table": "latino_east_african_gravity_models",
+    "full_name": "latino_east_african_gravity_models:tuna_ecdf_idx",
+    "measure": "tuna_ecdf_idx",
+    "type": "float",
+    "short_name": "Tuna availability",
+    "long_name": "Tuna availability (Empirical cumulative density function)",
+    "short_description": "Tuna item availability using an empirical cumulative density function",
+    "long_description": "Tuna item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tuna is defined as an East African staple food by The Food Group",
+    "statement": "The tuna availability in {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Grocery Retailers with Online Presence",
+        "date_accessed": "2021"
       }
     ]
   }
