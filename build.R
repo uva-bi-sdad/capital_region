@@ -68,21 +68,14 @@ data_add(
     block_group = "block_group.csv.xz",
     neighborhood = "neighborhood.csv.xz"
   ),
-  c(
-    rep(list(list(
-      ids = list(
-        variable = "ID",
-        map = "data/entity_info.json"
-      ),
-      time = "time",
-      variables = "measure_info.json"
-    )), 3),
-    list(list(
-      ids = list(variable = "ID", map = "data/entity_info.json"),
-      time = "time",
-      variables = "measure_info.json"
-    ))
-  ),
+  rep(list(list(
+    ids = list(
+      variable = "ID",
+      map = "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
+    ),
+    time = "time",
+    variables = "measure_info.json"
+  )), 4),
   dir = "../capital_region/docs/data",
   clean = TRUE,
   refresh = TRUE

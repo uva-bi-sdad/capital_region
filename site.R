@@ -1,4 +1,3 @@
-library(community)
 page_head(
   title = "National Capital Region",
   description = "A data site to explore data within the U.S. national capital region.",
@@ -227,7 +226,10 @@ page_section(
             s[2], "/distribution/ncr_geo_census_cb_2010_", s[2], ".geojson"
           )
         )),
-        list(list(name = "neighborhood", url = "data/neighborhoods.geojson"))
+        list(list(
+          name = "neighborhood",
+          url = "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/neighborhoods.geojson"
+        ))
       )),
       dataview = "primary_view",
       click = "region_select",
@@ -331,5 +333,3 @@ page_section(
     ), id = "rank_table", subto = c("main_map", "main_plot", "main_legend"), click = "region_select")
   )
 )
-
-site_build("../capital_region")

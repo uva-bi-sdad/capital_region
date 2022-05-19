@@ -34,13 +34,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-05-18 11:43:48",
-        "last_modified": "2022-05-18 11:43:48",
+        "created": "2022-05-19 15:38:53",
+        "last_modified": "2022-05-19 15:38:53",
         "row_count": 42211,
         "entity_count": 3247,
         "schema": {
@@ -3962,13 +3962,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-05-18 11:43:43",
-        "last_modified": "2022-05-18 11:43:43",
+        "created": "2022-05-19 15:38:53",
+        "last_modified": "2022-05-19 15:38:53",
         "row_count": 15912,
         "entity_count": 1224,
         "schema": {
@@ -7858,13 +7858,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-05-18 11:43:48",
-        "last_modified": "2022-05-18 11:43:48",
+        "created": "2022-05-19 15:38:53",
+        "last_modified": "2022-05-19 15:38:53",
         "row_count": 806,
         "entity_count": 62,
         "schema": {
@@ -11710,13 +11710,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-05-18 11:43:40",
-        "last_modified": "2022-05-18 11:43:40",
+        "created": "2022-05-19 15:38:53",
+        "last_modified": "2022-05-19 15:38:53",
         "row_count": 182,
         "entity_count": 14,
         "schema": {
@@ -16206,7 +16206,7 @@
       "shapes": [
         {
           "name": "neighborhood",
-          "url": "data/neighborhoods.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/neighborhoods.geojson",
           "id_property": "geoid"
         },
         {
