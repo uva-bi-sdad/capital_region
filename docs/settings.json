@@ -15748,6 +15748,14 @@
   "info": {
     "variable_info_pane": {
       "title": "variables.short_name",
+      "body": [],
+      "default": [],
+      "floating": false,
+      "dataview": "primary_view",
+      "variable_info": false
+    },
+    "info13": {
+      "title": "",
       "body": [
         {
           "name": "",
@@ -15760,7 +15768,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info13": {
+    "info16": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -15772,7 +15780,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info14": {
+    "info17": {
       "title": "",
       "body": [
         {
@@ -16123,22 +16131,22 @@
       "name": "OpenStreetMap",
       "url": "https://www.openstreetmap.org/copyright"
     },
-    "plotly": {
-      "name": "Plotly",
-      "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.11.1"
-    },
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "1.11.5"
+      "version": "1.12.1"
+    },
+    "plotly": {
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/getting-started",
+      "version": "2.12.1"
     }
   },
   "datatable": {
     "rank_table": {
       "info": false,
       "searching": false,
-      "scrollY": 455,
+      "scrollY": 300,
       "dom": "<'row't>",
       "variables": "selected_variable",
       "subto": ["main_map", "main_plot", "main_legend"],
@@ -16154,7 +16162,6 @@
   "plotly": {
     "main_plot": {
       "layout": {
-        "showlegend": false,
         "xaxis": {
           "title": false,
           "fixedrange": true
@@ -16231,6 +16238,7 @@
         "center": [38.9936, -77.3135],
         "zoom": 8,
         "height": "430px",
+        "zoomAnimation": "settings.map_zoom_animation",
         "subto": ["main_plot", "rank_table", "main_legend"],
         "background_shapes": "tract"
       },
@@ -16247,7 +16255,7 @@
   },
   "legend": {
     "main_legend": {
-      "palette": "",
+      "palette": "settings.palette",
       "subto": ["main_map", "main_plot", "rank_table"]
     }
   },
@@ -16274,6 +16282,20 @@
         }
       },
       "api": false
+    },
+    "CopyAPIlink": {
+      "effects": "copy",
+      "dataview": "primary_view",
+      "query": {
+        "include": "selected_variable",
+        "dataset": "shapes",
+        "features": {
+          "geoid": "id",
+          "name": "name"
+        }
+      },
+      "api": false
     }
-  }
+  },
+  "endpoint": "https://ncr-data-commons.netlify.app/api"
 }

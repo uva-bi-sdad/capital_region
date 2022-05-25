@@ -81,4 +81,7 @@ data_add(
   refresh = TRUE
 )
 
-site_build("../capital_region", serve = TRUE)
+site_build(
+  "../capital_region", serve = TRUE,
+  endpoint = "https://ncr-data-commons.netlify.app/api"
+)
