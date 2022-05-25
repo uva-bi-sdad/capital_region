@@ -15742,7 +15742,19 @@
         }
       ],
       "dataset": "shapes",
-      "ids": "selected_region"
+      "ids": "selected_region",
+      "variables": [
+        {
+          "variable": "selected_variable",
+          "type": "<=",
+          "value": "variable_min"
+        },
+        {
+          "variable": "selected_variable",
+          "type": ">=",
+          "value": "variable_max"
+        }
+      ]
     }
   },
   "info": {
@@ -16213,7 +16225,7 @@
       "shapes": [
         {
           "name": "neighborhood",
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/neighborhoods.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va013_geo_arl_2021_civic_associations/distribution/va013_geo_arl_2021_civic_associations.geojson",
           "id_property": "geoid"
         },
         {

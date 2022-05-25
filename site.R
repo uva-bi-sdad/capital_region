@@ -39,6 +39,8 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
+      input_number("Variable Min", "variable_min", floating_label = FALSE),
+      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_select(
@@ -175,6 +177,10 @@ input_dataview(
   x = "selected_year",
   dataset = "shapes",
   ids = "selected_region",
+  variables = list(
+    list(variable = "selected_variable", type = "<=", value = "variable_min"),
+    list(variable = "selected_variable", type = ">=", value = "variable_max")
+  ),
   time = "time",
   time_agg = "selected_year",
   time_filters = list(
@@ -218,19 +224,21 @@ page_section(
     wraps = "col",
     sizes = c(NA, 5),
     output_map(
-      rev(c(
-        lapply(list(c("county", "counties"), c("tract", "census_tracts"), c("block_group", "census_block_groups")), function(s) list(
+      lapply(list(
+        c("neighborhood", "civic_associations"),
+        c("block_group", "census_block_groups"),
+        c("tract", "census_tracts"),
+        c("county", "counties")
+      ), function(s) {
+        pref <- if (s[1] == "neighborhood") "va013_geo_arl_2021_" else "ncr_geo_census_cb_2010_"
+        list(
           name = s[1],
           url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_",
-            s[2], "/distribution/ncr_geo_census_cb_2010_", s[2], ".geojson"
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            pref, s[2], "/distribution/", pref, s[2], ".geojson"
           )
-        )),
-        list(list(
-          name = "neighborhood",
-          url = "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/neighborhoods.geojson"
-        ))
-      )),
+        )
+      }),
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
