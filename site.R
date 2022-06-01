@@ -7,6 +7,7 @@ page_navbar(
   title = "National Capital Region",
   logo = "https://raw.githubusercontent.com/uva-bi-sdad/community/main/logo.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link", note = "Reset the menu inputs to their defaults."),
+  input_button("Filter", "filter", "open.filter", class = "btn-link"),
   list(
     name = "Settings",
     backdrop = "false",
@@ -39,8 +40,6 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", floating_label = FALSE),
-      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_select(
@@ -106,17 +105,18 @@ page_menu(
     page_section(
       type = "row form-row",
       wraps = "col",
-      sizes = c(4, 8),
-      input_checkbox(
-        "Shapes", c("tract", "neighborhood"), 0, c("Census", "Neighborhood"),
-        id = "shape_type", multi = FALSE
+      input_select(
+        "Shapes",
+        c("tract", "neighborhood", "supervisor_district", "planning_district", "human_services_region", "zip_code"), 0,
+        c("Census", "Neighborhood", "Supervisor District", "Planning District", "Human Services Region", "Zip Code"),
+        id = "shape_type"
       ),
       input_select(
         "Census Tracts", options = "ids", dataset = "tract", dataview = "primary_view",
         id = "selected_tract", reset_button = TRUE
-      )
-    ),
-    conditions = c("", "selected_county")
+      ),
+      conditions = c("selected_county", "selected_county && shape_type == tract")
+    )
   ),
   page_section(
     type = "col",
@@ -132,31 +132,8 @@ page_menu(
       id = "selected_variable", filters = list(category = "variable_type")
     )
   ),
-  page_section(
-    type = "col",
-    page_section(
-      type = "row",
-      wraps = "col",
-      input_number(
-        "First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view",
-        note = paste(
-          "First year to display in the plot and rank table, between the variable's first",
-          "available year and the specified last year."
-        )
-      ),
-      input_number(
-        "Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view",
-        note = paste(
-          "Last year to display in the plot and rank table, between the specified first year",
-          "and variable's last available year."
-        )
-      ),
-      breakpoints = "md"
-    )
-  ),
   position = "top",
-  default_open = TRUE,
-  sizes = c(NA, NA, 4)
+  default_open = TRUE
 )
 input_variable("shapes", list(
   "selected_county && !selected_tract" = "shape_type",
@@ -177,24 +154,8 @@ input_dataview(
   x = "selected_year",
   dataset = "shapes",
   ids = "selected_region",
-  variables = list(
-    list(variable = "selected_variable", type = "<=", value = "variable_min"),
-    list(variable = "selected_variable", type = ">=", value = "variable_max")
-  ),
   time = "time",
   time_agg = "selected_year",
-  time_filters = list(
-    list(
-      variable = "time",
-      type = ">=",
-      value = "min_year"
-    ),
-    list(
-      variable = "time",
-      type = "<=",
-      value = "max_year"
-    )
-  ),
   palette = "set_palette"
 )
 page_section(
@@ -213,7 +174,7 @@ page_section(
   page_section(
     type = "container-xsm",
     input_number(
-      "Selected Year", min = "min_year", max = "max_year", default = "max",
+      "Selected Year", min = "filter.time_min", max = "filter.time_max", default = "max",
       id = "selected_year", buttons = TRUE, note = paste(
         "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
       )
@@ -225,12 +186,19 @@ page_section(
     sizes = c(NA, 5),
     output_map(
       lapply(list(
+        c("human_services_region", "human_services_regions"),
+        c("planning_district", "planning_districts"),
+        c("supervisor_district", "supervisor_districts"),
+        c("zip_code", "zip_codes"),
         c("neighborhood", "civic_associations"),
         c("block_group", "census_block_groups"),
         c("tract", "census_tracts"),
         c("county", "counties")
       ), function(s) {
-        pref <- if (s[1] == "neighborhood") "va013_geo_arl_2021_" else "ncr_geo_census_cb_2010_"
+        pref <- if (s[1] == "neighborhood")
+          "va013_geo_arl_2021_" else if (s[2] %in% c(
+            "human_services_regions", "planning_districts", "supervisor_districts", "zip_codes"
+          )) "va059_geo_ffxct_gis_2022_" else "ncr_geo_census_cb_2010_"
         list(
           name = s[1],
           url = paste0(
