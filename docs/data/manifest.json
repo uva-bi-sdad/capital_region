@@ -15,11 +15,12 @@
     "repository": "uva-bi-sdad/dc.acs.demographics",
     "files": [
       {
-        "id": 55954,
-        "date": "2022-02-25T00:00:00Z",
-        "size": 13438328,
-        "md5": "d9a6a5fe9844c4f40878c726882a33e1",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
+        "location": "data",
+        "date": "2022-06-01T16:06:13Z",
+        "size": 40006688,
+        "sha": "3e9a8e43a070b82ee39dbe7af87798d1b336e77e",
+        "md5": "b17c37ec6f4a5fe3d1846733869e36d5",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
       }
     ]
   },
@@ -31,6 +32,18 @@
         "date": "2022-02-23T00:00:00Z",
         "size": 177048,
         "md5": "2989d40b2da7e5d71b23daf7164762d7",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.acs.employment": {
+    "repository": "uva-bi-sdad/dc.acs.employment",
+    "files": [
+      {
+        "id": 55925,
+        "date": "2022-02-23T00:00:00Z",
+        "size": 178072,
+        "md5": "35fcb3181e983499603d5c160ce32a74",
         "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
@@ -83,6 +96,31 @@
       }
     ]
   },
+  "uva-bi-sdad/dc.dss.daycare": {
+    "repository": "uva-bi-sdad/dc.dss.daycare",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-05-02T04:06:15Z",
+        "size": 210620,
+        "sha": "3687a7f7147ae7b148a7208ee8edffc4e03dbda8",
+        "md5": "115bf6bc8584535ac0ff81758bf611e4",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.dss.daycare"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.education": {
+    "repository": "uva-bi-sdad/dc.education",
+    "files": [
+      {
+        "location": "data/distribution/",
+        "date": "2022-05-16T03:17:33Z",
+        "size": 5947948,
+        "sha": "31d26e963b7c3ae41d60cd98fadfe1ccc4e52d9d",
+        "md5": "761d905e846a848ca636ba9810e3ec9a"
+      }
+    ]
+  },
   "uva-bi-sdad/dc.food.insecurity": {
     "repository": "uva-bi-sdad/dc.food.insecurity",
     "files": [
@@ -95,26 +133,35 @@
       }
     ]
   },
-  "uva-bi-sdad/dc.hifld.ems": {
-    "repository": "uva-bi-sdad/dc.hifld.ems",
+  "uva-bi-sdad/dc.hifld.facilityaccess": {
+    "repository": "uva-bi-sdad/dc.hifld.facilityaccess",
     "files": [
       {
-        "id": 55984,
-        "date": "2022-03-01T00:00:00Z",
-        "size": 195376,
-        "md5": "c387e66edfef98899f139570524e807c",
+        "id": 55064,
+        "date": "2021-12-21T00:00:00Z",
+        "size": 124992,
+        "md5": "7191573167aefbfb6ec1f5d5802a7858",
         "baseurl": "https://dataverse.lib.virginia.edu/"
-      }
-    ]
-  },
-  "uva-bi-sdad/dc.hifld.hosp": {
-    "repository": "uva-bi-sdad/dc.hifld.hosp",
-    "files": [
+      },
       {
-        "id": 55983,
-        "date": "2022-03-01T00:00:00Z",
-        "size": 190276,
-        "md5": "cf29cf2aee849f4d64ea47fc1594e240",
+        "id": 55063,
+        "date": "2021-12-21T00:00:00Z",
+        "size": 92652,
+        "md5": "d06599a91e1dd05c516aa354bf880f08",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 55065,
+        "date": "2021-12-21T00:00:00Z",
+        "size": 104180,
+        "md5": "5b070a689c031a46c6ba183b96d66a98",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 55059,
+        "date": "2021-12-16T00:00:00Z",
+        "size": 102540,
+        "md5": "6e0b85fd5ae790c70fd75e93fa6b27ff",
         "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
@@ -131,57 +178,20 @@
       }
     ]
   },
-  "uva-bi-sdad/dc.nces.colleges": {
-    "repository": "uva-bi-sdad/dc.nces.colleges",
-    "files": [
-      {
-        "id": 55966,
-        "date": "2022-02-25T00:00:00Z",
-        "size": 86120,
-        "md5": "eac92afdd12f9b468af9eb0f933c335a",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      },
-      {
-        "id": 55968,
-        "date": "2022-02-25T00:00:00Z",
-        "size": 79728,
-        "md5": "72f23dbc23e77070ee71d62f74c94d8d",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      }
-    ]
-  },
-  "uva-bi-sdad/dc.nces.programs": {
-    "repository": "uva-bi-sdad/dc.nces.programs",
-    "files": [
-      {
-        "id": 55939,
-        "date": "2022-02-23T00:00:00Z",
-        "size": 5332,
-        "md5": "f2c4f691ffb12e5811c4a0b31a4d9e71",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      },
-      {
-        "id": 55944,
-        "date": "2022-02-24T00:00:00Z",
-        "size": 46680,
-        "md5": "5a5c160aa7fa0293197311836683ac71",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      },
-      {
-        "id": 55945,
-        "date": "2022-02-24T00:00:00Z",
-        "size": 47608,
-        "md5": "f71af023c99ab86d7d65d46f9312c164",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      }
-    ]
-  },
   "uva-bi-sdad/dc.ookla.broadband": {
     "repository": "uva-bi-sdad/dc.ookla.broadband",
     "files": [
       {
         "location": "data",
-        "date": "2022-03-28T02:58:17Z",
+        "date": "2022-04-12T02:11:06Z",
+        "size": 3320496,
+        "sha": "0221c8235743af2a641752275250413686ea2127",
+        "md5": "822a31ea38e56e6c177dbbd095798c26",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      {
+        "location": "data",
+        "date": "2022-04-12T02:11:06Z",
         "size": 8955944,
         "sha": "18bcd530dcfbfbc4604848b4585d113c87b7abb6",
         "md5": "76e6f2e155dfb88ebe7926bc9644d63f",
@@ -189,10 +199,34 @@
       },
       {
         "location": "data",
-        "date": "2022-03-28T02:58:17Z",
-        "size": 3320496,
-        "sha": "0221c8235743af2a641752275250413686ea2127",
-        "md5": "822a31ea38e56e6c177dbbd095798c26",
+        "date": "2022-05-25T14:21:59Z",
+        "size": 4752,
+        "sha": "aaf0e90faf3306fa1c3f12c4cd61011efc2b32e0",
+        "md5": "415ca1bc449e30619c9863533f6362fe",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      {
+        "location": "data",
+        "date": "2022-05-25T14:21:59Z",
+        "size": 1604,
+        "sha": "e7b2e77546b3cdde1865fb03d2d6b2c6474f6c4b",
+        "md5": "142ca3c21457f6e32c404bf786586643",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      {
+        "location": "data",
+        "date": "2022-05-25T14:21:59Z",
+        "size": 1172,
+        "sha": "694c28d6941bb4b595139c73d4f9d04ca99cc712",
+        "md5": "d8fda53c7d3e1847f74e62f7324b1ea1",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      {
+        "location": "data",
+        "date": "2022-05-25T14:21:59Z",
+        "size": 572,
+        "sha": "53ddf78f2ffe2aa5f6045ca2913d113aee887031",
+        "md5": "5a499898c9148b823da7b325d4f69065",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       }
     ]
@@ -201,34 +235,148 @@
     "repository": "uva-bi-sdad/dc.osm.food",
     "files": [
       {
-        "id": 55963,
-        "date": "2022-02-25T00:00:00Z",
+        "location": "data",
+        "date": "2022-04-12T02:11:17Z",
         "size": 1872,
+        "sha": "db38ea4950eb15d8180facb23bb33f6fe4922a38",
         "md5": "35136c02bde5ead6933326578308cc63",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.osm.food"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.sdad.dei": {
+    "repository": "uva-bi-sdad/dc.sdad.dei",
+    "files": [
+      {
+        "id": 55921,
+        "date": "2022-02-22T00:00:00Z",
+        "size": 675504,
+        "md5": "b6c2eb6a01178de4686164db5637d95f",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 55920,
+        "date": "2022-02-22T00:00:00Z",
+        "size": 1129004,
+        "md5": "b7eafd7ce4ef2872eae0cd1ce80026d7",
         "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
   },
-  "uva-bi-sdad/dc.samhsa.mental": {
-    "repository": "uva-bi-sdad/dc.samhsa.mental",
+  "uva-bi-sdad/dc.sdad.health.outcomes": {
+    "repository": "uva-bi-sdad/dc.sdad.health.outcomes",
     "files": [
       {
-        "id": 55986,
-        "date": "2022-03-01T00:00:00Z",
-        "size": 186860,
-        "md5": "73949ebe106f64c25660c877cd118654",
+        "id": 55979,
+        "date": "2022-02-28T00:00:00Z",
+        "size": 94520,
+        "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2",
         "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
   },
-  "uva-bi-sdad/dc.samhsa.substance": {
-    "repository": "uva-bi-sdad/dc.samhsa.substance",
+  "uva-bi-sdad/dc.staple.food.basket": {
+    "repository": "uva-bi-sdad/dc.staple.food.basket",
     "files": [
       {
-        "id": 55987,
+        "location": "data",
+        "date": "2022-06-01T21:37:56Z",
+        "size": 165744,
+        "sha": "13a9196d52deec41ea52d9d1b04a4bb3e4603fdb",
+        "md5": "015d7a6507b8371c52c024964e67356b",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.staple.food.basket"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.vdh.drug.overdose": {
+    "repository": "uva-bi-sdad/dc.vdh.drug.overdose",
+    "files": [
+      {
+        "id": 55935,
+        "date": "2022-02-23T00:00:00Z",
+        "size": 11300,
+        "md5": "836e3952e4ac1192019eb43bc103c255",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.vdoe.reading.scores": {
+    "repository": "uva-bi-sdad/dc.vdoe.reading.scores",
+    "files": [
+      {
+        "id": 55749,
+        "date": "2022-01-28T00:00:00Z",
+        "size": 4632,
+        "md5": "85c71e77820c0073e60e28ce68fd8076",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.dental": {
+    "repository": "uva-bi-sdad/dc.webmd.dental",
+    "files": [
+      {
+        "id": 55980,
         "date": "2022-03-01T00:00:00Z",
-        "size": 187212,
-        "md5": "f9ad06b92566d90a78bfd07408dfc950",
+        "size": 171216,
+        "md5": "441ba2449e694ded57e9f9735075f898",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 56001,
+        "date": "2022-03-03T00:00:00Z",
+        "size": 428224,
+        "md5": "cab8a5830904f36d21e9a65b2210461a",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.obgyn": {
+    "repository": "uva-bi-sdad/dc.webmd.obgyn",
+    "files": [
+      {
+        "id": 55981,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 191292,
+        "md5": "db30acf4caa08a04b875207813e30334",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 56003,
+        "date": "2022-03-03T00:00:00Z",
+        "size": 422132,
+        "md5": "e7bd4cc3a70c96292d9bcaa60c78c316",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.pediatrics": {
+    "repository": "uva-bi-sdad/dc.webmd.pediatrics",
+    "files": [
+      {
+        "id": 55982,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 169644,
+        "md5": "f31743da24155a2203ca0cace492a455",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.primcare": {
+    "repository": "uva-bi-sdad/dc.webmd.primcare",
+    "files": [
+      {
+        "id": 55989,
+        "date": "2022-03-01T00:00:00Z",
+        "size": 193860,
+        "md5": "7407f799ed52cc7b01bce4debd1d5883",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      {
+        "id": 56004,
+        "date": "2022-03-04T00:00:00Z",
+        "size": 440988,
+        "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5",
         "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
