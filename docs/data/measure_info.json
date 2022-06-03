@@ -993,6 +993,26 @@
       }
     ]
   },
+  "daycare_access_scores:daycare_median_drive_time_top5": {
+    "category": "Education",
+    "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
+    "full_name": "daycare_access_scores:daycare_median_drive_time_top5",
+    "measure": "median_drive_time_top5",
+    "type": "drive time",
+    "short_name": "Day care availability (drive time)",
+    "long_name": "Day care availability by median drive time to the five closest day cares in minutes",
+    "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+    "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data were collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2022).",
+    "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
+    "equity_category": "Availability",
+    "sources": [
+      {
+        "name": "Virginia Department of Social Services",
+        "date_accessed": 2021,
+        "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+      }
+    ]
+  },
   "daycare_access_scores:daycare_3sfca": {
     "category": "Education",
     "measure_table": "dc_education_training.va_hdcttrbg_dss_2021_daycare_access_scores",
