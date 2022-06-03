@@ -263,6 +263,51 @@
       }
     ]
   },
+  "uva-bi-sdad/dc.sdad.demographics": {
+    "repository": "uva-bi-sdad/dc.sdad.demographics",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-06-01T16:06:14Z",
+        "size": 12296,
+        "sha": "84c254234145d1176e157825476ef4ad5af8a2cb",
+        "md5": "e0faa4d2219b001bf2c111fddb5c0af0",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.demographics"
+      },
+      {
+        "location": "data",
+        "date": "2022-06-01T16:06:14Z",
+        "size": 94000,
+        "sha": "45ab00e8c5d6c3c39db4fc9eb9a3be4b1ff9d9a2",
+        "md5": "02a59cfa0d1d12632f4aea7c59c86332",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.demographics"
+      },
+      {
+        "location": "data",
+        "date": "2022-06-01T16:06:14Z",
+        "size": 3624,
+        "sha": "ad250723c74e5f69931124adfa9d5daa45550e68",
+        "md5": "359bd8fed0ee1e97fd55856451b6ad77",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.demographics"
+      },
+      {
+        "location": "data",
+        "date": "2022-06-01T16:06:14Z",
+        "size": 2524,
+        "sha": "db6012494ac34634e26f79c1dbde56a3377649a3",
+        "md5": "9a0f9ee762e45ba6c11be371b3d0c475",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.demographics"
+      },
+      {
+        "location": "data",
+        "date": "2022-06-01T16:06:14Z",
+        "size": 1176,
+        "sha": "80850385d54480e44b7138748bfc623054aaceda",
+        "md5": "27dac959230269b07c749164e7a37bce",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.demographics"
+      }
+    ]
+  },
   "uva-bi-sdad/dc.sdad.health.outcomes": {
     "repository": "uva-bi-sdad/dc.sdad.health.outcomes",
     "files": [
