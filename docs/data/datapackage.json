@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 31024,
+      "bytes": 31356,
       "encoding": "ISO-8859-1",
-      "md5": "371bae84c383431f6f37a389aefacd86",
+      "md5": "6d4fc7cd0ad41ed551785f50d6ca91d6",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -24,8 +24,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:44",
-      "last_modified": "2022-06-03 14:31:44",
+      "created": "2022-06-03 17:05:56",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 182,
       "entity_count": 14,
       "schema": {
@@ -712,6 +712,98 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 172,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 173,
+            "mean": 0,
+            "sd": 6e-06,
+            "min": 0,
+            "max": 0.0001,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 174,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 173,
+            "mean": 12.2222,
+            "sd": 13.8363,
+            "min": 1,
+            "max": 42,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 83,
             "time_range": [1, 10],
@@ -874,6 +966,98 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 172,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 173,
+            "mean": 5e-06,
+            "sd": 1e-06,
+            "min": 4e-06,
+            "max": 7e-06,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 177,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 173,
+            "mean": 1.4444,
+            "sd": 1.5092,
+            "min": 0,
+            "max": 4,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -1639,10 +1823,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 173,
-            "mean": 0.0153,
-            "sd": 0.0037,
-            "min": 0.0089,
-            "max": 0.0193,
+            "mean": 0,
+            "sd": 4e-06,
+            "min": 9e-06,
+            "max": 0,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -2078,10 +2262,10 @@
             "time_range": [1, 10],
             "type": "float",
             "missing": 42,
-            "mean": 0.7157,
-            "sd": 0.1077,
-            "min": 0.4747,
-            "max": 0.933,
+            "mean": 71.5701,
+            "sd": 10.7741,
+            "min": 47.466,
+            "max": 93.3023,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -2967,12 +3151,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "f3706b6747014499a2849e15562a487a9bebfa69f496c56b27ce86598f4145eab060c35ac4e5cc9b21e7202c2cb34a801e1cdac5acaed49ee391fe5e15ec5b5f"
+      "sha512": "8fc4629c365d7a30b9c4a039eba50712668de51febc787fc5be386f0dcf2ee690fbd1b0c984c7cdf48853586e45ac5291cd55cb6acc9f0222bbe5c78db68d2c4"
     },
     {
-      "bytes": 1916408,
+      "bytes": 1931288,
       "encoding": "ISO-8859-1",
-      "md5": "4e5f86421bb1a01ba2cda7f559aea41a",
+      "md5": "9edfb3ad1c3eefbfe6fbbb843ececcce",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -2985,8 +3169,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:44",
-      "last_modified": "2022-06-03 14:31:44",
+      "created": "2022-06-03 17:05:56",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 15860,
       "entity_count": 1220,
       "schema": {
@@ -3665,6 +3849,102 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 15645,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 15341,
+            "mean": 11.3431,
+            "sd": 3.9464,
+            "min": 5.1,
+            "max": 35.2,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 15343,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 15341,
+            "mean": 0,
+            "sd": 0,
+            "min": 0,
+            "max": 0.0002,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 15857,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 15759,
+            "mean": 1.0891,
+            "sd": 0.2863,
+            "min": 1,
+            "max": 2,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 15859,
             "time_range": [-1, -1],
@@ -3811,6 +4091,102 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 15588,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 15341,
+            "mean": 31.555,
+            "sd": 5.3234,
+            "min": 20.1,
+            "max": 64.95,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 15588,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 15341,
+            "mean": 5e-06,
+            "sd": 2e-06,
+            "min": 1e-06,
+            "max": 0,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 15857,
+            "time_range": [12, 12],
+            "type": "integer",
+            "missing": 15848,
+            "mean": 1.0833,
+            "sd": 0.2887,
+            "min": 1,
+            "max": 2,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -4580,10 +4956,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 15341,
-            "mean": 0.0153,
-            "sd": 0.0043,
-            "min": 0.001,
-            "max": 0.0235,
+            "mean": 0,
+            "sd": 4e-06,
+            "min": 1e-06,
+            "max": 0,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -4793,8 +5169,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 14652,
-            "mean": 0.5109,
-            "sd": 0.247,
+            "mean": 0.5112,
+            "sd": 0.2472,
             "min": 0.096,
             "max": 3.3295,
             "info": {
@@ -4830,8 +5206,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 14652,
-            "mean": 0.3652,
-            "sd": 0.1783,
+            "mean": 0.3653,
+            "sd": 0.1784,
             "min": 0.096,
             "max": 2.0806,
             "info": {
@@ -5023,10 +5399,10 @@
             "time_range": [1, 10],
             "type": "float",
             "missing": 3720,
-            "mean": 0.7187,
-            "sd": 0.1722,
-            "min": 0.0631,
-            "max": 1,
+            "mean": 71.8656,
+            "sd": 17.2222,
+            "min": 6.3149,
+            "max": 100,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -5908,12 +6284,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "81290d32a29a3f89facc6e53f068d10ee6a7c34f4c660b1cabea58bd7fad96f179d9a8f37caa2eaa6cdcad0b3d0bc8822a7043a0fc08f2ccf2bfed11ab7895ee"
+      "sha512": "35e0c38808d5c7bf6413231f1958919e3e51a21bac2cd226eba39e2d647e7af9cd90f3455e2167f9459c655d1d3c78eb89d1676e54cc36010c9e75e064f059dd"
     },
     {
-      "bytes": 2981168,
+      "bytes": 2990320,
       "encoding": "ISO-8859-1",
-      "md5": "c40374e4f7a866f3354491468c0892c2",
+      "md5": "03fef46fee2b1ce0f7f426ff91c823b5",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv.xz",
@@ -5926,8 +6302,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:51",
-      "last_modified": "2022-06-03 14:31:51",
+      "created": "2022-06-03 17:06:04",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 42146,
       "entity_count": 3242,
       "schema": {
@@ -6602,6 +6978,90 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 42145,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 42146,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 42145,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 42146,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 42145,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 42146,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 42145,
             "time_range": [-1, -1],
@@ -6744,6 +7204,90 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 42145,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 42146,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 42145,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 42146,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 42145,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 42146,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -7814,11 +8358,11 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 39212,
+            "duplicates": 39213,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 38986,
-            "mean": 0.5168,
+            "missing": 38987,
+            "mean": 0.5167,
             "sd": 0.3114,
             "min": 0.096,
             "max": 4.0157,
@@ -7851,11 +8395,11 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 39277,
+            "duplicates": 39278,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 39000,
-            "mean": 0.3702,
+            "missing": 39001,
+            "mean": 0.3701,
             "sd": 0.2219,
             "min": 0.096,
             "max": 3.0115,
@@ -8905,12 +9449,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "ca437e4ca4042c381967411107a06934ec10b1d2ffb72598657f546ec3a5cdaaea6e3b8c5082268321d232cfa6e5d743018d0df0954726402b6054a92694c80b"
+      "sha512": "cbbafa806761beba3feded73d912aa1802e70b87fa2271335cc0bc60a8bc73a054f029c1cacbe1aa2ac8ac7d946c34eb23160a506cdbe966e4c358eb38030ccd"
     },
     {
-      "bytes": 37232,
+      "bytes": 37280,
       "encoding": "ISO-8859-1",
-      "md5": "03cb5eb663977ca9af8ed3cca21eae18",
+      "md5": "aae9b43c93293a1384421bbda2c9a0d6",
       "format": "csv",
       "name": "neighborhood",
       "filename": "neighborhood.csv.xz",
@@ -8923,8 +9467,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:51",
-      "last_modified": "2022-06-03 14:31:51",
+      "created": "2022-06-03 17:06:04",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 806,
       "entity_count": 62,
       "schema": {
@@ -9543,6 +10087,90 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 805,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 806,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 805,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 806,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 805,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 806,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 805,
             "time_range": [-1, -1],
@@ -9685,6 +10313,90 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 805,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 806,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 805,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 806,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 805,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 806,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -11786,12 +12498,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "8ea6d05e775454c3e458658d9a1783cdf77917c2531edf6f6b612de779a51730a9c107871f7ddeae3997b9d1b9619fa872e6a4ef6799c2557b5d1c89064e5f12"
+      "sha512": "879b4f22c6ff5e5ec47ed323f13d303ac73a1f60adb53e4659a3349ff9c70ee58957e9117ad038fefcbd06ce9f89df919e68496a0bb62c9bf9b000b4057f9aa7"
     },
     {
-      "bytes": 1628,
+      "bytes": 1660,
       "encoding": "ISO-8859-1",
-      "md5": "36436076dec3e10f1e7f2ff10a654c40",
+      "md5": "c614bb3e426795b76c7ef47bbaceea5b",
       "format": "csv",
       "name": "human_services_region",
       "filename": "human_services_region.csv.xz",
@@ -11804,8 +12516,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:51",
-      "last_modified": "2022-06-03 14:31:51",
+      "created": "2022-06-03 17:06:04",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 52,
       "entity_count": 4,
       "schema": {
@@ -12424,6 +13136,90 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 51,
             "time_range": [-1, -1],
@@ -12566,6 +13362,90 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -14559,12 +15439,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "931900cfdac70792dd8b0665574cb511d22314f952879866912d011190f690b2d93daaba44a5ad7e0c81a7ec08ff5e0b1357f1c696578ea17d13c6a451add93c"
+      "sha512": "dacfe47b5a4ab5376dc6c41e620013c73d5fb8735bfa926a95b2269d870e127431ff1e0409d3467427cb7f81b016acdfdc4683179ea0ae8c342bfcae91959041"
     },
     {
-      "bytes": 2968,
+      "bytes": 3028,
       "encoding": "ISO-8859-1",
-      "md5": "e8d1a30c46d0ef235bd40accfb6309a2",
+      "md5": "fccf7c7023c51ad187a13c218df4ad82",
       "format": "csv",
       "name": "planning_district",
       "filename": "planning_district.csv.xz",
@@ -14577,8 +15457,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:51",
-      "last_modified": "2022-06-03 14:31:51",
+      "created": "2022-06-03 17:06:04",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 182,
       "entity_count": 14,
       "schema": {
@@ -15197,6 +16077,90 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 181,
             "time_range": [-1, -1],
@@ -15339,6 +16303,90 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -17332,12 +18380,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "c412a9a891e6b3a1715499b86dfc8c2364ac8bb3231a0d749475bca00485c3a160ecb37dddb472dbf9c9dbfe88c4671d1ee968bd4c2ea5688139ec0b43b52d01"
+      "sha512": "f197d6a3edc9a0117df67c77cd9a6bfd9378900869ac07acb3aaaa5894a699cdf95437131db608148307565a507be6ab0059136a038d5a949e19c4bf5ab50814"
     },
     {
-      "bytes": 2404,
+      "bytes": 2452,
       "encoding": "ISO-8859-1",
-      "md5": "3ca7f7f7f06b1b011b519318f844014a",
+      "md5": "98a19f1716fd135cd81004f3a79b5bfa",
       "format": "csv",
       "name": "supervisor_district",
       "filename": "supervisor_district.csv.xz",
@@ -17350,8 +18398,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:51",
-      "last_modified": "2022-06-03 14:31:51",
+      "created": "2022-06-03 17:06:04",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 117,
       "entity_count": 9,
       "schema": {
@@ -17970,6 +19018,90 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 116,
             "time_range": [-1, -1],
@@ -18112,6 +19244,90 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -20105,12 +21321,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "0899931812436977df4b2d3cbbb9f628a674febaf799ea83e191088554c642ad71bc6e58f868516452d76931b14ffcb28dccd7a0fe773f60c71e232ae803bc90"
+      "sha512": "c285e9ad279ec8892fbf3d4642a2a5adff095f3492f3a0799baae9dbe237b4d59beea56ffa4715ce75894da2c7b3e27194dd05489ccf28cc759b767f2e4241fc"
     },
     {
-      "bytes": 6952,
+      "bytes": 7068,
       "encoding": "ISO-8859-1",
-      "md5": "368f336b9972962f27da8a451362668b",
+      "md5": "42a31a3562e4a7c5d0ce817ec63b088d",
       "format": "csv",
       "name": "zip_code",
       "filename": "zip_code.csv.xz",
@@ -20123,8 +21339,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-06-03 14:31:51",
-      "last_modified": "2022-06-03 14:31:51",
+      "created": "2022-06-03 17:06:04",
+      "last_modified": "2022-06-03 15:09:03",
       "row_count": 689,
       "entity_count": 53,
       "schema": {
@@ -20743,6 +21959,90 @@
             }
           },
           {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "drive time",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
             "duplicates": 688,
             "time_range": [-1, -1],
@@ -20885,6 +22185,90 @@
                 }
               ],
               "citations": ["savitz20", "liang17"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_10near_median",
+              "measure": "hospital_10near_median",
+              "type": "drive time",
+              "short_name": "Hospital access (drive time)",
+              "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital access score",
+              "long_name": "Hospital access score (3-step floating catchment areas)",
+              "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+              "full_name": "hospital_access_scores:hos_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital access (count)",
+              "long_name": "Access to hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": {},
+              "sources": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ],
+              "citations": {}
             }
           },
           {
@@ -22878,7 +24262,7 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "f5809db2622820f088b184d832921f82895498a2f21016c865ab6f0f53bc0402ae621403e40cb0aa6b2d51469016ca306e34f46ebca18b21b56ca801ca23eb0d"
+      "sha512": "dec32cdc2ac9323f973186ec31089153ba7098f57ef546da5a414c4e763cb4dc5561593700b52465197be0397669aa3813accc24a65a014c1d9a2aee09a4db20"
     }
   ]
 }
