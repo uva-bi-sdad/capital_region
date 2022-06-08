@@ -34,13 +34,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:06:04",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:05:59",
+        "last_modified": "2022-06-08 11:05:59",
         "row_count": 42146,
         "entity_count": 3242,
         "schema": {
@@ -3556,13 +3556,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:05:56",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:05:52",
+        "last_modified": "2022-06-08 11:05:52",
         "row_count": 15860,
         "entity_count": 1220,
         "schema": {
@@ -7046,13 +7046,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:06:04",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:05:59",
+        "last_modified": "2022-06-08 11:05:59",
         "row_count": 806,
         "entity_count": 62,
         "schema": {
@@ -10452,13 +10452,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:05:56",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:05:52",
+        "last_modified": "2022-06-08 11:05:52",
         "row_count": 182,
         "entity_count": 14,
         "schema": {
@@ -13944,9 +13944,9 @@
         "site_file": "county.json"
       },
       "zip_code": {
-        "bytes": 7068,
+        "bytes": 9776,
         "encoding": "ISO-8859-1",
-        "md5": "42a31a3562e4a7c5d0ce817ec63b088d",
+        "md5": "6596dc44e30f5749ea44297a99daa437",
         "format": "csv",
         "name": "zip_code",
         "filename": "zip_code.csv.xz",
@@ -13954,13 +13954,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:06:04",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:06:00",
+        "last_modified": "2022-06-08 11:06:00",
         "row_count": 689,
         "entity_count": 53,
         "schema": {
@@ -16408,17 +16408,17 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 636,
+              "duplicates": 532,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 636,
-              "mean": 124.2727,
-              "sd": 8.2599,
+              "missing": 530,
+              "mean": 162.5343,
+              "sd": 36.8427,
               "min": 108.8953,
-              "max": 149.6252,
+              "max": 238.9662,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -16442,17 +16442,17 @@
             },
             {
               "name": "speed_measurements:avg_up_using_devices",
-              "duplicates": 636,
+              "duplicates": 532,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 636,
-              "mean": 88.875,
-              "sd": 14.933,
+              "missing": 530,
+              "mean": 101.7439,
+              "sd": 19.1619,
               "min": 36.9405,
-              "max": 106.6141,
+              "max": 146.018,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -16476,17 +16476,17 @@
             },
             {
               "name": "speed_measurements:devices",
-              "duplicates": 635,
+              "duplicates": 531,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 636,
-              "mean": 1551.6979,
-              "sd": 1055.4836,
+              "missing": 530,
+              "mean": 1643.2414,
+              "sd": 1135.1126,
               "min": 0,
-              "max": 3488.5831,
+              "max": 4319.897,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -17238,13 +17238,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "dec32cdc2ac9323f973186ec31089153ba7098f57ef546da5a414c4e763cb4dc5561593700b52465197be0397669aa3813accc24a65a014c1d9a2aee09a4db20",
+        "sha512": "d5bbf3a2bcda77107f48a7bf6c6f259ff414ec0d6bf003d093996411fb729f02b4e95813f7ffe0e90caaacd0b480a1da62385a9880850100db9b443d24987a97",
         "site_file": "zip_code.json"
       },
       "planning_district": {
-        "bytes": 3028,
+        "bytes": 3776,
         "encoding": "ISO-8859-1",
-        "md5": "fccf7c7023c51ad187a13c218df4ad82",
+        "md5": "2d80d2b8cdab8afc202ec4429731433a",
         "format": "csv",
         "name": "planning_district",
         "filename": "planning_district.csv.xz",
@@ -17252,13 +17252,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:06:04",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:06:00",
+        "last_modified": "2022-06-08 11:06:00",
         "row_count": 182,
         "entity_count": 14,
         "schema": {
@@ -19706,17 +19706,17 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 167,
+              "duplicates": 139,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 168,
-              "mean": 125.2219,
-              "sd": 6.0171,
+              "missing": 140,
+              "mean": 163.3351,
+              "sd": 36.9136,
               "min": 116.1984,
-              "max": 135.3885,
+              "max": 222.7021,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -19740,17 +19740,17 @@
             },
             {
               "name": "speed_measurements:avg_up_using_devices",
-              "duplicates": 167,
+              "duplicates": 139,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 168,
-              "mean": 91.6293,
-              "sd": 8.4823,
+              "missing": 140,
+              "mean": 104.069,
+              "sd": 14.8427,
               "min": 72.3865,
-              "max": 100.9346,
+              "max": 129.7151,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -19774,17 +19774,17 @@
             },
             {
               "name": "speed_measurements:devices",
-              "duplicates": 167,
+              "duplicates": 139,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 168,
-              "mean": 5723.6668,
-              "sd": 3823.3813,
-              "min": 1340.5457,
-              "max": 15642.1738,
+              "missing": 140,
+              "mean": 6069.3411,
+              "sd": 4048.9502,
+              "min": 1224.7493,
+              "max": 18532.3342,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -20536,13 +20536,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "f197d6a3edc9a0117df67c77cd9a6bfd9378900869ac07acb3aaaa5894a699cdf95437131db608148307565a507be6ab0059136a038d5a949e19c4bf5ab50814",
+        "sha512": "5460410546826a274e98c4e27454425efa2bcd1f5866efccff516c25d08e8bf18b36a322187c9a9f319a86567d7f7a8c0637c79c4c522e668726042c419f4f4c",
         "site_file": "planning_district.json"
       },
       "supervisor_district": {
-        "bytes": 2452,
+        "bytes": 2892,
         "encoding": "ISO-8859-1",
-        "md5": "98a19f1716fd135cd81004f3a79b5bfa",
+        "md5": "edc977b6c576ce0a5759cf40e163f682",
         "format": "csv",
         "name": "supervisor_district",
         "filename": "supervisor_district.csv.xz",
@@ -20550,13 +20550,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:06:04",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:06:00",
+        "last_modified": "2022-06-08 11:06:00",
         "row_count": 117,
         "entity_count": 9,
         "schema": {
@@ -23004,17 +23004,17 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 107,
+              "duplicates": 89,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 108,
-              "mean": 126.0257,
-              "sd": 5.1616,
+              "missing": 90,
+              "mean": 164.3546,
+              "sd": 36.6463,
               "min": 118.9928,
-              "max": 132.9274,
+              "max": 219.9064,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -23038,17 +23038,17 @@
             },
             {
               "name": "speed_measurements:avg_up_using_devices",
-              "duplicates": 107,
+              "duplicates": 89,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 108,
-              "mean": 93.4581,
-              "sd": 4.7497,
+              "missing": 90,
+              "mean": 106.2765,
+              "sd": 13.5286,
               "min": 84.4246,
-              "max": 102.2438,
+              "max": 132.2594,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -23072,17 +23072,17 @@
             },
             {
               "name": "speed_measurements:devices",
-              "duplicates": 107,
+              "duplicates": 89,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 108,
-              "mean": 8857.3819,
-              "sd": 1473.2234,
+              "missing": 90,
+              "mean": 9398.9676,
+              "sd": 1795.5932,
               "min": 7103.215,
-              "max": 11675.3589,
+              "max": 13605.0547,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -23834,13 +23834,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "c285e9ad279ec8892fbf3d4642a2a5adff095f3492f3a0799baae9dbe237b4d59beea56ffa4715ce75894da2c7b3e27194dd05489ccf28cc759b767f2e4241fc",
+        "sha512": "c16bad5b5dc36cf0c916b0f252d452e008f698a3fd5af559926769dcddfb1be2a8b368133d482c5d2479452e30f7c941b7ff01893d1730c475284c4d0a738f45",
         "site_file": "supervisor_district.json"
       },
       "human_services_region": {
-        "bytes": 1660,
+        "bytes": 1880,
         "encoding": "ISO-8859-1",
-        "md5": "c614bb3e426795b76c7ef47bbaceea5b",
+        "md5": "6dfcb75dc371691247e7662db62de3f0",
         "format": "csv",
         "name": "human_services_region",
         "filename": "human_services_region.csv.xz",
@@ -23848,13 +23848,13 @@
         "ids": [
           {
             "variable": "ID",
-            "map": "data/entity_info.json"
+            "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-03 17:06:04",
-        "last_modified": "2022-06-03 15:09:03",
+        "created": "2022-06-08 11:06:00",
+        "last_modified": "2022-06-08 11:06:00",
         "row_count": 52,
         "entity_count": 4,
         "schema": {
@@ -26302,17 +26302,17 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 47,
+              "duplicates": 39,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 48,
-              "mean": 125.9223,
-              "sd": 3.6106,
+              "missing": 40,
+              "mean": 164.0493,
+              "sd": 37.2911,
               "min": 121.2502,
-              "max": 130.0584,
+              "max": 217.011,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -26336,17 +26336,17 @@
             },
             {
               "name": "speed_measurements:avg_up_using_devices",
-              "duplicates": 47,
+              "duplicates": 39,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 48,
-              "mean": 93.3478,
-              "sd": 3.3233,
+              "missing": 40,
+              "mean": 105.8765,
+              "sd": 12.9365,
               "min": 89.6652,
-              "max": 97.7274,
+              "max": 126.6668,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -26370,17 +26370,17 @@
             },
             {
               "name": "speed_measurements:devices",
-              "duplicates": 47,
+              "duplicates": 39,
               "time_range": [
                 10,
-                10
+                12
               ],
               "type": "float",
-              "missing": 48,
-              "mean": 19890.0892,
-              "sd": 5108.3553,
-              "min": 15667.1761,
-              "max": 26091.5523,
+              "missing": 40,
+              "mean": 21122.3578,
+              "sd": 5566.5323,
+              "min": 14991.3838,
+              "max": 31420.5081,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
@@ -27132,7 +27132,7 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "dacfe47b5a4ab5376dc6c41e620013c73d5fb8735bfa926a95b2269d870e127431ff1e0409d3467427cb7f81b016acdfdc4683179ea0ae8c342bfcae91959041",
+        "sha512": "23ad293c6bfc546bd6dc15692dadf781732fbe5f35028a0ac45a20580c6e6637d485adc12cf3bbaa56894fdb53b11e1830d549306644c49276d9ead24264af53",
         "site_file": "human_services_region.json"
       }
     },

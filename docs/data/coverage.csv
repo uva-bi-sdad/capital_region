@@ -89,9 +89,9 @@
 "percent_above_threshold:perc_w_int_25_3_using_devices",3642,42,9723,0,0,0,0,0
 "post_hs_education:perc_post_hs_edu",12140,140,0,0,0,0,0,0
 "preventable_hospitalizations:prevent_hosp_rate",0,55,0,0,0,0,0,0
-"speed_measurements:avg_down_using_devices",3660,42,9723,0,53,14,9,4
-"speed_measurements:avg_up_using_devices",3660,42,9723,0,53,14,9,4
-"speed_measurements:devices",3660,42,9723,0,53,14,9,4
+"speed_measurements:avg_down_using_devices",3660,42,9723,0,159,42,27,12
+"speed_measurements:avg_up_using_devices",3660,42,9723,0,159,42,27,12
+"speed_measurements:devices",3660,42,9723,0,159,42,27,12
 "substance_access_scores:subs_10near_median",519,0,0,0,0,0,0,0
 "substance_access_scores:subs_3sfca",519,9,0,0,0,0,0,0
 "substance_access_scores:subs_cnt",38,9,0,0,0,0,0,0
