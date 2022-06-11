@@ -39,8 +39,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:05:59",
-        "last_modified": "2022-06-08 11:05:59",
+        "created": "2022-06-10 23:49:30",
+        "last_modified": "2022-06-08 13:18:15",
         "row_count": 42146,
         "entity_count": 3242,
         "schema": {
@@ -74,8 +74,24 @@
               "type": "unknown",
               "missing": 42146,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -2261,9 +2277,30 @@
               "min": 0,
               "max": 6.2691,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -2572,8 +2609,24 @@
               "type": "unknown",
               "missing": 42146,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -2587,8 +2640,24 @@
               "type": "unknown",
               "missing": 42146,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -3215,8 +3284,24 @@
               "min": 0,
               "max": 94.82,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -3339,8 +3424,24 @@
               "min": 0,
               "max": 106.4838,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -3561,8 +3662,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:05:52",
-        "last_modified": "2022-06-08 11:05:52",
+        "created": "2022-06-10 23:49:20",
+        "last_modified": "2022-06-08 13:18:16",
         "row_count": 15860,
         "entity_count": 1220,
         "schema": {
@@ -3596,8 +3697,24 @@
               "type": "unknown",
               "missing": 15860,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -5723,9 +5840,30 @@
               "min": 0,
               "max": 1.6997,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -6038,8 +6176,24 @@
               "min": 4.7937,
               "max": 26.0666,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -6057,8 +6211,24 @@
               "min": 2.0713,
               "max": 26.8392,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -6705,8 +6875,24 @@
               "min": 0,
               "max": 91.2697,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -6829,8 +7015,24 @@
               "min": 0,
               "max": 100,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -7051,8 +7253,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:05:59",
-        "last_modified": "2022-06-08 11:05:59",
+        "created": "2022-06-10 23:49:30",
+        "last_modified": "2022-06-08 13:18:15",
         "row_count": 806,
         "entity_count": 62,
         "schema": {
@@ -7086,8 +7288,24 @@
               "type": "unknown",
               "missing": 806,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -9213,9 +9431,30 @@
               "type": "unknown",
               "missing": 806,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -9492,8 +9731,24 @@
               "type": "unknown",
               "missing": 806,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -9507,8 +9762,24 @@
               "type": "unknown",
               "missing": 806,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -10111,8 +10382,24 @@
               "min": 0,
               "max": 40.678,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -10235,8 +10522,24 @@
               "min": 1.8048,
               "max": 30.7761,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -10457,8 +10760,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:05:52",
-        "last_modified": "2022-06-08 11:05:52",
+        "created": "2022-06-10 23:49:20",
+        "last_modified": "2022-06-08 13:18:15",
         "row_count": 182,
         "entity_count": 14,
         "schema": {
@@ -10496,8 +10799,24 @@
               "min": 37.2,
               "max": 88,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -12627,9 +12946,30 @@
               "min": 0.3641,
               "max": 1.558,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -12942,8 +13282,24 @@
               "min": 8.9171,
               "max": 12.5359,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -12961,8 +13317,24 @@
               "min": 7.4315,
               "max": 12.3398,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -13613,8 +13985,24 @@
               "min": 0.7263,
               "max": 16.6767,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -13737,8 +14125,24 @@
               "min": 5.1307,
               "max": 14.602,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -13959,8 +14363,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:06:00",
-        "last_modified": "2022-06-08 11:06:00",
+        "created": "2022-06-10 23:49:30",
+        "last_modified": "2022-06-08 13:18:46",
         "row_count": 689,
         "entity_count": 53,
         "schema": {
@@ -13994,8 +14398,24 @@
               "type": "unknown",
               "missing": 689,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -16009,9 +16429,30 @@
               "type": "unknown",
               "missing": 689,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -16288,8 +16729,24 @@
               "type": "unknown",
               "missing": 689,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -16303,8 +16760,24 @@
               "type": "unknown",
               "missing": 689,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -16915,8 +17388,24 @@
               "type": "unknown",
               "missing": 689,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -17035,8 +17524,24 @@
               "min": 7.4501,
               "max": 22.5155,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -17257,8 +17762,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:06:00",
-        "last_modified": "2022-06-08 11:06:00",
+        "created": "2022-06-10 23:49:30",
+        "last_modified": "2022-06-08 13:18:46",
         "row_count": 182,
         "entity_count": 14,
         "schema": {
@@ -17292,8 +17797,24 @@
               "type": "unknown",
               "missing": 182,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -19307,9 +19828,30 @@
               "type": "unknown",
               "missing": 182,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -19586,8 +20128,24 @@
               "type": "unknown",
               "missing": 182,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -19601,8 +20159,24 @@
               "type": "unknown",
               "missing": 182,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -20213,8 +20787,24 @@
               "type": "unknown",
               "missing": 182,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -20333,8 +20923,24 @@
               "min": 9.3829,
               "max": 19.1146,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -20555,8 +21161,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:06:00",
-        "last_modified": "2022-06-08 11:06:00",
+        "created": "2022-06-10 23:49:30",
+        "last_modified": "2022-06-08 13:18:46",
         "row_count": 117,
         "entity_count": 9,
         "schema": {
@@ -20590,8 +21196,24 @@
               "type": "unknown",
               "missing": 117,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -22605,9 +23227,30 @@
               "type": "unknown",
               "missing": 117,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -22884,8 +23527,24 @@
               "type": "unknown",
               "missing": 117,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -22899,8 +23558,24 @@
               "type": "unknown",
               "missing": 117,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -23511,8 +24186,24 @@
               "type": "unknown",
               "missing": 117,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -23631,8 +24322,24 @@
               "min": 10.1734,
               "max": 15.3911,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
@@ -23853,8 +24560,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-08 11:06:00",
-        "last_modified": "2022-06-08 11:06:00",
+        "created": "2022-06-10 23:49:30",
+        "last_modified": "2022-06-08 13:18:46",
         "row_count": 52,
         "entity_count": 4,
         "schema": {
@@ -23888,8 +24595,24 @@
               "type": "unknown",
               "missing": 52,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
+                "measure": "mean_read_pass_rate",
+                "type": "percent",
+                "short_name": "Percentage of 3rd graders passing reading",
+                "long_name": "Mean percentage of 3rd graders passing reading test",
+                "short_description": "Mean percentage of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Mean percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -25903,9 +26626,30 @@
               "type": "unknown",
               "missing": 52,
               "info": {
-                "equity_category": {},
-                "sources": {},
-                "citations": {}
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+                "full_name": "access_scores_obgyn:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
+                "type": "index",
+                "short_name": "OBGYN care geographic availability",
+                "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+                "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+                "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+                "statement": "The OBGYN availability for {features.name} is {value}.",
+                "equity_category": "Availability",
+                "sources": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ],
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ]
               }
             },
             {
@@ -26182,8 +26926,24 @@
               "type": "unknown",
               "missing": 52,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
+                "measure": "perc_poor_ment_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor mental health",
+                "long_name": "Percentage reporting poor mental health",
+                "short_description": "Percent of the population self-reporting poor mental health",
+                "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor mental health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -26197,8 +26957,24 @@
               "type": "unknown",
               "missing": 52,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+                "full_name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
+                "measure": "perc_poor_phys_hlth_days_14_and_over",
+                "type": "percent",
+                "short_name": "Percentage reporting poor physical health",
+                "long_name": "Percentage reporting poor physical health",
+                "short_description": "Percent of the population self-reporting poor physical health",
+                "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+                "statement": "{value} of the population in {features.name} reports poor physical health.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "Virginia Behavioral Risk Factor Surveillance System",
+                    "date_accessed": 2021,
+                    "url": "https://www.vdh.virginia.gov/brfss/"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -26809,8 +27585,24 @@
               "type": "unknown",
               "missing": 52,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_other",
+                "measure": "perc_other",
+                "type": "percent",
+                "short_name": "Other racial population",
+                "long_name": "Other racial population (percent)",
+                "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The Other racial population is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             },
@@ -26929,8 +27721,24 @@
               "min": 11.5365,
               "max": 14.186,
               "info": {
-                "equity_category": {},
-                "sources": {},
+                "category": "Demographics",
+                "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
+                "full_name": "demographics:perc_65_plus",
+                "measure": "perc_65_plus",
+                "type": "percent",
+                "short_name": "65 plus population",
+                "long_name": "65 plus population (percent)",
+                "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+                "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey Table B01001",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
                 "citations": {}
               }
             }
