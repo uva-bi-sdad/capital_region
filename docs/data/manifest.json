@@ -114,10 +114,10 @@
     "files": [
       {
         "location": "data/distribution/",
-        "date": "2022-05-16T03:17:33Z",
-        "size": 5947948,
-        "sha": "31d26e963b7c3ae41d60cd98fadfe1ccc4e52d9d",
-        "md5": "761d905e846a848ca636ba9810e3ec9a"
+        "date": "2022-06-16T20:12:19Z",
+        "size": 5947164,
+        "sha": "897cc730e52c81bd1585072e5d7641429d205f1c",
+        "md5": "0021b733a41efcac0c12e7d9a52aaf0a"
       }
     ]
   },
@@ -198,15 +198,35 @@
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       },
       {
+        "location": "data",
+        "date": "2022-06-08T13:23:27Z",
+        "size": 12824,
+        "sha": "46ec93e24fd26d0bf09298289ab5dea227781965",
+        "md5": "faa4bcf2d1c54da5b9aac82ad7887cee",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       },
       {
+        "location": "data",
+        "date": "2022-06-08T13:23:27Z",
+        "size": 4012,
+        "sha": "e3d34aeaca4b37b041786a9b7e48c9e5e6c76585",
+        "md5": "bb81057a940d6fc16ed14670626c7d0d",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       },
       {
+        "location": "data",
+        "date": "2022-06-08T13:23:27Z",
+        "size": 2784,
+        "sha": "020d92ffa65f7ddf6d93ac6d38f5c6f510161766",
+        "md5": "2261508c997071bbec9f53a2b5e7c4b2",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       },
       {
+        "location": "data",
+        "date": "2022-06-08T13:23:27Z",
+        "size": 1276,
+        "sha": "9b47da40b3258c7d73fc1d23dcb4b7c4a29afe2f",
+        "md5": "8f9029c3d52bef24c3e00351110eac3c",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       }
     ]

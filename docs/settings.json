@@ -16,7 +16,9 @@
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false,
     "map_animations": "all",
-    "trace_limit": 20
+    "trace_limit": 20,
+    "map_overlay": true,
+    "circle_radius": 2500
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -24,9 +26,9 @@
     "variables": {},
     "info": {
       "block_group": {
-        "bytes": 2990320,
+        "bytes": 3034128,
         "encoding": "ISO-8859-1",
-        "md5": "03fef46fee2b1ce0f7f426ff91c823b5",
+        "md5": "287184b6fbc045d1b092b85e5a86089e",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv.xz",
@@ -39,15 +41,15 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:30",
+        "created": "2022-06-17 01:47:14",
         "last_modified": "2022-06-08 13:18:15",
-        "row_count": 42146,
-        "entity_count": 3242,
+        "row_count": 52559,
+        "entity_count": 4043,
         "schema": {
           "fields": [
             {
               "name": "time",
-              "duplicates": 42133,
+              "duplicates": 52546,
               "time_range": [
                 0,
                 12
@@ -66,13 +68,13 @@
             },
             {
               "name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -97,13 +99,13 @@
             },
             {
               "name": "emp_rate:emp_rate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
@@ -129,13 +131,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_cnt",
-              "duplicates": 41825,
+              "duplicates": 52238,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 41235,
+              "missing": 51648,
               "mean": 152.5708,
               "sd": 167.2182,
               "min": 4,
@@ -164,15 +166,15 @@
             },
             {
               "name": "daycare_access_scores:daycare_3sfca",
-              "duplicates": 40767,
+              "duplicates": 51179,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 40768,
-              "mean": 4.9066,
-              "sd": 0.7872,
+              "missing": 51180,
+              "mean": 4.9075,
+              "sd": 0.7875,
               "min": 1.1788,
               "max": 6.3014,
               "info": {
@@ -204,15 +206,15 @@
             },
             {
               "name": "daycare_access_scores:daycare_median_drive_time_top5",
-              "duplicates": 42025,
+              "duplicates": 52438,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 40762,
-              "mean": 3.3466,
-              "sd": 2.5765,
+              "missing": 51174,
+              "mean": 3.3469,
+              "sd": 2.5755,
               "min": 0.2,
               "max": 30.3,
               "info": {
@@ -239,15 +241,15 @@
             },
             {
               "name": "nces:schools_2year_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.5179,
-              "sd": 0.2255,
+              "missing": 26245,
+              "mean": 0.5151,
+              "sd": 0.2246,
               "min": 0.0001,
               "max": 2.3556,
               "info": {
@@ -290,15 +292,15 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 41765,
+              "duplicates": 52172,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 8.801,
-              "sd": 9.9222,
+              "missing": 26245,
+              "mean": 8.8203,
+              "sd": 9.9507,
               "min": 0,
               "max": 69.1,
               "info": {
@@ -331,15 +333,15 @@
             },
             {
               "name": "nces:schools_under2year_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.7152,
-              "sd": 0.2822,
+              "missing": 26245,
+              "mean": 0.7112,
+              "sd": 0.2824,
               "min": 0,
               "max": 1.8434,
               "info": {
@@ -382,15 +384,15 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 41706,
+              "duplicates": 52114,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 8.4668,
-              "sd": 10.6073,
+              "missing": 26245,
+              "mean": 8.5022,
+              "sd": 10.6358,
               "min": 0,
               "max": 90,
               "info": {
@@ -423,15 +425,15 @@
             },
             {
               "name": "nces:schools_2year_with_biomedical_program_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.0469,
-              "sd": 0.0379,
+              "missing": 26245,
+              "mean": 0.0473,
+              "sd": 0.0382,
               "min": 0,
               "max": 0.1726,
               "info": {
@@ -474,15 +476,15 @@
             },
             {
               "name": "nces:schools_2year_with_computer_program_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.2856,
-              "sd": 0.1852,
+              "missing": 26245,
+              "mean": 0.2839,
+              "sd": 0.1842,
               "min": 0,
               "max": 2.2965,
               "info": {
@@ -525,15 +527,15 @@
             },
             {
               "name": "nces:schools_2year_with_engineering_program_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.2308,
-              "sd": 0.1648,
+              "missing": 26245,
+              "mean": 0.2307,
+              "sd": 0.164,
               "min": 0,
               "max": 2.2884,
               "info": {
@@ -576,15 +578,15 @@
             },
             {
               "name": "nces:schools_2year_with_physical_program_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.042,
-              "sd": 0.0343,
+              "missing": 26245,
+              "mean": 0.0422,
+              "sd": 0.0346,
               "min": 0,
               "max": 0.2169,
               "info": {
@@ -627,15 +629,15 @@
             },
             {
               "name": "nces:schools_2year_with_science_program_per_100k",
-              "duplicates": 30014,
+              "duplicates": 40044,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 16640,
-              "mean": 0.0888,
-              "sd": 0.0562,
+              "missing": 26245,
+              "mean": 0.0883,
+              "sd": 0.0563,
               "min": 0,
               "max": 0.3044,
               "info": {
@@ -678,15 +680,15 @@
             },
             {
               "name": "dei:norm_dei",
-              "duplicates": 32462,
+              "duplicates": 42872,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32459,
-              "mean": 26.6522,
-              "sd": 5.3002,
+              "missing": 42869,
+              "mean": 26.6533,
+              "sd": 5.2998,
               "min": 0,
               "max": 100,
               "info": {
@@ -722,15 +724,15 @@
             },
             {
               "name": "access_scores_dentists:dent_e2sfca",
-              "duplicates": 40614,
+              "duplicates": 51026,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 38908,
-              "mean": 1.8918,
-              "sd": 0.6537,
+              "missing": 49320,
+              "mean": 1.8919,
+              "sd": 0.6536,
               "min": 0,
               "max": 3.1882,
               "info": {
@@ -762,13 +764,13 @@
             },
             {
               "name": "drug_overdose_ed_visits:avg_monthly_rate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Behavioral Health, Substance Use Disorder and Recovery",
                 "measure_table": "drug_overdose_ed_visits",
@@ -793,13 +795,13 @@
             },
             {
               "name": "earnings_per_job:earnings_per_job",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "earnings_per_job",
@@ -824,13 +826,13 @@
             },
             {
               "name": "ems_access_scores:ems_10near_median",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -855,13 +857,13 @@
             },
             {
               "name": "ems_access_scores:ems_3sfca",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -891,13 +893,13 @@
             },
             {
               "name": "ems_access_scores:ems_cnt",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -922,13 +924,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "Child_Food_Insecurity_Rate",
@@ -953,13 +955,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Cost_Per_Meal",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -984,13 +986,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -1015,13 +1017,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -1046,13 +1048,13 @@
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
@@ -1085,13 +1087,13 @@
             },
             {
               "name": "hospital_access_scores:hos_10near_median",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -1116,13 +1118,13 @@
             },
             {
               "name": "hospital_access_scores:hos_3sfca",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -1152,13 +1154,13 @@
             },
             {
               "name": "hospital_access_scores:hos_cnt",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -1183,13 +1185,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:beets_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1217,13 +1219,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1251,13 +1253,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:cheese_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1285,13 +1287,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1319,13 +1321,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:crackers_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1353,13 +1355,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1387,13 +1389,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1421,13 +1423,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:legumes_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1455,13 +1457,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:masa_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1489,13 +1491,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1523,13 +1525,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:peppers_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1557,13 +1559,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1591,13 +1593,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:rice_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1625,13 +1627,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:salsa_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1659,13 +1661,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:squash_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1693,13 +1695,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1727,13 +1729,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:barley_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1761,13 +1763,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1795,13 +1797,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1829,13 +1831,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1863,13 +1865,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1897,13 +1899,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1931,13 +1933,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:lentils_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1965,13 +1967,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:basmati_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -1999,13 +2001,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:pasta_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -2033,13 +2035,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -2067,13 +2069,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:tuna_ecdf_idx",
-              "duplicates": 41964,
+              "duplicates": 52377,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 41965,
+              "missing": 52378,
               "mean": 50.2762,
               "sd": 28.9471,
               "min": 0.5525,
@@ -2101,13 +2103,13 @@
             },
             {
               "name": "mental_access_scores:mental_10near_median",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -2132,13 +2134,13 @@
             },
             {
               "name": "mental_access_scores:mental_3sfca",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -2168,13 +2170,13 @@
             },
             {
               "name": "mental_access_scores:mental_cnt",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -2199,13 +2201,13 @@
             },
             {
               "name": "mrfei:mrfei",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "va_catr_sdad_2021_mrfei",
@@ -2229,15 +2231,15 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 28927,
+              "duplicates": 39336,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 26008,
-              "mean": 89.0862,
-              "sd": 11.9587,
+              "missing": 36416,
+              "mean": 89.0869,
+              "sd": 11.9569,
               "min": 7.3124,
               "max": 100,
               "info": {
@@ -2265,15 +2267,15 @@
             },
             {
               "name": "access_scores_obgyn:obgyn_e2sfca",
-              "duplicates": 40645,
+              "duplicates": 51057,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 38908,
+              "missing": 49320,
               "mean": 1.0203,
-              "sd": 0.4404,
+              "sd": 0.4403,
               "min": 0,
               "max": 6.2691,
               "info": {
@@ -2305,15 +2307,15 @@
             },
             {
               "name": "access_scores_pediatrics:ped_e2sfca",
-              "duplicates": 40626,
+              "duplicates": 51038,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 38914,
-              "mean": 3.9915,
-              "sd": 1.7896,
+              "missing": 49326,
+              "mean": 3.9916,
+              "sd": 1.7893,
               "min": 0.0589,
               "max": 6.8929,
               "info": {
@@ -2345,15 +2347,15 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 39293,
+              "duplicates": 49705,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 38966,
+              "missing": 49378,
               "mean": 0.8301,
-              "sd": 0.5178,
+              "sd": 0.5177,
               "min": 0.3072,
               "max": 6.4268,
               "info": {
@@ -2385,15 +2387,15 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_100",
-              "duplicates": 39213,
+              "duplicates": 49625,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 38987,
-              "mean": 0.5167,
-              "sd": 0.3114,
+              "missing": 49399,
+              "mean": 0.5169,
+              "sd": 0.3115,
               "min": 0.096,
               "max": 4.0157,
               "info": {
@@ -2425,14 +2427,14 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_25",
-              "duplicates": 39278,
+              "duplicates": 49690,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 39001,
-              "mean": 0.3701,
+              "missing": 49413,
+              "mean": 0.3702,
               "sd": 0.2219,
               "min": 0.096,
               "max": 3.0115,
@@ -2465,15 +2467,15 @@
             },
             {
               "name": "percent_above_threshold:perc_total_100_20_using_devices",
-              "duplicates": 32461,
+              "duplicates": 42871,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32462,
-              "mean": 73.5721,
-              "sd": 23.7841,
+              "missing": 42872,
+              "mean": 73.5651,
+              "sd": 23.7839,
               "min": 0.0504,
               "max": 99.9989,
               "info": {
@@ -2499,15 +2501,15 @@
             },
             {
               "name": "percent_above_threshold:perc_total_25_3_using_devices",
-              "duplicates": 32461,
+              "duplicates": 42871,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32462,
-              "mean": 89.1129,
-              "sd": 12.057,
+              "missing": 42872,
+              "mean": 89.1086,
+              "sd": 12.0578,
               "min": 18.8037,
               "max": 100,
               "info": {
@@ -2533,15 +2535,15 @@
             },
             {
               "name": "percent_above_threshold:perc_w_int_100_20_using_devices",
-              "duplicates": 32431,
+              "duplicates": 42841,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32423,
-              "mean": 79.1516,
-              "sd": 23.5635,
+              "missing": 42833,
+              "mean": 79.1436,
+              "sd": 23.5645,
               "min": 0.0649,
               "max": 99.9998,
               "info": {
@@ -2567,15 +2569,15 @@
             },
             {
               "name": "percent_above_threshold:perc_w_int_25_3_using_devices",
-              "duplicates": 32431,
+              "duplicates": 42841,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32423,
-              "mean": 96.2235,
-              "sd": 7.2264,
+              "missing": 42833,
+              "mean": 96.2178,
+              "sd": 7.2328,
               "min": 30.3525,
               "max": 100,
               "info": {
@@ -2601,13 +2603,13 @@
             },
             {
               "name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
@@ -2632,13 +2634,13 @@
             },
             {
               "name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
@@ -2663,13 +2665,13 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -2694,13 +2696,13 @@
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -2725,15 +2727,15 @@
             },
             {
               "name": "access_scores_primcare:primcare_e2sfca",
-              "duplicates": 40611,
+              "duplicates": 51023,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 38908,
-              "mean": 2.7068,
-              "sd": 1.2011,
+              "missing": 49320,
+              "mean": 2.7069,
+              "sd": 1.2009,
               "min": 0.0499,
               "max": 16.9311,
               "info": {
@@ -2765,15 +2767,15 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 32431,
+              "duplicates": 42841,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32423,
-              "mean": 166.0223,
-              "sd": 40.5287,
+              "missing": 42833,
+              "mean": 166.0157,
+              "sd": 40.5273,
               "min": 6.1529,
               "max": 421.6348,
               "info": {
@@ -2799,15 +2801,15 @@
             },
             {
               "name": "speed_measurements:avg_up_using_devices",
-              "duplicates": 32431,
+              "duplicates": 42841,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32423,
-              "mean": 84.7784,
-              "sd": 37.6243,
+              "missing": 42833,
+              "mean": 84.7594,
+              "sd": 37.6341,
               "min": 0.5799,
               "max": 243.3146,
               "info": {
@@ -2833,15 +2835,15 @@
             },
             {
               "name": "speed_measurements:devices",
-              "duplicates": 32422,
+              "duplicates": 42832,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 32423,
-              "mean": 109.3565,
-              "sd": 103.2596,
+              "missing": 42833,
+              "mean": 109.3275,
+              "sd": 103.2569,
               "min": 0.8573,
               "max": 1898.2632,
               "info": {
@@ -2867,13 +2869,13 @@
             },
             {
               "name": "substance_access_scores:subs_10near_median",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -2898,13 +2900,13 @@
             },
             {
               "name": "substance_access_scores:subs_3sfca",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -2934,13 +2936,13 @@
             },
             {
               "name": "substance_access_scores:subs_cnt",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -2965,15 +2967,15 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-              "duplicates": 34595,
+              "duplicates": 45007,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 32464,
-              "mean": 88.582,
-              "sd": 11.5619,
+              "missing": 42874,
+              "mean": 88.5852,
+              "sd": 11.5616,
               "min": 19.5652,
               "max": 100,
               "info": {
@@ -3000,13 +3002,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
@@ -3031,15 +3033,15 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-              "duplicates": 36162,
+              "duplicates": 46575,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 32464,
-              "mean": 5.7355,
-              "sd": 7.3976,
+              "missing": 42874,
+              "mean": 5.7337,
+              "sd": 7.3971,
               "min": 0,
               "max": 100,
               "info": {
@@ -3066,15 +3068,15 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-              "duplicates": 35317,
+              "duplicates": 45729,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 32464,
-              "mean": 8.697,
-              "sd": 9.9139,
+              "missing": 42874,
+              "mean": 8.6946,
+              "sd": 9.9133,
               "min": 0,
               "max": 74.2021,
               "info": {
@@ -3101,13 +3103,13 @@
             },
             {
               "name": "demographics:perc_hispanic_or_latino",
-              "duplicates": 42145,
+              "duplicates": 52558,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 42146,
+              "missing": 52559,
               "info": {
                 "category": "Demographics",
                 "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
@@ -3132,15 +3134,15 @@
             },
             {
               "name": "demographics:perc_white",
-              "duplicates": 20556,
+              "duplicates": 30962,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 54.336,
-              "sd": 28.5551,
+              "missing": 29930,
+              "mean": 54.3367,
+              "sd": 28.5518,
               "min": 0,
               "max": 100,
               "info": {
@@ -3167,15 +3169,15 @@
             },
             {
               "name": "demographics:perc_black",
-              "duplicates": 22095,
+              "duplicates": 32502,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 26.3233,
-              "sd": 29.3959,
+              "missing": 29930,
+              "mean": 26.3249,
+              "sd": 29.3921,
               "min": 0,
               "max": 100,
               "info": {
@@ -3202,15 +3204,15 @@
             },
             {
               "name": "demographics:perc_native",
-              "duplicates": 38096,
+              "duplicates": 48509,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 0.3207,
-              "sd": 1.2422,
+              "missing": 29930,
+              "mean": 0.3206,
+              "sd": 1.2421,
               "min": 0,
               "max": 35.1175,
               "info": {
@@ -3237,15 +3239,15 @@
             },
             {
               "name": "demographics:perc_AAPI",
-              "duplicates": 23732,
+              "duplicates": 34140,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 9.8022,
-              "sd": 10.5856,
+              "missing": 29930,
+              "mean": 9.8014,
+              "sd": 10.585,
               "min": 0,
               "max": 74.5724,
               "info": {
@@ -3272,15 +3274,15 @@
             },
             {
               "name": "demographics:perc_other",
-              "duplicates": 28912,
+              "duplicates": 39325,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 5.4659,
-              "sd": 10.2984,
+              "missing": 29930,
+              "mean": 5.4642,
+              "sd": 10.2973,
               "min": 0,
               "max": 94.82,
               "info": {
@@ -3307,15 +3309,15 @@
             },
             {
               "name": "demographics:perc_two_or_more_races",
-              "duplicates": 25140,
+              "duplicates": 35550,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 3.7519,
-              "sd": 3.7804,
+              "missing": 29930,
+              "mean": 3.7522,
+              "sd": 3.7818,
               "min": 0,
               "max": 57.8947,
               "info": {
@@ -3342,15 +3344,15 @@
             },
             {
               "name": "demographics:perc_under_20",
-              "duplicates": 20915,
+              "duplicates": 31323,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 24.3462,
-              "sd": 9.2155,
+              "missing": 29930,
+              "mean": 24.3436,
+              "sd": 9.2172,
               "min": 0,
               "max": 89.828,
               "info": {
@@ -3377,15 +3379,15 @@
             },
             {
               "name": "demographics:perc_20_64",
-              "duplicates": 20721,
+              "duplicates": 31129,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 63.1516,
-              "sd": 10.4633,
+              "missing": 29930,
+              "mean": 63.1563,
+              "sd": 10.466,
               "min": 0,
               "max": 100,
               "info": {
@@ -3412,15 +3414,15 @@
             },
             {
               "name": "demographics:perc_65_plus",
-              "duplicates": 21264,
+              "duplicates": 31673,
               "time_range": [
                 4,
                 10
               ],
               "type": "float",
-              "missing": 19524,
-              "mean": 11.9731,
-              "sd": 9.0415,
+              "missing": 29930,
+              "mean": 11.9712,
+              "sd": 9.0411,
               "min": 0,
               "max": 106.4838,
               "info": {
@@ -3448,6 +3450,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -3606,50 +3643,15 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "cbbafa806761beba3feded73d912aa1802e70b87fa2271335cc0bc60a8bc73a054f029c1cacbe1aa2ac8ac7d946c34eb23160a506cdbe966e4c358eb38030ccd",
+        "sha512": "e7edad674b81d4380cadf3c4fb3a7860e7b5831845dee4307aa3d31542b3e46410d26fbd2f9d6335be6f990d3e7d89c475b7733e924e1acb8da080cbc25d6b7d",
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 1931288,
+        "bytes": 1950784,
         "encoding": "ISO-8859-1",
-        "md5": "9edfb3ad1c3eefbfe6fbbb843ececcce",
+        "md5": "a3a43615873a9be4655431386affa2d1",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -3662,15 +3664,15 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:20",
+        "created": "2022-06-17 01:47:18",
         "last_modified": "2022-06-08 13:18:16",
-        "row_count": 15860,
-        "entity_count": 1220,
+        "row_count": 18733,
+        "entity_count": 1441,
         "schema": {
           "fields": [
             {
               "name": "time",
-              "duplicates": 15847,
+              "duplicates": 18720,
               "time_range": [
                 0,
                 12
@@ -3689,13 +3691,13 @@
             },
             {
               "name": "3rd_grade_mean_median_read_score:mean_read_pass_rate",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -3720,13 +3722,13 @@
             },
             {
               "name": "emp_rate:emp_rate",
-              "duplicates": 13323,
+              "duplicates": 16196,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 13286,
+              "missing": 16159,
               "mean": 95.7977,
               "sd": 2.3554,
               "min": 74.0741,
@@ -3756,13 +3758,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_cnt",
-              "duplicates": 15535,
+              "duplicates": 18408,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 15398,
+              "missing": 18271,
               "mean": 300.8485,
               "sd": 284.7326,
               "min": 4,
@@ -3791,13 +3793,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_3sfca",
-              "duplicates": 15346,
+              "duplicates": 18219,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15347,
+              "missing": 18220,
               "mean": 4.9055,
               "sd": 0.76,
               "min": 2.724,
@@ -3831,13 +3833,13 @@
             },
             {
               "name": "daycare_access_scores:daycare_median_drive_time_top5",
-              "duplicates": 15767,
+              "duplicates": 18640,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 3.4728,
               "sd": 2.6396,
               "min": 0.4,
@@ -3866,15 +3868,15 @@
             },
             {
               "name": "nces:schools_2year_per_100k",
-              "duplicates": 9164,
+              "duplicates": 11876,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.5123,
-              "sd": 0.218,
+              "missing": 8870,
+              "mean": 0.5102,
+              "sd": 0.2171,
               "min": 0,
               "max": 2.3548,
               "info": {
@@ -3917,15 +3919,15 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 14751,
+              "duplicates": 17592,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 8.8973,
-              "sd": 9.728,
+              "missing": 8870,
+              "mean": 8.9058,
+              "sd": 9.7468,
               "min": 0,
               "max": 61.2,
               "info": {
@@ -3958,15 +3960,15 @@
             },
             {
               "name": "nces:schools_under2year_per_100k",
-              "duplicates": 9167,
+              "duplicates": 11882,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.7069,
-              "sd": 0.2822,
+              "missing": 8870,
+              "mean": 0.7043,
+              "sd": 0.2823,
               "min": 0,
               "max": 1.8434,
               "info": {
@@ -4009,15 +4011,15 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 14695,
+              "duplicates": 17534,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 8.4831,
-              "sd": 10.1991,
+              "missing": 8870,
+              "mean": 8.5126,
+              "sd": 10.2338,
               "min": 0,
               "max": 90,
               "info": {
@@ -4050,15 +4052,15 @@
             },
             {
               "name": "nces:schools_2year_with_biomedical_program_per_100k",
-              "duplicates": 9168,
+              "duplicates": 11878,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.0464,
-              "sd": 0.0376,
+              "missing": 8870,
+              "mean": 0.0467,
+              "sd": 0.0378,
               "min": 0,
               "max": 0.1726,
               "info": {
@@ -4101,15 +4103,15 @@
             },
             {
               "name": "nces:schools_2year_with_computer_program_per_100k",
-              "duplicates": 9167,
+              "duplicates": 11889,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.2831,
-              "sd": 0.1742,
+              "missing": 8870,
+              "mean": 0.2818,
+              "sd": 0.1733,
               "min": 0,
               "max": 2.2955,
               "info": {
@@ -4152,15 +4154,15 @@
             },
             {
               "name": "nces:schools_2year_with_engineering_program_per_100k",
-              "duplicates": 9171,
+              "duplicates": 11892,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.2298,
-              "sd": 0.1543,
+              "missing": 8870,
+              "mean": 0.2296,
+              "sd": 0.1533,
               "min": 0,
               "max": 2.2874,
               "info": {
@@ -4203,15 +4205,15 @@
             },
             {
               "name": "nces:schools_2year_with_physical_program_per_100k",
-              "duplicates": 9167,
+              "duplicates": 11882,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.0409,
-              "sd": 0.0327,
+              "missing": 8870,
+              "mean": 0.0411,
+              "sd": 0.0331,
               "min": 0,
               "max": 0.2168,
               "info": {
@@ -4254,15 +4256,15 @@
             },
             {
               "name": "nces:schools_2year_with_science_program_per_100k",
-              "duplicates": 9169,
+              "duplicates": 11883,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
-              "missing": 6218,
-              "mean": 0.0883,
-              "sd": 0.0556,
+              "missing": 8870,
+              "mean": 0.088,
+              "sd": 0.0557,
               "min": 0,
               "max": 0.3044,
               "info": {
@@ -4305,13 +4307,13 @@
             },
             {
               "name": "dei:norm_dei",
-              "duplicates": 12230,
+              "duplicates": 15103,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12227,
+              "missing": 15100,
               "mean": 34.6181,
               "sd": 8.1106,
               "min": 0,
@@ -4349,13 +4351,13 @@
             },
             {
               "name": "access_scores_dentists:dent_e2sfca",
-              "duplicates": 15016,
+              "duplicates": 17889,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14645,
+              "missing": 17518,
               "mean": 1.8955,
               "sd": 0.6323,
               "min": 0,
@@ -4389,13 +4391,13 @@
             },
             {
               "name": "drug_overdose_ed_visits:avg_monthly_rate",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Behavioral Health, Substance Use Disorder and Recovery",
                 "measure_table": "drug_overdose_ed_visits",
@@ -4420,13 +4422,13 @@
             },
             {
               "name": "earnings_per_job:earnings_per_job",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "earnings_per_job",
@@ -4451,13 +4453,13 @@
             },
             {
               "name": "ems_access_scores:ems_10near_median",
-              "duplicates": 15645,
+              "duplicates": 18518,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 11.3431,
               "sd": 3.9464,
               "min": 5.1,
@@ -4486,13 +4488,13 @@
             },
             {
               "name": "ems_access_scores:ems_3sfca",
-              "duplicates": 15343,
+              "duplicates": 18216,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -4526,13 +4528,13 @@
             },
             {
               "name": "ems_access_scores:ems_cnt",
-              "duplicates": 15857,
+              "duplicates": 18730,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 15759,
+              "missing": 18632,
               "mean": 1.0891,
               "sd": 0.2863,
               "min": 1,
@@ -4561,13 +4563,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "Child_Food_Insecurity_Rate",
@@ -4592,13 +4594,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Cost_Per_Meal",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -4623,13 +4625,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -4654,13 +4656,13 @@
             },
             {
               "name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "food_insecurity_and_cost",
@@ -4685,13 +4687,13 @@
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 15849,
+              "duplicates": 18722,
               "time_range": [
                 10,
                 10
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 0.2484,
               "sd": 0.5131,
               "min": -1.995,
@@ -4728,13 +4730,13 @@
             },
             {
               "name": "hospital_access_scores:hos_10near_median",
-              "duplicates": 15588,
+              "duplicates": 18461,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 31.555,
               "sd": 5.3234,
               "min": 20.1,
@@ -4763,13 +4765,13 @@
             },
             {
               "name": "hospital_access_scores:hos_3sfca",
-              "duplicates": 15588,
+              "duplicates": 18461,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 5e-06,
               "sd": 2e-06,
               "min": 1e-06,
@@ -4803,13 +4805,13 @@
             },
             {
               "name": "hospital_access_scores:hos_cnt",
-              "duplicates": 15857,
+              "duplicates": 18730,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 15848,
+              "missing": 18721,
               "mean": 1.0833,
               "sd": 0.2887,
               "min": 1,
@@ -4838,13 +4840,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:beets_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -4868,13 +4870,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:blackbeans_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -4898,13 +4900,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:cheese_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -4928,13 +4930,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:corntortillas_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -4958,13 +4960,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:crackers_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -4988,13 +4990,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:greenchiles_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5018,13 +5020,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:jalapenos_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5048,13 +5050,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:legumes_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5078,13 +5080,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:masa_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5108,13 +5110,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:mixedfruit_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5138,13 +5140,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:peppers_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5168,13 +5170,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:pintobeans_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5198,13 +5200,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:rice_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5228,13 +5230,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:salsa_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5258,13 +5260,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:squash_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5288,13 +5290,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:tomatoes_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5318,13 +5320,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:barley_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5348,13 +5350,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:currypowder_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5378,13 +5380,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:blackeyepeas_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5408,13 +5410,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:driedbeans_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5438,13 +5440,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:drieddates_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5468,13 +5470,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:garbanzo_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5498,13 +5500,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:lentils_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5528,13 +5530,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:basmati_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5558,13 +5560,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:pasta_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5588,13 +5590,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:tomatosauce_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5618,13 +5620,13 @@
             },
             {
               "name": "latino_east_african_gravity_models:tuna_ecdf_idx",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Nutrition and Food Security",
                 "measure_table": "latino_east_african_gravity_models",
@@ -5648,13 +5650,13 @@
             },
             {
               "name": "mental_access_scores:mental_10near_median",
-              "duplicates": 15547,
+              "duplicates": 18420,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 17.8036,
               "sd": 7.5461,
               "min": 2.8,
@@ -5683,13 +5685,13 @@
             },
             {
               "name": "mental_access_scores:mental_3sfca",
-              "duplicates": 15392,
+              "duplicates": 18265,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 0,
               "sd": 4e-06,
               "min": 1e-06,
@@ -5723,13 +5725,13 @@
             },
             {
               "name": "mental_access_scores:mental_cnt",
-              "duplicates": 15856,
+              "duplicates": 18729,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 15829,
+              "missing": 18702,
               "mean": 1.1935,
               "sd": 0.6011,
               "min": 1,
@@ -5758,13 +5760,13 @@
             },
             {
               "name": "mrfei:mrfei",
-              "duplicates": 15816,
+              "duplicates": 18689,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15801,
+              "missing": 18674,
               "mean": 28.3134,
               "sd": 19.7921,
               "min": 0,
@@ -5792,13 +5794,13 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 9904,
+              "duplicates": 12777,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 9786,
+              "missing": 12659,
               "mean": 88.9918,
               "sd": 9.77,
               "min": 19.6038,
@@ -5828,13 +5830,13 @@
             },
             {
               "name": "access_scores_obgyn:obgyn_e2sfca",
-              "duplicates": 15027,
+              "duplicates": 17900,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14646,
+              "missing": 17519,
               "mean": 1.0175,
               "sd": 0.4128,
               "min": 0,
@@ -5868,13 +5870,13 @@
             },
             {
               "name": "access_scores_pediatrics:ped_e2sfca",
-              "duplicates": 15023,
+              "duplicates": 17896,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14649,
+              "missing": 17522,
               "mean": 3.9949,
               "sd": 1.7426,
               "min": 0.1239,
@@ -5908,13 +5910,13 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 14681,
+              "duplicates": 17554,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14650,
+              "missing": 17523,
               "mean": 0.8227,
               "sd": 0.4442,
               "min": 0.3072,
@@ -5948,13 +5950,13 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_100",
-              "duplicates": 14673,
+              "duplicates": 17546,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14652,
+              "missing": 17525,
               "mean": 0.5112,
               "sd": 0.2472,
               "min": 0.096,
@@ -5988,13 +5990,13 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_25",
-              "duplicates": 14677,
+              "duplicates": 17550,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14652,
+              "missing": 17525,
               "mean": 0.3653,
               "sd": 0.1784,
               "min": 0.096,
@@ -6028,13 +6030,13 @@
             },
             {
               "name": "percent_above_threshold:perc_total_100_20_using_devices",
-              "duplicates": 12217,
+              "duplicates": 15090,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12218,
+              "missing": 15091,
               "mean": 74.2532,
               "sd": 21.5802,
               "min": 0.7865,
@@ -6062,13 +6064,13 @@
             },
             {
               "name": "percent_above_threshold:perc_total_25_3_using_devices",
-              "duplicates": 12217,
+              "duplicates": 15090,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12218,
+              "missing": 15091,
               "mean": 88.9429,
               "sd": 10.7052,
               "min": 25.0635,
@@ -6096,13 +6098,13 @@
             },
             {
               "name": "percent_above_threshold:perc_w_int_100_20_using_devices",
-              "duplicates": 12217,
+              "duplicates": 15090,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12218,
+              "missing": 15091,
               "mean": 80.1359,
               "sd": 21.265,
               "min": 0.9164,
@@ -6130,13 +6132,13 @@
             },
             {
               "name": "percent_above_threshold:perc_w_int_25_3_using_devices",
-              "duplicates": 12217,
+              "duplicates": 15090,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12218,
+              "missing": 15091,
               "mean": 96.2473,
               "sd": 6.3507,
               "min": 39.1279,
@@ -6164,13 +6166,13 @@
             },
             {
               "name": "brfss_sae:perc_poor_ment_hlth_days_14_and_over",
-              "duplicates": 9783,
+              "duplicates": 12656,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 9784,
+              "missing": 12657,
               "mean": 10.4591,
               "sd": 1.8104,
               "min": 4.7937,
@@ -6199,13 +6201,13 @@
             },
             {
               "name": "brfss_sae:perc_poor_phys_hlth_days_14_and_over",
-              "duplicates": 9783,
+              "duplicates": 12656,
               "time_range": [
                 6,
                 10
               ],
               "type": "float",
-              "missing": 9784,
+              "missing": 12657,
               "mean": 9.2765,
               "sd": 2.4919,
               "min": 2.0713,
@@ -6234,13 +6236,13 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 3841,
+              "duplicates": 6714,
               "time_range": [
                 1,
                 10
               ],
               "type": "float",
-              "missing": 3720,
+              "missing": 6593,
               "mean": 71.8656,
               "sd": 17.2222,
               "min": 6.3149,
@@ -6269,13 +6271,13 @@
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -6300,13 +6302,13 @@
             },
             {
               "name": "access_scores_primcare:primcare_e2sfca",
-              "duplicates": 15017,
+              "duplicates": 17890,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 14645,
+              "missing": 17518,
               "mean": 2.7039,
               "sd": 1.1237,
               "min": 0.0499,
@@ -6340,13 +6342,13 @@
             },
             {
               "name": "speed_measurements:avg_down_using_devices",
-              "duplicates": 12199,
+              "duplicates": 15072,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12200,
+              "missing": 15073,
               "mean": 166.2124,
               "sd": 36.393,
               "min": 41.1974,
@@ -6374,13 +6376,13 @@
             },
             {
               "name": "speed_measurements:avg_up_using_devices",
-              "duplicates": 12199,
+              "duplicates": 15072,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12200,
+              "missing": 15073,
               "mean": 85.9935,
               "sd": 33.7077,
               "min": 9.1951,
@@ -6408,13 +6410,13 @@
             },
             {
               "name": "speed_measurements:devices",
-              "duplicates": 12199,
+              "duplicates": 15072,
               "time_range": [
                 10,
                 12
               ],
               "type": "float",
-              "missing": 12200,
+              "missing": 15073,
               "mean": 290.1391,
               "sd": 245.6021,
               "min": 7.54,
@@ -6442,13 +6444,13 @@
             },
             {
               "name": "substance_access_scores:subs_10near_median",
-              "duplicates": 15567,
+              "duplicates": 18440,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 16.3539,
               "sd": 6.432,
               "min": 5.7,
@@ -6477,13 +6479,13 @@
             },
             {
               "name": "substance_access_scores:subs_3sfca",
-              "duplicates": 15395,
+              "duplicates": 18268,
               "time_range": [
                 12,
                 12
               ],
               "type": "float",
-              "missing": 15341,
+              "missing": 18214,
               "mean": 0,
               "sd": 4e-06,
               "min": 1e-06,
@@ -6517,13 +6519,13 @@
             },
             {
               "name": "substance_access_scores:subs_cnt",
-              "duplicates": 15857,
+              "duplicates": 18730,
               "time_range": [
                 12,
                 12
               ],
               "type": "integer",
-              "missing": 15822,
+              "missing": 18695,
               "mean": 1.1579,
               "sd": 0.3695,
               "min": 1,
@@ -6552,13 +6554,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-              "duplicates": 12292,
+              "duplicates": 15165,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 12217,
+              "missing": 15090,
               "mean": 88.3588,
               "sd": 10.0531,
               "min": 32.4941,
@@ -6587,13 +6589,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-              "duplicates": 15859,
+              "duplicates": 18732,
               "time_range": [
                 -1,
                 -1
               ],
               "type": "unknown",
-              "missing": 15860,
+              "missing": 18733,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
@@ -6618,13 +6620,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-              "duplicates": 12507,
+              "duplicates": 15380,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 12217,
+              "missing": 15090,
               "mean": 5.8275,
               "sd": 6.2124,
               "min": 0,
@@ -6653,13 +6655,13 @@
             },
             {
               "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-              "duplicates": 12398,
+              "duplicates": 15271,
               "time_range": [
                 8,
                 10
               ],
               "type": "float",
-              "missing": 12217,
+              "missing": 15090,
               "mean": 8.8834,
               "sd": 8.5025,
               "min": 0,
@@ -6688,15 +6690,15 @@
             },
             {
               "name": "demographics:perc_hispanic_or_latino",
-              "duplicates": 3314,
+              "duplicates": 6186,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 14.2216,
-              "sd": 13.3017,
+              "missing": 5903,
+              "mean": 14.2212,
+              "sd": 13.3015,
               "min": 0,
               "max": 95.5071,
               "info": {
@@ -6723,15 +6725,15 @@
             },
             {
               "name": "demographics:perc_white",
-              "duplicates": 3158,
+              "duplicates": 6029,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 52.3663,
-              "sd": 27.6113,
+              "missing": 5903,
+              "mean": 52.3691,
+              "sd": 27.6106,
               "min": 0,
               "max": 100,
               "info": {
@@ -6758,15 +6760,15 @@
             },
             {
               "name": "demographics:perc_black",
-              "duplicates": 3235,
+              "duplicates": 6106,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 28.8532,
-              "sd": 29.9359,
+              "missing": 5903,
+              "mean": 28.8513,
+              "sd": 29.934,
               "min": 0,
               "max": 100,
               "info": {
@@ -6793,14 +6795,14 @@
             },
             {
               "name": "demographics:perc_native",
-              "duplicates": 10788,
+              "duplicates": 13661,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 0.3256,
+              "missing": 5903,
+              "mean": 0.3255,
               "sd": 0.8272,
               "min": 0,
               "max": 28.5714,
@@ -6828,15 +6830,15 @@
             },
             {
               "name": "demographics:perc_AAPI",
-              "duplicates": 3987,
+              "duplicates": 6859,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 9.5508,
-              "sd": 9.0598,
+              "missing": 5903,
+              "mean": 9.5509,
+              "sd": 9.0599,
               "min": 0,
               "max": 63.2455,
               "info": {
@@ -6863,15 +6865,15 @@
             },
             {
               "name": "demographics:perc_other",
-              "duplicates": 4971,
+              "duplicates": 7844,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 5.4498,
-              "sd": 8.4379,
+              "missing": 5903,
+              "mean": 5.449,
+              "sd": 8.4375,
               "min": 0,
               "max": 91.2697,
               "info": {
@@ -6898,15 +6900,15 @@
             },
             {
               "name": "demographics:perc_two_or_more_races",
-              "duplicates": 3746,
+              "duplicates": 6618,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 3.4543,
-              "sd": 2.4033,
+              "missing": 5903,
+              "mean": 3.4542,
+              "sd": 2.4034,
               "min": 0,
               "max": 19.9321,
               "info": {
@@ -6933,15 +6935,15 @@
             },
             {
               "name": "demographics:perc_under_20",
-              "duplicates": 3176,
+              "duplicates": 6048,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 25.0095,
-              "sd": 7.7154,
+              "missing": 5903,
+              "mean": 25.0074,
+              "sd": 7.717,
               "min": 0,
               "max": 74.0038,
               "info": {
@@ -6968,15 +6970,15 @@
             },
             {
               "name": "demographics:perc_20_64",
-              "duplicates": 3141,
+              "duplicates": 6012,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 63.5212,
-              "sd": 8.6093,
+              "missing": 5903,
+              "mean": 63.5247,
+              "sd": 8.6133,
               "min": 0,
               "max": 100,
               "info": {
@@ -7003,15 +7005,15 @@
             },
             {
               "name": "demographics:perc_65_plus",
-              "duplicates": 3193,
+              "duplicates": 6065,
               "time_range": [
                 0,
                 10
               ],
               "type": "float",
-              "missing": 3032,
-              "mean": 10.9676,
-              "sd": 6.9565,
+              "missing": 5903,
+              "mean": 10.9662,
+              "sd": 6.9568,
               "min": 0,
               "max": 100,
               "info": {
@@ -7039,6 +7041,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -7197,44 +7234,9 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "35e0c38808d5c7bf6413231f1958919e3e51a21bac2cd226eba39e2d647e7af9cd90f3455e2167f9459c655d1d3c78eb89d1676e54cc36010c9e75e064f059dd",
+        "sha512": "8d212db819caf3407197b578751d0d1085d5c9d525a68acbd1309677d1e463fdf537dd9d8749ff845156324417f90174ee5582dfcbecb4f2fa5e7fa788f310f9",
         "site_file": "tract.json"
       },
       "neighborhood": {
@@ -7253,7 +7255,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:30",
+        "created": "2022-06-17 01:47:14",
         "last_modified": "2022-06-08 13:18:15",
         "row_count": 806,
         "entity_count": 62,
@@ -10546,6 +10548,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -10704,50 +10741,15 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "879b4f22c6ff5e5ec47ed323f13d303ac73a1f60adb53e4659a3349ff9c70ee58957e9117ad038fefcbd06ce9f89df919e68496a0bb62c9bf9b000b4057f9aa7",
         "site_file": "neighborhood.json"
       },
       "county": {
-        "bytes": 31356,
+        "bytes": 31384,
         "encoding": "ISO-8859-1",
-        "md5": "6d4fc7cd0ad41ed551785f50d6ca91d6",
+        "md5": "0b08fddeb7d86c7954a36c8507691a30",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -10760,7 +10762,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:20",
+        "created": "2022-06-17 01:47:14",
         "last_modified": "2022-06-08 13:18:15",
         "row_count": 182,
         "entity_count": 14,
@@ -14149,6 +14151,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -14307,44 +14344,9 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "8fc4629c365d7a30b9c4a039eba50712668de51febc787fc5be386f0dcf2ee690fbd1b0c984c7cdf48853586e45ac5291cd55cb6acc9f0222bbe5c78db68d2c4",
+        "sha512": "bd96dff7f5edbaecbcaaf98317ad5edd7834e97c18930df5da8e551528622356ff342520398fc0edf02163be3680433caaca81e074944e10b6057984c081ee27",
         "site_file": "county.json"
       },
       "zip_code": {
@@ -14363,7 +14365,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:30",
+        "created": "2022-06-17 01:47:18",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 689,
         "entity_count": 53,
@@ -17548,6 +17550,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -17706,41 +17743,6 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "d5bbf3a2bcda77107f48a7bf6c6f259ff414ec0d6bf003d093996411fb729f02b4e95813f7ffe0e90caaacd0b480a1da62385a9880850100db9b443d24987a97",
@@ -17762,7 +17764,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:30",
+        "created": "2022-06-17 01:47:14",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 182,
         "entity_count": 14,
@@ -20947,6 +20949,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -21105,41 +21142,6 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "5460410546826a274e98c4e27454425efa2bcd1f5866efccff516c25d08e8bf18b36a322187c9a9f319a86567d7f7a8c0637c79c4c522e668726042c419f4f4c",
@@ -21161,7 +21163,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:30",
+        "created": "2022-06-17 01:47:14",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 117,
         "entity_count": 9,
@@ -24346,6 +24348,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -24504,41 +24541,6 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "c16bad5b5dc36cf0c916b0f252d452e008f698a3fd5af559926769dcddfb1be2a8b368133d482c5d2479452e30f7c941b7ff01893d1730c475284c4d0a738f45",
@@ -24560,7 +24562,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-10 23:49:30",
+        "created": "2022-06-17 01:47:14",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 52,
         "entity_count": 4,
@@ -27745,6 +27747,41 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -27903,41 +27940,6 @@
             "number": 6,
             "page": "1711-1721",
             "doi": "10.1111/jep.13341"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "23ad293c6bfc546bd6dc15692dadf781732fbe5f35028a0ac45a20580c6e6637d485adc12cf3bbaa56894fdb53b11e1830d549306644c49276d9ead24264af53",
@@ -28544,18 +28546,454 @@
         },
         {
           "name": "block_group",
+          "time": 2010,
           "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_census_block_groups/distribution/ncr_geo_census_cb_2010_census_block_groups.geojson",
           "id_property": "geoid"
         },
         {
+          "name": "block_group",
+          "time": 2020,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2020_census_block_groups/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
+          "id_property": "geoid"
+        },
+        {
           "name": "tract",
+          "time": 2010,
           "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_census_tracts/distribution/ncr_geo_census_cb_2010_census_tracts.geojson",
           "id_property": "geoid"
         },
         {
+          "name": "tract",
+          "time": 2020,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2020_census_tracts/distribution/ncr_geo_census_cb_2020_census_tracts.geojson",
+          "id_property": "geoid"
+        },
+        {
           "name": "county",
+          "time": 2010,
           "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_counties/distribution/ncr_geo_census_cb_2010_counties.geojson",
           "id_property": "geoid"
+        },
+        {
+          "name": "county",
+          "time": 2020,
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2020_counties/distribution/ncr_geo_census_cb_2020_counties.geojson",
+          "id_property": "geoid"
+        }
+      ],
+      "overlays": [
+        {
+          "variable": "nces:schools_2year_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 2
+          }
+        },
+        {
+          "variable": "nces:schools_under2year_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 3
+          }
+        },
+        {
+          "variable": "nces:schools_2year_min_drivetime",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 2
+          }
+        },
+        {
+          "variable": "nces:schools_under2year_min_drivetime",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": {
+            "feature": "ICLEVEL",
+            "operator": "=",
+            "value": 3
+          }
+        },
+        {
+          "variable": "nces:schools_2year_with_biomedical_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "biomedical",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_computer_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "computer",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_engineering_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "engineering",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_physical_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "physical",
+              "operator": "=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "variable": "nces:schools_2year_with_science_program_per_100k",
+          "source": [
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2013.geojson",
+              "time": 2013
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2014.geojson",
+              "time": 2014
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2015.geojson",
+              "time": 2015
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2016.geojson",
+              "time": 2016
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2017.geojson",
+              "time": 2017
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2018.geojson",
+              "time": 2018
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2019.geojson",
+              "time": 2019
+            },
+            {
+              "url": "https://uva-bi-sdad.github.io/dc.education/points_2020.geojson",
+              "time": 2020
+            }
+          ],
+          "filter": [
+            {
+              "feature": "ICLEVEL",
+              "operator": "=",
+              "value": 2
+            },
+            {
+              "feature": "science",
+              "operator": "=",
+              "value": 1
+            }
+          ]
         }
       ],
       "options": {

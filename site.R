@@ -41,6 +41,7 @@ page_navbar(
         )
       ),
       '<p class="section-heading">Map Options</p>',
+      input_switch("Show Overlay", default_on = TRUE, id = "settings.map_overlay"),
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_select(
         "Animations", c("fly", "zoom", "none"), "fly",
@@ -50,6 +51,10 @@ page_navbar(
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
+      ),
+      input_number(
+        "Overlay Circle Size", "settings.circle_radius", default = 2500, step = 100, floating_label = FALSE,
+        note = "Radius of the circles that are parts of overlays."
       ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
@@ -185,7 +190,7 @@ page_section(
     wraps = "col",
     sizes = c(NA, 5),
     output_map(
-      lapply(list(
+      unlist(lapply(list(
         c("human_services_region", "human_services_regions"),
         c("planning_district", "planning_districts"),
         c("supervisor_district", "supervisor_districts"),
@@ -195,18 +200,78 @@ page_section(
         c("tract", "census_tracts"),
         c("county", "counties")
       ), function(s) {
-        pref <- if (s[1] == "neighborhood")
-          "va013_geo_arl_2021_" else if (s[2] %in% c(
-            "human_services_regions", "planning_districts", "supervisor_districts", "zip_codes"
-          )) "va059_geo_ffxct_gis_2022_" else "ncr_geo_census_cb_2010_"
-        list(
-          name = s[1],
-          url = paste0(
-            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-            pref, s[2], "/distribution/", pref, s[2], ".geojson"
-          )
+        noncensus <- s[2] %in% c(
+          "civic_associations", "human_services_regions", "planning_districts", "supervisor_districts", "zip_codes"
         )
-      }),
+        pref <- if (s[1] == "neighborhood")
+          "va013_geo_arl_2021_" else if (noncensus) "va059_geo_ffxct_gis_2022_" else "ncr_geo_census_cb_2010_"
+        if (noncensus) {
+          list(list(
+            name = s[1],
+            url = paste0(
+              "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+              pref, s[2], "/distribution/", pref, s[2], ".geojson"
+            )
+          ))
+        } else {
+          list(
+            list(
+              name = s[1],
+              time = 2010,
+              url = paste0(
+                "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+                pref, s[2], "/distribution/", pref, s[2], ".geojson"
+              )
+            ),
+            list(
+              name = s[1],
+              time = 2020,
+              url = paste0(
+                "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+                "ncr_geo_census_cb_2020_", s[2], "/distribution/ncr_geo_census_cb_2020_", s[2], ".geojson"
+              )
+            )
+          )
+        }
+      }), recursive = FALSE),
+      overlays = {
+          layers <- lapply(2013:2020, function(year) list(
+              url = paste0("https://uva-bi-sdad.github.io/dc.education/points_", year, ".geojson"),
+              time = year
+          ))
+          c(
+          list(
+            list(
+              variable = "nces:schools_2year_per_100k",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
+            ),
+            list(
+              variable = "nces:schools_under2year_per_100k",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
+            ),
+            list(
+              variable = "nces:schools_2year_min_drivetime",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
+            ),
+            list(
+              variable = "nces:schools_under2year_min_drivetime",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
+            )
+          ),
+          lapply(c("biomedical", "computer", "engineering", "physical", "science"), function(p) list(
+            variable = paste0("nces:schools_2year_with_", p, "_program_per_100k"),
+            source = layers,
+            filter = list(
+              list(feature = "ICLEVEL", operator = "=", value = 2),
+              list(feature = p, operator = "=", value = 1)
+            )
+          ))
+        )
+      },
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
