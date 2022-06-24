@@ -18,7 +18,7 @@
     "map_animations": "all",
     "trace_limit": 20,
     "map_overlay": true,
-    "circle_radius": 2500
+    "circle_radius": 5
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -26,9 +26,9 @@
     "variables": {},
     "info": {
       "block_group": {
-        "bytes": 3034128,
+        "bytes": 3824408,
         "encoding": "ISO-8859-1",
-        "md5": "287184b6fbc045d1b092b85e5a86089e",
+        "md5": "724f88d2d155dde7c66ba9cc5c0ae05f",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv.xz",
@@ -41,7 +41,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:14",
+        "created": "2022-06-24 03:43:17",
         "last_modified": "2022-06-08 13:18:15",
         "row_count": 52559,
         "entity_count": 4043,
@@ -241,17 +241,17 @@
             },
             {
               "name": "nces:schools_2year_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.5151,
-              "sd": 0.2246,
-              "min": 0.0001,
-              "max": 2.3556,
+              "mean": 0.4053,
+              "sd": 0.2186,
+              "min": 0.0009,
+              "max": 2.7073,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_per_100k",
@@ -292,17 +292,17 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 52172,
+              "duplicates": 52098,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 8.8203,
-              "sd": 9.9507,
-              "min": 0,
-              "max": 69.1,
+              "mean": 14.7441,
+              "sd": 8.1585,
+              "min": 0.3,
+              "max": 58.9,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_min_drivetime",
@@ -333,17 +333,17 @@
             },
             {
               "name": "nces:schools_under2year_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.7112,
-              "sd": 0.2824,
+              "mean": 0.7092,
+              "sd": 0.354,
               "min": 0,
-              "max": 1.8434,
+              "max": 2.596,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_per_100k",
@@ -384,17 +384,17 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 52114,
+              "duplicates": 52073,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 8.5022,
-              "sd": 10.6358,
-              "min": 0,
-              "max": 90,
+              "mean": 12.5015,
+              "sd": 8.5843,
+              "min": 0.1,
+              "max": 72.7,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_min_drivetime",
@@ -425,17 +425,17 @@
             },
             {
               "name": "nces:schools_2year_with_biomedical_program_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.0473,
-              "sd": 0.0382,
+              "mean": 0.0071,
+              "sd": 0.0252,
               "min": 0,
-              "max": 0.1726,
+              "max": 0.7074,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_biomedical_program_per_100k",
@@ -476,17 +476,17 @@
             },
             {
               "name": "nces:schools_2year_with_computer_program_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.2839,
-              "sd": 0.1842,
-              "min": 0,
-              "max": 2.2965,
+              "mean": 0.2061,
+              "sd": 0.217,
+              "min": 2e-06,
+              "max": 2.706,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_computer_program_per_100k",
@@ -527,17 +527,17 @@
             },
             {
               "name": "nces:schools_2year_with_engineering_program_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.2307,
-              "sd": 0.164,
-              "min": 0,
-              "max": 2.2884,
+              "mean": 0.15,
+              "sd": 0.2249,
+              "min": 1e-06,
+              "max": 2.7059,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_engineering_program_per_100k",
@@ -578,17 +578,17 @@
             },
             {
               "name": "nces:schools_2year_with_physical_program_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.0422,
-              "sd": 0.0346,
+              "mean": 0.0004,
+              "sd": 0.0089,
               "min": 0,
-              "max": 0.2169,
+              "max": 0.7074,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_physical_program_per_100k",
@@ -629,17 +629,17 @@
             },
             {
               "name": "nces:schools_2year_with_science_program_per_100k",
-              "duplicates": 40044,
+              "duplicates": 26244,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 26245,
-              "mean": 0.0883,
-              "sd": 0.0563,
+              "mean": 0.0926,
+              "sd": 0.1661,
               "min": 0,
-              "max": 0.3044,
+              "max": 1.6108,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -3645,13 +3645,13 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "e7edad674b81d4380cadf3c4fb3a7860e7b5831845dee4307aa3d31542b3e46410d26fbd2f9d6335be6f990d3e7d89c475b7733e924e1acb8da080cbc25d6b7d",
+        "sha512": "90d41051e9da66ce486d32d4bf69e832e72667bc9f3fe5e323b3a032948d0ceb0ee00896b0e33c9d1ca037200fa1fd6f4524c556249722e01cbb88a18da4d6f4",
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 1950784,
+        "bytes": 2134480,
         "encoding": "ISO-8859-1",
-        "md5": "a3a43615873a9be4655431386affa2d1",
+        "md5": "80a3fe73c41d15e7e24bbb9d28ec8dc2",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -3664,7 +3664,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:18",
+        "created": "2022-06-24 03:43:22",
         "last_modified": "2022-06-08 13:18:16",
         "row_count": 18733,
         "entity_count": 1441,
@@ -3868,17 +3868,17 @@
             },
             {
               "name": "nces:schools_2year_per_100k",
-              "duplicates": 11876,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.5102,
-              "sd": 0.2171,
+              "mean": 0.402,
+              "sd": 0.2131,
               "min": 0,
-              "max": 2.3548,
+              "max": 2.5018,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_per_100k",
@@ -3919,17 +3919,17 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 17592,
+              "duplicates": 17207,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 8.9058,
-              "sd": 9.7468,
-              "min": 0,
-              "max": 61.2,
+              "mean": 14.7543,
+              "sd": 8.0561,
+              "min": 1,
+              "max": 55.425,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_min_drivetime",
@@ -3960,17 +3960,17 @@
             },
             {
               "name": "nces:schools_under2year_per_100k",
-              "duplicates": 11882,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.7043,
-              "sd": 0.2823,
+              "mean": 0.6957,
+              "sd": 0.3444,
               "min": 0,
-              "max": 1.8434,
+              "max": 2.5627,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_per_100k",
@@ -4011,17 +4011,17 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 17534,
+              "duplicates": 17248,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 8.5126,
-              "sd": 10.2338,
-              "min": 0,
-              "max": 90,
+              "mean": 12.5082,
+              "sd": 8.4965,
+              "min": 1.05,
+              "max": 61.1333,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_min_drivetime",
@@ -4052,17 +4052,17 @@
             },
             {
               "name": "nces:schools_2year_with_biomedical_program_per_100k",
-              "duplicates": 11878,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.0467,
-              "sd": 0.0378,
+              "mean": 0.0074,
+              "sd": 0.0255,
               "min": 0,
-              "max": 0.1726,
+              "max": 0.4157,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_biomedical_program_per_100k",
@@ -4103,17 +4103,17 @@
             },
             {
               "name": "nces:schools_2year_with_computer_program_per_100k",
-              "duplicates": 11889,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.2818,
-              "sd": 0.1733,
+              "mean": 0.2032,
+              "sd": 0.2099,
               "min": 0,
-              "max": 2.2955,
+              "max": 2.5002,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_computer_program_per_100k",
@@ -4154,17 +4154,17 @@
             },
             {
               "name": "nces:schools_2year_with_engineering_program_per_100k",
-              "duplicates": 11892,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.2296,
-              "sd": 0.1533,
+              "mean": 0.147,
+              "sd": 0.2172,
               "min": 0,
-              "max": 2.2874,
+              "max": 2.5002,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_engineering_program_per_100k",
@@ -4205,17 +4205,17 @@
             },
             {
               "name": "nces:schools_2year_with_physical_program_per_100k",
-              "duplicates": 11882,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.0411,
-              "sd": 0.0331,
+              "mean": 0.0004,
+              "sd": 0.0077,
               "min": 0,
-              "max": 0.2168,
+              "max": 0.4157,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_physical_program_per_100k",
@@ -4256,17 +4256,17 @@
             },
             {
               "name": "nces:schools_2year_with_science_program_per_100k",
-              "duplicates": 11883,
+              "duplicates": 8914,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 8870,
-              "mean": 0.088,
-              "sd": 0.0557,
+              "mean": 0.0879,
+              "sd": 0.1589,
               "min": 0,
-              "max": 0.3044,
+              "max": 1.4873,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -7236,7 +7236,7 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "8d212db819caf3407197b578751d0d1085d5c9d525a68acbd1309677d1e463fdf537dd9d8749ff845156324417f90174ee5582dfcbecb4f2fa5e7fa788f310f9",
+        "sha512": "3edc8e9c6274bc8b43812fcdd98d042e02bfffe2712878d7d806a3de1e5b7c5b29313273754c43af032b18efb0f1a05b9b816a4a0fd54fd9403a712a8becf953",
         "site_file": "tract.json"
       },
       "neighborhood": {
@@ -7255,7 +7255,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:14",
+        "created": "2022-06-24 03:43:17",
         "last_modified": "2022-06-08 13:18:15",
         "row_count": 806,
         "entity_count": 62,
@@ -10747,9 +10747,9 @@
         "site_file": "neighborhood.json"
       },
       "county": {
-        "bytes": 31384,
+        "bytes": 31648,
         "encoding": "ISO-8859-1",
-        "md5": "0b08fddeb7d86c7954a36c8507691a30",
+        "md5": "aade728f2a8f2ba12489f67c5365bb8b",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -10762,7 +10762,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:14",
+        "created": "2022-06-24 03:43:17",
         "last_modified": "2022-06-08 13:18:15",
         "row_count": 182,
         "entity_count": 14,
@@ -10973,10 +10973,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.5284,
-              "sd": 0.1642,
-              "min": 0.1901,
-              "max": 0.9981,
+              "mean": 0.4815,
+              "sd": 0.1969,
+              "min": 0.1529,
+              "max": 0.9742,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_per_100k",
@@ -11017,17 +11017,17 @@
             },
             {
               "name": "nces:schools_2year_min_drivetime",
-              "duplicates": 88,
+              "duplicates": 79,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 70,
-              "mean": 11.2952,
-              "sd": 7.8905,
-              "min": 1.2263,
-              "max": 28.9012,
+              "mean": 14.9127,
+              "sd": 6.5478,
+              "min": 2.95,
+              "max": 30.516,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_min_drivetime",
@@ -11065,10 +11065,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.6294,
-              "sd": 0.278,
-              "min": 0.1278,
-              "max": 1.1748,
+              "mean": 0.6543,
+              "sd": 0.3459,
+              "min": 0.0507,
+              "max": 1.7258,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_per_100k",
@@ -11109,17 +11109,17 @@
             },
             {
               "name": "nces:schools_under2year_min_drivetime",
-              "duplicates": 85,
+              "duplicates": 74,
               "time_range": [
                 4,
                 11
               ],
               "type": "float",
               "missing": 70,
-              "mean": 12.5513,
-              "sd": 9.8814,
-              "min": 0.7256,
-              "max": 39.1864,
+              "mean": 14.9759,
+              "sd": 8.3526,
+              "min": 3.025,
+              "max": 39.0926,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_under2year_min_drivetime",
@@ -11157,10 +11157,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.0387,
-              "sd": 0.0356,
-              "min": 0.0005,
-              "max": 0.1358,
+              "mean": 0.0039,
+              "sd": 0.0145,
+              "min": 0,
+              "max": 0.0923,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_biomedical_program_per_100k",
@@ -11208,10 +11208,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.2529,
-              "sd": 0.1504,
-              "min": 0.0215,
-              "max": 0.7278,
+              "mean": 0.2284,
+              "sd": 0.2477,
+              "min": 0.0083,
+              "max": 0.9616,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_computer_program_per_100k",
@@ -11259,10 +11259,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.2031,
-              "sd": 0.117,
-              "min": 0.0198,
-              "max": 0.504,
+              "mean": 0.1778,
+              "sd": 0.2594,
+              "min": 0.0083,
+              "max": 0.9614,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_engineering_program_per_100k",
@@ -11310,10 +11310,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.0356,
-              "sd": 0.0336,
-              "min": 0.0009,
-              "max": 0.1564,
+              "mean": 0.0004,
+              "sd": 0.003,
+              "min": 0,
+              "max": 0.0224,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_physical_program_per_100k",
@@ -11361,10 +11361,10 @@
               ],
               "type": "float",
               "missing": 70,
-              "mean": 0.0715,
-              "sd": 0.0446,
-              "min": 0.0107,
-              "max": 0.169,
+              "mean": 0.0949,
+              "sd": 0.1556,
+              "min": 0.0002,
+              "max": 0.6439,
               "info": {
                 "category": "Education",
                 "full_name": "nces:schools_2year_with_science_program_per_100k",
@@ -14346,7 +14346,7 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "bd96dff7f5edbaecbcaaf98317ad5edd7834e97c18930df5da8e551528622356ff342520398fc0edf02163be3680433caaca81e074944e10b6057984c081ee27",
+        "sha512": "45cf6976a0e8ca3de516acfd76489e333c78399aa789b52315d42d21d6bf4f94c3c9d68b65373d96cc8e237527b25383b1f0a57c41f13818b1c32e55d0fa5bf1",
         "site_file": "county.json"
       },
       "zip_code": {
@@ -14365,7 +14365,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:18",
+        "created": "2022-06-24 03:43:22",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 689,
         "entity_count": 53,
@@ -17764,7 +17764,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:14",
+        "created": "2022-06-24 03:43:17",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 182,
         "entity_count": 14,
@@ -21163,7 +21163,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:14",
+        "created": "2022-06-24 03:43:17",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 117,
         "entity_count": 9,
@@ -24562,7 +24562,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-06-17 01:47:14",
+        "created": "2022-06-24 03:43:17",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 52,
         "entity_count": 4,

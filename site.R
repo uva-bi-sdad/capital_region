@@ -31,8 +31,8 @@ page_navbar(
         note = "Determines whether and on what the color scale should be centered."
       ),
       input_select(
-        "Summary Level", options = c("dataset", "filtered", "ids", "all"), default = "dataset",
-        display = c("All Regions", "Selected Region Types", "Selected Super-Region", "Showing Regions"), id = "settings.summary_selection",
+        "Summary Level", options = c("dataset", "children", "all"), default = "dataset",
+        display = c("All Regions", "Selected Super-Region", "Showing Regions"), id = "settings.summary_selection",
         floating_label = FALSE,
         note = paste(
           "Determines which regions are included in summaries for box-plots and color scaling;",
