@@ -13,7 +13,6 @@
 "daycare_access_scores:daycare_3sfca",1,1379,9,0,0,0,0,513,0
 "daycare_access_scores:daycare_cnt",1,911,9,0,0,0,0,462,0
 "daycare_access_scores:daycare_median_drive_time_top5",1,1385,9,0,0,0,0,519,0
-"dei:norm_dei",1,9690,42,0,0,0,0,3633,0
 "demographics:perc_20_64",1,22629,154,4,434,14,9,12830,52
 "demographics:perc_65_plus",1,22629,154,4,434,14,9,12830,52
 "demographics:perc_AAPI",1,22629,154,4,434,14,9,12830,52
@@ -35,9 +34,12 @@
 "food_insecurity_and_cost:Food_Insecurity_Rate",1,0,140,0,0,0,0,0,0
 "food_insecurity_and_cost:Num_Child_Food_Insecure",1,0,140,0,0,0,0,0,0
 "health_literacy_estimates:health_literacy_estimate",1,0,9,0,0,0,0,519,0
-"hospital_access_scores:hos_10near_median",1,0,0,0,0,0,0,519,0
-"hospital_access_scores:hos_3sfca",1,0,9,0,0,0,0,519,0
-"hospital_access_scores:hos_cnt",1,0,9,0,0,0,0,12,0
+"hhs:childrens_hospitals_min_drivetime",1,3613,14,0,0,0,0,1323,0
+"hhs:childrens_hospitals_per_100k",1,3613,14,0,0,0,0,1323,0
+"hhs:hospitals_min_drivetime",1,3613,14,0,0,0,0,1323,0
+"hhs:hospitals_per_100k",1,3613,14,0,0,0,0,1323,0
+"hhs:intensive_care_min_drivetime",1,3613,14,0,0,0,0,1323,0
+"hhs:intensive_care_per_100k",1,3613,14,0,0,0,0,1323,0
 "ID",0,52559,182,52,806,182,117,18733,689
 "latino_east_african_gravity_models:barley_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:basmati_ecdf_idx",1,181,0,0,62,0,0,0,0

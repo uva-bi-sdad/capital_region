@@ -16,23 +16,11 @@
     "files": [
       {
         "location": "data",
-        "date": "2022-06-01T16:06:13Z",
+        "date": "2022-08-09T11:51:13Z",
         "size": 40006688,
         "sha": "3e9a8e43a070b82ee39dbe7af87798d1b336e77e",
         "md5": "b17c37ec6f4a5fe3d1846733869e36d5",
         "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
-      }
-    ]
-  },
-  "uva-bi-sdad/dc.acs.education": {
-    "repository": "uva-bi-sdad/dc.acs.education",
-    "files": [
-      {
-        "id": 55936,
-        "date": "2022-02-23T00:00:00Z",
-        "size": 177048,
-        "md5": "2989d40b2da7e5d71b23daf7164762d7",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
   },
@@ -96,31 +84,6 @@
       }
     ]
   },
-  "uva-bi-sdad/dc.dss.daycare": {
-    "repository": "uva-bi-sdad/dc.dss.daycare",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-05-02T04:06:15Z",
-        "size": 210620,
-        "sha": "3687a7f7147ae7b148a7208ee8edffc4e03dbda8",
-        "md5": "115bf6bc8584535ac0ff81758bf611e4",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.dss.daycare"
-      }
-    ]
-  },
-  "uva-bi-sdad/dc.education": {
-    "repository": "uva-bi-sdad/dc.education",
-    "files": [
-      {
-        "location": "data/distribution/",
-        "date": "2022-06-24T03:35:02Z",
-        "size": 6916980,
-        "sha": "a1dfdae419a1c4f4191ea27dbe6f0bd11249e3ad",
-        "md5": "1fecfe33bbc7bde613504584431b4e40"
-      }
-    ]
-  },
   "uva-bi-sdad/dc.food.insecurity": {
     "repository": "uva-bi-sdad/dc.food.insecurity",
     "files": [
@@ -144,13 +107,6 @@
         "baseurl": "https://dataverse.lib.virginia.edu/"
       },
       {
-        "id": 55063,
-        "date": "2021-12-21T00:00:00Z",
-        "size": 92652,
-        "md5": "d06599a91e1dd05c516aa354bf880f08",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      },
-      {
         "id": 55065,
         "date": "2021-12-21T00:00:00Z",
         "size": 104180,
@@ -166,15 +122,16 @@
       }
     ]
   },
-  "uva-bi-sdad/dc.meps.acs.health.literacy": {
-    "repository": "uva-bi-sdad/dc.meps.acs.health.literacy",
+  "uva-bi-sdad/dc.hifld.hosp": {
+    "repository": "uva-bi-sdad/dc.hifld.hosp",
     "files": [
       {
-        "id": 55932,
-        "date": "2022-02-23T00:00:00Z",
-        "size": 13800,
-        "md5": "14a42ebf428eed059434b60fcc567e75",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
+        "location": "data/distribution/",
+        "date": "2022-08-09T11:50:14Z",
+        "size": 593476,
+        "sha": "8b13142d9e3839dbe4e1be123b22ca3c1fe8b922",
+        "md5": "ab6abb0cc74b054d354e35f7188753fd",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.hosp"
       }
     ]
   },
@@ -183,7 +140,7 @@
     "files": [
       {
         "location": "data",
-        "date": "2022-04-12T02:11:06Z",
+        "date": "2022-08-09T11:50:29Z",
         "size": 3320496,
         "sha": "0221c8235743af2a641752275250413686ea2127",
         "md5": "822a31ea38e56e6c177dbbd095798c26",
@@ -191,7 +148,7 @@
       },
       {
         "location": "data",
-        "date": "2022-04-12T02:11:06Z",
+        "date": "2022-08-09T11:50:29Z",
         "size": 8955944,
         "sha": "18bcd530dcfbfbc4604848b4585d113c87b7abb6",
         "md5": "76e6f2e155dfb88ebe7926bc9644d63f",
@@ -199,7 +156,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-08T13:23:27Z",
+        "date": "2022-08-09T11:50:29Z",
         "size": 12824,
         "sha": "46ec93e24fd26d0bf09298289ab5dea227781965",
         "md5": "faa4bcf2d1c54da5b9aac82ad7887cee",
@@ -207,7 +164,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-08T13:23:27Z",
+        "date": "2022-08-09T11:50:29Z",
         "size": 4012,
         "sha": "e3d34aeaca4b37b041786a9b7e48c9e5e6c76585",
         "md5": "bb81057a940d6fc16ed14670626c7d0d",
@@ -215,7 +172,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-08T13:23:27Z",
+        "date": "2022-08-09T11:50:29Z",
         "size": 2784,
         "sha": "020d92ffa65f7ddf6d93ac6d38f5c6f510161766",
         "md5": "2261508c997071bbec9f53a2b5e7c4b2",
@@ -223,7 +180,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-08T13:23:27Z",
+        "date": "2022-08-09T11:50:29Z",
         "size": 1276,
         "sha": "9b47da40b3258c7d73fc1d23dcb4b7c4a29afe2f",
         "md5": "8f9029c3d52bef24c3e00351110eac3c",
@@ -236,30 +193,11 @@
     "files": [
       {
         "location": "data",
-        "date": "2022-06-02T18:48:04Z",
+        "date": "2022-08-09T11:51:10Z",
         "size": 1652,
         "sha": "6c3a3ac54d1b33ff33142bbd98f15299a91c3735",
         "md5": "15650a160f70b8e07472dc6f98dc9b13",
         "baseurl": "https://github.com/uva-bi-sdad/dc.osm.food"
-      }
-    ]
-  },
-  "uva-bi-sdad/dc.sdad.dei": {
-    "repository": "uva-bi-sdad/dc.sdad.dei",
-    "files": [
-      {
-        "id": 55921,
-        "date": "2022-02-22T00:00:00Z",
-        "size": 675504,
-        "md5": "b6c2eb6a01178de4686164db5637d95f",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      },
-      {
-        "id": 55920,
-        "date": "2022-02-22T00:00:00Z",
-        "size": 1129004,
-        "md5": "b7eafd7ce4ef2872eae0cd1ce80026d7",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
   },
@@ -268,7 +206,7 @@
     "files": [
       {
         "location": "data",
-        "date": "2022-06-01T16:06:14Z",
+        "date": "2022-08-09T11:51:15Z",
         "size": 12296,
         "sha": "84c254234145d1176e157825476ef4ad5af8a2cb",
         "md5": "e0faa4d2219b001bf2c111fddb5c0af0",
@@ -276,7 +214,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-01T16:06:14Z",
+        "date": "2022-08-09T11:51:15Z",
         "size": 94000,
         "sha": "45ab00e8c5d6c3c39db4fc9eb9a3be4b1ff9d9a2",
         "md5": "02a59cfa0d1d12632f4aea7c59c86332",
@@ -284,7 +222,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-01T16:06:14Z",
+        "date": "2022-08-09T11:51:15Z",
         "size": 3624,
         "sha": "ad250723c74e5f69931124adfa9d5daa45550e68",
         "md5": "359bd8fed0ee1e97fd55856451b6ad77",
@@ -292,7 +230,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-01T16:06:14Z",
+        "date": "2022-08-09T11:51:15Z",
         "size": 2524,
         "sha": "db6012494ac34634e26f79c1dbde56a3377649a3",
         "md5": "9a0f9ee762e45ba6c11be371b3d0c475",
@@ -300,7 +238,7 @@
       },
       {
         "location": "data",
-        "date": "2022-06-01T16:06:14Z",
+        "date": "2022-08-09T11:51:15Z",
         "size": 1176,
         "sha": "80850385d54480e44b7138748bfc623054aaceda",
         "md5": "27dac959230269b07c749164e7a37bce",
@@ -325,7 +263,7 @@
     "files": [
       {
         "location": "data",
-        "date": "2022-06-01T21:37:56Z",
+        "date": "2022-08-09T11:51:05Z",
         "size": 165744,
         "sha": "13a9196d52deec41ea52d9d1b04a4bb3e4603fdb",
         "md5": "015d7a6507b8371c52c024964e67356b",
@@ -341,18 +279,6 @@
         "date": "2022-02-23T00:00:00Z",
         "size": 11300,
         "md5": "836e3952e4ac1192019eb43bc103c255",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      }
-    ]
-  },
-  "uva-bi-sdad/dc.vdoe.reading.scores": {
-    "repository": "uva-bi-sdad/dc.vdoe.reading.scores",
-    "files": [
-      {
-        "id": 55749,
-        "date": "2022-01-28T00:00:00Z",
-        "size": 4632,
-        "md5": "85c71e77820c0073e60e28ce68fd8076",
         "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     ]
@@ -423,6 +349,46 @@
         "size": 440988,
         "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5",
         "baseurl": "https://dataverse.lib.virginia.edu/"
+      }
+    ]
+  },
+  "uva-bi-sdad/sdc.education": {
+    "repository": "uva-bi-sdad/sdc.education",
+    "files": [
+      {
+        "location": "data/nces/",
+        "date": "2022-08-09T13:20:02Z",
+        "size": 6916980,
+        "sha": "a1dfdae419a1c4f4191ea27dbe6f0bd11249e3ad",
+        "md5": "1fecfe33bbc7bde613504584431b4e40"
+      },
+      {
+        "location": "data/dss/",
+        "date": "2022-08-09T13:20:02Z",
+        "size": 210620,
+        "sha": "3687a7f7147ae7b148a7208ee8edffc4e03dbda8",
+        "md5": "115bf6bc8584535ac0ff81758bf611e4"
+      },
+      {
+        "location": "data/meps/",
+        "date": "2022-08-09T13:20:02Z",
+        "size": 174188,
+        "sha": "0c1a838b9d3afcaf1abf248d3a5c74f574c2e324",
+        "md5": "63b3ba738957a70661cf34e74ec2600d"
+      },
+      {
+        "location": "data/meps/",
+        "date": "2022-08-09T13:20:02Z",
+        "size": 13800,
+        "sha": "9c1df77e4de79ba601acb07deaeca42a9acf8798",
+        "md5": "14a42ebf428eed059434b60fcc567e75"
+      },
+      {
+        "location": "data/vdoe/",
+        "date": "2022-08-09T13:20:04Z",
+        "size": 4632,
+        "sha": "3f2637bb31f788825cc9c329e9475451eebfc0d3",
+        "md5": "85c71e77820c0073e60e28ce68fd8076"
       }
     ]
   }
