@@ -191,26 +191,26 @@ page_section(
     sizes = c(NA, 5),
     output_map(
       unlist(lapply(list(
-        c("human_services_region", "human_services_regions"),
-        c("planning_district", "planning_districts"),
-        c("supervisor_district", "supervisor_districts"),
-        c("zip_code", "zip_codes"),
-        c("neighborhood", "civic_associations"),
-        c("block_group", "census_block_groups"),
-        c("tract", "census_tracts"),
-        c("county", "counties")
+        c("human_services_region", "human_services_regions", "VA/Local%20Geographies/Fairfax%20County/Human%20Services%20Regions/2022"),
+        c("planning_district", "planning_districts", "VA/Local%20Geographies/Fairfax%20County/Planning%20Districts/2022"),
+        c("supervisor_district", "supervisor_districts", "VA/Local%20Geographies/Fairfax%20County/Supervisor%20Districts/2022"),
+        c("zip_code", "zip_codes", "VA/Local%20Geographies/Fairfax%20County/Zip%20Codes/2022"),
+        c("neighborhood", "civic_associations", "VA/Local%20Geographies/Arlington%20County/Civic%20Associations/2021"),
+        c("block_group", "census_block_groups", "NCR/Census%20Geographies/Block%20Group"),
+        c("tract", "census_tracts", "NCR/Census%20Geographies/Tract"),
+        c("county", "counties", "NCR/Census%20Geographies/County")
       ), function(s) {
         noncensus <- s[2] %in% c(
           "civic_associations", "human_services_regions", "planning_districts", "supervisor_districts", "zip_codes"
         )
         pref <- if (s[1] == "neighborhood")
-          "va013_geo_arl_2021_" else if (noncensus) "va059_geo_ffxct_gis_2022_" else "ncr_geo_census_cb_2010_"
-        if (noncensus) {
+          "va013_geo_arl_2021_" else if (noncensus) "va059_geo_ffxct_gis_2022_" else "ncr_geo_census_cb_"
+        if (noncensus) { 
           list(list(
             name = s[1],
             url = paste0(
-              "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-              pref, s[2], "/distribution/", pref, s[2], ".geojson"
+              "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/",
+              s[3], "/data/distribution/", pref, s[2], ".geojson"
             )
           ))
         } else {
@@ -219,16 +219,16 @@ page_section(
               name = s[1],
               time = 2010,
               url = paste0(
-                "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-                pref, s[2], "/distribution/", pref, s[2], ".geojson"
+                "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/",
+                s[3], "/2010/data/distribution/", pref, "2010_", s[2], ".geojson"
               )
             ),
             list(
               name = s[1],
               time = 2020,
               url = paste0(
-                "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
-                "ncr_geo_census_cb_2020_", s[2], "/distribution/ncr_geo_census_cb_2020_", s[2], ".geojson"
+                "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/",
+                s[3], "/2020/data/distribution/", pref, "2020_", s[2], ".geojson"
               )
             )
           )
@@ -236,7 +236,7 @@ page_section(
       }), recursive = FALSE),
       overlays = {
         layers <- lapply(2013:2020, function(year) list(
-          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_", year, ".geojson"),
+          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_", year, ".geojson"),
           time = year
         ))
         hospital_layer <- list(list(

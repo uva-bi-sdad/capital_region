@@ -28841,63 +28841,63 @@
       "shapes": [
         {
           "name": "human_services_region",
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va059_geo_ffxct_gis_2022_human_services_regions/distribution/va059_geo_ffxct_gis_2022_human_services_regions.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Local%20Geographies/Fairfax%20County/Human%20Services%20Regions/2022/data/distribution/va059_geo_ffxct_gis_2022_human_services_regions.geojson",
           "id_property": "geoid"
         },
         {
           "name": "planning_district",
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va059_geo_ffxct_gis_2022_planning_districts/distribution/va059_geo_ffxct_gis_2022_planning_districts.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Local%20Geographies/Fairfax%20County/Planning%20Districts/2022/data/distribution/va059_geo_ffxct_gis_2022_planning_districts.geojson",
           "id_property": "geoid"
         },
         {
           "name": "supervisor_district",
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va059_geo_ffxct_gis_2022_supervisor_districts/distribution/va059_geo_ffxct_gis_2022_supervisor_districts.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Local%20Geographies/Fairfax%20County/Supervisor%20Districts/2022/data/distribution/va059_geo_ffxct_gis_2022_supervisor_districts.geojson",
           "id_property": "geoid"
         },
         {
           "name": "zip_code",
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va059_geo_ffxct_gis_2022_zip_codes/distribution/va059_geo_ffxct_gis_2022_zip_codes.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Local%20Geographies/Fairfax%20County/Zip%20Codes/2022/data/distribution/va059_geo_ffxct_gis_2022_zip_codes.geojson",
           "id_property": "geoid"
         },
         {
           "name": "neighborhood",
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va013_geo_arl_2021_civic_associations/distribution/va013_geo_arl_2021_civic_associations.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/VA/Local%20Geographies/Arlington%20County/Civic%20Associations/2021/data/distribution/va013_geo_arl_2021_civic_associations.geojson",
           "id_property": "geoid"
         },
         {
           "name": "block_group",
           "time": 2010,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_census_block_groups/distribution/ncr_geo_census_cb_2010_census_block_groups.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2010/data/distribution/ncr_geo_census_cb_2010_census_block_groups.geojson",
           "id_property": "geoid"
         },
         {
           "name": "block_group",
           "time": 2020,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2020_census_block_groups/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Block%20Group/2020/data/distribution/ncr_geo_census_cb_2020_census_block_groups.geojson",
           "id_property": "geoid"
         },
         {
           "name": "tract",
           "time": 2010,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_census_tracts/distribution/ncr_geo_census_cb_2010_census_tracts.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Tract/2010/data/distribution/ncr_geo_census_cb_2010_census_tracts.geojson",
           "id_property": "geoid"
         },
         {
           "name": "tract",
           "time": 2020,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2020_census_tracts/distribution/ncr_geo_census_cb_2020_census_tracts.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/Tract/2020/data/distribution/ncr_geo_census_cb_2020_census_tracts.geojson",
           "id_property": "geoid"
         },
         {
           "name": "county",
           "time": 2010,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2010_counties/distribution/ncr_geo_census_cb_2010_counties.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/County/2010/data/distribution/ncr_geo_census_cb_2010_counties.geojson",
           "id_property": "geoid"
         },
         {
           "name": "county",
           "time": 2020,
-          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/ncr_geo_census_cb_2020_counties/distribution/ncr_geo_census_cb_2020_counties.geojson",
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/NCR/Census%20Geographies/County/2020/data/distribution/ncr_geo_census_cb_2020_counties.geojson",
           "id_property": "geoid"
         }
       ],
@@ -28980,35 +28980,35 @@
           "variable": "nces:schools_2year_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29022,35 +29022,35 @@
           "variable": "nces:schools_under2year_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29064,35 +29064,35 @@
           "variable": "nces:schools_2year_min_drivetime",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29106,35 +29106,35 @@
           "variable": "nces:schools_under2year_min_drivetime",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29148,35 +29148,35 @@
           "variable": "nces:schools_2year_with_biomedical_program_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29197,35 +29197,35 @@
           "variable": "nces:schools_2year_with_computer_program_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29246,35 +29246,35 @@
           "variable": "nces:schools_2year_with_engineering_program_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29295,35 +29295,35 @@
           "variable": "nces:schools_2year_with_physical_program_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
@@ -29344,35 +29344,35 @@
           "variable": "nces:schools_2year_with_science_program_per_100k",
           "source": [
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2013.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
               "time": 2013
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2014.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
               "time": 2014
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2015.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
               "time": 2015
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2016.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
               "time": 2016
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2017.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
               "time": 2017
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2018.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
               "time": 2018
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2019.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
               "time": 2019
             },
             {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/data/nces/distribution/points_2020.geojson",
+              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
               "time": 2020
             }
           ],
