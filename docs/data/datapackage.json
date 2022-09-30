@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 31748,
+      "bytes": 31812,
       "encoding": "ISO-8859-1",
-      "md5": "1ab6e3c12978f4fcaa840e2ae9e490c9",
+      "md5": "a6e3fb2066bcbc68b8f4cae9b2efb1c4",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -24,8 +24,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:19",
-      "last_modified": "2022-06-08 13:18:15",
+      "created": "2022-09-29 21:17:26",
+      "last_modified": "2022-09-14 17:52:51",
       "row_count": 182,
       "entity_count": 14,
       "schema": {
@@ -1193,6 +1193,141 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 181,
             "time_range": [-1, -1],
@@ -1954,10 +2089,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 173,
-            "mean": 0,
-            "sd": 4e-06,
-            "min": 9e-06,
-            "max": 0,
+            "mean": 0.0153,
+            "sd": 0.0037,
+            "min": 0.0089,
+            "max": 0.0193,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -2449,7 +2584,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -3286,14 +3421,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "3a58fff496d0621799ba601cae6cc3b30d030ccc02f5330e12c3415530238b894db973d4b675f814b2f26b839a76e4e458c8357b3aa0a29605bd888adc2ffae0"
+      "sha512": "48e09179de6fe0af0ff56d74a6a1b3f659417ecf90e1f7ee147fcb996f245cb8cc8e85367f9d23c91b6e12ba57bc1d647cf8c8e8960f25af862251a03679030b"
     },
     {
-      "bytes": 2136376,
+      "bytes": 2138088,
       "encoding": "ISO-8859-1",
-      "md5": "2b09fa87ea65e5616c70c2ccc5113632",
+      "md5": "1295806a0f177d4256509f5154741262",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -3306,8 +3497,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:24",
-      "last_modified": "2022-06-08 13:18:16",
+      "created": "2022-09-29 21:17:31",
+      "last_modified": "2022-09-14 17:52:51",
       "row_count": 18733,
       "entity_count": 1441,
       "schema": {
@@ -4455,6 +4646,141 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 18732,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 18733,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 18732,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 18733,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 18732,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 18733,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 18732,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 18733,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 18732,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 18733,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 18732,
             "time_range": [-1, -1],
@@ -5220,10 +5546,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 18214,
-            "mean": 0,
-            "sd": 4e-06,
-            "min": 1e-06,
-            "max": 0,
+            "mean": 0.0153,
+            "sd": 0.0043,
+            "min": 0.001,
+            "max": 0.0235,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -5447,8 +5773,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 17525,
-            "mean": 0.5112,
-            "sd": 0.2472,
+            "mean": 0.5109,
+            "sd": 0.247,
             "min": 0.096,
             "max": 3.3295,
             "info": {
@@ -5484,8 +5810,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 17525,
-            "mean": 0.3653,
-            "sd": 0.1784,
+            "mean": 0.3652,
+            "sd": 0.1783,
             "min": 0.096,
             "max": 2.0806,
             "info": {
@@ -5719,7 +6045,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -6552,14 +6878,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "6ce9e329d2d6191f898315818e39deb605da9d785e7af2dfd141fd09f729245cf598982f81c1f441bdaafb937cab2d9324e9812036efb025d0e2b11030f25637"
+      "sha512": "3997cc862101ce0728736fc097742ea03c55871f2de72ef183b09969a66a05c165722959d5c8058057f9b52afc2a4abaa3e3682e86c06ba26dea92295ced44fc"
     },
     {
-      "bytes": 3847656,
+      "bytes": 3855120,
       "encoding": "ISO-8859-1",
-      "md5": "d7404f3eea69ec162510eb4e01d99f43",
+      "md5": "b8d2fc624c97799f96393a16e95614f3",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv.xz",
@@ -6572,8 +6954,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:19",
-      "last_modified": "2022-06-08 13:18:15",
+      "created": "2022-09-29 21:17:26",
+      "last_modified": "2022-09-14 17:52:51",
       "row_count": 52559,
       "entity_count": 4043,
       "schema": {
@@ -7701,6 +8083,161 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 52377,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 52378,
+            "mean": 50.2762,
+            "sd": 28.9471,
+            "min": 0.5525,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 52384,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 52378,
+            "mean": 50.3037,
+            "sd": 28.922,
+            "min": 1.6575,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 52377,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 52378,
+            "mean": 50.2762,
+            "sd": 28.9471,
+            "min": 0.5525,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 52377,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 52378,
+            "mean": 50.2762,
+            "sd": 28.9471,
+            "min": 0.5525,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 52377,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 52378,
+            "mean": 50.2762,
+            "sd": 28.9471,
+            "min": 0.5525,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 52377,
             "time_range": [12, 12],
@@ -8781,12 +9318,12 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 49625,
+            "duplicates": 49624,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 49399,
+            "missing": 49398,
             "mean": 0.5169,
-            "sd": 0.3115,
+            "sd": 0.3114,
             "min": 0.096,
             "max": 4.0157,
             "info": {
@@ -8818,12 +9355,12 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 49690,
+            "duplicates": 49689,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 49413,
+            "missing": 49412,
             "mean": 0.3702,
-            "sd": 0.2219,
+            "sd": 0.2218,
             "min": 0.096,
             "max": 3.0115,
             "info": {
@@ -9045,7 +9582,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -9862,14 +10399,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "2df8012bbfacae8b8db4d1c71577f25bef0142907ccd1fae99f233863c9c1ab454732182519347e3b508775751ed047f35fe3236495b22151a3089e41c408c4c"
+      "sha512": "66bc681f70964182bfdf7b3e810e49b3b92ae26bdd1d765b82b1cef964f2d6401cb5b7e2ca5f95819afc6aab7cccc457b93aaf63578574ceaa096bedd41e209b"
     },
     {
-      "bytes": 37356,
+      "bytes": 37888,
       "encoding": "ISO-8859-1",
-      "md5": "b7d6a8662bb82da76365ff4b23092ee8",
+      "md5": "1b9eba4ef4fc01232bece87cf2e5f37a",
       "format": "csv",
       "name": "neighborhood",
       "filename": "neighborhood.csv.xz",
@@ -9882,7 +10475,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:19",
+      "created": "2022-09-29 21:17:26",
       "last_modified": "2022-06-08 13:18:15",
       "row_count": 806,
       "entity_count": 62,
@@ -10929,6 +11522,161 @@
                   "name": "Open Source Routing Machine",
                   "date_accessed": 2022,
                   "url": "http://project-osrm.org"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 743,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 744,
+            "mean": 50.8065,
+            "sd": 29.0994,
+            "min": 1.6129,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 743,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 744,
+            "mean": 50.8065,
+            "sd": 29.0994,
+            "min": 1.6129,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 743,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 744,
+            "mean": 50.8065,
+            "sd": 29.0994,
+            "min": 1.6129,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 743,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 744,
+            "mean": 50.8065,
+            "sd": 29.0994,
+            "min": 1.6129,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 743,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 744,
+            "mean": 50.8065,
+            "sd": 29.0994,
+            "min": 1.6129,
+            "max": 100,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
                 }
               ],
               "citations": {}
@@ -12243,7 +12991,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -13036,14 +13784,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "4fbf00991503d1cfac1c67dd0931d9b5e5317bbd1f920f5c35fb2c8a833e0252be2b2c4f531766553e6d2e08a7a2832923faec8dd9797522240da54722875df1"
+      "sha512": "23a54bdfc973b2fa3c91121b2f32f1408a776b90001f296d146d4c07bacc80161c4662893aa1c0588e93492eb991cae1691fa634101d8fd6c763ac7baaec9804"
     },
     {
-      "bytes": 1896,
+      "bytes": 1924,
       "encoding": "ISO-8859-1",
-      "md5": "991d7c7e90db9ce4e44525bdb4096bef",
+      "md5": "77898a4f3df4fcbb49b42bb22a229d25",
       "format": "csv",
       "name": "human_services_region",
       "filename": "human_services_region.csv.xz",
@@ -13056,7 +13860,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:19",
+      "created": "2022-09-29 21:17:26",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 52,
       "entity_count": 4,
@@ -14109,6 +14913,141 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 51,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 52,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 51,
             "time_range": [-1, -1],
@@ -15305,7 +16244,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -16102,14 +17041,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "ccac9bcfd86e2a8a5cf5f8f1476ad7de567624089590df7e48ea98040a51ccab49bf001580c3769e7e48f93af4f3b8e3e4f8787e01803069cec8e080340067b6"
+      "sha512": "3598a69dfcc34eb75a20663d907665e1da9414294820289ba1538ef3b611575d14c40e44a5a8e3f62e67c08f2ee1a0329b7a053d8123edaadd784f767ac8cf29"
     },
     {
-      "bytes": 3788,
+      "bytes": 3812,
       "encoding": "ISO-8859-1",
-      "md5": "46cb710f497e11d17bf9ebeb007fa222",
+      "md5": "a1c849f7947ea04ff5b425b1ad1ba389",
       "format": "csv",
       "name": "planning_district",
       "filename": "planning_district.csv.xz",
@@ -16122,7 +17117,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:19",
+      "created": "2022-09-29 21:17:26",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 182,
       "entity_count": 14,
@@ -17175,6 +18170,141 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 181,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 182,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 181,
             "time_range": [-1, -1],
@@ -18371,7 +19501,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -19168,14 +20298,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "62adcd527fb28de24d8343b1be0102a125512a85f423d315c5b53261ec983a8d9e13d662d0e2d2a674316b2dcbc654eeb2bab04f4086459b0c3631aaf8ab3d88"
+      "sha512": "464082a215737ee3ea3f3e7bc30f4f798bb2da164b1fbc1f619ae0896775f6723980668cf31042d3ca192158e6710d752b97e9f13641b97de5976e9f93adb562"
     },
     {
-      "bytes": 2912,
+      "bytes": 2940,
       "encoding": "ISO-8859-1",
-      "md5": "212bf671678bb3169899d6fcbdf81f90",
+      "md5": "9b3beff52cd5000a716033885297df4a",
       "format": "csv",
       "name": "supervisor_district",
       "filename": "supervisor_district.csv.xz",
@@ -19188,7 +20374,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:19",
+      "created": "2022-09-29 21:17:26",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 117,
       "entity_count": 9,
@@ -20241,6 +21427,141 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 116,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 117,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 116,
             "time_range": [-1, -1],
@@ -21437,7 +22758,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -22234,14 +23555,70 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "50661cef0e1f2c93e95deda76272462c52c4b8615af6aa6206de0cf104def4a0a8085d4c91c4d77d1ff429de5eda3445859abf1b9f78a442794ae7031ac9a2c2"
+      "sha512": "b2d33e9d1506f04baee50941a05887b86069e92ce524c71314b16dbf2059fbe88cac27ccaeacef86d1d6f5e133e7076bb72b432892ecd9768a19346ab1fbf0f3"
     },
     {
-      "bytes": 9804,
+      "bytes": 9832,
       "encoding": "ISO-8859-1",
-      "md5": "e1750c56a446c99b49ccd18715c56a3f",
+      "md5": "e4f18819370f68478507662d1cefc397",
       "format": "csv",
       "name": "zip_code",
       "filename": "zip_code.csv.xz",
@@ -22254,7 +23631,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-08-09 13:27:24",
+      "created": "2022-09-29 21:17:31",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 689,
       "entity_count": 53,
@@ -23307,6 +24684,141 @@
             }
           },
           {
+            "name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:avocado_ecdf_idx",
+              "measure": "avocado_ecdf_idx",
+              "type": "float",
+              "short_name": "Avocado availability",
+              "long_name": "Avocado availability (Empirical cumulative density function)",
+              "short_description": "Avocado item availability using an empirical cumulative density function",
+              "long_description": "Avocado item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Avocado is defined as a Latino staple food by The Food Group",
+              "statement": "The avocado availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:favabeans_ecdf_idx",
+              "measure": "favabeans_ecdf_idx",
+              "type": "float",
+              "short_name": "Fava bean availability",
+              "long_name": "Fava bean availability (Empirical cumulative density function)",
+              "short_description": "Fava bean item availability using an empirical cumulative density function",
+              "long_description": "Fava bean item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Fava beans is defined as an East African staple food by The Food Group",
+              "statement": "The fava bean availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:nopalitos_ecdf_idx",
+              "measure": "nopalitos_ecdf_idxnopalitos_ecdf_idx",
+              "type": "float",
+              "short_name": "Nopalito availability",
+              "long_name": "Nopalito availability (Empirical cumulative density function)",
+              "short_description": "Nopalito item availability using an empirical cumulative density function.",
+              "long_description": "Nopalito item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Nopalito is defined as a Latino staple food by The Food Group",
+              "statement": "The nopalito availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:teff_ecdf_idx",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:teff_ecdf_idx",
+              "measure": "teff_ecdf_idx",
+              "type": "float",
+              "short_name": "Teff availability",
+              "long_name": "Teff availability (Empirical cumulative density function)",
+              "short_description": "Teff item availability using an empirical cumulative density function",
+              "long_description": "Teff item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Teff is defined as an East African staple food by The Food Group.",
+              "statement": "The teff availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
+            "name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+            "duplicates": 688,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 689,
+            "info": {
+              "category": "Nutrition and Food Security",
+              "measure_table": "latino_east_african_gravity_models",
+              "full_name": "latino_east_african_gravity_models:tomatillos_ecdf_idx",
+              "measure": "tomatillos_ecdf_idx",
+              "type": "float",
+              "short_name": "Tomatillo availability",
+              "long_name": "Tomatillo availability (Empirical cumulative density function)",
+              "short_description": "Tomatillo item availability using an empirical cumulative density function",
+              "long_description": "Tomatillo item availability using an empirical cumulative density function. Item availbility determined by webscraping grocery retailer with an online presence. Tomatillo is defined as a Latino staple food by The Food Group",
+              "statement": "The tomatillo availability in {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Grocery Retailers with Online Presence",
+                  "date_accessed": "2021"
+                }
+              ],
+              "citations": {}
+            }
+          },
+          {
             "name": "latino_east_african_gravity_models:beets_ecdf_idx",
             "duplicates": 688,
             "time_range": [-1, -1],
@@ -24503,7 +26015,7 @@
               "full_name": "post_hs_education:perc_post_hs_edu",
               "measure": "perc_post_hs_edu",
               "type": "percent",
-              "short_name": "Post-secondary education (percent)",
+              "short_name": "Percentage with post-secondary education",
               "long_name": "Percentage with post-secondary education",
               "short_description": "Percentage of the population self-reported to have post-secondary education",
               "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
@@ -25300,9 +26812,65 @@
           "title": "catchment: Calculate spatial access and availability metrics",
           "version": "0.0.1",
           "url": "https://github.com/uva-bi-sdad/catchment"
+        },
+        "liang17": {
+          "id": "liang17",
+          "author": [
+            {
+              "given": "Lan",
+              "family": "Liang"
+            },
+            {
+              "given": "Cindy",
+              "family": "Branch"
+            }
+          ],
+          "year": 2017,
+          "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+          "journal": "Health Literacy Research and Practice",
+          "volume": "1",
+          "number": 4,
+          "page": "e216-e230",
+          "doi": "10.3928/24748307-20170929-01"
+        },
+        "savitz20": {
+          "id": "savitz20",
+          "author": [
+            {
+              "given": "Samuel",
+              "family": "Savitz"
+            },
+            {
+              "given": "Stacy",
+              "family": "Bailey"
+            },
+            {
+              "given": "Stacie",
+              "family": "Dusetzina"
+            },
+            {
+              "given": "W.",
+              "family": "Schuyler Jones"
+            },
+            {
+              "given": "Justin",
+              "family": "Trogdon"
+            },
+            {
+              "given": "Sally",
+              "family": "Stearns"
+            }
+          ],
+          "year": 2020,
+          "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "volume": "26",
+          "number": 6,
+          "page": "1711-1721",
+          "doi": "10.1111/jep.13341"
         }
       },
-      "sha512": "d4093d8f3b4f7b15f0429186335140765670c46b9750c9144e4224f388911edf646e1c5d5d8e145b968501ad88fcb505456938fe47615d1bdd8097d67951f35f"
+      "sha512": "197452fccc7d1508790342c434bc41d0a9c3fd25ac2f45314a44b597d8fd1922029859d4009a0040bf971c4a015d22fb3706c3779684ff2e6986b6e7f4a05c64"
     }
   ]
 }

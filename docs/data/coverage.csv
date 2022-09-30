@@ -40,7 +40,7 @@
 "hhs:hospitals_per_100k",1,3613,14,0,0,0,0,1323,0
 "hhs:intensive_care_min_drivetime",1,3613,14,0,0,0,0,1323,0
 "hhs:intensive_care_per_100k",1,3613,14,0,0,0,0,1323,0
-"ID",0,52559,182,52,806,182,117,18733,689
+"latino_east_african_gravity_models:avocado_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:barley_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:basmati_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:beets_ecdf_idx",1,181,0,0,62,0,0,0,0
@@ -52,6 +52,7 @@
 "latino_east_african_gravity_models:currypowder_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:driedbeans_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:drieddates_ecdf_idx",1,181,0,0,62,0,0,0,0
+"latino_east_african_gravity_models:favabeans_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:garbanzo_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:greenchiles_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:jalapenos_ecdf_idx",1,181,0,0,62,0,0,0,0
@@ -59,12 +60,15 @@
 "latino_east_african_gravity_models:lentils_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:masa_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:mixedfruit_ecdf_idx",1,181,0,0,62,0,0,0,0
+"latino_east_african_gravity_models:nopalitos_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:pasta_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:peppers_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:pintobeans_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:rice_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:salsa_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:squash_ecdf_idx",1,181,0,0,62,0,0,0,0
+"latino_east_african_gravity_models:teff_ecdf_idx",1,181,0,0,62,0,0,0,0
+"latino_east_african_gravity_models:tomatillos_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:tomatoes_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:tomatosauce_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:tuna_ecdf_idx",1,181,0,0,62,0,0,0,0
@@ -83,8 +87,8 @@
 "nces:schools_under2year_per_100k",1,26314,112,0,0,0,0,9863,0
 "no_health_insurance_19_to_64:hlth_ins_pct",1,16143,70,0,0,0,0,6074,0
 "perc_income_on_internet:perc_income_avg_nat_package",1,3181,14,0,0,0,0,1210,0
-"perc_income_on_internet:perc_income_min_price_100",1,3160,14,0,0,0,0,1208,0
-"perc_income_on_internet:perc_income_min_price_25",1,3146,14,0,0,0,0,1208,0
+"perc_income_on_internet:perc_income_min_price_100",1,3161,14,0,0,0,0,1208,0
+"perc_income_on_internet:perc_income_min_price_25",1,3147,14,0,0,0,0,1208,0
 "percent_above_threshold:perc_total_100_20_using_devices",1,9687,42,0,0,0,0,3642,0
 "percent_above_threshold:perc_total_25_3_using_devices",1,9687,42,0,0,0,0,3642,0
 "percent_above_threshold:perc_w_int_100_20_using_devices",1,9726,42,0,0,0,0,3642,0
@@ -97,4 +101,3 @@
 "substance_access_scores:subs_10near_median",1,0,0,0,0,0,0,519,0
 "substance_access_scores:subs_3sfca",1,0,9,0,0,0,0,519,0
 "substance_access_scores:subs_cnt",1,0,9,0,0,0,0,38,0
-"time",0,52559,182,52,806,182,117,18733,689
