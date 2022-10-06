@@ -4,6 +4,9 @@
 "access_scores_obgyn:obgyn_e2sfca",1,3239,14,0,0,0,0,1214,0
 "access_scores_pediatrics:ped_e2sfca",1,3233,14,0,0,0,0,1211,0
 "access_scores_primcare:primcare_e2sfca",1,3239,14,0,0,0,0,1215,0
+"access_scores_urgent:urgent_3sfca",1,3239,14,0,0,0,0,1215,0
+"access_scores_urgent:urgent_cnt",1,69,14,0,0,0,0,1219,0
+"access_scores_urgent:urgent_near_10_median",1,3239,14,0,0,0,0,1215,0
 "brfss_sae:perc_poor_ment_hlth_days_14_and_over",1,0,70,0,0,0,0,6076,0
 "brfss_sae:perc_poor_phys_hlth_days_14_and_over",1,0,70,0,0,0,0,6076,0
 "broadband_withoutint_compdev:perc_hh_with_broadband",1,9685,42,0,0,0,0,3643,0

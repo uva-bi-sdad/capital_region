@@ -143,6 +143,25 @@
       }
     }
   },
+  "uva-bi-sdad/dc.hifld.urgent": {
+    "repository": "uva-bi-sdad/dc.hifld.urgent",
+    "files": {
+      "dmv_cttrbg_hifld_2021_access_scores_urgent.csv.xz": {
+        "location": "/data",
+        "size": 189188,
+        "sha": "d43690a1a56c482acc0e82dfbde9b1eed7662cb7",
+        "md5": "3e161f50e76b78ed1b0e1efb3515f95b",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.urgent"
+      },
+      "va_hdcttrbg_hifld_2021_access_scores_urgent.csv.xz": {
+        "location": "/data",
+        "size": 391620,
+        "sha": "3541e1ab2d528d89f180dec59e59a4ddfd98dcb6",
+        "md5": "a808e02805eae0d6cfd44d022a0bc7f6",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.urgent"
+      }
+    }
+  },
   "uva-bi-sdad/dc.meps.acs.health.literacy": {
     "repository": "uva-bi-sdad/dc.meps.acs.health.literacy",
     "files": {
