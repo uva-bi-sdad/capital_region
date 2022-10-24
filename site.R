@@ -105,9 +105,9 @@ page_menu(
   page_section(
     type = "col",
     wraps = "row form-row",
-    input_select(
+    input_combobox(
       "Counties", options = "ids", dataset = "county", dataview = "primary_view",
-      id = "selected_county", reset_button = TRUE
+      id = "selected_county", clearable = TRUE
     ),
     page_section(
       type = "row form-row",
@@ -118,26 +118,17 @@ page_menu(
         c("Census", "Neighborhood", "Supervisor District", "Planning District", "Human Services Region", "Zip Code"),
         id = "shape_type"
       ),
-      input_select(
+      input_combobox(
         "Census Tracts", options = "ids", dataset = "tract", dataview = "primary_view",
-        id = "selected_tract", reset_button = TRUE
+        id = "selected_tract", clearable = TRUE
       ),
       conditions = c("selected_county", "selected_county && shape_type == tract")
     )
   ),
-  page_section(
-    type = "col",
-    wraps = "row form-row",
-    {
-      vars <- jsonlite::read_json('../capital_region/docs/data/measure_info.json')
-      varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
-      input_select("Variable Category", options = varcats, default = "Broadband", id = "variable_type")
-    },
-    input_select(
-      "Variable", options = "variables",
-      default = "speed_measurements:avg_down_using_devices", depends = "shapes",
-      id = "selected_variable", filters = list(category = "variable_type")
-    )
+  input_combobox(
+    "Variable", options = "variables", group_feature = "category",
+    default = "speed_measurements:avg_down_using_devices", depends = "shapes",
+    id = "selected_variable"
   ),
   position = "top",
   default_open = TRUE
@@ -341,30 +332,29 @@ page_section(
       )
     ),
     page_section(
-      type = "d-flex flex-column col align-items-end compact",
+      type = "flex-column col",
       output_info(
         title = "variables.short_name",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
-      page_section(
-        wraps = "col", sizes = c(8, NA),
-        output_info(body = "variables.sources", dataview = "primary_view"),
-        page_section(
-          input_button(
-            "Download", "export", dataview = "primary_view", query = list(
-              include = "selected_variable",
-              features = list(geoid = "id", name = "name")
-            ), class = "btn-full"
-          ),
-          input_button(
-            "Copy API link", "copy", dataview = "primary_view", query = list(
-              include = "selected_variable", dataset = "shapes",
-              features = list(geoid = "id", name = "name")
-            ), class = "btn-full"
-          )
+      page_popup(
+        "Export",
+        input_button(
+          "Download", "export", dataview = "primary_view", query = list(
+            include = "selected_variable",
+            features = list(geoid = "id", name = "name")
+          ), class = "btn-full"
+        ),
+        input_button(
+          "Copy API link", "copy", dataview = "primary_view", query = list(
+            include = "selected_variable", dataset = "shapes",
+            features = list(geoid = "id", name = "name")
+          ), class = "btn-full"
         )
       ),
+      output_info(body = "summary", dataview = "primary_view"),
+      output_info("Filters", "filter", dataview = "primary_view"),
       page_section(
         output_info(
           title = "features.name",

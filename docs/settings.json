@@ -31791,7 +31791,7 @@
       "body": [
         {
           "name": "",
-          "value": "variables.sources",
+          "value": "summary",
           "style": "table"
         }
       ],
@@ -31800,7 +31800,21 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info14": {
+    "info12": {
+      "title": "Filters",
+      "body": [
+        {
+          "name": "",
+          "value": "filter",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "dataview": "primary_view",
+      "variable_info": false
+    },
+    "info13": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -31812,7 +31826,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info15": {
+    "info14": {
       "title": "",
       "body": [
         {
@@ -31834,7 +31848,7 @@
     }
   },
   "text": {
-    "text6": {
+    "text5": {
       "text": [
         {
           "button": {
@@ -31882,7 +31896,7 @@
         }
       ]
     },
-    "text7": {
+    "text6": {
       "text": [
         [
           {
@@ -31943,13 +31957,6 @@
           }
         ]
       ]
-    }
-  },
-  "select": {
-    "selected_variable": {
-      "filters": {
-        "category": "variable_type"
-      }
     }
   },
   "tables": {
@@ -32896,5 +32903,23 @@
         "display": "sec32"
       }
     }
-  ]
+  ],
+  "combobox": {
+    "selected_county": {
+      "strict": true,
+      "search": true,
+      "multi": false
+    },
+    "selected_tract": {
+      "strict": true,
+      "search": true,
+      "multi": false
+    },
+    "selected_variable": {
+      "strict": true,
+      "search": true,
+      "multi": false,
+      "group": "category"
+    }
+  }
 }
