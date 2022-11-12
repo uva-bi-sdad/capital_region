@@ -57,7 +57,7 @@ page_navbar(
         note = "Radius of the circles that are parts of overlays."
       ),
       '<p class="section-heading">Plot Options</p>',
-      input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
+      input_select("Plot Type", c("scatter", "scattergl", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
         "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
@@ -102,41 +102,46 @@ page_navbar(
   )
 )
 page_menu(
+  input_select("Starting Layer", c(
+    "county", "tract", "block_group", "neighborhood", "supervisor_district", "planning_district",
+    "human_services_region", "zip_code"
+  ), 0, id = "shape_type"),
   page_section(
-    type = "col",
-    wraps = "row form-row",
+    type = "row form-row",
+    wraps = "row",
     input_combobox(
       "Counties", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", clearable = TRUE
     ),
-    page_section(
-      type = "row form-row",
-      wraps = "col",
-      input_select(
-        "Shapes",
-        c("tract", "neighborhood", "supervisor_district", "planning_district", "human_services_region", "zip_code"), 0,
-        c("Census", "Neighborhood", "Supervisor District", "Planning District", "Human Services Region", "Zip Code"),
-        id = "shape_type"
-      ),
-      input_combobox(
-        "Census Tracts", options = "ids", dataset = "tract", dataview = "primary_view",
-        id = "selected_tract", clearable = TRUE
-      ),
-      conditions = c("selected_county", "selected_county && shape_type == tract")
-    )
+    input_combobox(
+      "Census Tracts", options = "ids", dataset = "tract", dataview = "primary_view",
+      id = "selected_tract", selection_subset = "tract_subset", clearable = TRUE
+    ),
+    conditions = c("lock: !selected_tract", "shapes == tract || shapes == block_group")
   ),
   input_combobox(
     "Variable", options = "variables", group_feature = "category",
     default = "speed_measurements:avg_down_using_devices", depends = "shapes",
     id = "selected_variable"
   ),
+  wraps = c("col-2", "col", "col"),
   position = "top",
-  default_open = TRUE
+  default_open = TRUE,
+  conditions = c("lock: !selected_tract", "", "")
 )
 input_variable("shapes", list(
-  "selected_county && !selected_tract" = "shape_type",
-  "selected_tract && shape_type == tract" = "block_group"
-), "county")
+  "selected_county && shape_type == county" = "tract",
+  "selected_tract" = "block_group"
+), "shape_type", list(
+  county = "Counties",
+  tract = "Census Tracts",
+  block_group = "Block Groups",
+  neighborhood = "Neighborhoods",
+  supervisor_district = "Supervisor Districts",
+  planning_district = "Planning Districts",
+  human_services_region = "Human Services Regions",
+  zip_code = "Zip Codes"
+))
 input_variable("region_select", list(
   "shapes == county" = "selected_county"
 ), "selected_tract")
@@ -146,6 +151,9 @@ input_variable("selected_region", list(
 input_variable("set_palette", list(
   "settings.color_by_order" = "lajolla"
 ), "vik")
+input_variable("tract_subset", list(
+  "selected_county" = "siblings"
+), "full_filter")
 input_dataview(
   "primary_view",
   y = "selected_variable",
@@ -164,16 +172,14 @@ page_section(
     "? > {selected_tract}"
   ), class = "compact"),
   output_text(list(
-    "default" = "National Capital Region",
-    "selected_county && shapes == tract" = "{selected_county} Tracts",
-    "selected_county && shapes == neighborhood" = "{selected_county} Neighborhoods",
-    "selected_tract" = "{selected_tract} Block Groups"
+    "default" = "National Capital Region {shapes}",
+    "selected_region" = "{selected_region} {shapes}"
   ), tag = "h1", class = "text-center"),
   page_section(
     type = "container-xsm",
     input_number(
       "Selected Year", min = "filter.time_min", max = "filter.time_max", default = "max",
-      id = "selected_year", buttons = TRUE, note = paste(
+      id = "selected_year", buttons = TRUE, show_range = TRUE, note = paste(
         "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
       )
     )

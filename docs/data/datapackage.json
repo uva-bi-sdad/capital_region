@@ -22,6 +22,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 5,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:02:56",
@@ -3703,6 +3704,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 11,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:03:01",
@@ -7368,6 +7370,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 12,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:02:56",
@@ -11097,6 +11100,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 11,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:02:56",
@@ -14678,6 +14682,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 11,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:02:56",
@@ -18131,6 +18136,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 0,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:02:56",
@@ -21584,6 +21590,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 0,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:02:56",
@@ -25037,6 +25044,7 @@
           "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
         }
       ],
+      "id_length": 5,
       "time": "time",
       "profile": "data-resource",
       "created": "2022-10-13 00:03:01",

@@ -39,6 +39,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 12,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:02:56",
@@ -4165,6 +4166,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 11,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:03:01",
@@ -8227,6 +8229,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 11,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:02:56",
@@ -12205,6 +12208,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 5,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:02:56",
@@ -16283,6 +16287,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 5,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:03:01",
@@ -20133,6 +20138,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 0,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:02:56",
@@ -23983,6 +23989,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 0,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:02:56",
@@ -27833,6 +27840,7 @@
             "map": "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
           }
         ],
+        "id_length": 11,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-13 00:02:56",
@@ -31685,13 +31693,13 @@
               "any": false
             },
             {
-              "id": "selected_tract",
-              "type": "!",
-              "value": "",
+              "id": "shape_type",
+              "type": "=",
+              "value": "county",
               "any": false
             }
           ],
-          "value": "shape_type"
+          "value": "tract"
         },
         {
           "condition": [
@@ -31700,18 +31708,22 @@
               "type": "",
               "value": "",
               "any": false
-            },
-            {
-              "id": "shape_type",
-              "type": "=",
-              "value": "tract",
-              "any": false
             }
           ],
           "value": "block_group"
         }
       ],
-      "default": "county"
+      "default": "shape_type",
+      "display": {
+        "county": "Counties",
+        "tract": "Census Tracts",
+        "block_group": "Block Groups",
+        "neighborhood": "Neighborhoods",
+        "supervisor_district": "Supervisor Districts",
+        "planning_district": "Planning Districts",
+        "human_services_region": "Human Services Regions",
+        "zip_code": "Zip Codes"
+      }
     },
     {
       "id": "region_select",
@@ -31728,7 +31740,8 @@
           "value": "selected_county"
         }
       ],
-      "default": "selected_tract"
+      "default": "selected_tract",
+      "display": []
     },
     {
       "id": "selected_region",
@@ -31745,7 +31758,8 @@
           "value": "selected_tract"
         }
       ],
-      "default": "selected_county"
+      "default": "selected_county",
+      "display": []
     },
     {
       "id": "set_palette",
@@ -31762,7 +31776,26 @@
           "value": "lajolla"
         }
       ],
-      "default": "vik"
+      "default": "vik",
+      "display": []
+    },
+    {
+      "id": "tract_subset",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_county",
+              "type": "",
+              "value": "",
+              "any": false
+            }
+          ],
+          "value": "siblings"
+        }
+      ],
+      "default": "full_filter",
+      "display": []
     }
   ],
   "dataviews": {
@@ -31786,7 +31819,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info11": {
+    "info10": {
       "title": "",
       "body": [
         {
@@ -31800,7 +31833,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info12": {
+    "info11": {
       "title": "Filters",
       "body": [
         {
@@ -31814,7 +31847,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info13": {
+    "info12": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -31826,7 +31859,7 @@
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
-    "info14": {
+    "info13": {
       "title": "",
       "body": [
         {
@@ -31848,7 +31881,7 @@
     }
   },
   "text": {
-    "text5": {
+    "text4": {
       "text": [
         {
           "button": {
@@ -31896,11 +31929,11 @@
         }
       ]
     },
-    "text6": {
+    "text5": {
       "text": [
         [
           {
-            "text": "National Capital Region",
+            "text": ["National Capital Region ", "shapes"],
             "condition": [
               {
                 "id": "default",
@@ -31911,44 +31944,10 @@
             ]
           },
           {
-            "text": ["selected_county", " Tracts"],
+            "text": ["selected_region", " ", "shapes"],
             "condition": [
               {
-                "id": "selected_county",
-                "type": "",
-                "value": "",
-                "any": false
-              },
-              {
-                "id": "shapes",
-                "type": "=",
-                "value": "tract",
-                "any": false
-              }
-            ]
-          },
-          {
-            "text": ["selected_county", " Neighborhoods"],
-            "condition": [
-              {
-                "id": "selected_county",
-                "type": "",
-                "value": "",
-                "any": false
-              },
-              {
-                "id": "shapes",
-                "type": "=",
-                "value": "neighborhood",
-                "any": false
-              }
-            ]
-          },
-          {
-            "text": ["selected_tract", " Block Groups"],
-            "condition": [
-              {
-                "id": "selected_tract",
+                "id": "selected_region",
                 "type": "",
                 "value": "",
                 "any": false
@@ -32874,33 +32873,46 @@
     {
       "condition": [
         {
-          "id": "selected_county",
-          "type": "",
+          "id": "selected_tract",
+          "type": "!",
           "value": "",
           "any": false
         }
       ],
       "effects": {
-        "display": "sec31"
+        "lock": "sec31"
       }
     },
     {
       "condition": [
         {
-          "id": "selected_county",
-          "type": "",
-          "value": "",
-          "any": false
-        },
-        {
-          "id": "shape_type",
+          "id": "shapes",
           "type": "=",
           "value": "tract",
-          "any": false
+          "any": true
+        },
+        {
+          "id": "shapes",
+          "type": "=",
+          "value": "block_group",
+          "any": true
         }
       ],
       "effects": {
         "display": "sec32"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "selected_tract",
+          "type": "!",
+          "value": "",
+          "any": false
+        }
+      ],
+      "effects": {
+        "lock": "menu21"
       }
     }
   ],
