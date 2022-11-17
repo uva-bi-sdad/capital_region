@@ -399,5 +399,28 @@
         "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
       }
     }
+  },
+  "uva-bi-sdad/sdc.financial_well_being": {
+    "repository": "uva-bi-sdad/sdc.financial_well_being",
+    "files": {
+      "va_tr_acs_2015_2019_emp_rate.csv.xz": {
+        "location": "Employment/data/distribution",
+        "size": 178072,
+        "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
+        "md5": "35fcb3181e983499603d5c160ce32a74"
+      },
+      "ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
+        "location": "Pay and Benefits/Household Income/data/distribution",
+        "size": 167112,
+        "sha": "420cf6e226cfb885a3000e2f31a79b54bc9dee28",
+        "md5": "a058ab0f647c622a9256f5b653455dec"
+      },
+      "va_ct_bea_2015_2020_earnings_per_job.csv.xz": {
+        "location": "Pay and Benefits/Personal Income/data/distribution",
+        "size": 12548,
+        "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
+        "md5": "715c5be2c01baf9e201e52c28a6a0b5b"
+      }
+    }
   }
 }

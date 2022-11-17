@@ -75,6 +75,7 @@
 "latino_east_african_gravity_models:tomatoes_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:tomatosauce_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:tuna_ecdf_idx",1,181,0,0,62,0,0,0,0
+"median_household_income",1,15918,70,0,0,0,0,6066,0
 "mental_access_scores:mental_10near_median",1,0,0,0,0,0,0,520,0
 "mental_access_scores:mental_3sfca",1,0,9,0,0,0,0,520,0
 "mental_access_scores:mental_cnt",1,0,9,0,0,0,0,31,0
