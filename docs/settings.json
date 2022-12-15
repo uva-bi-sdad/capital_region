@@ -32422,7 +32422,7 @@
     "leaflet": {
       "name": "Leaflet",
       "url": "https://leafletjs.com",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "description": "A JS library for interactive maps"
     },
     "Stamen toner-light": {
@@ -32442,7 +32442,7 @@
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "1.12.1"
+      "version": "1.13.1"
     },
     "plotly": {
       "name": "Plotly",
@@ -33188,17 +33188,20 @@
     "selected_county": {
       "strict": true,
       "search": true,
-      "multi": false
+      "multi": false,
+      "accordion": false
     },
     "selected_tract": {
       "strict": true,
       "search": true,
-      "multi": false
+      "multi": false,
+      "accordion": false
     },
     "selected_variable": {
       "strict": true,
       "search": true,
       "multi": false,
+      "accordion": true,
       "group": "category"
     }
   }
