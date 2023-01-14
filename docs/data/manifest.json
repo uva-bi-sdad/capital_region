@@ -23,17 +23,6 @@
       }
     }
   },
-  "uva-bi-sdad/dc.acs.education": {
-    "repository": "uva-bi-sdad/dc.acs.education",
-    "files": {
-      "ncr_cttr_acs_2010_2019_post_hs_education.csv.xz": {
-        "location": "/data",
-        "size": 174188,
-        "sha": "0c1a838b9d3afcaf1abf248d3a5c74f574c2e324",
-        "md5": "63b3ba738957a70661cf34e74ec2600d"
-      }
-    }
-  },
   "uva-bi-sdad/dc.acs.employment": {
     "repository": "uva-bi-sdad/dc.acs.employment",
     "files": {
@@ -146,30 +135,14 @@
   "uva-bi-sdad/dc.hifld.urgent": {
     "repository": "uva-bi-sdad/dc.hifld.urgent",
     "files": {
-      "dmv_cttrbg_hifld_2021_access_scores_urgent.csv.xz": {
-        "location": "/data",
-        "size": 189188,
-        "sha": "d43690a1a56c482acc0e82dfbde9b1eed7662cb7",
-        "md5": "3e161f50e76b78ed1b0e1efb3515f95b",
+      "ncr_bgtrct_gmap_2022_access_scores_urgent.csv.xz": {
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.urgent"
       },
       "va_hdcttrbg_hifld_2021_access_scores_urgent.csv.xz": {
-        "location": "/data",
+        "id": 55996,
         "size": 391620,
-        "sha": "3541e1ab2d528d89f180dec59e59a4ddfd98dcb6",
         "md5": "a808e02805eae0d6cfd44d022a0bc7f6",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.urgent"
-      }
-    }
-  },
-  "uva-bi-sdad/dc.meps.acs.health.literacy": {
-    "repository": "uva-bi-sdad/dc.meps.acs.health.literacy",
-    "files": {
-      "va_hccttr_sdad_2019_health_literacy_estimates.csv.xz": {
-        "location": "/data",
-        "size": 13800,
-        "sha": "9c1df77e4de79ba601acb07deaeca42a9acf8798",
-        "md5": "14a42ebf428eed059434b60fcc567e75"
+        "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     }
   },
@@ -380,20 +353,26 @@
   "uva-bi-sdad/sdc.education": {
     "repository": "uva-bi-sdad/sdc.education",
     "files": {
-      "va_hdcttrbg_dss_2021_daycare_access_scores.csv.bz2": {
-        "location": "data/dss/distribution",
-        "size": 210620,
-        "sha": "3687a7f7147ae7b148a7208ee8edffc4e03dbda8",
-        "md5": "115bf6bc8584535ac0ff81758bf611e4"
+      "vdss.csv.xz": {
+        "location": "Daycare/data/distribution",
+        "size": 554644,
+        "sha": "0ce6fc51cf7ed633ba2cc9b5ef59c9c136f8fb61",
+        "md5": "3125c21cff8a40774d3e2bd82c2929b4"
+      },
+      "acs.csv.xz": {
+        "location": "Postsecondary/data/distribution",
+        "size": 1529388,
+        "sha": "658dcd155782aee44abbb5bb3041980efc06d289",
+        "md5": "dbb1aa52933f317082b4dbec58243a11"
       },
       "nces.csv.xz": {
-        "location": "data/nces/distribution",
-        "size": 6916980,
-        "sha": "a1dfdae419a1c4f4191ea27dbe6f0bd11249e3ad",
-        "md5": "1fecfe33bbc7bde613504584431b4e40"
+        "location": "Postsecondary/data/distribution",
+        "size": 12918352,
+        "sha": "3c5a1e786962c05956860394c2d0b72de6c4baeb",
+        "md5": "24adbfd178705181dbedfb9ef717edd5"
       },
       "va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz": {
-        "location": "data/vdoe/distribution",
+        "location": "Reading/data/distribution",
         "size": 7328,
         "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
         "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
