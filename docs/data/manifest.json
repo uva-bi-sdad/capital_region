@@ -136,6 +136,10 @@
     "repository": "uva-bi-sdad/dc.hifld.urgent",
     "files": {
       "ncr_bgtrct_gmap_2022_access_scores_urgent.csv.xz": {
+        "location": "/data",
+        "size": 192516,
+        "sha": "6c7c7795e1cdaf0f77a86d5503801b762b828165",
+        "md5": "42aede00d8cb527d5b96b14bab0fde56",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.urgent"
       },
       "va_hdcttrbg_hifld_2021_access_scores_urgent.csv.xz": {
@@ -355,9 +359,9 @@
     "files": {
       "vdss.csv.xz": {
         "location": "Daycare/data/distribution",
-        "size": 554644,
-        "sha": "0ce6fc51cf7ed633ba2cc9b5ef59c9c136f8fb61",
-        "md5": "3125c21cff8a40774d3e2bd82c2929b4"
+        "size": 554072,
+        "sha": "497d467500a74e6c3d673522f900f6efade0cb1f",
+        "md5": "88edebb6ec901babd28f48273094f4e9"
       },
       "acs.csv.xz": {
         "location": "Postsecondary/data/distribution",
