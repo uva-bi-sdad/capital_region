@@ -223,24 +223,12 @@
   "uva-bi-sdad/dc.hifld.urgent": {
     "repository": "uva-bi-sdad/dc.hifld.urgent",
     "files": {
-      "ncr_bgtrct_gmap_2022_access_scores_urgent.csv.xz": {
+      "ncr_bgtrct_gmap_2022_access_scores_urgent_care_centers.csv.xz": {
         "location": "/data",
-        "size": 192516,
-        "sha": "6c7c7795e1cdaf0f77a86d5503801b762b828165",
-        "md5": "42aede00d8cb527d5b96b14bab0fde56",
+        "size": 509256,
+        "sha": "74b034483ed66efd2b64aa7f8411be6ff63899f6",
+        "md5": "34bf3052ec91d7a0b789281b29c2d418",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.urgent"
-      },
-      "va_hdcttrbg_hifld_2021_access_scores_urgent.csv.xz": {
-        "id": 55996,
-        "size": 391620,
-        "md5": "a808e02805eae0d6cfd44d022a0bc7f6",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
-      },
-      "dmv_cttrbg_hifld_2021_access_scores_urgent.csv.xz": {
-        "id": 55985,
-        "size": 189188,
-        "md5": "3e161f50e76b78ed1b0e1efb3515f95b",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     }
   },

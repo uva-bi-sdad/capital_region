@@ -26,9 +26,9 @@
     "variables": {},
     "info": {
       "block_group": {
-        "bytes": 4558384,
+        "bytes": 4587592,
         "encoding": "ISO-8859-1",
-        "md5": "af94201d00dc265d8321fad491ad56b3",
+        "md5": "4363ea95f9252e78dc66307ad08f2d44",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv.xz",
@@ -42,7 +42,7 @@
         "id_length": 12,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:33:55",
+        "created": "2023-01-18 16:52:28",
         "last_modified": "2022-09-14 17:52:51",
         "row_count": 56784,
         "entity_count": 4056,
@@ -4405,17 +4405,17 @@
             },
             {
               "name": "urgent_near_10_median",
-              "duplicates": 56078,
+              "duplicates": 56377,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 50308,
-              "mean": 16.8194,
-              "sd": 13.5479,
-              "min": 0,
-              "max": 122.55,
+              "missing": 53158,
+              "mean": 7.7448,
+              "sd": 4.3288,
+              "min": 1.4,
+              "max": 46.95,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -4444,17 +4444,17 @@
             },
             {
               "name": "urgent_cnt",
-              "duplicates": 56780,
+              "duplicates": 56775,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "integer",
-              "missing": 56676,
-              "mean": 1.0926,
-              "sd": 0.3496,
+              "missing": 56449,
+              "mean": 1.7463,
+              "sd": 1.1931,
               "min": 1,
-              "max": 3,
+              "max": 8,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
@@ -4471,7 +4471,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -4483,17 +4483,17 @@
             },
             {
               "name": "urgent_3sfca",
-              "duplicates": 53705,
+              "duplicates": 53157,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 50308,
-              "mean": 5.8339,
-              "sd": 9.6166,
-              "min": 1e-06,
-              "max": 66.9052,
+              "missing": 53158,
+              "mean": 1.0195,
+              "sd": 0.3206,
+              "min": 0.2428,
+              "max": 2.1526,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
@@ -4528,41 +4528,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -4652,15 +4617,50 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "7a6e710546eaa7ae93b42fa86b7100c377bb808915a7bfb26334d268b0708e69c5d1c098d665c15fd26a0fa550a601f67f83266c6afdde40a7246ebb9201b2c5",
+        "sha512": "8a6dac6f044fa5ef4d4cc4c3c174e8f3ac5b98a1c96a14d4579e115da3d0267d63e8bce3e42b498af325fcb269fe09c61240006c83988066e0bd649c8c0dc82d",
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 2465724,
+        "bytes": 2470552,
         "encoding": "ISO-8859-1",
-        "md5": "0b1328c4ca514d4b3664aecde940271c",
+        "md5": "e65be1f79c305bbc1ae0d0e22b39bbf0",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -4674,7 +4674,7 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:34:01",
+        "created": "2023-01-18 16:52:34",
         "last_modified": "2022-09-14 17:52:51",
         "row_count": 20286,
         "entity_count": 1449,
@@ -8965,17 +8965,17 @@
             },
             {
               "name": "urgent_near_10_median",
-              "duplicates": 18741,
+              "duplicates": 18986,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 17850,
-              "mean": 16.4948,
-              "sd": 12.989,
-              "min": 0,
-              "max": 112.65,
+              "missing": 18963,
+              "mean": 7.8295,
+              "sd": 4.1589,
+              "min": 1.8227,
+              "max": 38.45,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -9004,17 +9004,17 @@
             },
             {
               "name": "urgent_cnt",
-              "duplicates": 20281,
+              "duplicates": 20275,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "integer",
-              "missing": 17845,
-              "mean": 0.0467,
-              "sd": 0.2349,
+              "missing": 18955,
+              "mean": 0.4395,
+              "sd": 1.0477,
               "min": 0,
-              "max": 3,
+              "max": 10,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
@@ -9031,7 +9031,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -9043,17 +9043,17 @@
             },
             {
               "name": "urgent_3sfca",
-              "duplicates": 18587,
+              "duplicates": 18962,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 17850,
-              "mean": 5.8584,
-              "sd": 9.5142,
-              "min": 1e-06,
-              "max": 46.6406,
+              "missing": 18963,
+              "mean": 1.0096,
+              "sd": 0.3111,
+              "min": 0.2428,
+              "max": 2.1467,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
@@ -9088,41 +9088,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -9212,9 +9177,44 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "981a34d571fd3766bc4e6ef1c10979eee8649ef2bce0d4f0f042900f65c073263ee477c1694de746b5742953c52f78240656d93b1f435d31e30a213ba5e53c74",
+        "sha512": "599d47cf8fc87a5bc26a03718c9db969836a708a5eacd74e0edbf357ab190de3b0848b7bbb7b2b9b3716cceba529929965646fd861deb6403648c3b08ae9f7ea",
         "site_file": "tract.json"
       },
       "neighborhood": {
@@ -9234,7 +9234,7 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:33:55",
+        "created": "2023-01-18 16:52:28",
         "last_modified": "2022-06-08 13:18:15",
         "row_count": 868,
         "entity_count": 62,
@@ -13491,7 +13491,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -13544,41 +13544,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -13668,15 +13633,50 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "c1d7224f7f90bcba6c716b8f5dec77286ce1594671570e062475653351baf745698f21aae6e4dbfd73d50b1d4fe27aef588b049a3f6ed209f9499adb77615579",
         "site_file": "neighborhood.json"
       },
       "county": {
-        "bytes": 35772,
+        "bytes": 35484,
         "encoding": "ISO-8859-1",
-        "md5": "ac035a6e70865662f4d3f6f0fba949ad",
+        "md5": "f8502ca8ed55a549d3f67c930fa79e5b",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -13690,7 +13690,7 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:33:55",
+        "created": "2023-01-18 16:52:28",
         "last_modified": "2022-09-14 17:52:51",
         "row_count": 196,
         "entity_count": 14,
@@ -17997,17 +17997,17 @@
             },
             {
               "name": "urgent_near_10_median",
-              "duplicates": 167,
+              "duplicates": 181,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 168,
-              "mean": 20.0002,
-              "sd": 12.343,
-              "min": 3.9601,
-              "max": 53.2425,
+              "missing": 182,
+              "mean": 7.8329,
+              "sd": 2.6696,
+              "min": 4.614,
+              "max": 13.9386,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -18036,17 +18036,17 @@
             },
             {
               "name": "urgent_cnt",
-              "duplicates": 185,
+              "duplicates": 182,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "integer",
-              "missing": 168,
-              "mean": 4.0714,
-              "sd": 5.0694,
-              "min": 0,
-              "max": 22,
+              "missing": 182,
+              "mean": 41.7857,
+              "sd": 38.0873,
+              "min": 1,
+              "max": 113,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
@@ -18063,7 +18063,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -18075,17 +18075,17 @@
             },
             {
               "name": "urgent_3sfca",
-              "duplicates": 167,
+              "duplicates": 181,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 168,
-              "mean": 3.625,
-              "sd": 7.9671,
-              "min": 0.0056,
-              "max": 24.34,
+              "missing": 182,
+              "mean": 1.1294,
+              "sd": 0.3171,
+              "min": 0.7567,
+              "max": 1.7041,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
@@ -18120,41 +18120,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -18244,9 +18209,44 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "00fa041dfb5ba5777a3a26f76abc3dabd316e7e57a89a4251b55659727c12e129dae24e58ac8e90164c451e6949c0b7ff1b41fbb12741fe43d376d655b8f4346",
+        "sha512": "bb4df444d529fd1af4b1486195305a652e3fbd26b5413d7d99a91ac835acadc932b98c92b7cfd536b6630df19d85f4b0a1e38ef95f282cd279c729367ed203f6",
         "site_file": "county.json"
       },
       "zip_code": {
@@ -18266,7 +18266,7 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:34:01",
+        "created": "2023-01-18 16:52:34",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 742,
         "entity_count": 53,
@@ -22395,7 +22395,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -22448,41 +22448,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -22572,6 +22537,41 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "f7acd96126d11b1048e6fd2733734ff82018561bbedea3afa42336ee7c728d994597b0854593209fd47b1c59e671bac26703da9a5486d09ad3c4feb4b134d7a8",
@@ -22594,7 +22594,7 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:33:55",
+        "created": "2023-01-18 16:52:28",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 196,
         "entity_count": 14,
@@ -26723,7 +26723,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -26776,41 +26776,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -26900,6 +26865,41 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "192af2609c67a1803da0839607c1d4eb1175b00526ce290a0788342781c75d78d8e2d3bebd5f4cd1265f133f279d03e2b2f4754b037deb05f8c9d3896a9e2807",
@@ -26922,7 +26922,7 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:33:55",
+        "created": "2023-01-18 16:52:28",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 126,
         "entity_count": 9,
@@ -31051,7 +31051,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -31104,41 +31104,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -31228,6 +31193,41 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "e92dcc189f96ca17a38c9b89a319d32e639aee38fca7c68647e45bd66dcdab176d6902cdd373d44eda1336e2465166a26c7d21bd7775f1e048a243f4476e315b",
@@ -31250,7 +31250,7 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-01-18 13:33:55",
+        "created": "2023-01-18 16:52:28",
         "last_modified": "2022-06-08 13:18:46",
         "row_count": 56,
         "entity_count": 4,
@@ -35379,7 +35379,7 @@
                   {
                     "name": "Google Maps",
                     "date_accessed": 2022,
-                    "url": "https://www.google.com/maps"
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
                   }
                 ],
                 "layer": {
@@ -35432,41 +35432,6 @@
           ]
         },
         "_references": {
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": [
-              {
-                "family": "Biocomplexity Institute and Initiative"
-              }
-            ],
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
-          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -35556,6 +35521,41 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
+          },
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": [
+              {
+                "family": "Biocomplexity Institute and Initiative"
+              }
+            ],
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "4bf65af9bf273d781e65773d5a0b51da33e801a5d30c7514ef82a6e1dc917fdcddcb32e7a843a20afa5dc30c2093cc476dee91c4abb6eeb7fadfc14a28a7556d",

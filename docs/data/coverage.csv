@@ -106,6 +106,6 @@
 "substance_access_scores:subs_10near_median",1,0,0,0,0,0,0,520,0
 "substance_access_scores:subs_3sfca",1,0,9,0,0,0,0,520,0
 "substance_access_scores:subs_cnt",1,0,9,0,0,0,0,38,0
-"urgent_3sfca",1,6476,28,0,0,0,0,2436,0
-"urgent_cnt",1,108,28,0,0,0,0,2441,0
-"urgent_near_10_median",1,6476,28,0,0,0,0,2436,0
+"urgent_3sfca",1,3626,14,0,0,0,0,1323,0
+"urgent_cnt",1,335,14,0,0,0,0,1331,0
+"urgent_near_10_median",1,3626,14,0,0,0,0,1323,0
