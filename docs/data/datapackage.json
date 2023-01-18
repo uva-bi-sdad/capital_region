@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 33888,
+      "bytes": 35772,
       "encoding": "ISO-8859-1",
-      "md5": "849c428bbc8ac71934b53c40e613040a",
+      "md5": "ac035a6e70865662f4d3f6f0fba949ad",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -25,7 +25,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:00",
+      "created": "2023-01-18 13:33:55",
       "last_modified": "2022-09-14 17:52:51",
       "row_count": 196,
       "entity_count": 14,
@@ -867,10 +867,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 182,
-            "mean": 1.7909,
-            "sd": 0.5985,
-            "min": 0.9806,
-            "max": 2.6407,
+            "mean": 1.2079,
+            "sd": 0.5689,
+            "min": 0.5017,
+            "max": 2.3582,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -2601,10 +2601,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 182,
-            "mean": 0.9176,
-            "sd": 0.4355,
-            "min": 0.3641,
-            "max": 1.558,
+            "mean": 2.3308,
+            "sd": 1.9715,
+            "min": 0.3911,
+            "max": 6.0333,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
@@ -2667,14 +2667,14 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 181,
-            "time_range": [12, 12],
+            "duplicates": 172,
+            "time_range": [11, 12],
             "type": "float",
-            "missing": 182,
-            "mean": 0.7427,
-            "sd": 0.1254,
+            "missing": 173,
+            "mean": 0.7405,
+            "sd": 0.1251,
             "min": 0.5397,
-            "max": 0.9424,
+            "max": 0.9618,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -2707,14 +2707,14 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 181,
-            "time_range": [12, 12],
+            "duplicates": 172,
+            "time_range": [11, 12],
             "type": "float",
-            "missing": 182,
-            "mean": 0.4592,
-            "sd": 0.1243,
+            "missing": 173,
+            "mean": 0.4721,
+            "sd": 0.1224,
             "min": 0.188,
-            "max": 0.6154,
+            "max": 0.6388,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -2747,14 +2747,14 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 181,
-            "time_range": [12, 12],
+            "duplicates": 172,
+            "time_range": [11, 12],
             "type": "float",
-            "missing": 182,
-            "mean": 0.3314,
-            "sd": 0.0694,
+            "missing": 173,
+            "mean": 0.3345,
+            "sd": 0.0686,
             "min": 0.188,
-            "max": 0.4416,
+            "max": 0.4507,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -2927,10 +2927,10 @@
             "time_range": [6, 10],
             "type": "float",
             "missing": 126,
-            "mean": 10.6541,
-            "sd": 1.1271,
-            "min": 8.9171,
-            "max": 12.5359,
+            "mean": 11.4246,
+            "sd": 1.6484,
+            "min": 7.3078,
+            "max": 17.8182,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
@@ -2962,10 +2962,10 @@
             "time_range": [6, 10],
             "type": "float",
             "missing": 126,
-            "mean": 9.6017,
-            "sd": 1.2326,
-            "min": 7.4315,
-            "max": 12.3398,
+            "mean": 10.8375,
+            "sd": 1.9776,
+            "min": 6.3189,
+            "max": 16.8854,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
@@ -3068,10 +3068,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 182,
-            "mean": 2.4291,
-            "sd": 1.1617,
-            "min": 0.9749,
-            "max": 4.1586,
+            "mean": 6.201,
+            "sd": 5.4464,
+            "min": 1.0424,
+            "max": 16.6801,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -3788,114 +3788,6 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
-            "duplicates": 172,
-            "time_range": [12, 13],
-            "type": "float",
-            "missing": 173,
-            "mean": 19.9364,
-            "sd": 12.454,
-            "min": 3.9601,
-            "max": 53.2425,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
-              "full_name": "access_scores_urgent:urgent_near_10_median",
-              "measure": "urgent_near_10_median",
-              "type": "drive time",
-              "short_name": "Urgent care availability (drive time)",
-              "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
-              "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_urgent:urgent_cnt",
-            "duplicates": 186,
-            "time_range": [12, 13],
-            "type": "integer",
-            "missing": 173,
-            "mean": 4.1739,
-            "sd": 5.5731,
-            "min": 0,
-            "max": 22,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
-              "full_name": "access_scores_urgent:urgent_cnt",
-              "measure": "urgent_cnt",
-              "type": "count",
-              "short_name": "Urgent care availability (count)",
-              "long_name": "Availability of urgent care by count",
-              "short_description": "Count of urgent care facilities based on facility locations",
-              "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
-              "statement": "There are {value} urgent care facilities in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_urgent:urgent_3sfca",
-            "duplicates": 172,
-            "time_range": [12, 13],
-            "type": "float",
-            "missing": 173,
-            "mean": 0.0132,
-            "sd": 0.007,
-            "min": 0.0056,
-            "max": 0.0256,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
-              "full_name": "access_scores_urgent:urgent_3sfca",
-              "measure": "urgent_3sfca",
-              "type": "index",
-              "short_name": "Urgent care geographic availability",
-              "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
-              "short_description": "Index of urgent care availability based on supply and demand of facilities",
-              "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The urgent care availability for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
             "name": "median_household_income",
             "duplicates": 125,
             "time_range": [6, 10],
@@ -3929,10 +3821,258 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 95,
+            "time_range": [6, 13],
+            "type": "float",
+            "missing": 84,
+            "mean": 28.7616,
+            "sd": 12.6798,
+            "min": 11.8444,
+            "max": 56.9311,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 188,
+            "time_range": [6, 13],
+            "type": "integer",
+            "missing": 84,
+            "mean": 2.2143,
+            "sd": 2.1786,
+            "min": 0,
+            "max": 7,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 83,
+            "time_range": [6, 13],
+            "type": "float",
+            "missing": 84,
+            "mean": 0.5207,
+            "sd": 0.0953,
+            "min": 0.3331,
+            "max": 0.7764,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
+            "duplicates": 167,
+            "time_range": [12, 13],
+            "type": "float",
+            "missing": 168,
+            "mean": 20.0002,
+            "sd": 12.343,
+            "min": 3.9601,
+            "max": 53.2425,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
+              "full_name": "access_scores_urgent:urgent_near_10_median",
+              "measure": "urgent_near_10_median",
+              "type": "drive time",
+              "short_name": "Urgent care availability (drive time)",
+              "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
+              "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "urgent_cnt",
+            "duplicates": 185,
+            "time_range": [12, 13],
+            "type": "integer",
+            "missing": 168,
+            "mean": 4.0714,
+            "sd": 5.0694,
+            "min": 0,
+            "max": 22,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
+              "full_name": "access_scores_urgent:urgent_cnt",
+              "measure": "urgent_cnt",
+              "type": "count",
+              "short_name": "Urgent care availability (count)",
+              "long_name": "Availability of urgent care by count",
+              "short_description": "Count of urgent care facilities based on facility locations",
+              "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
+              "statement": "There are {value} urgent care facilities in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "urgent_3sfca",
+            "duplicates": 167,
+            "time_range": [12, 13],
+            "type": "float",
+            "missing": 168,
+            "mean": 3.625,
+            "sd": 7.9671,
+            "min": 0.0056,
+            "max": 24.34,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
+              "full_name": "access_scores_urgent:urgent_3sfca",
+              "measure": "urgent_3sfca",
+              "type": "index",
+              "short_name": "Urgent care geographic availability",
+              "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of urgent care availability based on supply and demand of facilities",
+              "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The urgent care availability for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -4022,49 +4162,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "8140d97d24d99a8672efd585a46bb3bd25368b9fe15c5a1b02986b41012b53a6799ed50793d4b966e0b3775c41bcf8026676ac096ebb617dd015eeb7a13839e5"
+      "sha512": "00fa041dfb5ba5777a3a26f76abc3dabd316e7e57a89a4251b55659727c12e129dae24e58ac8e90164c451e6949c0b7ff1b41fbb12741fe43d376d655b8f4346"
     },
     {
-      "bytes": 2314932,
+      "bytes": 2465724,
       "encoding": "ISO-8859-1",
-      "md5": "204ce0fbd0c55fad0206c561f395910d",
+      "md5": "0b1328c4ca514d4b3664aecde940271c",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -4078,7 +4183,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:06",
+      "created": "2023-01-18 13:34:01",
       "last_modified": "2022-09-14 17:52:51",
       "row_count": 20286,
       "entity_count": 1449,
@@ -4920,10 +5025,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 19068,
-            "mean": 1.896,
-            "sd": 0.6318,
+            "mean": 1.5191,
+            "sd": 0.7202,
             "min": 0,
-            "max": 2.9937,
+            "max": 2.8064,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -6642,10 +6747,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 19069,
-            "mean": 1.0177,
-            "sd": 0.4127,
+            "mean": 1.9449,
+            "sd": 1.5978,
             "min": 0,
-            "max": 1.6997,
+            "max": 6.5571,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
@@ -6708,12 +6813,12 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 19104,
-            "time_range": [12, 12],
+            "duplicates": 18601,
+            "time_range": [11, 12],
             "type": "float",
-            "missing": 19073,
-            "mean": 0.8228,
-            "sd": 0.4438,
+            "missing": 18560,
+            "mean": 0.7781,
+            "sd": 0.4041,
             "min": 0.3072,
             "max": 5.3285,
             "info": {
@@ -6748,12 +6853,12 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 19096,
-            "time_range": [12, 12],
+            "duplicates": 18605,
+            "time_range": [11, 12],
             "type": "float",
-            "missing": 19075,
-            "mean": 0.511,
-            "sd": 0.2468,
+            "missing": 18575,
+            "mean": 0.5114,
+            "sd": 0.2385,
             "min": 0.096,
             "max": 3.3295,
             "info": {
@@ -6788,12 +6893,12 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 19100,
-            "time_range": [12, 12],
+            "duplicates": 18609,
+            "time_range": [11, 12],
             "type": "float",
-            "missing": 19075,
-            "mean": 0.3653,
-            "sd": 0.1782,
+            "missing": 18575,
+            "mean": 0.3516,
+            "sd": 0.1675,
             "min": 0.096,
             "max": 2.0806,
             "info": {
@@ -6968,10 +7073,10 @@
             "time_range": [6, 10],
             "type": "float",
             "missing": 14195,
-            "mean": 10.4632,
-            "sd": 1.8204,
-            "min": 4.7937,
-            "max": 26.0666,
+            "mean": 11.0712,
+            "sd": 2.3803,
+            "min": 4.2515,
+            "max": 29.5471,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
@@ -7003,10 +7108,10 @@
             "time_range": [6, 10],
             "type": "float",
             "missing": 14195,
-            "mean": 9.2819,
-            "sd": 2.4989,
+            "mean": 10.4125,
+            "sd": 3.2444,
             "min": 2.0713,
-            "max": 26.8392,
+            "max": 30.1809,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
@@ -7105,10 +7210,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 19068,
-            "mean": 2.7044,
-            "sd": 1.1231,
+            "mean": 5.2025,
+            "sd": 4.3847,
             "min": 0.0499,
-            "max": 4.5124,
+            "max": 18.0937,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -7825,114 +7930,6 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
-            "duplicates": 19015,
-            "time_range": [12, 13],
-            "type": "float",
-            "missing": 18553,
-            "mean": 17.4538,
-            "sd": 13.3226,
-            "min": 0,
-            "max": 112.65,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
-              "full_name": "access_scores_urgent:urgent_near_10_median",
-              "measure": "urgent_near_10_median",
-              "type": "drive time",
-              "short_name": "Urgent care availability (drive time)",
-              "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
-              "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_urgent:urgent_cnt",
-            "duplicates": 20281,
-            "time_range": [12, 13],
-            "type": "integer",
-            "missing": 18548,
-            "mean": 0.0552,
-            "sd": 0.2547,
-            "min": 0,
-            "max": 3,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
-              "full_name": "access_scores_urgent:urgent_cnt",
-              "measure": "urgent_cnt",
-              "type": "count",
-              "short_name": "Urgent care availability (count)",
-              "long_name": "Availability of urgent care by count",
-              "short_description": "Count of urgent care facilities based on facility locations",
-              "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
-              "statement": "There are {value} urgent care facilities in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_urgent:urgent_3sfca",
-            "duplicates": 18921,
-            "time_range": [12, 13],
-            "type": "float",
-            "missing": 18553,
-            "mean": 0.0118,
-            "sd": 0.0064,
-            "min": 1e-06,
-            "max": 0.0503,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
-              "full_name": "access_scores_urgent:urgent_3sfca",
-              "measure": "urgent_3sfca",
-              "type": "index",
-              "short_name": "Urgent care geographic availability",
-              "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
-              "short_description": "Index of urgent care availability based on supply and demand of facilities",
-              "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The urgent care availability for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
             "name": "median_household_income",
             "duplicates": 14776,
             "time_range": [6, 10],
@@ -7966,10 +7963,258 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 11944,
+            "time_range": [6, 13],
+            "type": "float",
+            "missing": 10107,
+            "mean": 25.4733,
+            "sd": 12.4261,
+            "min": 0,
+            "max": 101.478,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 20281,
+            "time_range": [6, 13],
+            "type": "integer",
+            "missing": 10055,
+            "mean": 0.0253,
+            "sd": 0.1596,
+            "min": 0,
+            "max": 3,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 10133,
+            "time_range": [6, 13],
+            "type": "float",
+            "missing": 10107,
+            "mean": 0.5077,
+            "sd": 0.135,
+            "min": 0.0004,
+            "max": 1.7807,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
+            "duplicates": 18741,
+            "time_range": [12, 13],
+            "type": "float",
+            "missing": 17850,
+            "mean": 16.4948,
+            "sd": 12.989,
+            "min": 0,
+            "max": 112.65,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
+              "full_name": "access_scores_urgent:urgent_near_10_median",
+              "measure": "urgent_near_10_median",
+              "type": "drive time",
+              "short_name": "Urgent care availability (drive time)",
+              "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
+              "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "urgent_cnt",
+            "duplicates": 20281,
+            "time_range": [12, 13],
+            "type": "integer",
+            "missing": 17845,
+            "mean": 0.0467,
+            "sd": 0.2349,
+            "min": 0,
+            "max": 3,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
+              "full_name": "access_scores_urgent:urgent_cnt",
+              "measure": "urgent_cnt",
+              "type": "count",
+              "short_name": "Urgent care availability (count)",
+              "long_name": "Availability of urgent care by count",
+              "short_description": "Count of urgent care facilities based on facility locations",
+              "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
+              "statement": "There are {value} urgent care facilities in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "urgent_3sfca",
+            "duplicates": 18587,
+            "time_range": [12, 13],
+            "type": "float",
+            "missing": 17850,
+            "mean": 5.8584,
+            "sd": 9.5142,
+            "min": 1e-06,
+            "max": 46.6406,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
+              "full_name": "access_scores_urgent:urgent_3sfca",
+              "measure": "urgent_3sfca",
+              "type": "index",
+              "short_name": "Urgent care geographic availability",
+              "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of urgent care availability based on supply and demand of facilities",
+              "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The urgent care availability for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -8059,49 +8304,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "54eec9f67875d132e5989cf8631cf062ed9b00df719add580a4483aa91ed107852bf4712f994c316892767191392b6a41d21b449806c5c1e09279266388a0c22"
+      "sha512": "981a34d571fd3766bc4e6ef1c10979eee8649ef2bce0d4f0f042900f65c073263ee477c1694de746b5742953c52f78240656d93b1f435d31e30a213ba5e53c74"
     },
     {
-      "bytes": 4220724,
+      "bytes": 4558384,
       "encoding": "ISO-8859-1",
-      "md5": "68fc838d313452b8b813addb9ae2398e",
+      "md5": "af94201d00dc265d8321fad491ad56b3",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv.xz",
@@ -8115,7 +8325,7 @@
       "id_length": 12,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:00",
+      "created": "2023-01-18 13:33:55",
       "last_modified": "2022-09-14 17:52:51",
       "row_count": 56784,
       "entity_count": 4056,
@@ -8949,12 +9159,12 @@
           },
           {
             "name": "access_scores_dentists:dent_e2sfca",
-            "duplicates": 55249,
+            "duplicates": 55248,
             "time_range": [12, 12],
             "type": "float",
             "missing": 53543,
-            "mean": 1.8921,
-            "sd": 0.6535,
+            "mean": 1.5082,
+            "sd": 0.7271,
             "min": 0,
             "max": 3.1882,
             "info": {
@@ -10771,14 +10981,14 @@
           },
           {
             "name": "access_scores_obgyn:obgyn_e2sfca",
-            "duplicates": 55280,
+            "duplicates": 55271,
             "time_range": [12, 12],
             "type": "float",
             "missing": 53543,
-            "mean": 1.0205,
-            "sd": 0.4403,
+            "mean": 1.9763,
+            "sd": 1.6542,
             "min": 0,
-            "max": 6.2691,
+            "max": 6.7092,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
@@ -11226,10 +11436,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 53543,
-            "mean": 2.7074,
-            "sd": 1.2007,
+            "mean": 5.2793,
+            "sd": 4.5431,
             "min": 0.0499,
-            "max": 16.9311,
+            "max": 18.3203,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -11585,10 +11795,14 @@
           },
           {
             "name": "demographics:perc_hispanic_or_latino",
-            "duplicates": 56783,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 56784,
+            "duplicates": 45021,
+            "time_range": [7, 10],
+            "type": "float",
+            "missing": 43843,
+            "mean": 15.2238,
+            "sd": 16.1168,
+            "min": 0,
+            "max": 100,
             "info": {
               "category": "Demographics",
               "measure_table": "ncr_cttrbg_2009_2019_acs_demographics",
@@ -11930,114 +12144,6 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
-            "duplicates": 56094,
-            "time_range": [12, 13],
-            "type": "float",
-            "missing": 52162,
-            "mean": 17.7014,
-            "sd": 13.8266,
-            "min": 0,
-            "max": 122.55,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
-              "full_name": "access_scores_urgent:urgent_near_10_median",
-              "measure": "urgent_near_10_median",
-              "type": "drive time",
-              "short_name": "Urgent care availability (drive time)",
-              "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
-              "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_urgent:urgent_cnt",
-            "duplicates": 56780,
-            "time_range": [12, 13],
-            "type": "integer",
-            "missing": 56696,
-            "mean": 1.0909,
-            "sd": 0.36,
-            "min": 1,
-            "max": 3,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
-              "full_name": "access_scores_urgent:urgent_cnt",
-              "measure": "urgent_cnt",
-              "type": "count",
-              "short_name": "Urgent care availability (count)",
-              "long_name": "Availability of urgent care by count",
-              "short_description": "Count of urgent care facilities based on facility locations",
-              "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
-              "statement": "There are {value} urgent care facilities in {features.name}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": {}
-            }
-          },
-          {
-            "name": "access_scores_urgent:urgent_3sfca",
-            "duplicates": 53860,
-            "time_range": [12, 13],
-            "type": "float",
-            "missing": 52162,
-            "mean": 0.0118,
-            "sd": 0.0065,
-            "min": 1e-06,
-            "max": 0.0703,
-            "info": {
-              "category": "Health",
-              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
-              "full_name": "access_scores_urgent:urgent_3sfca",
-              "measure": "urgent_3sfca",
-              "type": "index",
-              "short_name": "Urgent care geographic availability",
-              "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
-              "short_description": "Index of urgent care availability based on supply and demand of facilities",
-              "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The urgent care availability for {features.name} is {value}.",
-              "equity_category": "Availability",
-              "sources": [
-                {
-                  "name": "Google Maps",
-                  "date_accessed": 2022,
-                  "url": "https://www.google.com/maps"
-                }
-              ],
-              "layer": {
-                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
-                "filter": {}
-              },
-              "citations": ["lou04", "lou09", "lou03", "saxon20"]
-            }
-          },
-          {
             "name": "median_household_income",
             "duplicates": 44946,
             "time_range": [6, 10],
@@ -12071,10 +12177,258 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 55740,
+            "time_range": [6, 13],
+            "type": "float",
+            "missing": 29254,
+            "mean": 25.6343,
+            "sd": 12.9002,
+            "min": 0,
+            "max": 112.65,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 56780,
+            "time_range": [6, 13],
+            "type": "integer",
+            "missing": 56513,
+            "mean": 1.0148,
+            "sd": 0.1483,
+            "min": 1,
+            "max": 3,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 29443,
+            "time_range": [6, 13],
+            "type": "float",
+            "missing": 29254,
+            "mean": 0.5081,
+            "sd": 0.1434,
+            "min": 1e-06,
+            "max": 1.7968,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
+            "duplicates": 56078,
+            "time_range": [12, 13],
+            "type": "float",
+            "missing": 50308,
+            "mean": 16.8194,
+            "sd": 13.5479,
+            "min": 0,
+            "max": 122.55,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
+              "full_name": "access_scores_urgent:urgent_near_10_median",
+              "measure": "urgent_near_10_median",
+              "type": "drive time",
+              "short_name": "Urgent care availability (drive time)",
+              "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
+              "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "urgent_cnt",
+            "duplicates": 56780,
+            "time_range": [12, 13],
+            "type": "integer",
+            "missing": 56676,
+            "mean": 1.0926,
+            "sd": 0.3496,
+            "min": 1,
+            "max": 3,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
+              "full_name": "access_scores_urgent:urgent_cnt",
+              "measure": "urgent_cnt",
+              "type": "count",
+              "short_name": "Urgent care availability (count)",
+              "long_name": "Availability of urgent care by count",
+              "short_description": "Count of urgent care facilities based on facility locations",
+              "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
+              "statement": "There are {value} urgent care facilities in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "urgent_3sfca",
+            "duplicates": 53705,
+            "time_range": [12, 13],
+            "type": "float",
+            "missing": 50308,
+            "mean": 5.8339,
+            "sd": 9.6166,
+            "min": 1e-06,
+            "max": 66.9052,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_urgent_access_scores",
+              "full_name": "access_scores_urgent:urgent_3sfca",
+              "measure": "urgent_3sfca",
+              "type": "index",
+              "short_name": "Urgent care geographic availability",
+              "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of urgent care availability based on supply and demand of facilities",
+              "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The urgent care availability for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Google Maps",
+                  "date_accessed": 2022,
+                  "url": "https://www.google.com/maps"
+                }
+              ],
+              "layer": {
+                "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson",
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -12164,49 +12518,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "8d61361e4febd246e638a9538444befce5f78e50753419ee055b93ca6ef36d01ce8709fc53092c6a1eed0ddefad22e20aa01169b47f0a9da0c7126464ef72e8e"
+      "sha512": "7a6e710546eaa7ae93b42fa86b7100c377bb808915a7bfb26334d268b0708e69c5d1c098d665c15fd26a0fa550a601f67f83266c6afdde40a7246ebb9201b2c5"
     },
     {
-      "bytes": 38172,
+      "bytes": 38244,
       "encoding": "ISO-8859-1",
-      "md5": "7a41f5b340fe0fae89c210dd94988510",
+      "md5": "9306ea110bf0ab22af9ef3ef66844f03",
       "format": "csv",
       "name": "neighborhood",
       "filename": "neighborhood.csv.xz",
@@ -12220,7 +12539,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:00",
+      "created": "2023-01-18 13:33:55",
       "last_modified": "2022-06-08 13:18:15",
       "row_count": 868,
       "entity_count": 62,
@@ -15891,7 +16210,131 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
+            "name": "median_household_income",
+            "duplicates": 867,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 868,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:nrc:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "the median household income in {features.name} is {value}.",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 867,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 868,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 867,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 868,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 867,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 868,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
             "duplicates": 867,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -15923,7 +16366,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_cnt",
+            "name": "urgent_cnt",
             "duplicates": 867,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -15955,7 +16398,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_3sfca",
+            "name": "urgent_3sfca",
             "duplicates": 867,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -15985,41 +16428,45 @@
               },
               "citations": ["lou04", "lou09", "lou03", "saxon20"]
             }
-          },
-          {
-            "name": "median_household_income",
-            "duplicates": 867,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 868,
-            "info": {
-              "category": "Financial Well Being",
-              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-              "full_name": "household_income:nrc:median_household_income",
-              "measure": "median_household_income",
-              "type": "dollar",
-              "short_name": "Median Household Income",
-              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
-              "short_description": "",
-              "long_description": "",
-              "statement": "the median household income in {features.name} is {value}.",
-              "equity_category": "Status",
-              "sources": [
-                {
-                  "date_accessed": 2022,
-                  "name": "Census Bureau, American Community Survey",
-                  "url": "https://www.census.gov/programs-surveys/acs"
-                }
-              ],
-              "layer": {
-                "filter": {}
-              },
-              "citations": {}
-            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -16109,49 +16556,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "1049cbc7200c930fed2ad569c4465066a7d3ee570da19ea1effc89fd412c216a22cec1227ab869a6659c0c7d9bbda2d950300d82705df00a1c7bd47ba3c6c1ba"
+      "sha512": "c1d7224f7f90bcba6c716b8f5dec77286ce1594671570e062475653351baf745698f21aae6e4dbfd73d50b1d4fe27aef588b049a3f6ed209f9499adb77615579"
     },
     {
-      "bytes": 1952,
+      "bytes": 1956,
       "encoding": "ISO-8859-1",
-      "md5": "0ee0515b15fe4103332d59b5e5db8508",
+      "md5": "f9679617097ef3667b0f0d059f5d1831",
       "format": "csv",
       "name": "human_services_region",
       "filename": "human_services_region.csv.xz",
@@ -16165,7 +16577,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:00",
+      "created": "2023-01-18 13:33:55",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 56,
       "entity_count": 4,
@@ -19708,7 +20120,131 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
+            "name": "median_household_income",
+            "duplicates": 55,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 56,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:nrc:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "the median household income in {features.name} is {value}.",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 55,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 56,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 55,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 56,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 55,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 56,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
             "duplicates": 55,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -19740,7 +20276,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_cnt",
+            "name": "urgent_cnt",
             "duplicates": 55,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -19772,7 +20308,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_3sfca",
+            "name": "urgent_3sfca",
             "duplicates": 55,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -19802,41 +20338,45 @@
               },
               "citations": ["lou04", "lou09", "lou03", "saxon20"]
             }
-          },
-          {
-            "name": "median_household_income",
-            "duplicates": 55,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 56,
-            "info": {
-              "category": "Financial Well Being",
-              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-              "full_name": "household_income:nrc:median_household_income",
-              "measure": "median_household_income",
-              "type": "dollar",
-              "short_name": "Median Household Income",
-              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
-              "short_description": "",
-              "long_description": "",
-              "statement": "the median household income in {features.name} is {value}.",
-              "equity_category": "Status",
-              "sources": [
-                {
-                  "date_accessed": 2022,
-                  "name": "Census Bureau, American Community Survey",
-                  "url": "https://www.census.gov/programs-surveys/acs"
-                }
-              ],
-              "layer": {
-                "filter": {}
-              },
-              "citations": {}
-            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -19926,49 +20466,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "5f28b325175cbc9f7baca6647a746ca31191995a01ab6eb00e15196b561b171a685ea3c3d18c45bae787832bb76f4d7e5629b9b72591e832b6c612663317d569"
+      "sha512": "4bf65af9bf273d781e65773d5a0b51da33e801a5d30c7514ef82a6e1dc917fdcddcb32e7a843a20afa5dc30c2093cc476dee91c4abb6eeb7fadfc14a28a7556d"
     },
     {
-      "bytes": 3916,
+      "bytes": 3908,
       "encoding": "ISO-8859-1",
-      "md5": "37715df323cdedb618b3793111295c86",
+      "md5": "5525afa0b4e9ed95638dba32f96c0d5c",
       "format": "csv",
       "name": "planning_district",
       "filename": "planning_district.csv.xz",
@@ -19982,7 +20487,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:00",
+      "created": "2023-01-18 13:33:55",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 196,
       "entity_count": 14,
@@ -23525,7 +24030,131 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
+            "name": "median_household_income",
+            "duplicates": 195,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 196,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:nrc:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "the median household income in {features.name} is {value}.",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 195,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 196,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 195,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 196,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 195,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 196,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
             "duplicates": 195,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -23557,7 +24186,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_cnt",
+            "name": "urgent_cnt",
             "duplicates": 195,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -23589,7 +24218,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_3sfca",
+            "name": "urgent_3sfca",
             "duplicates": 195,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -23619,41 +24248,45 @@
               },
               "citations": ["lou04", "lou09", "lou03", "saxon20"]
             }
-          },
-          {
-            "name": "median_household_income",
-            "duplicates": 195,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 196,
-            "info": {
-              "category": "Financial Well Being",
-              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-              "full_name": "household_income:nrc:median_household_income",
-              "measure": "median_household_income",
-              "type": "dollar",
-              "short_name": "Median Household Income",
-              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
-              "short_description": "",
-              "long_description": "",
-              "statement": "the median household income in {features.name} is {value}.",
-              "equity_category": "Status",
-              "sources": [
-                {
-                  "date_accessed": 2022,
-                  "name": "Census Bureau, American Community Survey",
-                  "url": "https://www.census.gov/programs-surveys/acs"
-                }
-              ],
-              "layer": {
-                "filter": {}
-              },
-              "citations": {}
-            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -23743,49 +24376,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "9f2b9ed39a67b6d8759a94df0949cb0ea6883570d910fb55901c5b39602b85915edc718cc6d65fe021b8ec37159faa4beebd613e16832326599d3cb672e5262e"
+      "sha512": "192af2609c67a1803da0839607c1d4eb1175b00526ce290a0788342781c75d78d8e2d3bebd5f4cd1265f133f279d03e2b2f4754b037deb05f8c9d3896a9e2807"
     },
     {
-      "bytes": 3076,
+      "bytes": 3084,
       "encoding": "ISO-8859-1",
-      "md5": "07c0bc207c7e3e89bffdcff239d1fadf",
+      "md5": "efd98be039de0c7d09e65bdc1509cbd5",
       "format": "csv",
       "name": "supervisor_district",
       "filename": "supervisor_district.csv.xz",
@@ -23799,7 +24397,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:00",
+      "created": "2023-01-18 13:33:55",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 126,
       "entity_count": 9,
@@ -27342,7 +27940,131 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
+            "name": "median_household_income",
+            "duplicates": 125,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 126,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:nrc:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "the median household income in {features.name} is {value}.",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 125,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 126,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 125,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 126,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 125,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 126,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
             "duplicates": 125,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -27374,7 +28096,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_cnt",
+            "name": "urgent_cnt",
             "duplicates": 125,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -27406,7 +28128,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_3sfca",
+            "name": "urgent_3sfca",
             "duplicates": 125,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -27436,41 +28158,45 @@
               },
               "citations": ["lou04", "lou09", "lou03", "saxon20"]
             }
-          },
-          {
-            "name": "median_household_income",
-            "duplicates": 125,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 126,
-            "info": {
-              "category": "Financial Well Being",
-              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-              "full_name": "household_income:nrc:median_household_income",
-              "measure": "median_household_income",
-              "type": "dollar",
-              "short_name": "Median Household Income",
-              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
-              "short_description": "",
-              "long_description": "",
-              "statement": "the median household income in {features.name} is {value}.",
-              "equity_category": "Status",
-              "sources": [
-                {
-                  "date_accessed": 2022,
-                  "name": "Census Bureau, American Community Survey",
-                  "url": "https://www.census.gov/programs-surveys/acs"
-                }
-              ],
-              "layer": {
-                "filter": {}
-              },
-              "citations": {}
-            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -27560,49 +28286,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "27f6399dea3280fffb5a006a3a40c9b0256b242e0fa5efde7e109e06cfd51f51645f00ca7ccd51c326a68ee83c47f9ff438ee42e680235299c7467ac2b9a7938"
+      "sha512": "e92dcc189f96ca17a38c9b89a319d32e639aee38fca7c68647e45bd66dcdab176d6902cdd373d44eda1336e2465166a26c7d21bd7775f1e048a243f4476e315b"
     },
     {
-      "bytes": 9924,
+      "bytes": 10304,
       "encoding": "ISO-8859-1",
-      "md5": "71d5c512d363d8dae12b86daec940c73",
+      "md5": "833a5824ca50d52aead6143f35cd7cd2",
       "format": "csv",
       "name": "zip_code",
       "filename": "zip_code.csv.xz",
@@ -27616,7 +28307,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-01-17 07:16:06",
+      "created": "2023-01-18 13:34:01",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 742,
       "entity_count": 53,
@@ -31159,7 +31850,131 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_near_10_median",
+            "name": "median_household_income",
+            "duplicates": 741,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 742,
+            "info": {
+              "category": "Financial Well Being",
+              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+              "full_name": "household_income:nrc:median_household_income",
+              "measure": "median_household_income",
+              "type": "dollar",
+              "short_name": "Median Household Income",
+              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
+              "short_description": "",
+              "long_description": "",
+              "statement": "the median household income in {features.name} is {value}.",
+              "equity_category": "Status",
+              "sources": [
+                {
+                  "date_accessed": 2022,
+                  "name": "Census Bureau, American Community Survey",
+                  "url": "https://www.census.gov/programs-surveys/acs"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_near_10_median",
+            "duplicates": 741,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 742,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_near_10_median",
+              "measure": "hospital_near_10_median",
+              "type": "drive time",
+              "short_name": "Hospital drive time",
+              "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
+              "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_cnt",
+            "duplicates": 741,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 742,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_beds_cnt",
+              "measure": "hospital_cnt",
+              "type": "count",
+              "short_name": "Hospital availability (count)",
+              "long_name": "Availability of hospitals by count",
+              "short_description": "Count of hospitals based on facility locations",
+              "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+              "statement": "There are {value} hospitals in {features.name}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
+          },
+          {
+            "name": "hosp_3sfca",
+            "duplicates": 741,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 742,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_hospitals",
+              "full_name": "access_scores_hospitals:hosp_3sfca",
+              "measure": "hospital_3sfca",
+              "type": "index",
+              "short_name": "Hospital geographic availability",
+              "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+              "short_description": "Index of hospital availability based on supply and demand of facilities",
+              "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The hospital geographic availability score for {features.name} is {value}.",
+              "equity_category": "Availability",
+              "sources": [
+                {
+                  "name": "Center for Medicare and Medicaid Services",
+                  "date_accessed": 2022,
+                  "url": "https://data.cms.gov/provider-data/topics/hospitals"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": ["lou04", "lou09", "lou03", "saxon20"]
+            }
+          },
+          {
+            "name": "urgent_near_10_median",
             "duplicates": 741,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -31191,7 +32006,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_cnt",
+            "name": "urgent_cnt",
             "duplicates": 741,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -31223,7 +32038,7 @@
             }
           },
           {
-            "name": "access_scores_urgent:urgent_3sfca",
+            "name": "urgent_3sfca",
             "duplicates": 741,
             "time_range": [-1, -1],
             "type": "unknown",
@@ -31253,41 +32068,45 @@
               },
               "citations": ["lou04", "lou09", "lou03", "saxon20"]
             }
-          },
-          {
-            "name": "median_household_income",
-            "duplicates": 741,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 742,
-            "info": {
-              "category": "Financial Well Being",
-              "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-              "full_name": "household_income:nrc:median_household_income",
-              "measure": "median_household_income",
-              "type": "dollar",
-              "short_name": "Median Household Income",
-              "long_name": "MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS), ACS 5-Year Estimates",
-              "short_description": "",
-              "long_description": "",
-              "statement": "the median household income in {features.name} is {value}.",
-              "equity_category": "Status",
-              "sources": [
-                {
-                  "date_accessed": 2022,
-                  "name": "Census Bureau, American Community Survey",
-                  "url": "https://www.census.gov/programs-surveys/acs"
-                }
-              ],
-              "layer": {
-                "filter": {}
-              },
-              "citations": {}
-            }
           }
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -31377,44 +32196,9 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "864f024df38560b9e5551b709db9e42429d43edd651a013a435c0fcbdefbb4d084e605243a6246508adf6ef28973ded786e870b62974113aaa387f8745e005cc"
+      "sha512": "f7acd96126d11b1048e6fd2733734ff82018561bbedea3afa42336ee7c728d994597b0854593209fd47b1c59e671bac26703da9a5486d09ad3c4feb4b134d7a8"
     }
   ]
 }

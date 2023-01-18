@@ -3,9 +3,6 @@
 "access_scores_obgyn:obgyn_e2sfca",1,3241,14,0,0,0,0,1217,0
 "access_scores_pediatrics:ped_e2sfca",1,3235,14,0,0,0,0,1214,0
 "access_scores_primcare:primcare_e2sfca",1,3241,14,0,0,0,0,1218,0
-"access_scores_urgent:urgent_3sfca",1,4622,23,0,0,0,0,1733,0
-"access_scores_urgent:urgent_cnt",1,88,23,0,0,0,0,1738,0
-"access_scores_urgent:urgent_near_10_median",1,4622,23,0,0,0,0,1733,0
 "acs_postsecondary_percent",1,0,168,0,0,0,0,14902,0
 "brfss_sae:perc_poor_ment_hlth_days_14_and_over",1,0,70,0,0,0,0,6091,0
 "brfss_sae:perc_poor_phys_hlth_days_14_and_over",1,0,70,0,0,0,0,6091,0
@@ -22,7 +19,7 @@
 "demographics:perc_65_plus",1,22643,154,4,434,14,9,12861,52
 "demographics:perc_AAPI",1,22643,154,4,434,14,9,12861,52
 "demographics:perc_black",1,22643,154,4,434,14,9,12861,52
-"demographics:perc_hispanic_or_latino",1,0,154,4,434,14,9,12861,52
+"demographics:perc_hispanic_or_latino",1,12941,154,4,434,14,9,12861,52
 "demographics:perc_native",1,22643,154,4,434,14,9,12861,52
 "demographics:perc_other",1,22643,154,0,434,0,0,12861,0
 "demographics:perc_two_or_more_races",1,22643,154,0,434,0,0,12861,0
@@ -44,6 +41,9 @@
 "hhs:hospitals_per_100k",1,3626,14,0,0,0,0,1331,0
 "hhs:intensive_care_min_drivetime",1,3626,14,0,0,0,0,1331,0
 "hhs:intensive_care_per_100k",1,3626,14,0,0,0,0,1331,0
+"hosp_3sfca",1,27530,112,0,0,0,0,10179,0
+"hosp_cnt",1,271,112,0,0,0,0,10231,0
+"hosp_near_10_median",1,27530,112,0,0,0,0,10179,0
 "latino_east_african_gravity_models:avocado_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:barley_ecdf_idx",1,181,0,0,62,0,0,0,0
 "latino_east_african_gravity_models:basmati_ecdf_idx",1,181,0,0,62,0,0,0,0
@@ -83,9 +83,9 @@
 "mental_access_scores:mental_cnt",1,0,9,0,0,0,0,31,0
 "mrfei:mrfei",1,0,0,0,62,0,0,59,0
 "no_health_insurance_19_to_64:hlth_ins_pct",1,16153,70,0,0,0,0,6089,0
-"perc_income_on_internet:perc_income_avg_nat_package",1,3183,14,0,0,0,0,1213,0
-"perc_income_on_internet:perc_income_min_price_100",1,3163,14,0,0,0,0,1211,0
-"perc_income_on_internet:perc_income_min_price_25",1,3149,14,0,0,0,0,1211,0
+"perc_income_on_internet:perc_income_avg_nat_package",1,3183,23,0,0,0,0,1726,0
+"perc_income_on_internet:perc_income_min_price_100",1,3163,23,0,0,0,0,1711,0
+"perc_income_on_internet:perc_income_min_price_25",1,3149,23,0,0,0,0,1711,0
 "percent_above_threshold:perc_total_100_20_using_devices",1,9693,42,0,0,0,0,3651,0
 "percent_above_threshold:perc_total_25_3_using_devices",1,9693,42,0,0,0,0,3651,0
 "percent_above_threshold:perc_w_int_100_20_using_devices",1,9732,42,0,0,0,0,3651,0
@@ -106,3 +106,6 @@
 "substance_access_scores:subs_10near_median",1,0,0,0,0,0,0,520,0
 "substance_access_scores:subs_3sfca",1,0,9,0,0,0,0,520,0
 "substance_access_scores:subs_cnt",1,0,9,0,0,0,0,38,0
+"urgent_3sfca",1,6476,28,0,0,0,0,2436,0
+"urgent_cnt",1,108,28,0,0,0,0,2441,0
+"urgent_near_10_median",1,6476,28,0,0,0,0,2436,0

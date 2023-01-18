@@ -2,6 +2,20 @@
   "uva-bi-sdad/dc.acs.broadband": {
     "repository": "uva-bi-sdad/dc.acs.broadband",
     "files": {
+      "va_hdcttr_2017_2019_broadband_withoutint_compdev.csv.xz": {
+        "location": "/data",
+        "size": 288344,
+        "sha": "658f0364453a39c8dc8769486ec6c87ca1db60d9",
+        "md5": "fe5a034ba486676a25c50b90ee7c65c1",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.broadband"
+      },
+      "ncr_cttrbg_2017_2019_broadband_withoutint_compdev.csv.xz": {
+        "location": "/data",
+        "size": 539972,
+        "sha": "a7e3b5cc6b8285df186b75dd8e9d9e1172d04b96",
+        "md5": "1954de85806bfc8a965c0afd7c4b64c1",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.broadband"
+      },
       "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz": {
         "location": "/data",
         "size": 1668380,
@@ -14,6 +28,20 @@
   "uva-bi-sdad/dc.acs.demographics": {
     "repository": "uva-bi-sdad/dc.acs.demographics",
     "files": {
+      "va_hdcttr_acs_2009_2019_demographics.csv.xz": {
+        "location": "/data",
+        "size": 8879076,
+        "sha": "f724dba94e07262291bbed8ebc59b9dbca5eeed5",
+        "md5": "83734acabf1cf4cbd9c7febef81cfef3",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
+      },
+      "ncr_cttrbg_acs_2009_2019_demographics.csv.xz": {
+        "location": "/data",
+        "size": 13722628,
+        "sha": "783aad48c9cb36e1a68c39d6fe648147e7f82579",
+        "md5": "3dfef8afd7aec50ed062802281fbf8e2",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
+      },
       "dcmdva_hdcttrbg_acs_2009_2019_demographics.csv.xz": {
         "location": "/data",
         "size": 40006688,
@@ -38,6 +66,13 @@
   "uva-bi-sdad/dc.acs.health": {
     "repository": "uva-bi-sdad/dc.acs.health",
     "files": {
+      "va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
+        "location": "/data",
+        "size": 202628,
+        "sha": "8588f273fcfbc71e3510b71bd2a389b74e0a2284",
+        "md5": "9848772e50179691fb5367dbb10c6465",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.health"
+      },
       "ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "location": "/data",
         "size": 397856,
@@ -62,6 +97,33 @@
   "uva-bi-sdad/dc.broadbandnow.broadband.prices": {
     "repository": "uva-bi-sdad/dc.broadbandnow.broadband.prices",
     "files": {
+      "va_hdcttr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
+        "id": 55947,
+        "size": 31300,
+        "md5": "c37b5749b30a5f8b7725010144f03b9a",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      "va_hdcttr_sdad_2021_perc_income_on_internet.csv.xz": {
+        "location": "/data",
+        "size": 94172,
+        "sha": "54c93cc55454803e54b408bfd4fbbd7e647732b1",
+        "md5": "10c66feb66a0587f94ce6146c91ead39",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
+      },
+      "ncr_cttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
+        "location": "/data",
+        "size": 298344,
+        "sha": "c2a163627d69cee00c81a5221006d89d64f94721",
+        "md5": "ff1a576d1a3d7a5d12af924b91b020c6",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
+      },
+      "dcmdva_hdcttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
+        "location": "/data",
+        "size": 599828,
+        "sha": "519b29c02cc22a19a552b90e54a56fed454aa974",
+        "md5": "f03b53e24daec48aba680ec648b323fa",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
+      },
       "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
         "location": "/data",
         "size": 690944,
@@ -86,6 +148,13 @@
   "uva-bi-sdad/dc.food.insecurity": {
     "repository": "uva-bi-sdad/dc.food.insecurity",
     "files": {
+      "va_hdct_fa_2010_2019_food_insecurity_and_cost.csv.xz": {
+        "location": "/data",
+        "size": 53704,
+        "sha": "6e066c42e4ce4c82d3edb24271491c5338e2e3d1",
+        "md5": "8b2c59e0c4d6fbc308cbe3a7ad88a43a",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.food.insecurity"
+      },
       "ncr_ct_fa_2010_2019_food_insecurity_and_cost.csv.xz": {
         "location": "/data",
         "size": 3984,
@@ -98,6 +167,12 @@
   "uva-bi-sdad/dc.hifld.facilityaccess": {
     "repository": "uva-bi-sdad/dc.hifld.facilityaccess",
     "files": {
+      "va_hdcttr_sdad_2021_ems_access_scores.csv.xz": {
+        "id": 55064,
+        "size": 124992,
+        "md5": "7191573167aefbfb6ec1f5d5802a7858",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
       "va_hdcttr_sdad_2021_mental_access_scores.csv.xz": {
         "location": "/data",
         "size": 106168,
@@ -111,18 +186,31 @@
         "sha": "a03d2695af0aa0e1f757362d2f1bd93a5069f0bc",
         "md5": "6e0b85fd5ae790c70fd75e93fa6b27ff",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.facilityaccess"
-      },
-      "va_hdcttr_sdad_2021_ems_access_scores.csv.xz": {
-        "id": 55064,
-        "size": 124992,
-        "md5": "7191573167aefbfb6ec1f5d5802a7858",
-        "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     }
   },
   "uva-bi-sdad/dc.hifld.hosp": {
     "repository": "uva-bi-sdad/dc.hifld.hosp",
     "files": {
+      "ncr_bgtrct_2015_2022_access_scores_hospitals.csv.xz": {
+        "location": "/data",
+        "size": 3170688,
+        "sha": "2de7aac6b948e38b6fda8d7a781660bf1963473d",
+        "md5": "cfd4e61df833a5c703d4d3565934e771",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.hosp"
+      },
+      "va_hdcttrbg_hifld_2021_access_scores_hospitals.csv.xz": {
+        "id": 55998,
+        "size": 378208,
+        "md5": "6c42bcb9d083df860dda8d69f447cf1c",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      "dmv_cttrbg_hifld_2021_access_scores_hospitals.csv.xz": {
+        "id": 55983,
+        "size": 190276,
+        "md5": "cf29cf2aee849f4d64ea47fc1594e240",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
       "hhs.csv.xz": {
         "location": "/data/distribution",
         "size": 593476,
@@ -147,26 +235,18 @@
         "size": 391620,
         "md5": "a808e02805eae0d6cfd44d022a0bc7f6",
         "baseurl": "https://dataverse.lib.virginia.edu/"
+      },
+      "dmv_cttrbg_hifld_2021_access_scores_urgent.csv.xz": {
+        "id": 55985,
+        "size": 189188,
+        "md5": "3e161f50e76b78ed1b0e1efb3515f95b",
+        "baseurl": "https://dataverse.lib.virginia.edu/"
       }
     }
   },
   "uva-bi-sdad/dc.ookla.broadband": {
     "repository": "uva-bi-sdad/dc.ookla.broadband",
     "files": {
-      "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
-        "location": "/data",
-        "size": 8955944,
-        "sha": "18bcd530dcfbfbc4604848b4585d113c87b7abb6",
-        "md5": "76e6f2e155dfb88ebe7926bc9644d63f",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
-      },
-      "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz": {
-        "location": "/data",
-        "size": 3320496,
-        "sha": "0221c8235743af2a641752275250413686ea2127",
-        "md5": "822a31ea38e56e6c177dbbd095798c26",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
-      },
       "va059_hsr_sdad_2019_2019_speed_measurements.csv.xz": {
         "location": "/data",
         "size": 1276,
@@ -193,6 +273,20 @@
         "size": 12824,
         "sha": "46ec93e24fd26d0bf09298289ab5dea227781965",
         "md5": "faa4bcf2d1c54da5b9aac82ad7887cee",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz": {
+        "location": "/data",
+        "size": 3320496,
+        "sha": "0221c8235743af2a641752275250413686ea2127",
+        "md5": "822a31ea38e56e6c177dbbd095798c26",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      },
+      "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
+        "location": "/data",
+        "size": 8955944,
+        "sha": "18bcd530dcfbfbc4604848b4585d113c87b7abb6",
+        "md5": "76e6f2e155dfb88ebe7926bc9644d63f",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       }
     }
@@ -252,6 +346,13 @@
   "uva-bi-sdad/dc.sdad.health.outcomes": {
     "repository": "uva-bi-sdad/dc.sdad.health.outcomes",
     "files": {
+      "dc_health_behavior_diet.va_trcthd_sdad_2015_2019_brfss_sae.csv.xz": {
+        "location": "/data",
+        "size": 171304,
+        "sha": "bf6e02673d627c61df5cc507ecb8a6eb413bb302",
+        "md5": "12541f8a6e55d3940f320bf4b0dfabf8",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.health.outcomes"
+      },
       "dc_health_behavior_diet.ncr_trct_sdad_2015_2019_brfss_sae.csv.xz": {
         "location": "/data",
         "size": 94520,
@@ -288,18 +389,18 @@
   "uva-bi-sdad/dc.webmd.dental": {
     "repository": "uva-bi-sdad/dc.webmd.dental",
     "files": {
-      "dmv_cttrbg_webmd_2021_access_scores_dentists.csv.xz": {
-        "location": "/data",
-        "size": 171216,
-        "sha": "ac936ed3793d120a1e128d29de26098cf7b7f22d",
-        "md5": "441ba2449e694ded57e9f9735075f898",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.dental"
-      },
       "va_hdcttrbg_webmd_2021_access_scores_dentists.csv.xz": {
         "location": "/data",
         "size": 428224,
         "sha": "806b2e04f3057052ce69b879a2397c4f081c8c5a",
         "md5": "cab8a5830904f36d21e9a65b2210461a",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.dental"
+      },
+      "dmv_cttrbg_webmd_2021_access_scores_dentists.csv.xz": {
+        "location": "/data",
+        "size": 171216,
+        "sha": "ac936ed3793d120a1e128d29de26098cf7b7f22d",
+        "md5": "441ba2449e694ded57e9f9735075f898",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.dental"
       }
     }
@@ -307,18 +408,18 @@
   "uva-bi-sdad/dc.webmd.obgyn": {
     "repository": "uva-bi-sdad/dc.webmd.obgyn",
     "files": {
-      "dmv_cttrbg_webmd_2021_access_scores_obgyn.csv.xz": {
-        "location": "/data",
-        "size": 191292,
-        "sha": "8385da0f336ed409c41056f4b9aa10b7871442d7",
-        "md5": "db30acf4caa08a04b875207813e30334",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.obgyn"
-      },
       "va_hdcttrbg_webmd_2021_access_scores_obgyn.csv.xz": {
         "location": "/data",
         "size": 422132,
         "sha": "e9ee9c8d504a0ca6bb66ebf21782f8d93b365f16",
         "md5": "e7bd4cc3a70c96292d9bcaa60c78c316",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.obgyn"
+      },
+      "dmv_cttrbg_webmd_2021_access_scores_obgyn.csv.xz": {
+        "location": "/data",
+        "size": 191292,
+        "sha": "8385da0f336ed409c41056f4b9aa10b7871442d7",
+        "md5": "db30acf4caa08a04b875207813e30334",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.obgyn"
       }
     }
@@ -338,18 +439,18 @@
   "uva-bi-sdad/dc.webmd.primcare": {
     "repository": "uva-bi-sdad/dc.webmd.primcare",
     "files": {
-      "dmv_cttrbg_webmd_2021_access_scores_primcare.csv.xz": {
-        "location": "/data",
-        "size": 193860,
-        "sha": "f4dff84ff05017e75f51b2004ef500570d859905",
-        "md5": "7407f799ed52cc7b01bce4debd1d5883",
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
-      },
       "va_hdcttrbg_webmd_2021_access_scores_primcare.csv.xz": {
         "location": "/data",
         "size": 440988,
         "sha": "a797602fcb5145d147a174c9cb92824621b32b6a",
         "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
+      },
+      "dmv_cttrbg_webmd_2021_access_scores_primcare.csv.xz": {
+        "location": "/data",
+        "size": 193860,
+        "sha": "f4dff84ff05017e75f51b2004ef500570d859905",
+        "md5": "7407f799ed52cc7b01bce4debd1d5883",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
       }
     }
@@ -363,11 +464,11 @@
         "sha": "497d467500a74e6c3d673522f900f6efade0cb1f",
         "md5": "88edebb6ec901babd28f48273094f4e9"
       },
-      "acs.csv.xz": {
-        "location": "Postsecondary/data/distribution",
-        "size": 1529388,
-        "sha": "658dcd155782aee44abbb5bb3041980efc06d289",
-        "md5": "dbb1aa52933f317082b4dbec58243a11"
+      "va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz": {
+        "location": "Reading/data/distribution",
+        "size": 7328,
+        "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
+        "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
       },
       "nces.csv.xz": {
         "location": "Postsecondary/data/distribution",
@@ -375,22 +476,28 @@
         "sha": "3c5a1e786962c05956860394c2d0b72de6c4baeb",
         "md5": "24adbfd178705181dbedfb9ef717edd5"
       },
-      "va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz": {
-        "location": "Reading/data/distribution",
-        "size": 7328,
-        "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
-        "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
+      "acs.csv.xz": {
+        "location": "Postsecondary/data/distribution",
+        "size": 1529388,
+        "sha": "658dcd155782aee44abbb5bb3041980efc06d289",
+        "md5": "dbb1aa52933f317082b4dbec58243a11"
       }
     }
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "repository": "uva-bi-sdad/sdc.financial_well_being",
     "files": {
-      "va_tr_acs_2015_2019_emp_rate.csv.xz": {
-        "location": "Employment/data/distribution",
-        "size": 178072,
-        "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
-        "md5": "35fcb3181e983499603d5c160ce32a74"
+      "va_ct_bea_2015_2020_earnings_per_job.csv.xz": {
+        "location": "Pay and Benefits/Personal Income/data/distribution",
+        "size": 12548,
+        "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
+        "md5": "715c5be2c01baf9e201e52c28a6a0b5b"
+      },
+      "va_cttrbg_2015_2019_median_household_income.csv.xz": {
+        "location": "Pay and Benefits/Household Income/data/distribution",
+        "size": 277424,
+        "sha": "0898b450bc2035d5ad98cbced072ee143fe421fc",
+        "md5": "6b20d03a6c3f3f5d6512243fbfd38bd6"
       },
       "ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
         "location": "Pay and Benefits/Household Income/data/distribution",
@@ -398,11 +505,11 @@
         "sha": "420cf6e226cfb885a3000e2f31a79b54bc9dee28",
         "md5": "a058ab0f647c622a9256f5b653455dec"
       },
-      "va_ct_bea_2015_2020_earnings_per_job.csv.xz": {
-        "location": "Pay and Benefits/Personal Income/data/distribution",
-        "size": 12548,
-        "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
-        "md5": "715c5be2c01baf9e201e52c28a6a0b5b"
+      "va_tr_acs_2015_2019_emp_rate.csv.xz": {
+        "location": "Employment/data/distribution",
+        "size": 178072,
+        "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
+        "md5": "35fcb3181e983499603d5c160ce32a74"
       }
     }
   }
