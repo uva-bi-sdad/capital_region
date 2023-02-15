@@ -125,8 +125,7 @@ page_menu(
   ),
   input_combobox(
     "Variable", options = "variables", group_feature = "category",
-    default = "speed_measurements:avg_down_using_devices", depends = "shapes",
-    id = "selected_variable"
+    default = "no_hlth_ins_pct", depends = "shapes", id = "selected_variable"
   ),
   wraps = c("col-2", "col", "col"),
   position = "top",
