@@ -78,34 +78,34 @@
     "repository": "uva-bi-sdad/sdc.demographics",
     "files": {
       "Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz": {
-        "size": 4800480,
-        "sha": "f42c0d7ea20b055ee99f7ea1483196f721b2a92f",
-        "md5": "b8a4b649de3cdbb7ba5628c056aff4ce"
+        "size": 6427384,
+        "sha": "72782cbaff10fd40876e70bbd570d1f2dc532e27",
+        "md5": "4ac8c0411ed7b9123f3b1b55249ecb3f"
       },
       "Race/data/distribution/ncr_trctbg_acs_20092020_race_demographics.csv.xz": {
-        "size": 3112924,
-        "sha": "dcc97ce8c5a81917fef83d05512b5ea8556e0bd0",
-        "md5": "cfab6e8f5cd7dc1113b6a7faadc8a174"
+        "size": 4363644,
+        "sha": "7c1dfc8ffd25e150efc9fb1722fa61aca63de32e",
+        "md5": "0c0bec26fa2798d3b035baed06bca895"
       },
       "Gender/data/distribution/va_trctbg_acs_20092020_gender_demographics.csv.xz": {
-        "size": 2360152,
-        "sha": "1eb741cb7124baba9509ec486834185bd905ad2f",
-        "md5": "1ae8bceec847eef02adc45c78293a9cd"
+        "size": 2391576,
+        "sha": "8c2f5d468eb99a465e06757c25000b5c6b17fc64",
+        "md5": "68b98f70617530dc9cbde9e2197b7957"
       },
       "Gender/data/distribution/ncr_trctbg_acs_20092020_gender_demographics.csv.xz": {
-        "size": 1472620,
-        "sha": "fd69b436db39c80ccc0b2e25a85289ad284ffe4e",
-        "md5": "c1c6666a907435371e25e0d2b0d97d39"
+        "size": 1518948,
+        "sha": "9ec72e5d0252fa1fb7cea15b8c582da7d1ad5471",
+        "md5": "7d2ea5147b1c6ab418b93e081f4f8d3f"
       },
       "Age/data/distribution/va_trctbg_acs_20092020_age_demographics.csv.xz": {
-        "size": 3554116,
-        "sha": "afd9b836e516db8046c6d72408f58cb57c6a2895",
-        "md5": "19c7250fa6659e01463f395d953e916e"
+        "size": 3463324,
+        "sha": "a027e07a082c06b84e23d60526dadd330a93accc",
+        "md5": "ba02e9735861e31e79a6bc749eb9f4d5"
       },
       "Age/data/distribution/ncr_trctbg_acs_20092020_age_demographics.csv.xz": {
-        "size": 2129592,
-        "sha": "dee48e42a3fda7ca34ceb9a40296cf951591b9f8",
-        "md5": "59afc2bd651f3012769f9333c2407105"
+        "size": 2203532,
+        "sha": "d57c34fef2f400ae3046aa4c0a18850b7f177736",
+        "md5": "a660b7b28c1e3c7f24026d0dcb25de6e"
       },
       "Race/data/distribution/va013_civic_sdad_2019_race_demographics.csv.xz": {
         "size": 7356,
@@ -197,6 +197,11 @@
   "uva-bi-sdad/sdc.food": {
     "repository": "uva-bi-sdad/sdc.food",
     "files": {
+      "Food Access/Food Items/data/distribution/va_013_cabg_sdad_2021_latino_east_african_gravity_models.csv.xz": {
+        "size": 164460,
+        "sha": "af880062ac853e7fe8204a6c6b0dc5e4ebddef82",
+        "md5": "6b89f2cf067431a5d02b3929af7b84b8"
+      },
       "Food Security/Overall Food Insecurity/data/distribution/ncr_cttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
         "size": 15608,
         "sha": "1f543953d8287f29882bf7d78baf9e563a405842",
@@ -231,11 +236,6 @@
         "size": 1652,
         "sha": "6c3a3ac54d1b33ff33142bbd98f15299a91c3735",
         "md5": "15650a160f70b8e07472dc6f98dc9b13"
-      },
-      "Food Access/Food Items/data/distribution/va_013_cabg_sdad_2021_latino_east_african_gravity_models.csv.xz": {
-        "size": 165744,
-        "sha": "13a9196d52deec41ea52d9d1b04a4bb3e4603fdb",
-        "md5": "015d7a6507b8371c52c024964e67356b"
       }
     }
   },

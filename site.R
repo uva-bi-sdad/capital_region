@@ -139,6 +139,7 @@ input_variable("shapes", list(
   county = "Counties",
   tract = "Census Tracts",
   block_group = "Block Groups",
+  civic_association = "Civic Associations",
   neighborhood = "Neighborhoods",
   supervisor_district = "Supervisor Districts",
   planning_district = "Planning Districts",
@@ -198,6 +199,7 @@ page_section(
         c("supervisor_district", "supervisor_districts", "VA/Local%20Geographies/Fairfax%20County/Supervisor%20Districts/2022"),
         c("zip_code", "zip_codes", "VA/Local%20Geographies/Fairfax%20County/Zip%20Codes/2022"),
         c("neighborhood", "civic_associations", "VA/Local%20Geographies/Arlington%20County/Civic%20Associations/2021"),
+        c("civic_association", "civic_associations", "VA/Local%20Geographies/Arlington%20County/Civic%20Associations/2021"),
         c("block_group", "census_block_groups", "NCR/Census%20Geographies/Block%20Group"),
         c("tract", "census_tracts", "NCR/Census%20Geographies/Tract"),
         c("county", "counties", "NCR/Census%20Geographies/County")
@@ -205,7 +207,7 @@ page_section(
         noncensus <- s[2] %in% c(
           "civic_associations", "human_services_regions", "planning_districts", "supervisor_districts", "zip_codes"
         )
-        pref <- if (s[1] == "neighborhood")
+        pref <- if (s[1] %in% c("civic_association", "neighborhood"))
           "va013_geo_arl_2021_" else if (noncensus) "va059_geo_ffxct_gis_2022_" else "ncr_geo_census_cb_"
         if (noncensus) { 
           list(list(
