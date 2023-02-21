@@ -9,7 +9,6 @@ data_add(
     county = "county.csv.xz",
     tract = "tract.csv.xz",
     block_group = "block_group.csv.xz",
-    neighborhood = "neighborhood.csv.xz",
     civic_association = "civic_association.csv.xz",
     "human_services_region" = "human_services_region.csv.xz",
     "planning_district" = "planning_district.csv.xz",
@@ -23,7 +22,7 @@ data_add(
     ),
     time = "time",
     variables = "measure_info.json"
-  )), 9),
+  )), 8),
   dir = "../capital_region/docs/data",
   clean = TRUE,
   refresh = TRUE

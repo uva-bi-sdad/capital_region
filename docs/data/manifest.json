@@ -77,6 +77,31 @@
   "uva-bi-sdad/sdc.demographics": {
     "repository": "uva-bi-sdad/sdc.demographics",
     "files": {
+      "Race/data/distribution/va013_civic_sdad_20132020_race_demographics.csv.xz": {
+        "size": 70876,
+        "sha": "afaab061f226df8e733c00a8214045617b5be56b",
+        "md5": "1a84bd7eb3499fc6b9474ad17ef40fa7"
+      },
+      "Race/data/distribution/va059_hsrpdsdzc_sdad_20132019_race_demographics.csv.xz": {
+        "size": 90344,
+        "sha": "f4ddb6a439c81e51d9257859927ad7c105a49539",
+        "md5": "6c82c3bd72bdb31117938f703bd8b6fd"
+      },
+      "Gender/data/distribution/va013_civic_sdad_20132020_gender_demographics.csv.xz": {
+        "size": 25764,
+        "sha": "d04809277b7e38b15126629f50e4b3a2eaf461f9",
+        "md5": "731236ed1b938754be71cfdc6db6d291"
+      },
+      "Age/data/distribution/va013_civic_sdad_20132020_age_demographics.csv.xz": {
+        "size": 36264,
+        "sha": "8b921af1f577c745347040bbbc34f99a2b486e1d",
+        "md5": "c4e3f30f9171c74f62190b4298e53f78"
+      },
+      "Age/data/distribution/va059_hsrpdsdzc_sdad_20132019_age_demographics.csv.xz": {
+        "size": 42500,
+        "sha": "4470b9bbb09d491fd77023c2a916bfb0eec609b4",
+        "md5": "81e7f36a988ca583b61efca26a152abf"
+      },
       "Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz": {
         "size": 6427384,
         "sha": "72782cbaff10fd40876e70bbd570d1f2dc532e27",
@@ -107,40 +132,10 @@
         "sha": "d57c34fef2f400ae3046aa4c0a18850b7f177736",
         "md5": "a660b7b28c1e3c7f24026d0dcb25de6e"
       },
-      "Race/data/distribution/va013_civic_sdad_2019_race_demographics.csv.xz": {
-        "size": 7356,
-        "sha": "f22a604da86224ca4dc762b11a5cf2c5411cb492",
-        "md5": "43ac62e46e80c2d54a0318f33f40ca0b"
-      },
-      "Race/data/distribution/va059_hsrpdsdzc_sdad_2019_race_demographics.csv.xz": {
-        "size": 10384,
-        "sha": "d8b0e63d14a2df59393301ffa0bbc12907fa49cb",
-        "md5": "740fbb1a6bf654318d98097e24748cb2"
-      },
-      "Gender/data/distribution/va013_civic_sdad_2019_gender_demographics.csv.xz": {
-        "size": 4024,
-        "sha": "aa0c1c503c689560cd6a19a5243909410ad28d63",
-        "md5": "ae0e4a4ae012e66d10561ae6511560de"
-      },
-      "Gender/data/distribution/va059_hsrpdsdzc_sdad_2019_gender_demographics.csv.xz": {
-        "size": 5088,
-        "sha": "d42fe16df3f3665e1a6eae851142890fc5778297",
-        "md5": "1623aa3be43aaf73bb97e0ef9a5a173b"
-      },
       "Cooperative extension/data/distribution/va_cttr_2010_2021_perc_male.csv.xz": {
         "size": 462264,
         "sha": "ebbf8b9507fc3a4412e0c55b1dcc901d0604777c",
         "md5": "93a8073e0dbd01c162ce7b817e42289e"
-      },
-      "Age/data/distribution/va013_civic_sdad_2019_age_demographics.csv.xz": {
-        "size": 5460,
-        "sha": "c9caf438db1564437d336aac631161626bdc56cd",
-        "md5": "8e599ffaed0e48bbaf406ac52f3db723"
-      },
-      "Age/data/distribution/va059_hsrpdsdzc_sdad_2019_age_demographics.csv.xz": {
-        "size": 7016,
-        "sha": "f919b483347ade92ffda58782a9d06fa3fadc179",
-        "md5": "d32218bc992cd871240bc640c5036ea9"
       }
     }
   },
