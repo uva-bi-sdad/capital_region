@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 34828,
+      "bytes": 34812,
       "encoding": "ISO-8859-1",
-      "md5": "3a8de3084b8baa0fae0010d94455b91f",
+      "md5": "c6241fda0cfaf490db71ba283ca5d7a0",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -25,7 +25,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:24",
+      "created": "2023-02-24 04:36:47",
       "last_modified": "2022-09-14 17:52:51",
       "row_count": 196,
       "entity_count": 14,
@@ -2246,13 +2246,11 @@
             "missing": 196,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -3276,6 +3274,7 @@
             "max": 32.6313,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -3308,6 +3307,7 @@
             "max": 74.2053,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -3340,6 +3340,7 @@
             "max": 14.879,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -3372,6 +3373,7 @@
             "max": 52.9917,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -3404,6 +3406,8 @@
             "max": 52.8371,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -3737,6 +3741,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -3826,49 +3865,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "9efd05df9f16664e6b1e7b5892843ecc7eb52d436bce91b7d3bae12bd05d0d6b009acdae1cf086d4017a6384ea0088a7c85d29020a9957d42f9f5acf35792254"
+      "sha512": "cfc7bbcde8d6c931793e9e4420bb43f3816024f626e88aac32720b68f00c8d4f78e0156809d0c069659f89fcd4def650fea52bfbe514148264d6b6763fe639da"
     },
     {
-      "bytes": 2492440,
+      "bytes": 2490924,
       "encoding": "ISO-8859-1",
-      "md5": "0a795df0fce8f9534d8236728f522315",
+      "md5": "5c64e672321609bf5cc94fd68b62d0c6",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -3882,7 +3886,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:30",
+      "created": "2023-02-24 04:36:53",
       "last_modified": "2022-09-14 17:52:51",
       "row_count": 20286,
       "entity_count": 1449,
@@ -6087,13 +6091,11 @@
             "max": 80,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -7109,6 +7111,7 @@
             "max": 74.0038,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -7141,6 +7144,7 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -7173,6 +7177,7 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -7205,6 +7210,7 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -7237,6 +7243,8 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -7570,6 +7578,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -7659,44 +7702,9 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "349a009eb96a09b4e4bd220b89796d29924d9d4ba530cc04c07901a53bd8da01464d41dd593b712fc67fb81b87f92a4b8a4cea942480b5f6477a044208b59f01"
+      "sha512": "be204926dd56ef6c4fd528d5a4a1e9b01b77261a4a0eb217dfbbefd67c39b1c42eea6ff5bfc8a309af9d3e9fd68c29474b9ce66e6ee0b63c18bcefe4924b8a98"
     },
     {
       "bytes": 4703668,
@@ -7715,7 +7723,7 @@
       "id_length": 12,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:24",
+      "created": "2023-02-24 04:36:47",
       "last_modified": "2022-09-14 17:52:51",
       "row_count": 56784,
       "entity_count": 4056,
@@ -10040,13 +10048,11 @@
             "missing": 56784,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -11050,6 +11056,7 @@
             "max": 89.828,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -11082,6 +11089,7 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -11114,6 +11122,7 @@
             "max": 200,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -11146,6 +11155,7 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -11178,6 +11188,8 @@
             "max": 100,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -11503,6 +11515,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -11592,49 +11639,14 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
       "sha512": "f95f197d8b2820d711bb7caa671eb1b8d0a2646bd459f535df7b9722b993a6d8502958af239b870026cfa4b154d152392b837bf8734e3f5b3cbce9becfea0178"
     },
     {
-      "bytes": 46912,
+      "bytes": 47308,
       "encoding": "ISO-8859-1",
-      "md5": "7e9d3ebe8db406e79077b06fb88e0e38",
+      "md5": "f7193d24f8b93112b98f74ec83b40a2f",
       "format": "csv",
       "name": "civic_association",
       "filename": "civic_association.csv.xz",
@@ -11648,7 +11660,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:24",
+      "created": "2023-02-24 04:36:47",
       "last_modified": "2023-02-09 11:46:08",
       "row_count": 868,
       "entity_count": 62,
@@ -13911,19 +13923,21 @@
           },
           {
             "name": "mrfei",
-            "duplicates": 867,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 868,
+            "duplicates": 828,
+            "time_range": [12, 12],
+            "type": "float",
+            "missing": 806,
+            "mean": 33.6158,
+            "sd": 25.0907,
+            "min": 0,
+            "max": 90,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -14875,6 +14889,7 @@
             "max": 44.1117,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -14907,6 +14922,7 @@
             "max": 95.3307,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -14939,6 +14955,7 @@
             "max": 30.2798,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -14971,6 +14988,7 @@
             "max": 63.3225,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -15003,6 +15021,8 @@
             "max": 65.2261,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -15308,6 +15328,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -15397,44 +15452,9 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "c8261a6e050fface3711e24feb554b660b2e4f1b0f1a5339fcc5cd328c0b43b3c0eb2c00fae30b45820cec62eec4340be03023403c5a322688da0785fdeb3b66"
+      "sha512": "fe93c8f14360790b64c3b2a2bdbb637c2f95e832666474a16309607732586450ded2ae642e81c96c21424d0b872f3df95b7810b2439931cef54d77f53b167f4a"
     },
     {
       "bytes": 2844,
@@ -15453,7 +15473,7 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:24",
+      "created": "2023-02-24 04:36:47",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 56,
       "entity_count": 4,
@@ -17566,13 +17586,11 @@
             "missing": 56,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -18500,6 +18518,7 @@
             "max": 28.0233,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -18532,6 +18551,7 @@
             "max": 63.7805,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -18564,6 +18584,7 @@
             "max": 13.9562,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -18592,6 +18613,7 @@
             "missing": 56,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -18620,6 +18642,8 @@
             "missing": 56,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -18917,6 +18941,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -19006,41 +19065,6 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
       "sha512": "54c3518740af2947459465a9ae61c87e5fdb553171a30991ed4739946fa79bf9dac39859ee9579a4afa67e791b6c272ad9df6c62dfa2592cddfbaa303d07c4b4"
@@ -19062,7 +19086,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:24",
+      "created": "2023-02-24 04:36:47",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 196,
       "entity_count": 14,
@@ -21175,13 +21199,11 @@
             "missing": 196,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -22109,6 +22131,7 @@
             "max": 29.7182,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -22141,6 +22164,7 @@
             "max": 68.744,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -22173,6 +22197,7 @@
             "max": 17.8837,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -22201,6 +22226,7 @@
             "missing": 196,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -22229,6 +22255,8 @@
             "missing": 196,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -22526,6 +22554,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -22615,41 +22678,6 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
       "sha512": "e9d451b361ba4e5769a14dbe0a68beaf6a712c6c62660728a89ee3368c21f2a0ea9d6f2d81e4c84c68ab16ee4bee0c1b9009e009a49a739356daf2d4ccf1f349"
@@ -22671,7 +22699,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:24",
+      "created": "2023-02-24 04:36:47",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 126,
       "entity_count": 9,
@@ -24784,13 +24812,11 @@
             "missing": 126,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -25718,6 +25744,7 @@
             "max": 29.8733,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -25750,6 +25777,7 @@
             "max": 66.289,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -25782,6 +25810,7 @@
             "max": 14.9596,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -25810,6 +25839,7 @@
             "missing": 126,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -25838,6 +25868,8 @@
             "missing": 126,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -26135,6 +26167,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -26224,41 +26291,6 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
       "sha512": "a272bb4fc446baa3151e9a373dc669f53dd7722204c5a02efb7426f6c656b229afb1c6d8e0c10024e30c333b1b80998f9dda61e3d90ed2a1aa48e39c36717278"
@@ -26280,7 +26312,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-02-21 14:13:30",
+      "created": "2023-02-24 04:36:54",
       "last_modified": "2022-06-08 13:18:46",
       "row_count": 756,
       "entity_count": 54,
@@ -28393,13 +28425,11 @@
             "missing": 756,
             "info": {
               "category": "Nutrition and Food Security",
-              "measure_table": "va_catr_sdad_2021_mrfei",
-              "full_name": "mrfei:mrfei",
-              "measure": "mrfei",
               "type": "index",
               "short_name": "Retail food environment index",
               "long_name": "Retail food environment index",
-              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates available no options (food desert).",
+              "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+              "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
               "statement": "The Retail food environment index is {value} in {features.name}.",
               "equity_category": "Availability",
               "sources": [
@@ -29327,6 +29357,7 @@
             "max": 35.3842,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_under_20",
               "type": "percent",
               "short_name": "Under 20 population",
               "long_name": "Under 20 population (percent)",
@@ -29359,6 +29390,7 @@
             "max": 77.9584,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_20_64",
               "type": "percent",
               "short_name": "20 to 64 population",
               "long_name": "20 to 64 population (percent)",
@@ -29391,6 +29423,7 @@
             "max": 22.4447,
             "info": {
               "category": "Demographics",
+              "measure": "perc_pop_65_plus",
               "type": "percent",
               "short_name": "65 plus population",
               "long_name": "65 plus population (percent)",
@@ -29419,6 +29452,7 @@
             "missing": 756,
             "info": {
               "category": "Demographics",
+              "measure": "perc_male",
               "type": "percent",
               "short_name": "Male population",
               "long_name": "Male population (percent)",
@@ -29447,6 +29481,8 @@
             "missing": 756,
             "info": {
               "category": "Demographics",
+              "measure": "perc_female",
+              "type": "percent",
               "short_name": "Female population",
               "long_name": "Female population (percent)",
               "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
@@ -29744,6 +29780,41 @@
         ]
       },
       "_references": {
+        "wan12": {
+          "id": "wan12",
+          "author": [
+            {
+              "given": "Neng",
+              "family": "Wan"
+            },
+            {
+              "given": "Bin",
+              "family": "Zou"
+            },
+            {
+              "given": "Troy",
+              "family": "Sternberg"
+            }
+          ],
+          "year": 2012,
+          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+          "journal": "International Journal of Geographical Information Science",
+          "volume": "26",
+          "page": "1073-1089",
+          "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+          "id": "bii21",
+          "author": [
+            {
+              "family": "Biocomplexity Institute and Initiative"
+            }
+          ],
+          "year": 2021,
+          "title": "catchment: Calculate spatial access and availability metrics",
+          "version": "0.0.1",
+          "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
           "id": "lou04",
           "author": [
@@ -29833,41 +29904,6 @@
           "journal": "University of Chicago: Center for Spatial Data Science",
           "volume": "Preprint",
           "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "wan12": {
-          "id": "wan12",
-          "author": [
-            {
-              "given": "Neng",
-              "family": "Wan"
-            },
-            {
-              "given": "Bin",
-              "family": "Zou"
-            },
-            {
-              "given": "Troy",
-              "family": "Sternberg"
-            }
-          ],
-          "year": 2012,
-          "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-          "journal": "International Journal of Geographical Information Science",
-          "volume": "26",
-          "page": "1073-1089",
-          "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-          "id": "bii21",
-          "author": [
-            {
-              "family": "Biocomplexity Institute and Initiative"
-            }
-          ],
-          "year": 2021,
-          "title": "catchment: Calculate spatial access and availability metrics",
-          "version": "0.0.1",
-          "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
       "sha512": "eb0b4b48c56118c22fc80a7fc2f0d8d698fb11331670c306f05e584273d045e56c4fa4811eb29f6e69d71c855f94f663df6bb35ddbb98531d8944c5d31a80ed9"
