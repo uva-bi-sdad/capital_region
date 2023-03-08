@@ -1,4 +1,64 @@
 {
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "earnings_per_job",
+    "full_name": "earnings_per_job:earnings_per_job",
+    "measure": "earnings_per_job",
+    "type": "dollar",
+    "short_name": "Earnings per job",
+    "long_name": "Earnings per job",
+    "short_description": "Average of earnings per job.",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ]
+  },
+  "median_household_income": {
+    "category": "Financial Well Being",
+    "equity_category": "Status",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+    "long_name": "Median household income",
+    "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar"
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "civilian_employment_rate",
+    "full_name": "civilian_employment_rate:employment_rate",
+    "measure": "employment_rate",
+    "type": "percent",
+    "short_name": "Percentage employed",
+    "long_name": "Percentage civilian employed",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} is employed.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "perc_income_avg_nat_package": {
     "category": "Broadband",
     "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
@@ -252,66 +312,6 @@
         "name": "Ookla",
         "date_accessed": 2021,
         "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "earnings_per_job",
-    "full_name": "earnings_per_job:earnings_per_job",
-    "measure": "earnings_per_job",
-    "type": "dollar",
-    "short_name": "Earnings per job",
-    "long_name": "Earnings per job",
-    "short_description": "Average of earnings per job.",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ]
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "equity_category": "Status",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-    "long_name": "Median household income",
-    "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
-      }
-    ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar"
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "civilian_employment_rate",
-    "full_name": "civilian_employment_rate:employment_rate",
-    "measure": "employment_rate",
-    "type": "percent",
-    "short_name": "Percentage employed",
-    "long_name": "Percentage civilian employed",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} is employed.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
   },
@@ -849,24 +849,6 @@
       }
     ]
   },
-  "perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "measure": "perc_hispanic_or_latino",
-    "short_name": "Hispanic/Latino population",
-    "long_name": "Hispanic/Latino population (percent)",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
   "perc_wht_alone": {
     "category": "Demographics",
     "measure": "perc_wht_alone",
@@ -875,42 +857,6 @@
     "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
     "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
     "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "perc_AAPI": {
-    "category": "Demographics",
-    "measure": "perc_AAPI",
-    "short_name": "Asian American/Pacific Islander population",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ]
-  },
-  "perc_native_alone": {
-    "category": "Demographics",
-    "measure": "perc_native_alone",
-    "short_name": "Native population",
-    "long_name": "Native population (percent)",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "statement": "The Native population is {value} in {features.name}.",
     "type": "percent",
     "equity_category": "Status",
     "sources": [
@@ -1905,6 +1851,42 @@
         "url": "https://www.feedingamerica.org/"
       }
     ]
+  },
+  "hh_received_snap_pct": {
+    "category": "Nutrition and Food Security",
+    "equity_category": "",
+    "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "short_description": "The percentage of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Percentage of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of households that received SNAP in {features.name} is {value}.",
+    "type": ""
+  },
+  "hh_received_snap_cnt": {
+    "category": "Nutrition and Food Security",
+    "equity_category": "",
+    "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "short_description": "The number of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Count of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The count of households that received SNAP in {features.name} is {value}.",
+    "type": ""
   },
   "mrfei": {
     "category": "Nutrition and Food Security",
