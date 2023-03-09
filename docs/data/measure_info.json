@@ -1,4 +1,64 @@
 {
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "earnings_per_job",
+    "full_name": "earnings_per_job:earnings_per_job",
+    "measure": "earnings_per_job",
+    "type": "dollar",
+    "short_name": "Earnings per job",
+    "long_name": "Earnings per job",
+    "short_description": "Average of earnings per job.",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ]
+  },
+  "median_household_income": {
+    "category": "Financial Well Being",
+    "equity_category": "Status",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+    "long_name": "Median household income",
+    "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar"
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "civilian_employment_rate",
+    "full_name": "civilian_employment_rate:employment_rate",
+    "measure": "employment_rate",
+    "type": "percent",
+    "short_name": "Percentage employed",
+    "long_name": "Percentage civilian employed",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population in {features.name} is employed.",
+    "equity_category": "Status",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
+  },
   "perc_income_avg_nat_package": {
     "category": "Broadband",
     "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
@@ -252,66 +312,6 @@
         "name": "Ookla",
         "date_accessed": 2021,
         "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ]
-  },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "earnings_per_job",
-    "full_name": "earnings_per_job:earnings_per_job",
-    "measure": "earnings_per_job",
-    "type": "dollar",
-    "short_name": "Earnings per job",
-    "long_name": "Earnings per job",
-    "short_description": "Average of earnings per job.",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ]
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "equity_category": "Status",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-    "long_name": "Median household income",
-    "measure_table": "ncr_cttrbg_2015_2019_median_household_income",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
-      }
-    ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar"
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "measure_table": "civilian_employment_rate",
-    "full_name": "civilian_employment_rate:employment_rate",
-    "measure": "employment_rate",
-    "type": "percent",
-    "short_name": "Percentage employed",
-    "long_name": "Percentage civilian employed",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "statement": "{value} of the population in {features.name} is employed.",
-    "equity_category": "Status",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
   },
@@ -1739,133 +1739,6 @@
       "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Daycare/data/distribution/points_{time}.geojson"
     }
   },
-  "_references": {
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": [
-        {
-          "family": "Biocomplexity Institute and Initiative"
-        }
-      ],
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "lou04": {
-      "id": "lou04",
-      "author": [
-        {
-          "given": "Wei",
-          "family": "Lou"
-        }
-      ],
-      "year": 2004,
-      "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
-      "journal": "Health & Place",
-      "volume": "10",
-      "number": 1,
-      "page": "1-11",
-      "doi": "10.1016/S1353-8292(02)00067-9"
-    },
-    "lou09": {
-      "id": "lou09",
-      "author": [
-        {
-          "given": "Wei",
-          "family": "Lou"
-        },
-        {
-          "given": "Yi",
-          "family": "Qi"
-        }
-      ],
-      "year": 2009,
-      "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
-      "journal": "Health & Place",
-      "volume": "15",
-      "number": 4,
-      "page": "1100-1107",
-      "doi": "10.1016/j.healthplace.2009.06.002"
-    },
-    "lou03": {
-      "id": "lou03",
-      "author": [
-        {
-          "given": "Wei",
-          "family": "Lou"
-        },
-        {
-          "given": "Fahui",
-          "family": "Wang"
-        }
-      ],
-      "year": 2003,
-      "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
-      "journal": "Environment and Planning B: Planning and Design",
-      "volume": "30",
-      "number": 6,
-      "page": "865-884",
-      "doi": "10.1068/b29120"
-    },
-    "saxon20": {
-      "id": "saxon20",
-      "author": [
-        {
-          "given": "James",
-          "family": "Saxon"
-        },
-        {
-          "given": "Julia",
-          "family": "Koschinsky"
-        },
-        {
-          "given": "Karina",
-          "family": "Acosta"
-        },
-        {
-          "given": "Vidal",
-          "family": "Anguiano"
-        },
-        {
-          "given": "Luc",
-          "family": "Anselin"
-        },
-        {
-          "given": "Sergio",
-          "family": "Rey"
-        }
-      ],
-      "year": 2020,
-      "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
-      "journal": "University of Chicago: Center for Spatial Data Science",
-      "volume": "Preprint",
-      "doi": "10.13140/RG.2.2.12396.28807"
-    }
-  },
   "percent_food_insecure": {
     "category": "Nutrition and Food Security",
     "equity_category": "",
@@ -2008,9 +1881,13 @@
     "sources": [
       {
         "name": "OpenStreetMap",
-        "date_accessed": 2021,
+        "date_accessed": 2023,
         "url": "https://www.openstreetmap.org/"
       }
+    ],
+    "citations": [
+      "cdc11a",
+      "cdc11b"
     ]
   },
   "tuna_ecdf_idx": {
@@ -2620,5 +2497,146 @@
         "date_accessed": "2021"
       }
     ]
+  },
+  "_references": {
+    "cdc11a": {
+      "id": "cdc11a",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Children’s Food Environment State Indicator Report",
+      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+    },
+    "cdc11b": {
+      "id": "cdc11b",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": [
+        {
+          "family": "Biocomplexity Institute and Initiative"
+        }
+      ],
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "lou04": {
+      "id": "lou04",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        }
+      ],
+      "year": 2004,
+      "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+      "journal": "Health & Place",
+      "volume": "10",
+      "number": 1,
+      "page": "1-11",
+      "doi": "10.1016/S1353-8292(02)00067-9"
+    },
+    "lou09": {
+      "id": "lou09",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Yi",
+          "family": "Qi"
+        }
+      ],
+      "year": 2009,
+      "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+      "journal": "Health & Place",
+      "volume": "15",
+      "number": 4,
+      "page": "1100-1107",
+      "doi": "10.1016/j.healthplace.2009.06.002"
+    },
+    "lou03": {
+      "id": "lou03",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Fahui",
+          "family": "Wang"
+        }
+      ],
+      "year": 2003,
+      "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+      "journal": "Environment and Planning B: Planning and Design",
+      "volume": "30",
+      "number": 6,
+      "page": "865-884",
+      "doi": "10.1068/b29120"
+    },
+    "saxon20": {
+      "id": "saxon20",
+      "author": [
+        {
+          "given": "James",
+          "family": "Saxon"
+        },
+        {
+          "given": "Julia",
+          "family": "Koschinsky"
+        },
+        {
+          "given": "Karina",
+          "family": "Acosta"
+        },
+        {
+          "given": "Vidal",
+          "family": "Anguiano"
+        },
+        {
+          "given": "Luc",
+          "family": "Anselin"
+        },
+        {
+          "given": "Sergio",
+          "family": "Rey"
+        }
+      ],
+      "year": 2020,
+      "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+      "journal": "University of Chicago: Center for Spatial Data Science",
+      "volume": "Preprint",
+      "doi": "10.13140/RG.2.2.12396.28807"
+    }
   }
 }
