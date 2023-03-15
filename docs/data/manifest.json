@@ -66,17 +66,17 @@
         "size": 455296,
         "sha": "5e4bc2172ae066288bcd850da240d2637cfafbb0",
         "md5": "3074b3b06f3891fef7feabbda60468f9"
-      },
-      "Wired/Accessibility/Average Download Speed/data/distribution/ncr_hdcttrbg_2019_2021q3_speed_measurements.csv.xz": {
-        "size": 458380,
-        "sha": "d5d72f1bf6fee58b3c9b60499467580a2497c2b9",
-        "md5": "b830e63f7b98216debf3e7d03ebd1405"
       }
     }
   },
   "uva-bi-sdad/sdc.demographics": {
     "repository": "uva-bi-sdad/sdc.demographics",
     "files": {
+      "Cooperative extension/data/distribution/va_cttr_2010_2021_perc_male.csv.xz": {
+        "size": 460256,
+        "sha": "781d6d977d1b4ccc48f90e89160ebd1109cecfe0",
+        "md5": "b1627d7b2a32b740218e057abcd659da"
+      },
       "Veteran/data/distribution/va_trctbg_acs_20092020_veteran_demographics.csv.xz": {
         "size": 955420,
         "sha": "61407689bf41da99c17412ead6bfab76da63c294",
@@ -151,11 +151,6 @@
         "size": 2203532,
         "sha": "d57c34fef2f400ae3046aa4c0a18850b7f177736",
         "md5": "a660b7b28c1e3c7f24026d0dcb25de6e"
-      },
-      "Cooperative extension/data/distribution/va_cttr_2010_2021_perc_male.csv.xz": {
-        "size": 462264,
-        "sha": "ebbf8b9507fc3a4412e0c55b1dcc901d0604777c",
-        "md5": "93a8073e0dbd01c162ce7b817e42289e"
       }
     }
   },
@@ -217,11 +212,6 @@
         "sha": "26c06c15551e621fb6ba4b8133d2659259482757",
         "md5": "af328ea02d790c12a2f58dde09ee4f07"
       },
-      "Food Access/Food Items/data/distribution/va_013_cabg_sdad_2021_latino_east_african_gravity_models.csv.xz": {
-        "size": 164460,
-        "sha": "af880062ac853e7fe8204a6c6b0dc5e4ebddef82",
-        "md5": "6b89f2cf067431a5d02b3929af7b84b8"
-      },
       "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
         "size": 985560,
         "sha": "a8b585ffc7a4559adb0fb35a19ff70dff45dd30b",
@@ -267,6 +257,11 @@
   "uva-bi-sdad/sdc.health": {
     "repository": "uva-bi-sdad/sdc.health",
     "files": {
+      "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_hospitals.csv.xz": {
+        "size": 397432,
+        "sha": "7a91c31834d4fa35025cc2aace3e427610554651",
+        "md5": "eacd900bb66656b41e5c01ebe2236417"
+      },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 202628,
         "sha": "8588f273fcfbc71e3510b71bd2a389b74e0a2284",
@@ -321,11 +316,6 @@
         "size": 6946741,
         "sha": "c14348e42c30c45c4fb577aa4b555515d3a914a6",
         "md5": "775a7a30294c4ff5b5572bcf85c49341"
-      },
-      "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_hospitals.csv": {
-        "size": 6875681,
-        "sha": "5c582a7f486ac9a2e714d819394559692242b2bd",
-        "md5": "b0a7aea17a34c76e8fe9529ea73f3b67"
       },
       "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/ncr_bgtrct_2022_access_scores_hospitals.csv": {
         "size": 7723306,
