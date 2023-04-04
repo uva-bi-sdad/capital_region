@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 39680,
+      "bytes": 40604,
       "encoding": "ISO-8859-1",
-      "md5": "a35479b7e00fed9a3b096854928c83c9",
+      "md5": "8e3ff11ac17c9088339390c17de9ee32",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -25,8 +25,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:38:59",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:23",
+      "last_modified": "2023-04-04 13:51:23",
       "row_count": 210,
       "entity_count": 14,
       "schema": {
@@ -1421,14 +1421,14 @@
           },
           {
             "name": "dent_e2sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 0.4417,
-            "sd": 0.0721,
+            "missing": 196,
+            "mean": 0.9069,
+            "sd": 0.7268,
             "min": 0.3158,
-            "max": 0.5275,
+            "max": 2.4223,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -1535,13 +1535,13 @@
           },
           {
             "name": "ems_near_10_median",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 10.0532,
-            "sd": 3.1731,
-            "min": 6.117,
+            "missing": 196,
+            "mean": 8.4752,
+            "sd": 4.395,
+            "min": 1.1335,
             "max": 16.0129,
             "info": {
               "category": "Health",
@@ -1573,14 +1573,14 @@
           },
           {
             "name": "ems_3sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 0.0462,
-            "sd": 0.008,
+            "missing": 196,
+            "mean": 34.4385,
+            "sd": 50.7745,
             "min": 0.0331,
-            "max": 0.0581,
+            "max": 129.7917,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -1611,14 +1611,14 @@
           },
           {
             "name": "ems_cnt",
-            "duplicates": 202,
+            "duplicates": 198,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 201,
-            "mean": 12.2222,
-            "sd": 13.6545,
+            "missing": 196,
+            "mean": 18.7857,
+            "sd": 15.6607,
             "min": 1,
-            "max": 42,
+            "max": 44,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -1763,14 +1763,14 @@
           },
           {
             "name": "mental_near_10_median",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 18.209,
-            "sd": 8.3326,
-            "min": 7.2919,
-            "max": 30.5206,
+            "missing": 196,
+            "mean": 15.583,
+            "sd": 10.2404,
+            "min": 0.8383,
+            "max": 32.0848,
             "info": {
               "category": "Health",
               "type": "drive time",
@@ -1798,14 +1798,14 @@
           },
           {
             "name": "mental_3sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 0.1596,
-            "sd": 0.0616,
+            "missing": 196,
+            "mean": 15.8003,
+            "sd": 21.9106,
             "min": 0.0799,
-            "max": 0.2597,
+            "max": 49.2913,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -1836,14 +1836,14 @@
           },
           {
             "name": "mental_cnt",
-            "duplicates": 203,
+            "duplicates": 199,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 201,
-            "mean": 3.5556,
-            "sd": 6.1056,
+            "missing": 196,
+            "mean": 6.9286,
+            "sd": 7.7307,
             "min": 0,
-            "max": 19,
+            "max": 20,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -1944,14 +1944,14 @@
           },
           {
             "name": "obgyn_e2sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 0.8451,
-            "sd": 0.27,
-            "min": 0.5531,
-            "max": 1.2543,
+            "missing": 196,
+            "mean": 0.8683,
+            "sd": 0.3168,
+            "min": 0.4636,
+            "max": 1.3904,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
@@ -1982,14 +1982,14 @@
           },
           {
             "name": "ped_e2sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 2.2917,
-            "sd": 0.9962,
+            "missing": 196,
+            "mean": 2.7175,
+            "sd": 1.5116,
             "min": 1.1534,
-            "max": 3.7451,
+            "max": 6.3417,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -2169,14 +2169,14 @@
           },
           {
             "name": "primcare_e2sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 2.0911,
-            "sd": 0.9085,
-            "min": 1.1637,
-            "max": 3.4786,
+            "missing": 196,
+            "mean": 2.187,
+            "sd": 0.9528,
+            "min": 1.0424,
+            "max": 3.5684,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -2207,14 +2207,14 @@
           },
           {
             "name": "subs_near_10_median",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 15.5943,
-            "sd": 5.6434,
-            "min": 7.1852,
-            "max": 25.4306,
+            "missing": 196,
+            "mean": 15.7315,
+            "sd": 6.7519,
+            "min": 6.2771,
+            "max": 31.0062,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -2245,14 +2245,14 @@
           },
           {
             "name": "subs_3sfca",
-            "duplicates": 200,
+            "duplicates": 195,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 201,
-            "mean": 0.2036,
-            "sd": 0.0589,
+            "missing": 196,
+            "mean": 19.2166,
+            "sd": 27.7795,
             "min": 0.1257,
-            "max": 0.3026,
+            "max": 79.7057,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -2283,14 +2283,14 @@
           },
           {
             "name": "subs_cnt",
-            "duplicates": 203,
+            "duplicates": 200,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 201,
-            "mean": 4.4444,
-            "sd": 6.3857,
+            "missing": 196,
+            "mean": 8.5,
+            "sd": 8.609,
             "min": 0,
-            "max": 20,
+            "max": 21,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -2940,14 +2940,14 @@
           },
           {
             "name": "urgent_near_10_median",
-            "duplicates": 195,
-            "time_range": [13, 13],
+            "duplicates": 186,
+            "time_range": [12, 13],
             "type": "float",
-            "missing": 196,
-            "mean": 7.8329,
-            "sd": 2.6696,
+            "missing": 187,
+            "mean": 9.8272,
+            "sd": 3.7947,
             "min": 4.614,
-            "max": 13.9386,
+            "max": 17.7081,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -2979,13 +2979,13 @@
           },
           {
             "name": "urgent_cnt",
-            "duplicates": 196,
-            "time_range": [13, 13],
+            "duplicates": 193,
+            "time_range": [12, 13],
             "type": "integer",
-            "missing": 196,
-            "mean": 41.7857,
-            "sd": 38.0873,
-            "min": 1,
+            "missing": 187,
+            "mean": 27.6522,
+            "sd": 34.6759,
+            "min": 0,
             "max": 113,
             "info": {
               "category": "Health",
@@ -3018,13 +3018,13 @@
           },
           {
             "name": "urgent_3sfca",
-            "duplicates": 195,
-            "time_range": [13, 13],
+            "duplicates": 186,
+            "time_range": [12, 13],
             "type": "float",
-            "missing": 196,
-            "mean": 1.1294,
-            "sd": 0.3171,
-            "min": 0.7567,
+            "missing": 187,
+            "mean": 0.7615,
+            "sd": 0.5306,
+            "min": 0.1141,
             "max": 1.7041,
             "info": {
               "category": "Health",
@@ -3196,6 +3196,38 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 114,
+            "time_range": [6, 12],
+            "type": "float",
+            "missing": 112,
+            "mean": 0.4196,
+            "sd": 0.0422,
+            "min": 0.3515,
+            "max": 0.5334,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -3336,12 +3368,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "952f3d9b189acf7622e1f8cd5ba63c2a7d9c836178143efcf286bdbe1fbd8bc5d99af3c127d650cd869f41933b654072e2c0d8e1303b8364de10a9c31c9eccf3"
+      "sha512": "5aeaef869fcc717ce20458867012608dc0d41e324a2685fa0ba888d723cee71c33116ab3a1beca7257950cb1927b2841852fa1b79a17e4faf1adc20e607f8a84"
     },
     {
-      "bytes": 2836360,
+      "bytes": 2908028,
       "encoding": "ISO-8859-1",
-      "md5": "58643d958e843ab0e2e8dbaae8eff264",
+      "md5": "852d3a81f66ccbd4e525d35c979c26d8",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -3355,8 +3387,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:39:05",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:28",
+      "last_modified": "2023-04-04 13:51:28",
       "row_count": 21735,
       "entity_count": 1449,
       "schema": {
@@ -4747,14 +4779,14 @@
           },
           {
             "name": "dent_e2sfca",
-            "duplicates": 21162,
+            "duplicates": 20794,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 0.4206,
-            "sd": 0.134,
+            "missing": 20410,
+            "mean": 1.3106,
+            "sd": 0.8966,
             "min": 0.023,
-            "max": 0.7635,
+            "max": 2.7527,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -4853,14 +4885,14 @@
           },
           {
             "name": "ems_near_10_median",
-            "duplicates": 21175,
+            "duplicates": 20855,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 10.6856,
-            "sd": 3.7369,
-            "min": 2.2318,
-            "max": 30.2572,
+            "missing": 20410,
+            "mean": 7.0735,
+            "sd": 6.1608,
+            "min": 0,
+            "max": 35.0191,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
@@ -4891,14 +4923,14 @@
           },
           {
             "name": "ems_3sfca",
-            "duplicates": 21162,
+            "duplicates": 20776,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 0.0454,
-            "sd": 0.0161,
+            "missing": 20410,
+            "mean": 46.0786,
+            "sd": 47.1876,
             "min": 0.0227,
-            "max": 0.2022,
+            "max": 339.0839,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -4932,9 +4964,9 @@
             "duplicates": 21731,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 21156,
-            "mean": 0.19,
-            "sd": 0.4264,
+            "missing": 20404,
+            "mean": 0.2111,
+            "sd": 0.4436,
             "min": 0,
             "max": 2,
             "info": {
@@ -5069,14 +5101,14 @@
           },
           {
             "name": "mental_near_10_median",
-            "duplicates": 21167,
+            "duplicates": 20866,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 17.5395,
-            "sd": 8.1405,
-            "min": 2.2318,
-            "max": 46.692,
+            "missing": 20410,
+            "mean": 11.5177,
+            "sd": 11.8141,
+            "min": 0,
+            "max": 104.9,
             "info": {
               "category": "Health",
               "type": "drive time",
@@ -5104,14 +5136,14 @@
           },
           {
             "name": "mental_3sfca",
-            "duplicates": 21182,
+            "duplicates": 20799,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 0.1631,
-            "sd": 0.0679,
+            "missing": 20410,
+            "mean": 25.3822,
+            "sd": 24.1162,
             "min": 0,
-            "max": 0.3559,
+            "max": 123.2588,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -5142,14 +5174,14 @@
           },
           {
             "name": "mental_cnt",
-            "duplicates": 21730,
+            "duplicates": 21729,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 21156,
-            "mean": 0.0553,
-            "sd": 0.2703,
+            "missing": 20404,
+            "mean": 0.0729,
+            "sd": 0.3312,
             "min": 0,
-            "max": 3,
+            "max": 4,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -5250,14 +5282,14 @@
           },
           {
             "name": "obgyn_e2sfca",
-            "duplicates": 21162,
+            "duplicates": 20826,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 0.8305,
-            "sd": 0.2977,
+            "missing": 20411,
+            "mean": 0.9761,
+            "sd": 0.3842,
             "min": 0.0134,
-            "max": 1.419,
+            "max": 1.5809,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
@@ -5288,14 +5320,14 @@
           },
           {
             "name": "ped_e2sfca",
-            "duplicates": 21165,
+            "duplicates": 20415,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21166,
-            "mean": 2.2471,
-            "sd": 0.9939,
-            "min": 0.1167,
-            "max": 4.282,
+            "missing": 20416,
+            "mean": 3.458,
+            "sd": 2.0114,
+            "min": 0.1069,
+            "max": 7.7798,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -5471,14 +5503,14 @@
           },
           {
             "name": "primcare_e2sfca",
-            "duplicates": 21162,
+            "duplicates": 20785,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 2.0541,
-            "sd": 0.8807,
-            "min": 0.1846,
-            "max": 3.9253,
+            "missing": 20410,
+            "mean": 2.5055,
+            "sd": 1.0867,
+            "min": 0.0499,
+            "max": 4.5016,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -5509,14 +5541,14 @@
           },
           {
             "name": "subs_near_10_median",
-            "duplicates": 21169,
+            "duplicates": 20424,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 15.798,
-            "sd": 6.7519,
+            "missing": 20410,
+            "mean": 13.9958,
+            "sd": 7.2727,
             "min": 2.2318,
-            "max": 45.5813,
+            "max": 57.1704,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -5547,14 +5579,14 @@
           },
           {
             "name": "subs_3sfca",
-            "duplicates": 21169,
+            "duplicates": 20416,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 21163,
-            "mean": 0.2016,
-            "sd": 0.0704,
+            "missing": 20410,
+            "mean": 26.9734,
+            "sd": 25.2968,
             "min": 0.0304,
-            "max": 0.4215,
+            "max": 150.3772,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -5588,9 +5620,9 @@
             "duplicates": 21730,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 21156,
-            "mean": 0.0691,
-            "sd": 0.3091,
+            "missing": 20404,
+            "mean": 0.0894,
+            "sd": 0.3494,
             "min": 0,
             "max": 3,
             "info": {
@@ -6242,14 +6274,14 @@
           },
           {
             "name": "urgent_near_10_median",
-            "duplicates": 20435,
-            "time_range": [13, 13],
+            "duplicates": 19881,
+            "time_range": [12, 13],
             "type": "float",
-            "missing": 20412,
-            "mean": 7.8295,
-            "sd": 4.1589,
+            "missing": 19840,
+            "mean": 9.5154,
+            "sd": 4.9877,
             "min": 1.8227,
-            "max": 38.45,
+            "max": 44.7458,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -6282,11 +6314,11 @@
           {
             "name": "urgent_cnt",
             "duplicates": 21724,
-            "time_range": [13, 13],
+            "time_range": [12, 13],
             "type": "integer",
-            "missing": 20404,
-            "mean": 0.4395,
-            "sd": 1.0477,
+            "missing": 19825,
+            "mean": 0.333,
+            "sd": 0.9046,
             "min": 0,
             "max": 10,
             "info": {
@@ -6320,13 +6352,13 @@
           },
           {
             "name": "urgent_3sfca",
-            "duplicates": 20411,
-            "time_range": [13, 13],
+            "duplicates": 19843,
+            "time_range": [12, 13],
             "type": "float",
-            "missing": 20412,
-            "mean": 1.0096,
-            "sd": 0.3111,
-            "min": 0.2428,
+            "missing": 19840,
+            "mean": 0.7573,
+            "sd": 0.4648,
+            "min": 0.0624,
             "max": 2.1467,
             "info": {
               "category": "Health",
@@ -6498,6 +6530,38 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 19109,
+            "time_range": [6, 12],
+            "type": "float",
+            "missing": 13025,
+            "mean": 0.3903,
+            "sd": 0.0665,
+            "min": 0.0062,
+            "max": 0.6899,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -6638,12 +6702,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "1b1e9ea0eb942271fa5a880fd379703d5205e5a2033dcd6c09d29f18b3ed9c135538a5b3f25ef95bd5c51f4bd859c51e04682c32241e24a475ffb6fe3eec118f"
+      "sha512": "bb24bd5811780ab78d130284e8dae2fea6d9ff1be0ce55b57fe55a15f73cc07641fff7b10c7c85ac1755401144910d7120ab384f962438e388ab43cfb4b62ecc"
     },
     {
-      "bytes": 5183176,
+      "bytes": 5230840,
       "encoding": "ISO-8859-1",
-      "md5": "a278842b97f4c2d8a3405690f436d287",
+      "md5": "13fadb9125c76b149f8b3914adf7bcdf",
       "format": "csv",
       "name": "block_group",
       "filename": "block_group.csv.xz",
@@ -6657,8 +6721,8 @@
       "id_length": 12,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:38:59",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:23",
+      "last_modified": "2023-04-04 13:51:23",
       "row_count": 60840,
       "entity_count": 4056,
       "schema": {
@@ -8045,14 +8109,14 @@
           },
           {
             "name": "dent_e2sfca",
-            "duplicates": 59274,
+            "duplicates": 58944,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 0.4202,
-            "sd": 0.1379,
+            "missing": 57235,
+            "mean": 1.2991,
+            "sd": 0.8933,
             "min": 0,
-            "max": 0.7896,
+            "max": 2.8444,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
@@ -8151,14 +8215,14 @@
           },
           {
             "name": "ems_near_10_median",
-            "duplicates": 60507,
+            "duplicates": 60472,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 10.6315,
-            "sd": 4.0194,
-            "min": 1.2,
-            "max": 35.25,
+            "missing": 57235,
+            "mean": 7.2351,
+            "sd": 6.353,
+            "min": 0,
+            "max": 50.5,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
@@ -8189,14 +8253,14 @@
           },
           {
             "name": "ems_3sfca",
-            "duplicates": 59327,
+            "duplicates": 58986,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 0.0462,
-            "sd": 0.0193,
+            "missing": 57235,
+            "mean": 46.3172,
+            "sd": 49.6626,
             "min": 0.0149,
-            "max": 0.4297,
+            "max": 687.2641,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -8230,9 +8294,9 @@
             "duplicates": 60837,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 60734,
-            "mean": 1.0377,
-            "sd": 0.1915,
+            "missing": 60560,
+            "mean": 1.0393,
+            "sd": 0.1946,
             "min": 1,
             "max": 2,
             "info": {
@@ -8367,14 +8431,14 @@
           },
           {
             "name": "mental_near_10_median",
-            "duplicates": 60283,
+            "duplicates": 60235,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 17.7383,
-            "sd": 8.609,
-            "min": 1.2,
-            "max": 60.3,
+            "missing": 57235,
+            "mean": 11.9378,
+            "sd": 12.3542,
+            "min": 0,
+            "max": 114.8,
             "info": {
               "category": "Health",
               "type": "drive time",
@@ -8402,14 +8466,14 @@
           },
           {
             "name": "mental_3sfca",
-            "duplicates": 59855,
+            "duplicates": 59514,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 0.1634,
-            "sd": 0.0707,
+            "missing": 57235,
+            "mean": 25.0227,
+            "sd": 24.5837,
             "min": 0,
-            "max": 0.3751,
+            "max": 164.9246,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -8440,14 +8504,14 @@
           },
           {
             "name": "mental_cnt",
-            "duplicates": 60837,
+            "duplicates": 60836,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 60811,
-            "mean": 1.1034,
-            "sd": 0.3099,
+            "missing": 60752,
+            "mean": 1.1364,
+            "sd": 0.377,
             "min": 1,
-            "max": 2,
+            "max": 3,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -8548,14 +8612,14 @@
           },
           {
             "name": "obgyn_e2sfca",
-            "duplicates": 59300,
+            "duplicates": 59000,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 0.8329,
-            "sd": 0.3058,
+            "missing": 57235,
+            "mean": 0.9715,
+            "sd": 0.3899,
             "min": 0,
-            "max": 1.4633,
+            "max": 1.6014,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
@@ -8586,14 +8650,14 @@
           },
           {
             "name": "ped_e2sfca",
-            "duplicates": 59284,
+            "duplicates": 57246,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 2.2581,
-            "sd": 1.0256,
+            "missing": 57235,
+            "mean": 3.4624,
+            "sd": 2.0321,
             "min": 0,
-            "max": 4.3581,
+            "max": 7.8815,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -8757,14 +8821,14 @@
           },
           {
             "name": "primcare_e2sfca",
-            "duplicates": 59274,
+            "duplicates": 58938,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 2.0623,
-            "sd": 0.9062,
+            "missing": 57235,
+            "mean": 2.491,
+            "sd": 1.1152,
             "min": 0,
-            "max": 3.943,
+            "max": 4.5725,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -8795,14 +8859,14 @@
           },
           {
             "name": "subs_near_10_median",
-            "duplicates": 60346,
+            "duplicates": 60212,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 15.849,
-            "sd": 7.1512,
+            "missing": 57235,
+            "mean": 14.131,
+            "sd": 7.5078,
             "min": 1.2,
-            "max": 52.7,
+            "max": 65.25,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -8833,14 +8897,14 @@
           },
           {
             "name": "subs_3sfca",
-            "duplicates": 59725,
+            "duplicates": 57685,
             "time_range": [12, 12],
             "type": "float",
-            "missing": 59275,
-            "mean": 0.2031,
-            "sd": 0.0731,
+            "missing": 57235,
+            "mean": 27.084,
+            "sd": 25.8365,
             "min": 0,
-            "max": 0.4467,
+            "max": 175.2655,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -8874,9 +8938,9 @@
             "duplicates": 60836,
             "time_range": [12, 12],
             "type": "integer",
-            "missing": 60806,
-            "mean": 1.1765,
-            "sd": 0.4586,
+            "missing": 60735,
+            "mean": 1.181,
+            "sd": 0.4553,
             "min": 1,
             "max": 3,
             "info": {
@@ -9528,14 +9592,14 @@
           },
           {
             "name": "urgent_near_10_median",
-            "duplicates": 60433,
-            "time_range": [13, 13],
+            "duplicates": 60340,
+            "time_range": [12, 13],
             "type": "float",
-            "missing": 57214,
-            "mean": 7.7448,
-            "sd": 4.3288,
-            "min": 1.4,
-            "max": 46.95,
+            "missing": 55649,
+            "mean": 9.4364,
+            "sd": 5.1711,
+            "min": 1.2,
+            "max": 52,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -9568,11 +9632,11 @@
           {
             "name": "urgent_cnt",
             "duplicates": 60831,
-            "time_range": [13, 13],
+            "time_range": [12, 13],
             "type": "integer",
-            "missing": 60505,
-            "mean": 1.7463,
-            "sd": 1.1931,
+            "missing": 60456,
+            "mean": 1.6562,
+            "sd": 1.141,
             "min": 1,
             "max": 8,
             "info": {
@@ -9606,13 +9670,13 @@
           },
           {
             "name": "urgent_3sfca",
-            "duplicates": 57213,
-            "time_range": [13, 13],
+            "duplicates": 55901,
+            "time_range": [12, 13],
             "type": "float",
-            "missing": 57214,
-            "mean": 1.0195,
-            "sd": 0.3206,
-            "min": 0.2428,
+            "missing": 55649,
+            "mean": 0.7651,
+            "sd": 0.4721,
+            "min": 0,
             "max": 2.1526,
             "info": {
               "category": "Health",
@@ -9776,6 +9840,34 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 60839,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 60840,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -9916,12 +10008,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "302c6994013fcc3fd6fd1454906df683f4fe1bf5a7b36ddf4babecdf5263f87439b6a9a8ee1187419fc294a800aa880fa26ae8eeab4726a26c1589a8d1f0d62a"
+      "sha512": "e17c0824f8b806d8411932b8b2b03aee32e86545694bcefa12095f34b42463e3c180ffa5e17a0c6567cb8bcffb87b67c542535fb2fc5c28c3bc6b4162bd80f9f"
     },
     {
-      "bytes": 53832,
+      "bytes": 53732,
       "encoding": "ISO-8859-1",
-      "md5": "be656a4a66a7d02c74f5a09913f55d26",
+      "md5": "61a709d32371c520c63943ed59d0393f",
       "format": "csv",
       "name": "civic_association",
       "filename": "civic_association.csv.xz",
@@ -9935,8 +10027,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:38:59",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:23",
+      "last_modified": "2023-04-04 13:51:23",
       "row_count": 930,
       "entity_count": 62,
       "schema": {
@@ -12918,6 +13010,34 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 929,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 930,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -13058,12 +13178,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "131d79b202c988d8d09a32fa61c7574c42f64900bf5e60a8f4bbf62418ef2b0e8f17a519585f1292fb0820f72bb4f22268300cf3f4334950c1773155a587fa42"
+      "sha512": "65a811f9c51c217c62e1fbff57076d9cfe27a20fcd31f5912beb849e74613d40d74ae98567899a0f3565ba1d55a560cf75fee7ed613407a04298921d8739c6da"
     },
     {
-      "bytes": 3336,
+      "bytes": 3344,
       "encoding": "ISO-8859-1",
-      "md5": "cb763f8c65022d91b40b4cbbbbad6741",
+      "md5": "2af7dff143fb88b2ab62b609a52e9028",
       "format": "csv",
       "name": "human_services_region",
       "filename": "human_services_region.csv.xz",
@@ -13077,8 +13197,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:38:59",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:23",
+      "last_modified": "2023-04-04 13:51:23",
       "row_count": 60,
       "entity_count": 4,
       "schema": {
@@ -15984,6 +16104,34 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 59,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 60,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -16124,12 +16272,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "5835c7e483e930dffd5db5f7dbe9f2a10de06d5b840eb0c6c88d17a3282f014f73f0343dd510adae61190c77c2c89af6d9456e868714d3a12b8431aad32a5ce7"
+      "sha512": "fd9df625f4ae86d84c60276815c95f957f0b21d4c7d03b43c2ac139d5cd9b5a6ab75b9f911823c9bf4adacee609baca1d9779be8bae22649096116fb52975005"
     },
     {
-      "bytes": 9772,
+      "bytes": 9756,
       "encoding": "ISO-8859-1",
-      "md5": "5796d28829dd3336ffc1fa0f40d9c455",
+      "md5": "ca761491bf3948b989846f277b973929",
       "format": "csv",
       "name": "planning_district",
       "filename": "planning_district.csv.xz",
@@ -16143,8 +16291,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:38:59",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:23",
+      "last_modified": "2023-04-04 13:51:23",
       "row_count": 210,
       "entity_count": 14,
       "schema": {
@@ -19050,6 +19198,34 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 209,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 210,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -19190,12 +19366,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "e27ca77b03ae900c2f0c5b32cf63278dc77e52c5b8d61616fe372b2df1b0287a9eb14cc34565dc49bccee7cd5d15b8e83f821f5e4942ca0001d49d5c5115915f"
+      "sha512": "07998caa29f152f1ef02f8bc8a725788fe8a467bbaa90ef8b12ee80301354a4daae634ccb0f0a0bd8b8225e9aa2f00a02d70eaaa1b8a09e96c79f67fb397da51"
     },
     {
-      "bytes": 6608,
+      "bytes": 6636,
       "encoding": "ISO-8859-1",
-      "md5": "f3064f270532ed18792b2685e3d0d4da",
+      "md5": "094196bc52bdfa3e69d46aee8c917a6f",
       "format": "csv",
       "name": "supervisor_district",
       "filename": "supervisor_district.csv.xz",
@@ -19209,8 +19385,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:38:59",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:23",
+      "last_modified": "2023-04-04 13:51:23",
       "row_count": 135,
       "entity_count": 9,
       "schema": {
@@ -22116,6 +22292,34 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 134,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 135,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -22256,12 +22460,12 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "79091c4ab2bed91483dd0a02ae2e30e67ab704a42e0d928e8c512537dfed73bb5bc5d20c6cec6da0df444b659c971019b47d3e89584964101d09605891ccd3ec"
+      "sha512": "5bd6311efa616f0bcac5617f9ef44169679e3aa6c516e307da37fc6bbfc876d3754806033a3e9e314a5885610bc3703c531eaef16392e74f07ef78226e8018f2"
     },
     {
-      "bytes": 33680,
+      "bytes": 33740,
       "encoding": "ISO-8859-1",
-      "md5": "53184e43f2acd74aa5466205e6e3dade",
+      "md5": "ce9ee1832e242a716d0da0f872029591",
       "format": "csv",
       "name": "zip_code",
       "filename": "zip_code.csv.xz",
@@ -22275,8 +22479,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-03-24 12:39:05",
-      "last_modified": "2023-03-24 12:35:55",
+      "created": "2023-04-04 13:51:28",
+      "last_modified": "2023-04-04 13:51:28",
       "row_count": 810,
       "entity_count": 54,
       "schema": {
@@ -25182,6 +25386,34 @@
               },
               "citations": {}
             }
+          },
+          {
+            "name": "gini_index",
+            "duplicates": 809,
+            "time_range": [-1, -1],
+            "type": "unknown",
+            "missing": 810,
+            "info": {
+              "category": "Financial Well Being",
+              "type": "",
+              "short_name": "Income Inequality (Gini Index)",
+              "long_name": "Income Inequality (Gini Index)",
+              "short_description": "The Gini Index is a summary measure of income inequality.",
+              "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+              "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+              "equity_category": "",
+              "sources": [
+                {
+                  "name": "U.S. Census American Community Survey",
+                  "location": "Table B19083",
+                  "date_accessed": "2023"
+                }
+              ],
+              "layer": {
+                "filter": {}
+              },
+              "citations": {}
+            }
           }
         ]
       },
@@ -25322,7 +25554,7 @@
           "url": "https://github.com/uva-bi-sdad/catchment"
         }
       },
-      "sha512": "94c8fbf510c1353a0c341522b4d0a8a717d40ddf90e4322798b89c98a96b50bda827aff19d3d201f630d6ce5e56cf07f58ef15c6cae87a610f42cab361436d2d"
+      "sha512": "4438df00c9b1d772b8fc94e5ac93c87a85b6c1e5e4dec1f513a4d55df65d750ab9638e7aa8172a88e6434ee7ce49f0446f829b2ead4c54f1f5d12b8f6017a266"
     }
   ]
 }
