@@ -187,6 +187,16 @@
   "uva-bi-sdad/sdc.financial_well_being": {
     "repository": "uva-bi-sdad/sdc.financial_well_being",
     "files": {
+      "Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv": {
+        "size": 1598711,
+        "sha": "4ea56bdf0e4e778737ea48c6867b17c984700e11",
+        "md5": "da62f5b748881edc90e5fec9651b98fc"
+      },
+      "Employment/data/distribution/ncr_cttr_2015_2021_job_participate_rate.csv": {
+        "size": 1010994,
+        "sha": "766a3b9562e8201ca0e04a465775754619cfbb0b",
+        "md5": "c31ba7b47f36bcf6a55dfc3e9e9f6d22"
+      },
       "Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv": {
         "size": 1419990,
         "sha": "2d75256aa103cff26c640b1c0cb4621136a5f404",

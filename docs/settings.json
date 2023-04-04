@@ -24,12 +24,12 @@
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["block_group", "tract", "civic_association", "county", "zip_code", "planning_district", "supervisor_district", "human_services_region"],
-    "variables": ["ID", "perc_income_avg_nat_package", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "dent_e2sfca", "avg_monthly_rate", "earnings_per_job", "ems_near_10_median", "ems_3sfca", "ems_cnt", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "mrfei", "no_hlth_ins_pct", "obgyn_e2sfca", "ped_e2sfca", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "primcare_e2sfca", "subs_near_10_median", "subs_3sfca", "subs_cnt", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "median_household_income", "hosp_near_10_median", "hosp_cnt", "hosp_3sfca", "urgent_near_10_median", "urgent_cnt", "urgent_3sfca", "percent_food_insecure", "number_food_insecure", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index"],
+    "variables": ["ID", "perc_income_avg_nat_package", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "dent_e2sfca", "avg_monthly_rate", "earnings_per_job", "ems_near_10_median", "ems_3sfca", "ems_cnt", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "mrfei", "no_hlth_ins_pct", "obgyn_e2sfca", "ped_e2sfca", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "primcare_e2sfca", "subs_near_10_median", "subs_3sfca", "subs_cnt", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "median_household_income", "hosp_near_10_median", "hosp_cnt", "hosp_3sfca", "urgent_near_10_median", "urgent_cnt", "urgent_3sfca", "percent_food_insecure", "number_food_insecure", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index", "job_participate_rate"],
     "info": {
       "block_group": {
-        "bytes": 5214736,
+        "bytes": 5216144,
         "encoding": "ISO-8859-1",
-        "md5": "0e3d3cbc03c5d35461f4fd5de2b41d7b",
+        "md5": "6c69c143de74fecd8ade567b962bbbdb",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 12,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:36",
-        "last_modified": "2023-04-04 16:53:36",
+        "created": "2023-04-04 17:11:40",
+        "last_modified": "2023-04-04 17:11:40",
         "row_count": 60840,
         "entity_count": 4056,
         "schema": {
@@ -3508,6 +3508,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 60839,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 60840,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -3648,13 +3683,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "9481304fdf60ab6345eac9f356f11cb6faf8b985cd5a99f0b1aa6194c6bc3dea6984e0e6783754b05a7a5fc45fcecdac96c7bdb434e992d923cae4b3aa9f0a39",
+        "sha512": "acf59aa1ba7a4e5ea99e9936f8e023fa5f6b5b0748500edded62baa61594b9720276ab362225a38d7928412934e9dd5d50127bbe4dc19160751fdecc9caef27d",
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 2906568,
+        "bytes": 2932692,
         "encoding": "ISO-8859-1",
-        "md5": "88f7d184cd276d5c828ba268f01b05f4",
+        "md5": "b51659fc34450883f4988b9035aee9a2",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -3668,8 +3703,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:42",
-        "last_modified": "2023-04-04 16:53:42",
+        "created": "2023-04-04 17:11:46",
+        "last_modified": "2023-04-04 17:11:46",
         "row_count": 21735,
         "entity_count": 1449,
         "schema": {
@@ -7161,6 +7196,45 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 18622,
+              "time_range": [
+                6,
+                12
+              ],
+              "type": "float",
+              "missing": 12998,
+              "mean": 71.1664,
+              "sd": 9.7664,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -7301,13 +7375,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "4bc2d264318325f879d6c3c90185f8dd7cf003814818be526e1d96836ff8685438ac1f6e4ec4a7ef05777ce7076a0b8d3c5c17bce80d500ec2404bf775cca8fa",
+        "sha512": "95af2d11ec3c3c2fcaa22a3001046aca8b7784bf2cafa250e110c80c9258f797326fb1c65dc04ecc2594c5f44da8a8bbb0ded10fa143ce7d0c9d7b657893d709",
         "site_file": "tract.json"
       },
       "civic_association": {
-        "bytes": 53732,
+        "bytes": 53740,
         "encoding": "ISO-8859-1",
-        "md5": "61a709d32371c520c63943ed59d0393f",
+        "md5": "07540a7902e8e3f3d03cf7aae00f8a75",
         "format": "csv",
         "name": "civic_association",
         "filename": "civic_association.csv.xz",
@@ -7321,8 +7395,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:36",
-        "last_modified": "2023-04-04 16:53:36",
+        "created": "2023-04-04 17:11:40",
+        "last_modified": "2023-04-04 17:11:40",
         "row_count": 930,
         "entity_count": 62,
         "schema": {
@@ -10650,6 +10724,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 929,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 930,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -10790,13 +10899,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "65a811f9c51c217c62e1fbff57076d9cfe27a20fcd31f5912beb849e74613d40d74ae98567899a0f3565ba1d55a560cf75fee7ed613407a04298921d8739c6da",
+        "sha512": "d8e4543e3a5f40eba8685f88978d9cd64590f756a0f14635ab2a496f9daa164ee2cf904b28be90d1cf9b1c5d2ca8dc443d1b3bf31cfe8305bf94a7e9e3a44198",
         "site_file": "civic_association.json"
       },
       "county": {
-        "bytes": 40628,
+        "bytes": 40952,
         "encoding": "ISO-8859-1",
-        "md5": "3f1f8c8985b8cbc8e4fa38ebfd7fab80",
+        "md5": "6ea6669b4b4825ab9e0b4aae15ba1b18",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -10810,8 +10919,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:36",
-        "last_modified": "2023-04-04 16:53:36",
+        "created": "2023-04-04 17:11:40",
+        "last_modified": "2023-04-04 17:11:40",
         "row_count": 210,
         "entity_count": 14,
         "schema": {
@@ -14335,6 +14444,45 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 116,
+              "time_range": [
+                6,
+                12
+              ],
+              "type": "float",
+              "missing": 112,
+              "mean": 72.3624,
+              "sd": 2.99,
+              "min": 66.36,
+              "max": 77.85,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -14475,13 +14623,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "75a21a42ef788d7ea2b13f994fdc4074eed144be0864d1a64f1ca29affc8b428f4b207835dde0f65f3b59c3d9b80803fea83671c9f6daf9f6335b097424e476b",
+        "sha512": "db39880ae647d5418ecfbedfc58dffdb197569efaea8ef2c6bf6c9bcdb7946a17ee7129b5a0bf719b7bd583d5460d1be0860df84d5c911ef49f5f02b252b88ff",
         "site_file": "county.json"
       },
       "zip_code": {
         "bytes": 33740,
         "encoding": "ISO-8859-1",
-        "md5": "ce9ee1832e242a716d0da0f872029591",
+        "md5": "8fe7c8537a842655cdee3634d8af7477",
         "format": "csv",
         "name": "zip_code",
         "filename": "zip_code.csv.xz",
@@ -14495,8 +14643,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:42",
-        "last_modified": "2023-04-04 16:53:42",
+        "created": "2023-04-04 17:11:46",
+        "last_modified": "2023-04-04 17:11:46",
         "row_count": 810,
         "entity_count": 54,
         "schema": {
@@ -17748,6 +17896,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 809,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 810,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -17888,13 +18071,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "4438df00c9b1d772b8fc94e5ac93c87a85b6c1e5e4dec1f513a4d55df65d750ab9638e7aa8172a88e6434ee7ce49f0446f829b2ead4c54f1f5d12b8f6017a266",
+        "sha512": "eedc5a165582425b29a3000ac56f15b49feee604999eaaa24f0b19cd9e5609fc55fa848b237be490a730238bcaac83264022c0a3446c9366c801fe7049ec0e31",
         "site_file": "zip_code.json"
       },
       "planning_district": {
-        "bytes": 9756,
+        "bytes": 9792,
         "encoding": "ISO-8859-1",
-        "md5": "ca761491bf3948b989846f277b973929",
+        "md5": "583c281a25c80c9bc6617e2799829079",
         "format": "csv",
         "name": "planning_district",
         "filename": "planning_district.csv.xz",
@@ -17908,8 +18091,8 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:36",
-        "last_modified": "2023-04-04 16:53:36",
+        "created": "2023-04-04 17:11:40",
+        "last_modified": "2023-04-04 17:11:40",
         "row_count": 210,
         "entity_count": 14,
         "schema": {
@@ -21161,6 +21344,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 209,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 210,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -21301,13 +21519,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "07998caa29f152f1ef02f8bc8a725788fe8a467bbaa90ef8b12ee80301354a4daae634ccb0f0a0bd8b8225e9aa2f00a02d70eaaa1b8a09e96c79f67fb397da51",
+        "sha512": "caa91c91cce313bfc8949f0c1d38ed266561e5c78ee096e4b2df6896235f79dfb846bf539decbb3272af16d741e6e759eaa35cb432338963187d0758f801a823",
         "site_file": "planning_district.json"
       },
       "supervisor_district": {
-        "bytes": 6636,
+        "bytes": 6660,
         "encoding": "ISO-8859-1",
-        "md5": "094196bc52bdfa3e69d46aee8c917a6f",
+        "md5": "0078a93a66366362505a7cc991e325b9",
         "format": "csv",
         "name": "supervisor_district",
         "filename": "supervisor_district.csv.xz",
@@ -21321,8 +21539,8 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:36",
-        "last_modified": "2023-04-04 16:53:36",
+        "created": "2023-04-04 17:11:40",
+        "last_modified": "2023-04-04 17:11:40",
         "row_count": 135,
         "entity_count": 9,
         "schema": {
@@ -24574,6 +24792,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 134,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 135,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -24714,13 +24967,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "5bd6311efa616f0bcac5617f9ef44169679e3aa6c516e307da37fc6bbfc876d3754806033a3e9e314a5885610bc3703c531eaef16392e74f07ef78226e8018f2",
+        "sha512": "2616bd6ecfddc24b3e2a9aa62d825b60c98a3c4bcf6ee2c244d9cabb93c8e300bc618c191c31ee1b55f2452a6e85bab3587b0c0fae71e48fbb0555e905f25b49",
         "site_file": "supervisor_district.json"
       },
       "human_services_region": {
-        "bytes": 3344,
+        "bytes": 3360,
         "encoding": "ISO-8859-1",
-        "md5": "2af7dff143fb88b2ab62b609a52e9028",
+        "md5": "b4d5685875790d2b53a85809e593ccd1",
         "format": "csv",
         "name": "human_services_region",
         "filename": "human_services_region.csv.xz",
@@ -24734,8 +24987,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:53:36",
-        "last_modified": "2023-04-04 16:53:36",
+        "created": "2023-04-04 17:11:40",
+        "last_modified": "2023-04-04 17:11:40",
         "row_count": 60,
         "entity_count": 4,
         "schema": {
@@ -27987,6 +28240,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 59,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 60,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -28127,7 +28415,7 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "fd9df625f4ae86d84c60276815c95f957f0b21d4c7d03b43c2ac139d5cd9b5a6ab75b9f911823c9bf4adacee609baca1d9779be8bae22649096116fb52975005",
+        "sha512": "b25d1d95849e721464065bc4f7f2ca5a51954a267411e362b740294ecf8acfcf6cd01ead535ef33b9c511caa28be54812c54831f139cd6f5f92beca857840b8d",
         "site_file": "human_services_region.json"
       }
     },
