@@ -27,9 +27,9 @@
     "variables": ["ID", "perc_income_avg_nat_package", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "dent_e2sfca", "avg_monthly_rate", "earnings_per_job", "ems_near_10_median", "ems_3sfca", "ems_cnt", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "mrfei", "no_hlth_ins_pct", "obgyn_e2sfca", "ped_e2sfca", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "primcare_e2sfca", "subs_near_10_median", "subs_3sfca", "subs_cnt", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "median_household_income", "hosp_near_10_median", "hosp_cnt", "hosp_3sfca", "urgent_near_10_median", "urgent_cnt", "urgent_3sfca", "percent_food_insecure", "number_food_insecure", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index"],
     "info": {
       "block_group": {
-        "bytes": 5230840,
+        "bytes": 5214736,
         "encoding": "ISO-8859-1",
-        "md5": "13fadb9125c76b149f8b3914adf7bcdf",
+        "md5": "0e3d3cbc03c5d35461f4fd5de2b41d7b",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 12,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:23",
-        "last_modified": "2023-04-04 13:51:23",
+        "created": "2023-04-04 16:53:36",
+        "last_modified": "2023-04-04 16:53:36",
         "row_count": 60840,
         "entity_count": 4056,
         "schema": {
@@ -3203,17 +3203,17 @@
             },
             {
               "name": "urgent_near_10_median",
-              "duplicates": 60340,
+              "duplicates": 60433,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 55649,
-              "mean": 9.4364,
-              "sd": 5.1711,
-              "min": 1.2,
-              "max": 52,
+              "missing": 57214,
+              "mean": 7.7448,
+              "sd": 4.3288,
+              "min": 1.4,
+              "max": 46.95,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -3247,13 +3247,13 @@
               "name": "urgent_cnt",
               "duplicates": 60831,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "integer",
-              "missing": 60456,
-              "mean": 1.6562,
-              "sd": 1.141,
+              "missing": 60505,
+              "mean": 1.7463,
+              "sd": 1.1931,
               "min": 1,
               "max": 8,
               "info": {
@@ -3287,16 +3287,16 @@
             },
             {
               "name": "urgent_3sfca",
-              "duplicates": 55901,
+              "duplicates": 57213,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 55649,
-              "mean": 0.7651,
-              "sd": 0.4721,
-              "min": 0,
+              "missing": 57214,
+              "mean": 1.0195,
+              "sd": 0.3206,
+              "min": 0.2428,
               "max": 2.1526,
               "info": {
                 "category": "Health",
@@ -3648,13 +3648,13 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "e17c0824f8b806d8411932b8b2b03aee32e86545694bcefa12095f34b42463e3c180ffa5e17a0c6567cb8bcffb87b67c542535fb2fc5c28c3bc6b4162bd80f9f",
+        "sha512": "9481304fdf60ab6345eac9f356f11cb6faf8b985cd5a99f0b1aa6194c6bc3dea6984e0e6783754b05a7a5fc45fcecdac96c7bdb434e992d923cae4b3aa9f0a39",
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 2908028,
+        "bytes": 2906568,
         "encoding": "ISO-8859-1",
-        "md5": "852d3a81f66ccbd4e525d35c979c26d8",
+        "md5": "88f7d184cd276d5c828ba268f01b05f4",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -3668,8 +3668,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:28",
-        "last_modified": "2023-04-04 13:51:28",
+        "created": "2023-04-04 16:53:42",
+        "last_modified": "2023-04-04 16:53:42",
         "row_count": 21735,
         "entity_count": 1449,
         "schema": {
@@ -4298,16 +4298,16 @@
             },
             {
               "name": "emp_rate",
-              "duplicates": 19198,
+              "duplicates": 20130,
               "time_range": [
                 6,
-                10
+                12
               ],
               "type": "float",
-              "missing": 19161,
-              "mean": 95.7977,
-              "sd": 2.3554,
-              "min": 74.0741,
+              "missing": 13004,
+              "mean": 94.3414,
+              "sd": 4.5284,
+              "min": 32.18,
               "max": 100,
               "info": {
                 "category": "Employment/Workforce Development",
@@ -6844,17 +6844,17 @@
             },
             {
               "name": "urgent_near_10_median",
-              "duplicates": 19881,
+              "duplicates": 20435,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 19840,
-              "mean": 9.5154,
-              "sd": 4.9877,
+              "missing": 20412,
+              "mean": 7.8295,
+              "sd": 4.1589,
               "min": 1.8227,
-              "max": 44.7458,
+              "max": 38.45,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -6888,13 +6888,13 @@
               "name": "urgent_cnt",
               "duplicates": 21724,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "integer",
-              "missing": 19825,
-              "mean": 0.333,
-              "sd": 0.9046,
+              "missing": 20404,
+              "mean": 0.4395,
+              "sd": 1.0477,
               "min": 0,
               "max": 10,
               "info": {
@@ -6928,16 +6928,16 @@
             },
             {
               "name": "urgent_3sfca",
-              "duplicates": 19843,
+              "duplicates": 20411,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 19840,
-              "mean": 0.7573,
-              "sd": 0.4648,
-              "min": 0.0624,
+              "missing": 20412,
+              "mean": 1.0096,
+              "sd": 0.3111,
+              "min": 0.2428,
               "max": 2.1467,
               "info": {
                 "category": "Health",
@@ -7301,7 +7301,7 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "bb24bd5811780ab78d130284e8dae2fea6d9ff1be0ce55b57fe55a15f73cc07641fff7b10c7c85ac1755401144910d7120ab384f962438e388ab43cfb4b62ecc",
+        "sha512": "4bc2d264318325f879d6c3c90185f8dd7cf003814818be526e1d96836ff8685438ac1f6e4ec4a7ef05777ce7076a0b8d3c5c17bce80d500ec2404bf775cca8fa",
         "site_file": "tract.json"
       },
       "civic_association": {
@@ -7321,8 +7321,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:23",
-        "last_modified": "2023-04-04 13:51:23",
+        "created": "2023-04-04 16:53:36",
+        "last_modified": "2023-04-04 16:53:36",
         "row_count": 930,
         "entity_count": 62,
         "schema": {
@@ -10794,9 +10794,9 @@
         "site_file": "civic_association.json"
       },
       "county": {
-        "bytes": 40604,
+        "bytes": 40628,
         "encoding": "ISO-8859-1",
-        "md5": "8e3ff11ac17c9088339390c17de9ee32",
+        "md5": "3f1f8c8985b8cbc8e4fa38ebfd7fab80",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -10810,8 +10810,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:23",
-        "last_modified": "2023-04-04 13:51:23",
+        "created": "2023-04-04 16:53:36",
+        "last_modified": "2023-04-04 16:53:36",
         "row_count": 210,
         "entity_count": 14,
         "schema": {
@@ -11448,13 +11448,17 @@
             },
             {
               "name": "emp_rate",
-              "duplicates": 209,
+              "duplicates": 118,
               "time_range": [
-                -1,
-                -1
+                6,
+                12
               ],
-              "type": "unknown",
-              "missing": 210,
+              "type": "float",
+              "missing": 112,
+              "mean": 95.114,
+              "sd": 1.4478,
+              "min": 90.42,
+              "max": 97.28,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
@@ -14014,17 +14018,17 @@
             },
             {
               "name": "urgent_near_10_median",
-              "duplicates": 186,
+              "duplicates": 195,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 187,
-              "mean": 9.8272,
-              "sd": 3.7947,
+              "missing": 196,
+              "mean": 7.8329,
+              "sd": 2.6696,
               "min": 4.614,
-              "max": 17.7081,
+              "max": 13.9386,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_urgent",
@@ -14056,16 +14060,16 @@
             },
             {
               "name": "urgent_cnt",
-              "duplicates": 193,
+              "duplicates": 196,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "integer",
-              "missing": 187,
-              "mean": 27.6522,
-              "sd": 34.6759,
-              "min": 0,
+              "missing": 196,
+              "mean": 41.7857,
+              "sd": 38.0873,
+              "min": 1,
               "max": 113,
               "info": {
                 "category": "Health",
@@ -14098,16 +14102,16 @@
             },
             {
               "name": "urgent_3sfca",
-              "duplicates": 186,
+              "duplicates": 195,
               "time_range": [
-                12,
+                13,
                 13
               ],
               "type": "float",
-              "missing": 187,
-              "mean": 0.7615,
-              "sd": 0.5306,
-              "min": 0.1141,
+              "missing": 196,
+              "mean": 1.1294,
+              "sd": 0.3171,
+              "min": 0.7567,
               "max": 1.7041,
               "info": {
                 "category": "Health",
@@ -14471,7 +14475,7 @@
             "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "5aeaef869fcc717ce20458867012608dc0d41e324a2685fa0ba888d723cee71c33116ab3a1beca7257950cb1927b2841852fa1b79a17e4faf1adc20e607f8a84",
+        "sha512": "75a21a42ef788d7ea2b13f994fdc4074eed144be0864d1a64f1ca29affc8b428f4b207835dde0f65f3b59c3d9b80803fea83671c9f6daf9f6335b097424e476b",
         "site_file": "county.json"
       },
       "zip_code": {
@@ -14491,8 +14495,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:28",
-        "last_modified": "2023-04-04 13:51:28",
+        "created": "2023-04-04 16:53:42",
+        "last_modified": "2023-04-04 16:53:42",
         "row_count": 810,
         "entity_count": 54,
         "schema": {
@@ -17904,8 +17908,8 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:23",
-        "last_modified": "2023-04-04 13:51:23",
+        "created": "2023-04-04 16:53:36",
+        "last_modified": "2023-04-04 16:53:36",
         "row_count": 210,
         "entity_count": 14,
         "schema": {
@@ -21317,8 +21321,8 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:23",
-        "last_modified": "2023-04-04 13:51:23",
+        "created": "2023-04-04 16:53:36",
+        "last_modified": "2023-04-04 16:53:36",
         "row_count": 135,
         "entity_count": 9,
         "schema": {
@@ -24730,8 +24734,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:51:23",
-        "last_modified": "2023-04-04 13:51:23",
+        "created": "2023-04-04 16:53:36",
+        "last_modified": "2023-04-04 16:53:36",
         "row_count": 60,
         "entity_count": 4,
         "schema": {

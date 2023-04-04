@@ -187,6 +187,16 @@
   "uva-bi-sdad/sdc.financial_well_being": {
     "repository": "uva-bi-sdad/sdc.financial_well_being",
     "files": {
+      "Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv": {
+        "size": 1419990,
+        "sha": "2d75256aa103cff26c640b1c0cb4621136a5f404",
+        "md5": "f974505300276d33d819924334abd6e9"
+      },
+      "Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv": {
+        "size": 904333,
+        "sha": "c94d81eb58ea707d78bde1dafdbae2ac26653ad8",
+        "md5": "4c73989c04a9d04fc4560ff1ee92005d"
+      },
       "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv": {
         "size": 1491384,
         "sha": "74de62fc4df7151efe71e2eb6c81805d7861216d",
@@ -211,11 +221,6 @@
         "size": 12548,
         "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
         "md5": "715c5be2c01baf9e201e52c28a6a0b5b"
-      },
-      "Employment/data/distribution/va_tr_acs_2015_2019_emp_rate.csv.xz": {
-        "size": 178072,
-        "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
-        "md5": "35fcb3181e983499603d5c160ce32a74"
       }
     }
   },
@@ -301,11 +306,6 @@
         "size": 94520,
         "sha": "62334bd073c56f5d199477fba2845991d91cfd33",
         "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2"
-      },
-      "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv": {
-        "size": 7339808,
-        "sha": "0c600208775b1cba29c20ef44f3fb510f3b67498",
-        "md5": "6fe4c2a03a3cf082162365a883eef4a8"
       },
       "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/ncr_bgtrct_gmap_2022_access_scores_urgent_care_centers.csv": {
         "size": 7764683,
