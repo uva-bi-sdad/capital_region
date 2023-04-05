@@ -77,50 +77,55 @@
   "uva-bi-sdad/sdc.demographics": {
     "repository": "uva-bi-sdad/sdc.demographics",
     "files": {
+      "Veteran/data/distribution/va_trctbg_acs_20092020_veteran_demographics.csv.xz": {
+        "size": 992168,
+        "sha": "303478ce520d0addd56c879591485960656a04df",
+        "md5": "0b51b189a497f9e2db98f7cb7f8ecc0f"
+      },
+      "Veteran/data/distribution/va059_hsrpdsdzc_sdad_20132019_veteran_demographics.csv.xz": {
+        "size": 12164,
+        "sha": "732c909676da1125a76c7a4a87ab8b0acff2d14e",
+        "md5": "0e7c5834b503bd1cf1e04564c09e0a73"
+      },
+      "Veteran/data/distribution/va013_civic_sdad_20132020_veteran_demographics.csv.xz": {
+        "size": 10464,
+        "sha": "73b9c078a786c6b6b700d73efd59579ef388beb5",
+        "md5": "11a2cda76530e7eaa01da61cf34b742c"
+      },
+      "Veteran/data/distribution/ncr_trctbg_acs_20092020_veteran_demographics.csv.xz": {
+        "size": 602340,
+        "sha": "64cb2ec7742383424dcb0c33b3b41aeeb166604b",
+        "md5": "bec425cdfe3157d4efd0175344ab2e18"
+      },
+      "Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz": {
+        "size": 6566832,
+        "sha": "2772b20e0d17de76deea51810a1e104f9fc3d484",
+        "md5": "a1eab2f687d651bd1a9ac33868487b2c"
+      },
+      "Race/data/distribution/va059_hsrpdsdzc_sdad_20132019_race_demographics.csv.xz": {
+        "size": 91224,
+        "sha": "bd1f26c4d8019a23768ec7903a1e7797954b528b",
+        "md5": "60c521e52622f9af78e3b26e87d577d7"
+      },
+      "Race/data/distribution/va013_civic_sdad_20132020_race_demographics.csv.xz": {
+        "size": 71788,
+        "sha": "6e38d7a1d24ea0712feb0eb098eea082339fa761",
+        "md5": "c3582d4752624071a160ea5464624338"
+      },
+      "Race/data/distribution/ncr_trctbg_acs_20092020_race_demographics.csv.xz": {
+        "size": 4420928,
+        "sha": "2b386c80f8f28aa11db33965a49c5d588a09f3c1",
+        "md5": "a0863ab602fea5b229561f65cffd6e40"
+      },
+      "Gender/data/distribution/va059_hsrpdsdzc_sdad_20132019_gender_demographics.csv.xz": {
+        "size": 29948,
+        "sha": "85a0c15c916b258c1ef56241576e8b6e14710f49",
+        "md5": "d7e809f8f10eaadd1c4eaf6ef5523e81"
+      },
       "Cooperative extension/data/distribution/va_cttr_2010_2021_perc_male.csv.xz": {
         "size": 460256,
         "sha": "781d6d977d1b4ccc48f90e89160ebd1109cecfe0",
         "md5": "b1627d7b2a32b740218e057abcd659da"
-      },
-      "Veteran/data/distribution/va_trctbg_acs_20092020_veteran_demographics.csv.xz": {
-        "size": 955420,
-        "sha": "61407689bf41da99c17412ead6bfab76da63c294",
-        "md5": "b23483de3f6215c3d6fc486aeb85c27a"
-      },
-      "Veteran/data/distribution/va059_hsrpdsdzc_sdad_20132019_veteran_demographics.csv.xz": {
-        "size": 12144,
-        "sha": "2e75d57ebb44fc153965f343fefe8b1befe13c05",
-        "md5": "f98b1b01b24ca211a8b9b791490852bc"
-      },
-      "Veteran/data/distribution/va013_civic_sdad_20132020_veteran_demographics.csv.xz": {
-        "size": 10424,
-        "sha": "03ef754fa775ec3cca795a89ec4de77d61eb01e6",
-        "md5": "ac1f2378a0967a15f4aa5395e2628d57"
-      },
-      "Veteran/data/distribution/ncr_trctbg_acs_20092020_veteran_demographics.csv.xz": {
-        "size": 589616,
-        "sha": "757230e510df88ae856224df1bfb3bb6d41d21a0",
-        "md5": "9cc335f6730d72b4b77bc54778a65fef"
-      },
-      "Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz": {
-        "size": 6427384,
-        "sha": "72782cbaff10fd40876e70bbd570d1f2dc532e27",
-        "md5": "4ac8c0411ed7b9123f3b1b55249ecb3f"
-      },
-      "Race/data/distribution/va059_hsrpdsdzc_sdad_20132019_race_demographics.csv.xz": {
-        "size": 90344,
-        "sha": "f4ddb6a439c81e51d9257859927ad7c105a49539",
-        "md5": "6c82c3bd72bdb31117938f703bd8b6fd"
-      },
-      "Race/data/distribution/va013_civic_sdad_20132020_race_demographics.csv.xz": {
-        "size": 70876,
-        "sha": "afaab061f226df8e733c00a8214045617b5be56b",
-        "md5": "1a84bd7eb3499fc6b9474ad17ef40fa7"
-      },
-      "Race/data/distribution/ncr_trctbg_acs_20092020_race_demographics.csv.xz": {
-        "size": 4363644,
-        "sha": "7c1dfc8ffd25e150efc9fb1722fa61aca63de32e",
-        "md5": "0c0bec26fa2798d3b035baed06bca895"
       },
       "Gender/data/distribution/va_trctbg_acs_20092020_gender_demographics.csv.xz": {
         "size": 2391576,
