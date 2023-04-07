@@ -167,6 +167,16 @@
   "uva-bi-sdad/sdc.education": {
     "repository": "uva-bi-sdad/sdc.education",
     "files": {
+      "Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv": {
+        "size": 1373717,
+        "sha": "6bdd3dd46bf539f225253a947d95ca5a6e87565d",
+        "md5": "2ad97cf396a926d1d265690b6c3485ad"
+      },
+      "Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv": {
+        "size": 723260,
+        "sha": "34de62bf5ec6047e6a4dddb76a631022c0b02c55",
+        "md5": "3c3ff9bfae1b07d88e3ab8b2ef744a12"
+      },
       "Postsecondary/data/distribution/acs.csv.xz": {
         "size": 1509228,
         "sha": "3e7b9222144dca5b1ea2bb5597891050382e08d4",
