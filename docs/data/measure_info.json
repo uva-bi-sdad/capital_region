@@ -180,6 +180,119 @@
     "type": "index",
     "unit": ""
   },
+  "earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+    "long_name": "Earnings per job",
+    "measure_type": "dollars",
+    "short_description": "Average of earnings per job.",
+    "short_name": "Earnings per job",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ],
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "type": "dollar",
+    "unit": ""
+  },
+  "gini_index": {
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "long_name": "Income Inequality (Gini Index)",
+    "measure_type": "index",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "short_name": "Income Inequality (Gini Index)",
+    "sources": [
+      {
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
+      }
+    ],
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "median_household_income": {
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+    "long_name": "Median household income",
+    "measure_type": "count",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
+    "unit": ""
+  },
+  "job_participate_rate": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "long_name": "Job Participation Pecentage",
+    "measure_type": "percent",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "short_name": "Job Participation Pecentage",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "type": "percent",
+    "unit": ""
+  },
+  "emp_rate": {
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage civilian employed",
+    "measure_type": "percent",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "short_name": "Percentage employed",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is employed.",
+    "type": "percent",
+    "unit": ""
+  },
   "perc_veteran": {
     "category": "Demographics",
     "citations": "",
@@ -463,119 +576,6 @@
       }
     ],
     "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "long_name": "Earnings per job",
-    "measure_type": "dollars",
-    "short_description": "Average of earnings per job.",
-    "short_name": "Earnings per job",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": ""
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "long_name": "Income Inequality (Gini Index)",
-    "measure_type": "index",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "short_name": "Income Inequality (Gini Index)",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ],
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-    "long_name": "Median household income",
-    "measure_type": "count",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
-      }
-    ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar",
-    "unit": ""
-  },
-  "job_participate_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": ""
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "short_name": "Percentage employed",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is employed.",
     "type": "percent",
     "unit": ""
   },
@@ -1268,6 +1268,989 @@
     "statement": "The Fair Market Rent (FMR) for a zero bedroom dwelling in {features.name} is {value}.",
     "type": "count",
     "unit": "dollar"
+  },
+  "perc_income_avg_nat_package": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "measure_type": "percent",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "short_name": "Percentage of income for internet (average)",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_25": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_name": "Percentage of income for good internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_100": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "short_name": "Percentage of income for fast internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_internet": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without internet access",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "short_name": "Households without internet access",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_broadband": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with broadband",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "short_name": "Households with broadband",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_compdev": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without a computer",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "short_name": "Households without a computer",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28001",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of devices",
+    "measure_type": "count",
+    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
+    "short_name": "Number of devices",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+    "type": "count",
+    "unit": ""
+  },
+  "avg_up_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Upload Speed",
+    "measure_type": "mean",
+    "short_description": "Average upload speed weighted by number of devices.",
+    "short_name": "Average Upload Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average upload speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
+  },
+  "avg_down_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Download Speed",
+    "measure_type": "speed",
+    "short_description": "Average download speed weighted by number of devices.",
+    "short_name": "Average Download Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average download speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
+  },
+  "minority_owned_total_job_creation": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total jobs created by minority owned businesses",
+    "long_name": "Total jobs creation by minority owned businesses",
+    "measure_type": "count",
+    "short_description": "Total jobs created by minority owned businesses",
+    "short_name": "Total jobs creation by minority owned businesses",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_business_create_job": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of minority owned business creating jobs",
+    "long_name": "Number of minority owned business creating jobs",
+    "measure_type": "count",
+    "short_description": "Number of minority owned business creating jobs",
+    "short_name": "Number of minority owned business creating jobs",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_job_creation_active": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs created by active businesses owned by minority",
+    "long_name": "Job creation by active businesses owned by minority (count)",
+    "measure_type": "count",
+    "short_description": "Jobs created by active businesses owned by minority (count)",
+    "short_name": "Job creation by active businesses owned by minority (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_job_creation_new": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs created by new businesses owned by minority ",
+    "long_name": "Job creation by new businesses owned by minority (count)",
+    "measure_type": "count",
+    "short_description": "Jobs created by new businesses owned by minority (count)",
+    "short_name": "Job creation by new businesses owned by minority (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_total_employment": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total employment by minority owned businesses",
+    "long_name": "Total employment by minority owned businesses",
+    "measure_type": "count",
+    "short_description": "Total employment by minority owned businesses",
+    "short_name": "Total employment by minority owned businesses",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_Herfindalh_Hirschman_index": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": " Herfindalh Hirschman Index for Construction industry",
+    "long_name": " Herfindalh Hirschman Index for Construction industry",
+    "measure_type": "index",
+    "short_description": " Herfindalh Hirschman Index for Construction industry",
+    "short_name": " HHI for Construction industry",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "index",
+    "unit": ""
+  },
+  "Construction_Location_quotient": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": " Location Quotient for Construction industry",
+    "long_name": " Location Quotient for Construction industry",
+    "measure_type": "index",
+    "short_description": " Location Quotient for Construction industry",
+    "short_name": " LQ for Construction industry",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "index",
+    "unit": ""
+  },
+  "Construction_total_employment": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total employment in Construction (count)",
+    "long_name": " Total employment in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Total employment in Construction (count)",
+    "short_name": " Total employment in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_total_job_destruction": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total jobs destroyed in Construction (count)",
+    "long_name": " Total Job destruction in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Total jobs destroyed in Construction (count)",
+    "short_name": " Total Job destruction in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_perc_job_destruction_exit": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs destroyed by new businesses in Construction in percent",
+    "long_name": "Jobs destruction by new business in Construction (percent)",
+    "measure_type": "percentage",
+    "short_description": "Jobs destroyed by new businesses in Construction (percent)",
+    "short_name": "Jobs destruction by new business in Construction (percent)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "Construction_perc_job_destruction_active": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs destroyed by active businesses in Construction in percent",
+    "long_name": "Jobs destruction by active business in Construction (percent)",
+    "measure_type": "percentage",
+    "short_description": "Jobs destroyed by active businesses in Construction (percent)",
+    "short_name": "Jobs destruction by active business in Construction (percent)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "Construction_job_destruction_exit": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs destroyed by new businesses in Construction (count)",
+    "long_name": "Jobs destruction by new business in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Jobs destroyed by new businesses in Construction (count)",
+    "short_name": "Jobs destruction by new business in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_job_destruction_active": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs destroyed by active businesses in Construction (count)",
+    "long_name": "Jobs destruction by active business in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Jobs destroyed by active businesses in Construction (count)",
+    "short_name": "Jobs destruction by active business in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_business_destruction_job": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of business destroying jobs in Construction",
+    "long_name": "Number of business destroying jobs in Construction",
+    "measure_type": "count",
+    "short_description": "Number of business destroying jobs in Construction",
+    "short_name": "Number of business destroying jobs in Construction",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_total_job_creation": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total jobs created in Construction (count)",
+    "long_name": " Total Job creation in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Total jobs created in Construction (count)",
+    "short_name": " Total Job creation in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_perc_job_creation_new": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs created by new businesses in Construction in percent",
+    "long_name": "Jobs creation by new business in Construction (percent)",
+    "measure_type": "percentage",
+    "short_description": "Jobs created by new businesses in Construction (percent)",
+    "short_name": "Jobs creation by new business in Construction (percent)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "Construction_perc_job_creation_active": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs created by active businesses in Construction in percent",
+    "long_name": "Jobs creation by active business in Construction (percent)",
+    "measure_type": "percentage",
+    "short_description": "Jobs created by active businesses in Construction (percent)",
+    "short_name": "Jobs creation by active business in Construction (percent)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "Construction_job_creation_new": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs created by new businesses in Construction (count)",
+    "long_name": "Jobs creation by new business in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Jobs created by new businesses in Construction (count)",
+    "short_name": "Jobs creation by new business in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_job_creation_active": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Jobs created by active businesses in Construction (count)",
+    "long_name": "Jobs creation by active business in Construction (count)",
+    "measure_type": "count",
+    "short_description": "Jobs created by active businesses in Construction (count)",
+    "short_name": "Jobs creation by active business in Construction (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_business_create_job": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of business creating jobs in Construction",
+    "long_name": "Number of business creating jobs in Construction",
+    "measure_type": "count",
+    "short_description": "Number of business creating jobs in Construction",
+    "short_name": "Number of business creating jobs in Construction",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_number_business": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total number of minority owned businesses",
+    "long_name": "Total number of minority owned businesses",
+    "measure_type": "count",
+    "short_description": "Total number of minority owned businesses",
+    "short_name": "Total number of minority owned businesses",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_exit_business": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of exiting minority owned businesses (count)",
+    "long_name": "Number of exiting minority owned businesses (count)",
+    "measure_type": "count",
+    "short_description": "Number of exiting minority owned businesses (count)",
+    "short_name": "Number of exiting minority owned businesses (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_exit_rate": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of minority owned businesses exiting ",
+    "long_name": "Exit rate among minority owned businesses",
+    "measure_type": "percentage",
+    "short_description": "Percentage of minority owned businesses exiting ",
+    "short_name": "Exit rate among minority owned businesses",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "minority_owned_new_business": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of new businesses owned by minority (count)",
+    "long_name": "Number of new minority owned businesses (count)",
+    "measure_type": "count",
+    "short_description": "Number of new businesses owned by minority (count)",
+    "short_name": "Number of new minority owned businesses (count)",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "minority_owned_entry_rate": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of new businesses owned by minority",
+    "long_name": "Entry rate among minority owned businesses",
+    "measure_type": "percentage",
+    "short_description": "Percentage of new businesses owned by minority",
+    "short_name": "Entry rate among minority owned businesses",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "Construction_number_business": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Total number of businesses in Construction industry (count)",
+    "long_name": "Total number of businesses in Construction",
+    "measure_type": "count",
+    "short_description": "Total number of businesses in Construction industry (count)",
+    "short_name": "Total number of businesses in Construction",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_exit_rate": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of businesses leaving Construction industry (count)",
+    "long_name": "Number of businesses leaving Construction industry",
+    "measure_type": "percentage",
+    "short_description": "Number of businesses leaving Construction industry (count)",
+    "short_name": "Number of businesses leaving Construction industry",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_exit_business": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of businesses leaving the Construction industry (in percent)",
+    "long_name": "Exit rate in Construction",
+    "measure_type": "count",
+    "short_description": "Number of businesses leaving the Construction industry (in percent)",
+    "short_name": "Exit rate in Construction",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
+  },
+  "Construction_new_business": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of new businesses in Construction (count)",
+    "long_name": "Number of new businesses in Construction",
+    "measure_type": "count",
+    "short_description": "Number of new businesses in Construction (count)",
+    "short_name": "Number of new businesses in Construction",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "count",
+    "unit": ""
+  },
+  "Construction_entry_rate": {
+    "category": "Business climate",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Number of new businesses in Construction (in percent)",
+    "long_name": "Entry rate in Construction",
+    "measure_type": "percentage",
+    "short_description": "Number of new businesses in Construction (in percent)",
+    "short_name": "Entry rate in Construction",
+    "sources": [
+      {
+        "name": "Mergent Intellect",
+        "date_accessed": 2023,
+        "url": "https://www.ftserussell.com/data/mergent-intellect"
+      }
+    ],
+    "statement": "",
+    "type": "percent",
+    "unit": ""
   },
   "average_years_schooling": {
     "category": "Education",
@@ -2105,328 +3088,5 @@
       "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
       "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
-  },
-  "perc_income_avg_nat_package": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-    "long_name": "The national average price for internet as a percentage of average income",
-    "measure_type": "percent",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
-    "short_name": "Percentage of income for internet (average)",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_25": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "short_name": "Percentage of income for good internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Good internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_100": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-    "short_name": "Percentage of income for fast internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_internet": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without internet access",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have internet access at home",
-    "short_name": "Households without internet access",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have internet access.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_compdev": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without a computer",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have a computer or device at home",
-    "short_name": "Households without a computer",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28001",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have a computer or device.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_cable_fiber_dsl": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "short_name": "Households with cable, fiber optic, or DSL",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_broadband": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with broadband",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "short_name": "Households with broadband",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a broadband connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of devices",
-    "measure_type": "count",
-    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
-    "short_name": "Number of devices",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
-    "type": "count",
-    "unit": ""
-  },
-  "avg_up_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Average Upload Speed",
-    "measure_type": "mean",
-    "short_description": "Average upload speed weighted by number of devices.",
-    "short_name": "Average Upload Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average upload speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
-  },
-  "avg_down_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Average Download Speed",
-    "measure_type": "speed",
-    "short_description": "Average download speed weighted by number of devices.",
-    "short_name": "Average Download Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average download speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
   }
 }
