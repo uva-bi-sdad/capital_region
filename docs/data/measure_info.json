@@ -1,4 +1,185 @@
 {
+  "percent_food_insecure": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Estimated percentage of total people in food insecure households",
+    "measure_type": "percent",
+    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Food Insecure Population Percentage",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "Feeding America",
+        "url": "https://map.feedingamerica.org/"
+      }
+    ],
+    "statement": "{value} percent of the population in {features.name} are food insecure.",
+    "type": "percent",
+    "unit": ""
+  },
+  "number_food_insecure": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Estimated number of total people in food insecure households",
+    "measure_type": "count",
+    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Food Insecure Population Count",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "Feeding America",
+        "url": "https://map.feedingamerica.org/"
+      }
+    ],
+    "statement": "{value} people in {features.name} are food insecure.",
+    "type": "count",
+    "unit": ""
+  },
+  "Cost_Per_Meal": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
+    "long_name": "Average meal cost ($)",
+    "measure_type": "cost",
+    "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
+    "short_name": "Average meal cost ($)",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ],
+    "statement": "The average meal cost in {features.name} is {value}.",
+    "type": "dollar",
+    "unit": ""
+  },
+  "Num_Child_Food_Insecure": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Count of food insecure children",
+    "measure_type": "count",
+    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Food insecure children (count)",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ],
+    "statement": "The population of food insecure children in {features.name} is {value}.",
+    "type": "count",
+    "unit": ""
+  },
+  "Child_Food_Insecurity_Rate": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+    "long_name": "Percentage of food insecure children",
+    "measure_type": "percent",
+    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
+    "short_name": "Percentage of food insecure children",
+    "sources": [
+      {
+        "name": "Feeding America",
+        "date_accessed": "2021",
+        "url": "https://www.feedingamerica.org/"
+      }
+    ],
+    "statement": "{value} of the population of children in {features.name} are food insecure.",
+    "type": "percent",
+    "unit": ""
+  },
+  "hh_received_snap_pct": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "measure_type": "percent",
+    "short_description": "The percentage of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Percentage of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percentage of households that received SNAP in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "hh_received_snap_cnt": {
+    "category": "Nutrition and Food Security",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
+    "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
+    "measure_type": "count",
+    "short_description": "The number of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
+    "short_name": "Count of Households That Received SNAP",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey (ACS)",
+        "location": "Table B22010",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The count of households that received SNAP in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "mrfei": {
+    "category": "Nutrition and Food Security",
+    "citations": [
+      "cdc11a",
+      "cdc11b"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+    "long_name": "Retail food environment index",
+    "measure_type": "index",
+    "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
+    "short_name": "Retail food environment index",
+    "sources": [
+      {
+        "name": "OpenStreetMap",
+        "date_accessed": 2023,
+        "url": "https://www.openstreetmap.org/"
+      }
+    ],
+    "statement": "The Retail food environment index is {value} in {features.name}.",
+    "type": "index",
+    "unit": ""
+  },
   "perc_veteran": {
     "category": "Demographics",
     "citations": "",
@@ -396,187 +577,6 @@
     ],
     "statement": "{value} of the population in {features.name} is employed.",
     "type": "percent",
-    "unit": ""
-  },
-  "percent_food_insecure": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the percent of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Estimated percentage of total people in food insecure households",
-    "measure_type": "percent",
-    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Food Insecure Population Percentage",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "Feeding America",
-        "url": "https://map.feedingamerica.org/"
-      }
-    ],
-    "statement": "{value} percent of the population in {features.name} are food insecure.",
-    "type": "percent",
-    "unit": ""
-  },
-  "number_food_insecure": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. This measure is an estimate of the number of people in food insecure households.  The brief providing the methodology of calculating these estimates is available at Feeding America's Map the Meal Gap website (linked below). Food insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Estimated number of total people in food insecure households",
-    "measure_type": "count",
-    "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Food Insecure Population Count",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "Feeding America",
-        "url": "https://map.feedingamerica.org/"
-      }
-    ],
-    "statement": "{value} people in {features.name} are food insecure.",
-    "type": "count",
-    "unit": ""
-  },
-  "Cost_Per_Meal": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
-    "long_name": "Average meal cost ($)",
-    "measure_type": "cost",
-    "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
-    "short_name": "Average meal cost ($)",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ],
-    "statement": "The average meal cost in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": ""
-  },
-  "Num_Child_Food_Insecure": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Count of food insecure children",
-    "measure_type": "count",
-    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Food insecure children (count)",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ],
-    "statement": "The population of food insecure children in {features.name} is {value}.",
-    "type": "count",
-    "unit": ""
-  },
-  "Child_Food_Insecurity_Rate": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-    "long_name": "Percentage of food insecure children",
-    "measure_type": "percent",
-    "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-    "short_name": "Percentage of food insecure children",
-    "sources": [
-      {
-        "name": "Feeding America",
-        "date_accessed": "2021",
-        "url": "https://www.feedingamerica.org/"
-      }
-    ],
-    "statement": "{value} of the population of children in {features.name} are food insecure.",
-    "type": "percent",
-    "unit": ""
-  },
-  "hh_received_snap_pct": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The percentage of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
-    "long_name": "Percentage of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
-    "measure_type": "percent",
-    "short_description": "The percentage of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
-    "short_name": "Percentage of Households That Received SNAP",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B22010",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percentage of households that received SNAP in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "hh_received_snap_cnt": {
-    "category": "Nutrition and Food Security",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The number of households in which at least one member of the household received benefits from the Food Stamp Program or the Supplemental Nutrition Assistance Program (SNAP) in the past 12 months.  This does not include households in which at least one member recieved benefits from WIC, the School Lunch Program, or assistance from food banks and not also from the Food Stamp Program or SNAP in the past 12 months.",
-    "long_name": "Count of Households That Received Supplemental Nutrition Assistance Program (SNAP)",
-    "measure_type": "count",
-    "short_description": "The number of households in which at least one member received benefits from the Food Stamp Program or SNAP in the past 12 months",
-    "short_name": "Count of Households That Received SNAP",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey (ACS)",
-        "location": "Table B22010",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The count of households that received SNAP in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "mrfei": {
-    "category": "Nutrition and Food Security",
-    "citations": [
-      "cdc11a",
-      "cdc11b"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
-    "long_name": "Retail food environment index",
-    "measure_type": "index",
-    "short_description": "The number of available healthy and less healthy food retailers. A higher score indicates more available healthy options per less healthy options. A score of 0 indicates no available options (food desert).",
-    "short_name": "Retail food environment index",
-    "sources": [
-      {
-        "name": "OpenStreetMap",
-        "date_accessed": 2023,
-        "url": "https://www.openstreetmap.org/"
-      }
-    ],
-    "statement": "The Retail food environment index is {value} in {features.name}.",
-    "type": "index",
     "unit": ""
   },
   "no_hlth_ins_pct": {
@@ -1268,329 +1268,6 @@
     "statement": "The Fair Market Rent (FMR) for a zero bedroom dwelling in {features.name} is {value}.",
     "type": "count",
     "unit": "dollar"
-  },
-  "perc_income_avg_nat_package": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-    "long_name": "The national average price for internet as a percentage of average income",
-    "measure_type": "percent",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
-    "short_name": "Percentage of income for internet (average)",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_25": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-    "short_name": "Percentage of income for good internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Good internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_income_min_price_100": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Affordability",
-    "layer": "",
-    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-    "measure_type": "percent",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-    "short_name": "Percentage of income for fast internet",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Broadband Now",
-        "date_accessed": 2021,
-        "url": "https://broadbandnow.com/"
-      }
-    ],
-    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_internet": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without internet access",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have internet access at home",
-    "short_name": "Households without internet access",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have internet access.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_without_compdev": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households without a computer",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to not have a computer or device at home",
-    "short_name": "Households without a computer",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28001",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} do not have a computer or device.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_cable_fiber_dsl": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-    "short_name": "Households with cable, fiber optic, or DSL",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hh_with_broadband": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage of households with broadband",
-    "measure_type": "percent",
-    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-    "short_name": "Households with broadband",
-    "sources": [
-      {
-        "name": "American Community Survey Table B28002",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of households in {features.name} have a broadband connection.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_25_3_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-    "short_name": "Percent Good (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_total_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Total Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (total)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_w_int_100_20_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
-    "measure_type": "percent",
-    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-    "short_name": "Percent Fast (internet-connected)",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
-    "type": "percent",
-    "unit": ""
-  },
-  "devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Number of devices",
-    "measure_type": "count",
-    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
-    "short_name": "Number of devices",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
-    "type": "count",
-    "unit": ""
-  },
-  "avg_up_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Average Upload Speed",
-    "measure_type": "mean",
-    "short_description": "Average upload speed weighted by number of devices.",
-    "short_name": "Average Upload Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average upload speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
-  },
-  "avg_down_using_devices": {
-    "category": "Broadband",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "",
-    "long_name": "Average Download Speed",
-    "measure_type": "speed",
-    "short_description": "Average download speed weighted by number of devices.",
-    "short_name": "Average Download Speed",
-    "sources": [
-      {
-        "name": "Ookla",
-        "date_accessed": 2021,
-        "url": "https://www.ookla.com/ookla-for-good/open-data"
-      }
-    ],
-    "statement": "The average download speed is {value} in {features.name}.",
-    "type": "internet speed",
-    "unit": ""
   },
   "average_years_schooling": {
     "category": "Education",
@@ -2428,5 +2105,328 @@
       "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
       "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
+  },
+  "perc_income_avg_nat_package": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+    "long_name": "The national average price for internet as a percentage of average income",
+    "measure_type": "percent",
+    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "short_name": "Percentage of income for internet (average)",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_25": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_name": "Percentage of income for good internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Good internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_income_min_price_100": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+    "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+    "measure_type": "percent",
+    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "short_name": "Percentage of income for fast internet",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Broadband Now",
+        "date_accessed": 2021,
+        "url": "https://broadbandnow.com/"
+      }
+    ],
+    "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_internet": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without internet access",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have internet access at home",
+    "short_name": "Households without internet access",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have internet access.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_without_compdev": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households without a computer",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home",
+    "short_name": "Households without a computer",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28001",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} do not have a computer or device.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_cable_fiber_dsl": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+    "short_name": "Households with cable, fiber optic, or DSL",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hh_with_broadband": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage of households with broadband",
+    "measure_type": "percent",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+    "short_name": "Households with broadband",
+    "sources": [
+      {
+        "name": "American Community Survey Table B28002",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of households in {features.name} have a broadband connection.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_25_3_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+    "short_name": "Percent Good (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_total_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Total Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (total)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the total population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_w_int_100_20_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+    "measure_type": "percent",
+    "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+    "short_name": "Percent Fast (internet-connected)",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
+    "type": "percent",
+    "unit": ""
+  },
+  "devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Number of devices",
+    "measure_type": "count",
+    "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
+    "short_name": "Number of devices",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+    "type": "count",
+    "unit": ""
+  },
+  "avg_up_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Upload Speed",
+    "measure_type": "mean",
+    "short_description": "Average upload speed weighted by number of devices.",
+    "short_name": "Average Upload Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average upload speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
+  },
+  "avg_down_using_devices": {
+    "category": "Broadband",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "",
+    "long_name": "Average Download Speed",
+    "measure_type": "speed",
+    "short_description": "Average download speed weighted by number of devices.",
+    "short_name": "Average Download Speed",
+    "sources": [
+      {
+        "name": "Ookla",
+        "date_accessed": 2021,
+        "url": "https://www.ookla.com/ookla-for-good/open-data"
+      }
+    ],
+    "statement": "The average download speed is {value} in {features.name}.",
+    "type": "internet speed",
+    "unit": ""
   }
 }

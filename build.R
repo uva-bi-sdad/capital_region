@@ -15,17 +15,16 @@ data_add(
     "supervisor_district" = "supervisor_district.csv.xz",
     "zip_code" = "zip_code.csv.xz"
   ),
-  rep(list(list(
+  list(
     ids = list(
       variable = "ID",
       map = "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
     ),
     time = "time",
     variables = "measure_info.json"
-  )), 8),
+  ),
   dir = "../capital_region/docs/data",
-  clean = TRUE,
-  refresh = TRUE
+  clean = TRUE
 )
 
 site_build(
