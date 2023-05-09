@@ -27,9 +27,9 @@
     "variables": ["ID", "perc_income_avg_nat_package", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "dent_e2sfca", "avg_monthly_rate", "earnings_per_job", "ems_near_10_median", "ems_3sfca", "ems_cnt", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "mrfei", "no_hlth_ins_pct", "obgyn_e2sfca", "ped_e2sfca", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "primcare_e2sfca", "subs_near_10_median", "subs_3sfca", "subs_cnt", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "median_household_income", "hosp_near_10_median", "hosp_cnt", "hosp_3sfca", "urgent_near_10_median", "urgent_cnt", "urgent_3sfca", "percent_food_insecure", "number_food_insecure", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index", "job_participate_rate", "average_years_schooling", "monthly_rent_0br", "monthly_rent_1br", "monthly_rent_2br", "monthly_rent_3br", "monthly_rent_4br"],
     "info": {
       "block_group": {
-        "bytes": 5234740,
+        "bytes": 5251180,
         "encoding": "ISO-8859-1",
-        "md5": "547079caed70aa43f23df3cb3d712abb",
+        "md5": "24742400b25f0e55c0bedc62228672b4",
         "format": "csv",
         "name": "block_group",
         "filename": "block_group.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 12,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:28:55",
-        "last_modified": "2023-04-20 19:28:55",
+        "created": "2023-05-08 19:36:53",
+        "last_modified": "2023-05-08 19:36:53",
         "row_count": 60840,
         "entity_count": 4056,
         "schema": {
@@ -513,32 +513,32 @@
             },
             {
               "name": "perc_hh_without_compdev",
-              "duplicates": 54855,
+              "duplicates": 52175,
               "time_range": [
                 8,
-                10
+                12
               ],
               "type": "float",
-              "missing": 51149,
-              "mean": 5.7306,
-              "sd": 7.396,
+              "missing": 43853,
+              "mean": 4.8257,
+              "sd": 6.9417,
               "min": 0,
               "max": 100,
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -3297,10 +3297,10 @@
               "missing": 60840,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -3482,6 +3482,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -3585,46 +3616,15 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "3453063992ecf2754f3b3fe2a453b1e2782cf1b3d4eb2ba6346bfb31465881ebe40eff081c5e7afed97198b5d36e8075fa03a6a8582053010f48ff247b76b4be",
+        "sha512": "cb0c14d48aead4b3e0e6c092a29904bd818fd8c37a251b9e9e88a83a944eae5f50927eecf165832f208bf9eb710a59eb63bb28dd605b4c011f36112e0bd4f04d",
         "site_file": "block_group.json"
       },
       "tract": {
-        "bytes": 3011416,
+        "bytes": 3019212,
         "encoding": "ISO-8859-1",
-        "md5": "88c72525f4aaf3c9987cef30c640c02f",
+        "md5": "357369de679ef1a888e2a9a2433c084c",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -3638,8 +3638,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:29:01",
-        "last_modified": "2023-04-20 19:29:01",
+        "created": "2023-05-08 19:36:59",
+        "last_modified": "2023-05-08 19:36:59",
         "row_count": 21735,
         "entity_count": 1449,
         "schema": {
@@ -4108,32 +4108,32 @@
             },
             {
               "name": "perc_hh_without_compdev",
-              "duplicates": 18375,
+              "duplicates": 16304,
               "time_range": [
                 8,
-                10
+                12
               ],
               "type": "float",
-              "missing": 18083,
-              "mean": 5.8325,
-              "sd": 6.2251,
+              "missing": 15401,
+              "mean": 4.9247,
+              "sd": 5.7932,
               "min": 0,
               "max": 100,
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -6928,10 +6928,10 @@
               "max": 19,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -7133,6 +7133,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -7236,40 +7267,9 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "0614a647fe29941b3ea8cba94a2e6357b231245ed35e2dc289e2d7b028034c71cb94e0f60c74afcd29ce770361f64542caf630152ab410b2c66152ce8c86b3e6",
+        "sha512": "63010b36a596d89d0cf93cf018d86fa0969ba20fd95df8d125cbe043b48aaa1d1e931ab80359f0b531da08f48d230f2bf4e701a8e52910507b014a867ec73f2c",
         "site_file": "tract.json"
       },
       "civic_association": {
@@ -7289,8 +7289,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:28:55",
-        "last_modified": "2023-04-20 19:28:55",
+        "created": "2023-05-08 19:36:53",
+        "last_modified": "2023-05-08 19:36:53",
         "row_count": 930,
         "entity_count": 62,
         "schema": {
@@ -7725,18 +7725,18 @@
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -10407,10 +10407,10 @@
               "missing": 930,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -10592,6 +10592,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -10695,46 +10726,15 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "d613abd52056af5a7350cdeffac594a2cd3ff7589e9275e9ca530074133b2d72136da02eaaae0e24271873ee738613d05e8cc8bee7c5b703e33cede0d38677bc",
         "site_file": "civic_association.json"
       },
       "county": {
-        "bytes": 41784,
+        "bytes": 41916,
         "encoding": "ISO-8859-1",
-        "md5": "f3879291a164d27d58724df597906ab7",
+        "md5": "eaa76921ff0b2198f6ebcd7136537510",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -10748,8 +10748,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:28:55",
-        "last_modified": "2023-04-20 19:28:55",
+        "created": "2023-05-08 19:36:53",
+        "last_modified": "2023-05-08 19:36:53",
         "row_count": 210,
         "entity_count": 14,
         "schema": {
@@ -11222,32 +11222,32 @@
             },
             {
               "name": "perc_hh_without_compdev",
-              "duplicates": 167,
+              "duplicates": 139,
               "time_range": [
                 8,
-                10
+                12
               ],
               "type": "float",
-              "missing": 168,
-              "mean": 5.2723,
-              "sd": 2.5982,
-              "min": 1.7489,
+              "missing": 140,
+              "mean": 4.5766,
+              "sd": 2.4293,
+              "min": 0.8348,
               "max": 11.8409,
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -14066,10 +14066,10 @@
               "missing": 210,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -14271,6 +14271,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -14374,40 +14405,9 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
-        "sha512": "bad9f94fe73bda49381946ad44cef121d94a8ad35d9f077c413197b354e4026193243453c1197a879dd3577653ca2ec871af08e99754b6ace3d59f7b11a637c9",
+        "sha512": "70ae4b05e5158901deee3d4f5b04515e44d8f04e163a162a1afccb5bfe6bca821576988c58bfff4dedd9c8a3394897abd10d0be7eb65953357a62101fb94902b",
         "site_file": "county.json"
       },
       "zip_code": {
@@ -14427,8 +14427,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:29:01",
-        "last_modified": "2023-04-20 19:29:01",
+        "created": "2023-05-08 19:36:59",
+        "last_modified": "2023-05-08 19:36:59",
         "row_count": 810,
         "entity_count": 54,
         "schema": {
@@ -14863,18 +14863,18 @@
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -17477,10 +17477,10 @@
               "missing": 810,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -17662,6 +17662,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -17765,37 +17796,6 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "fc665ce4a787bee68d8e1d4b6643d5b4febd909c69448532b3cc152c256a52aeaa75c54f2520bf302747a2cb38df5537831d87e6b36ab63c6efcd8a98b6d2374",
@@ -17818,8 +17818,8 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:28:55",
-        "last_modified": "2023-04-20 19:28:55",
+        "created": "2023-05-08 19:36:53",
+        "last_modified": "2023-05-08 19:36:53",
         "row_count": 210,
         "entity_count": 14,
         "schema": {
@@ -18254,18 +18254,18 @@
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -20868,10 +20868,10 @@
               "missing": 210,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -21053,6 +21053,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -21156,37 +21187,6 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "af8d0e5d77e676be6cb5723f732bafff2e73f62f8164b775d4189380db20a2dac0bd976ddba5c0129514b4d5757a7dcb8c1dec1384b7c7ae0485171bc4d42407",
@@ -21209,8 +21209,8 @@
         "id_length": 0,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:28:55",
-        "last_modified": "2023-04-20 19:28:55",
+        "created": "2023-05-08 19:36:53",
+        "last_modified": "2023-05-08 19:36:53",
         "row_count": 135,
         "entity_count": 9,
         "schema": {
@@ -21645,18 +21645,18 @@
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -24259,10 +24259,10 @@
               "missing": 135,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -24444,6 +24444,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -24547,37 +24578,6 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "79fc40765e28ca6f6b3f7bc5d8df0bd90d057bee7aaf3c462ea24b3a35f0816869a4e48418f0473a8bb37770b09bf6e84b1dac5b80445c96261e32999318024f",
@@ -24600,8 +24600,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-20 19:28:55",
-        "last_modified": "2023-04-20 19:28:55",
+        "created": "2023-05-08 19:36:53",
+        "last_modified": "2023-05-08 19:36:53",
         "row_count": 60,
         "entity_count": 4,
         "schema": {
@@ -25036,18 +25036,18 @@
               "info": {
                 "category": "Broadband",
                 "citations": "",
-                "data_type": "numeric",
+                "data_type": "decimal",
                 "equity_category": "Accessibility",
                 "layer": "",
-                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
                 "long_name": "Percentage of households without a computer",
                 "measure_type": "percent",
                 "short_description": "Percentage of households self-reported to not have a computer or device at home",
                 "short_name": "Households without a computer",
                 "sources": [
                   {
-                    "name": "American Community Survey Table B28002",
-                    "date_accessed": 2021,
+                    "name": "American Community Survey Table B28001",
+                    "date_accessed": 2023,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
@@ -27650,10 +27650,10 @@
               "missing": 60,
               "info": {
                 "category": "Education",
-                "citations": "",
+                "citations": {},
                 "data_type": "numeric",
                 "equity_category": "Status",
-                "layer": "",
+                "layer": {},
                 "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
                 "long_name": "Education Index (Average Years of Schooling)",
                 "measure_type": "average",
@@ -27835,6 +27835,37 @@
           ]
         },
         "_references": {
+          "wan12": {
+            "id": "wan12",
+            "author": [
+              {
+                "given": "Neng",
+                "family": "Wan"
+              },
+              {
+                "given": "Bin",
+                "family": "Zou"
+              },
+              {
+                "given": "Troy",
+                "family": "Sternberg"
+              }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073-1089",
+            "doi": "10.1080/13658816.2011.624987"
+          },
+          "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+          },
           "lou04": {
             "id": "lou04",
             "author": [
@@ -27938,37 +27969,6 @@
             "year": 2011,
             "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-          },
-          "wan12": {
-            "id": "wan12",
-            "author": [
-              {
-                "given": "Neng",
-                "family": "Wan"
-              },
-              {
-                "given": "Bin",
-                "family": "Zou"
-              },
-              {
-                "given": "Troy",
-                "family": "Sternberg"
-              }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073-1089",
-            "doi": "10.1080/13658816.2011.624987"
-          },
-          "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
           }
         },
         "sha512": "389e4a7f6a8ccfcac9672c1282e09cf6e970f117962612ebc0e6fa04e71b7201dcbc5be3513e00541576224299def2108c5249e917029c23abbde9b6e2bc8eff",
@@ -28476,7 +28476,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.18.0"
+      "version": "2.20.0"
     }
   },
   "datatable": {

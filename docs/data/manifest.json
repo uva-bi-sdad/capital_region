@@ -2,6 +2,16 @@
   "uva-bi-sdad/sdc.broadband": {
     "repository": "uva-bi-sdad/sdc.broadband",
     "files": {
+      "Wired/Adoption/Households without a computer/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
+        "size": 683160,
+        "sha": "773e77d39dafea54186e6fb6e1c6134ee6b0e493",
+        "md5": "8094f38d9c877ae64a8696bc61fd8e26"
+      },
+      "Wired/Adoption/Households without a computer/data/distribution/ncr_cttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
+        "size": 388840,
+        "sha": "4363a8db2f5311e0162c4c10e8538589a4201172",
+        "md5": "6ce587dd3074e6bdd20808d76d25c44d"
+      },
       "Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
         "size": 193212,
         "sha": "3f2c5f195f54d1c05e6491639d83929ca758ab98",
@@ -21,11 +31,6 @@
         "size": 432288,
         "sha": "75aef842bf33f64cdfaf6ed6b00c4ee9082d1982",
         "md5": "9ebe369c433d3e2f4f47ccb0fcd72fb5"
-      },
-      "Wired/Adoption/Households without a computer/data/distribution/ncr_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz": {
-        "size": 422780,
-        "sha": "4ade6bf9f01a4e351a8b99adc6393fcea14eebd3",
-        "md5": "1a9dd742f61fa0ce5d1b0333a27d3dce"
       },
       "Wired/Adoption/Households with cable, fiber optic, or DSL/data/distribution/ncr_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz": {
         "size": 8248,
@@ -167,6 +172,21 @@
   "uva-bi-sdad/sdc.education": {
     "repository": "uva-bi-sdad/sdc.education",
     "files": {
+      "Postsecondary/data/distribution/nces.csv.xz": {
+        "size": 12835288,
+        "sha": "27c881b65ed92177e7031362b7452742613d4f98",
+        "md5": "0d111b1301c3a948d6d4b12442340d1b"
+      },
+      "Postsecondary/data/distribution/acs.csv.xz": {
+        "size": 1517828,
+        "sha": "6e191b8eb8499c81312b69abd30353f7e3abde51",
+        "md5": "3225d89211ecc2b6cacf24b7b384d312"
+      },
+      "Daycare/data/distribution/vdss.csv.xz": {
+        "size": 553304,
+        "sha": "8e3c92155ae2d7fdca1e02783f19feb2d2ca1e2f",
+        "md5": "507a2856bd51529ca819d79750e8ba74"
+      },
       "Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv": {
         "size": 1373717,
         "sha": "6bdd3dd46bf539f225253a947d95ca5a6e87565d",
@@ -181,21 +201,6 @@
         "size": 7328,
         "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
         "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
-      },
-      "Postsecondary/data/distribution/nces.csv.xz": {
-        "size": 12875828,
-        "sha": "fff3cfa228a6b3648dcbe30850f38480b8b10292",
-        "md5": "87d6614bc2c7b1e3f31f5f45b0401551"
-      },
-      "Postsecondary/data/distribution/acs.csv.xz": {
-        "size": 1509228,
-        "sha": "3e7b9222144dca5b1ea2bb5597891050382e08d4",
-        "md5": "0895b3ad9930472a575d0a2e6ec5d1a9"
-      },
-      "Daycare/data/distribution/vdss.csv.xz": {
-        "size": 553672,
-        "sha": "74c29509fab97bdb0acb757d8f7da888dd7f453a",
-        "md5": "80b4d0df57db74bcf2b9d4bebaab01cd"
       }
     }
   },
