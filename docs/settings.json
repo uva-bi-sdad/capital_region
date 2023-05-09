@@ -239,7 +239,7 @@
                 "National Capital Region"
               ],
               "type": "reset",
-              "target": "selected_county"
+              "target": ["selected_county", "selected_tract"]
             }
           },
           "text": "b1"

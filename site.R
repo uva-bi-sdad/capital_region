@@ -171,7 +171,7 @@ input_dataview(
 page_section(
   type = "col",
   output_text(c(
-    "(National Capital Region)[r selected_county]",
+    "(National Capital Region)[r selected_county,selected_tract]",
     "? > {selected_county}[r selected_tract]",
     "? > {selected_tract}"
   ), class = "compact"),
