@@ -18,7 +18,7 @@ data_add(
   list(
     ids = list(
       variable = "ID",
-      map = "https://raw.githubusercontent.com/uva-bi-sdad/capital_region/main/docs/data/entity_info.json"
+      map = "data/entity_info.json"
     ),
     time = "time",
     variables = "measure_info.json"
