@@ -90,6 +90,7 @@
 "Mining, Quarrying, and Oil and Gas Extraction_total_employment",1,950,0,133,0,0,0,902,0
 "Mining, Quarrying, and Oil and Gas Extraction_total_job_creation",1,199,0,74,0,0,0,191,0
 "Mining, Quarrying, and Oil and Gas Extraction_total_job_destruction",1,152,0,73,0,0,0,148,0
+"Minority_employment",1,32179,0,140,0,0,0,12228,0
 "monthly_rent_0br",1,0,0,14,0,0,0,1331,0
 "monthly_rent_1br",1,0,0,14,0,0,0,1331,0
 "monthly_rent_2br",1,0,0,14,0,0,0,1331,0
@@ -102,6 +103,7 @@
 "Nonclassifiable Establishments_total_employment",1,30858,0,153,0,0,0,13093,0
 "Nonclassifiable Establishments_total_job_creation",1,21860,0,144,0,0,0,10849,0
 "Nonclassifiable Establishments_total_job_destruction",1,23468,0,137,0,0,0,11105,0
+"Nonminority_employment",1,32179,0,140,0,0,0,12228,0
 "Num_Child_Food_Insecure",1,0,0,84,0,0,0,0,0
 "number_food_insecure",1,0,0,84,0,0,0,1264,0
 "obgyn_e2sfca",1,3605,62,14,0,0,0,1324,0
