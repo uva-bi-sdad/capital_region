@@ -1,6 +1,6 @@
 {
     "settings": {
-        "digits": 2,
+        "digits": 2.0,
         "summary_selection": "all",
         "color_by_order": false,
         "boxplots": true,
@@ -9,17 +9,19 @@
         "palette": "vik",
         "hide_url_parameters": false,
         "background_shapes": true,
-        "iqr_box": true,
+        "background_top": false,
+        "background_polygon_outline": 2.0,
         "polygon_outline": 1.5,
+        "iqr_box": true,
         "color_scale_center": "none",
         "table_autoscroll": true,
         "table_scroll_behavior": "smooth",
         "table_autosort": true,
         "hide_tooltips": false,
         "map_animations": "all",
-        "trace_limit": 20,
+        "trace_limit": 20.0,
         "map_overlay": true,
-        "circle_radius": 7,
+        "circle_radius": 7.0,
         "tracking": false
     },
     "metadata": {
@@ -1115,7 +1117,7 @@
                     "rank_table",
                     "main_legend"
                 ],
-                "background_shapes": "tract"
+                "background_shapes": "county"
             },
             "tiles": {
                 "light": {

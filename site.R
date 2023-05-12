@@ -43,6 +43,7 @@ page_navbar(
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Overlay", default_on = TRUE, id = "settings.map_overlay"),
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
+      input_switch("Background On Top", default_on = TRUE, id = "settings.background_top"),
       input_select(
         "Animations", c("fly", "zoom", "none"), "fly",
         note = "Fly animates the whole move to different regions; Zoom only animates changes in zoom level.",
@@ -51,6 +52,10 @@ page_navbar(
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
+      ),
+      input_number(
+        "Background Outline Weight", "settings.background_polygon_outline", default = 2,
+        step = .5, floating_label = FALSE
       ),
       input_number(
         "Overlay Circle Size", "settings.circle_radius", default = 5, step = 1, floating_label = FALSE,
@@ -319,7 +324,7 @@ page_section(
         height = "430px",
         zoomAnimation = "settings.map_zoom_animation"
       ),
-      background_shapes = "tract",
+      background_shapes = "county",
       tiles = list(
         light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
         dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
