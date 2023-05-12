@@ -20,6 +20,9 @@
 "Arts, Entertainment, and Recreation_total_employment",1,27665,0,153,0,0,0,12777,0
 "Arts, Entertainment, and Recreation_total_job_creation",1,9369,0,144,0,0,0,6723,0
 "Arts, Entertainment, and Recreation_total_job_destruction",1,7975,0,135,0,0,0,6148,0
+"at_risk_pc_original",1,0,0,0,0,0,0,1325,0
+"at_risk_pc_snap",1,0,0,0,0,0,0,1325,0
+"at_risk_pc_snap_covid",1,0,0,0,0,0,0,1325,0
 "average_years_schooling",1,0,0,0,0,0,0,5753,0
 "avg_down_using_devices",1,10494,0,42,0,0,0,3886,0
 "avg_monthly_rate",1,0,0,63,0,0,0,0,0
@@ -69,6 +72,9 @@
 "Information_total_employment",1,28901,0,152,0,0,0,12898,0
 "Information_total_job_creation",1,10609,0,147,0,0,0,7314,0
 "Information_total_job_destruction",1,9941,0,132,0,0,0,7153,0
+"insecure_pc_original",1,0,0,0,0,0,0,1325,0
+"insecure_pc_snap",1,0,0,0,0,0,0,1325,0
+"insecure_pc_snap_covid",1,0,0,0,0,0,0,1325,0
 "job_participate_rate",1,0,0,98,0,0,0,8737,0
 "Management of Companies and Enterprises_entry_rate",1,9045,0,134,0,0,0,6464,0
 "Management of Companies and Enterprises_exit_rate",1,9103,0,140,0,0,0,6517,0
@@ -113,32 +119,32 @@
 "Other Services (except Public Administration)_total_job_creation",1,20883,0,152,0,0,0,11420,0
 "Other Services (except Public Administration)_total_job_destruction",1,19539,0,138,0,0,0,10693,0
 "ped_e2sfca",1,3605,62,14,0,0,0,1319,0
-"perc_AAPI",1,26212,482,168,28,98,63,14151,378
-"perc_afr_amer_alone",1,26212,482,168,28,98,63,14151,378
-"perc_female",1,26212,482,168,28,98,63,14151,378
+"perc_AAPI",1,26212,482,266,28,98,63,14151,280
+"perc_afr_amer_alone",1,26212,482,266,28,98,63,14151,280
+"perc_female",1,26212,482,266,28,98,63,14151,280
 "perc_hh_with_broadband",1,16987,0,70,0,0,0,6334,0
 "perc_hh_with_cable_fiber_dsl",1,16987,0,70,0,0,0,6334,0
 "perc_hh_without_compdev",1,16987,0,70,0,0,0,6334,0
 "perc_hh_without_internet",1,16987,0,70,0,0,0,6334,0
-"perc_hispanic_or_latino",1,26212,482,168,28,98,63,14151,378
+"perc_hispanic_or_latino",1,26212,482,266,28,98,63,14151,280
 "perc_income_avg_nat_package",1,3183,0,14,0,0,0,1213,0
 "perc_income_min_price_100",1,3163,0,14,0,0,0,1211,0
 "perc_income_min_price_25",1,3149,0,14,0,0,0,1211,0
-"perc_male",1,26212,482,168,28,98,63,14151,378
-"perc_native_alone",1,26212,482,168,28,98,63,14151,378
-"perc_other",1,26212,482,168,28,98,63,14151,378
+"perc_male",1,26212,482,266,28,98,63,14151,280
+"perc_native_alone",1,26212,482,266,28,98,63,14151,280
+"perc_other",1,26212,482,266,28,98,63,14151,280
 "perc_poor_ment_hlth_days_14_and_over",1,0,0,70,0,0,0,6091,0
 "perc_poor_phys_hlth_days_14_and_over",1,0,0,70,0,0,0,6091,0
-"perc_pop_20_64",1,26212,482,168,28,98,63,14151,378
-"perc_pop_65_plus",1,26212,482,168,28,98,63,14151,378
-"perc_pop_under_20",1,26212,482,168,28,98,63,14151,378
+"perc_pop_20_64",1,26212,482,266,28,98,63,14151,280
+"perc_pop_65_plus",1,26212,482,266,28,98,63,14151,280
+"perc_pop_under_20",1,26212,482,266,28,98,63,14151,280
 "perc_total_100_20_using_devices",1,9693,0,42,0,0,0,3651,0
 "perc_total_25_3_using_devices",1,9693,0,42,0,0,0,3651,0
-"perc_two_or_more",1,26212,482,168,28,98,63,14151,378
-"perc_veteran",1,26210,482,168,28,98,63,14151,378
+"perc_two_or_more",1,26212,482,266,28,98,63,14151,280
+"perc_veteran",1,26210,482,266,28,98,63,14151,280
 "perc_w_int_100_20_using_devices",1,9732,0,42,0,0,0,3651,0
 "perc_w_int_25_3_using_devices",1,9732,0,42,0,0,0,3651,0
-"perc_wht_alone",1,26212,482,168,28,98,63,14151,378
+"perc_wht_alone",1,26212,482,266,28,98,63,14151,280
 "percent_food_insecure",1,0,0,84,0,0,0,1264,0
 "prevent_hosp_rate",1,0,0,55,0,0,0,0,0
 "primcare_e2sfca",1,3605,62,14,0,0,0,1325,0
@@ -171,6 +177,9 @@
 "schools_2year_with_science_program_per_100k",1,29904,0,126,0,0,0,11230,0
 "schools_under2year_min_drivetime",1,29904,0,126,0,0,0,11230,0
 "schools_under2year_per_100k",1,29904,0,126,0,0,0,11230,0
+"secure_pc_original",1,0,0,0,0,0,0,1325,0
+"secure_pc_snap",1,0,0,0,0,0,0,1325,0
+"secure_pc_snap_covid",1,0,0,0,0,0,0,1325,0
 "subs_3sfca",1,3605,62,14,0,0,0,1325,0
 "subs_cnt",1,105,62,14,0,0,0,1331,0
 "subs_near_10_median",1,3605,62,14,0,0,0,1325,0
