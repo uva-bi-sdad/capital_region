@@ -1,4 +1,1093 @@
 {
+    "earnings_per_job": {
+        "category": "Employment/Workforce Development",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+        "long_name": "Earnings per job",
+        "measure_type": "dollars",
+        "short_description": "Average of earnings per job.",
+        "short_name": "Earnings per job",
+        "sources": [
+            {
+                "name": "Bureau of Economic Analysis",
+                "date_accessed": "2021",
+                "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+            }
+        ],
+        "statement": "Earnings per job in {features.name} is {value}.",
+        "type": "dollar",
+        "unit": ""
+    },
+    "gini_index": {
+        "category": "Financial Well Being",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+        "long_name": "Income Inequality (Gini Index)",
+        "measure_type": "index",
+        "short_description": "The Gini Index is a summary measure of income inequality.",
+        "short_name": "Income Inequality (Gini Index)",
+        "sources": [
+            {
+                "name": "U.S. Census American Community Survey",
+                "location": "Table B19083",
+                "date_accessed": "2023"
+            }
+        ],
+        "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+        "type": "",
+        "unit": ""
+    },
+    "median_household_income": {
+        "category": "Financial Well Being",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+        "long_name": "Median household income",
+        "measure_type": "count",
+        "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+        "short_name": "Median household income",
+        "sources": [
+            {
+                "date_accessed": 2022,
+                "name": "American Community Survey",
+                "location": "Table B19013",
+                "url": "https://www.census.gov/programs-surveys/acs"
+            }
+        ],
+        "statement": "The median household income in {features.name} is {value} per year.",
+        "type": "dollar",
+        "unit": ""
+    },
+    "job_participate_rate": {
+        "category": "Employment/Workforce Development",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+        "long_name": "Job Participation Pecentage",
+        "measure_type": "percent",
+        "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+        "short_name": "Job Participation Pecentage",
+        "sources": [
+            {
+                "name": "American Community Survey",
+                "location": "Table B23025",
+                "date_accessed": "2023",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+        "type": "percent",
+        "unit": ""
+    },
+    "emp_rate": {
+        "category": "Employment/Workforce Development",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+        "long_name": "Percentage civilian employed",
+        "measure_type": "percent",
+        "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+        "short_name": "Percentage employed",
+        "sources": [
+            {
+                "name": "American Community Survey",
+                "location": "Table B23025",
+                "date_accessed": "2021",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "{value} of the population in {features.name} is employed.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_veteran": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
+        "long_name": "Veteran population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Veteran population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The Veteran population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_two_or_more": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Two or more races population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Two or more races population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The two or more races population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_other": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Other racial population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Other racial population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The Other racial population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_hispanic_or_latino": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Hispanic/Latino population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Hispanic/Latino population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_wht_alone": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "White population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "White population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The White population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_AAPI": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Asian American/Pacific Islander population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Asian American/Pacific Islander population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_native_alone": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Native population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Native population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The Native population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_afr_amer_alone": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Black population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Black population",
+        "sources": [
+            {
+                "name": "American Community Survey Table B01001",
+                "date_accessed": 2021,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The Black population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_female": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+        "long_name": "Female population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+        "short_name": "Female population",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "American Community Survey Table S0101",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The female population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_male": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+        "long_name": "Male population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+        "short_name": "Male population",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "American Community Survey Table S0101",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The male population is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_pop_under_20": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "Under 20 population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "Under 20 population",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "American Community Survey Table B01001",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_pop_65_plus": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "65 plus population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "65 plus population",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "American Community Survey Table B01001",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_pop_20_64": {
+        "category": "Demographics",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+        "long_name": "20 to 64 population (percent)",
+        "measure_type": "percentage",
+        "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+        "short_name": "20 to 64 population",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "American Community Survey Table B01001",
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "no_hlth_ins_pct": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+        "long_name": "Percent of population without health insurance",
+        "measure_type": "percent",
+        "short_description": "Percent of the population (ages 19-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
+        "short_name": "Uninsured population",
+        "sources": [
+            {
+                "name": "American Community Survey",
+                "location": "Table B27010",
+                "date_accessed": 2022,
+                "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+        ],
+        "statement": "{value} of the population does not have health insurance in {features.name}.",
+        "type": "percent",
+        "unit": ""
+    },
+    "prevent_hosp_rate": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
+        "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
+        "measure_type": "rate per 100K",
+        "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
+        "short_name": "Preventable hospitalizations per 100,000",
+        "sources": [
+            {
+                "name": "County Health Rankings",
+                "date_accessed": 2021,
+                "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+            }
+        ],
+        "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+        "type": "rate",
+        "unit": ""
+    },
+    "avg_monthly_rate": {
+        "category": "Behavioral Health, Substance Use Disorder and Recovery",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
+        "long_name": "Monthly average emergency department visits for drug overdose rate per 100,000 residents",
+        "measure_type": "rate per 100k",
+        "short_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
+        "short_name": "Monthly average ED visits for drug overdose",
+        "sources": [
+            {
+                "name": "Virginia Department of Health",
+                "date_accessed": "2021",
+                "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
+            }
+        ],
+        "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
+        "type": "rate",
+        "unit": ""
+    },
+    "perc_poor_phys_hlth_days_14_and_over": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+        "long_name": "Percentage reporting poor physical health",
+        "measure_type": "prevalence estimate",
+        "short_description": "Percent of the population self-reporting poor physical health",
+        "short_name": "Percentage reporting poor physical health",
+        "sources": [
+            {
+                "name": "Virginia Behavioral Risk Factor Surveillance System",
+                "date_accessed": 2021,
+                "url": "https://www.vdh.virginia.gov/brfss/"
+            }
+        ],
+        "statement": "{value} of the population in {features.name} reports poor physical health.",
+        "type": "percent",
+        "unit": ""
+    },
+    "perc_poor_ment_hlth_days_14_and_over": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Status",
+        "layer": "",
+        "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+        "long_name": "Percentage reporting poor mental health",
+        "measure_type": "prevalence estimate",
+        "short_description": "Percent of the population self-reporting poor mental health",
+        "short_name": "Percentage reporting poor mental health",
+        "sources": [
+            {
+                "name": "Virginia Behavioral Risk Factor Surveillance System",
+                "date_accessed": 2021,
+                "url": "https://www.vdh.virginia.gov/brfss/"
+            }
+        ],
+        "statement": "{value} of the population in {features.name} reports poor mental health.",
+        "type": "percent",
+        "unit": ""
+    },
+    "urgent_3sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": {
+            "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson"
+        },
+        "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+        "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of urgent care availability based on supply and demand of facilities",
+        "short_name": "Urgent care geographic availability",
+        "sources": [
+            {
+                "name": "Google Maps",
+                "date_accessed": 2022,
+                "url": "https://www.google.com/maps"
+            }
+        ],
+        "statement": "The urgent care availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "urgent_cnt": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": {
+            "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/urgent_care_points_2022.geojson"
+        },
+        "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
+        "long_name": "Availability of urgent care by count",
+        "measure_type": "count",
+        "short_description": "Count of urgent care facilities based on facility locations",
+        "short_name": "Urgent care availability (count)",
+        "sources": [
+            {
+                "name": "Google Maps",
+                "date_accessed": 2022,
+                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+        ],
+        "statement": "There are {value} urgent care facilities in {features.name}.",
+        "type": "count",
+        "unit": ""
+    },
+    "urgent_near_10_median": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": {
+            "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/urgent_care_points_2022.geojson"
+        },
+        "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+        "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
+        "measure_type": "count",
+        "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
+        "short_name": "Urgent care availability (drive time)",
+        "sources": [
+            {
+                "name": "Google Maps",
+                "date_accessed": 2022,
+                "url": "https://www.google.com/maps"
+            }
+        ],
+        "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
+        "type": "drive time",
+        "unit": ""
+    },
+    "primcare_e2sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+        "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of primary care physician availability based on supply and demand of providers",
+        "short_name": "Primary care geographic availability",
+        "sources": [
+            {
+                "name": "WebMD Physician Directory",
+                "date_accessed": 2021,
+                "url": "https://doctor.webmd.com/"
+            }
+        ],
+        "statement": "The primary care availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "ped_e2sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Pediatric care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
+        "long_name": "Pediatric care geographic availability (2-step enhanced floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
+        "short_name": "Pediatric care geographic availability",
+        "sources": [
+            {
+                "name": "WebMD Physician Directory",
+                "date_accessed": 2021,
+                "url": "https://doctor.webmd.com/"
+            }
+        ],
+        "statement": "The pediatric care availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "obgyn_e2sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+        "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+        "short_name": "OBGYN care geographic availability",
+        "sources": [
+            {
+                "name": "WebMD Physician Directory",
+                "date_accessed": 2021,
+                "url": "https://doctor.webmd.com/"
+            }
+        ],
+        "statement": "The OBGYN availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "mental_3sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Mental health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+        "long_name": "Mental health services geographic availability (3-step  floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+        "short_name": "Mental health services geographic availability",
+        "sources": [
+            {
+                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                "date_accessed": 2021,
+                "url": "https://www.samhsa.gov/"
+            }
+        ],
+        "statement": "The mental health services availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "mental_cnt": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Count of mental health facilities based on facility locations. Location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository.",
+        "long_name": "Availability of mental health services by count",
+        "measure_type": "count",
+        "short_description": "Count of mental health facilities based on facility locations",
+        "short_name": "Mental health services availability (count)",
+        "sources": [
+            {
+                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                "date_accessed": 2021,
+                "url": "https://www.samhsa.gov/"
+            }
+        ],
+        "statement": "There are {value} mental health facilities in {features.name}.",
+        "type": "count",
+        "unit": ""
+    },
+    "mental_near_10_median": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Median drive time in minutes to the ten closest mental health facilities. Facility location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+        "long_name": "Mental health availability by median drive time to the ten closest facilities in minutes",
+        "measure_type": "count",
+        "short_description": "Median drive time (minutes) to the ten closest mental health facilities",
+        "short_name": "Mental health availability (drive time)",
+        "sources": [
+            {
+                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                "date_accessed": 2021,
+                "url": "https://findtreatment.gov/"
+            }
+        ],
+        "statement": "The median drive time to the ten closest mental health facilities to {features.name} is {value}.",
+        "type": "drive time",
+        "unit": ""
+    },
+    "hosp_cnt": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+        "long_name": "Availability of hospitals by count",
+        "measure_type": "count",
+        "short_description": "Count of hospitals based on facility locations",
+        "short_name": "Hospital availability (count)",
+        "sources": [
+            {
+                "name": "Center for Medicare and Medicaid Services",
+                "date_accessed": 2022,
+                "url": "https://data.cms.gov/provider-data/topics/hospitals"
+            }
+        ],
+        "statement": "There are {value} hospitals in {features.name}.",
+        "type": "count",
+        "unit": ""
+    },
+    "hosp_3sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+        "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of hospital availability based on supply and demand of facilities",
+        "short_name": "Hospital geographic availability",
+        "sources": [
+            {
+                "name": "Center for Medicare and Medicaid Services",
+                "date_accessed": 2022,
+                "url": "https://data.cms.gov/provider-data/topics/hospitals"
+            }
+        ],
+        "statement": "The hospital geographic availability score for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "hosp_near_10_median": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+        "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+        "measure_type": "count",
+        "short_description": "Median drive time (minutes) to the ten closest hospitals",
+        "short_name": "Hospital drive time",
+        "sources": [
+            {
+                "name": "Center for Medicare and Medicaid Services",
+                "date_accessed": 2022,
+                "url": "https://data.cms.gov/provider-data/topics/hospitals"
+            }
+        ],
+        "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+        "type": "drive time",
+        "unit": ""
+    },
+    "ems_3sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+        "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
+        "short_name": "Emergency medical services geographic availability",
+        "sources": [
+            {
+                "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                "date_accessed": 2021,
+                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+        ],
+        "statement": "The emergency medical services availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "ems_cnt": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+        "long_name": "Availability of emergency medical services by count",
+        "measure_type": "count",
+        "short_description": "Count of emergency medical services facilities based on facility locations",
+        "short_name": "Emergency medical services availability (count)",
+        "sources": [
+            {
+                "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                "date_accessed": 2021,
+                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+        ],
+        "statement": "There are {value} emergency medical services facilities in {features.name}.",
+        "type": "count",
+        "unit": ""
+    },
+    "ems_near_10_median": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+        "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
+        "measure_type": "count",
+        "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+        "short_name": "Emergency medical services availability (drive time)",
+        "sources": [
+            {
+                "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                "date_accessed": 2021,
+                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+        ],
+        "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+        "type": "drive time",
+        "unit": ""
+    },
+    "subs_3sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Substance use/behavioral health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+        "long_name": "Substance use/behavioral health services geographic availability (3-step floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of substance use/behavioral health services availability based on supply and demand of facilities",
+        "short_name": "Substance use/behavioral health services geographic availability",
+        "sources": [
+            {
+                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                "date_accessed": 2021,
+                "url": "https://www.samhsa.gov/"
+            }
+        ],
+        "statement": "The substance use/behavioral health services availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "subs_cnt": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+        "long_name": "Availability of substance use/behavioral health by count",
+        "measure_type": "count",
+        "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+        "short_name": "Substance use/behavioral health availability (count)",
+        "sources": [
+            {
+                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                "date_accessed": 2021,
+                "url": "https://www.samhsa.gov/"
+            }
+        ],
+        "statement": "There are {value} substance use facilities in {features.name}.",
+        "type": "count",
+        "unit": ""
+    },
+    "subs_near_10_median": {
+        "category": "Health",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+        "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
+        "measure_type": "count",
+        "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
+        "short_name": "Substance use/behavioral health services availability (drive time)",
+        "sources": [
+            {
+                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+                "date_accessed": 2021,
+                "url": "https://www.samhsa.gov/"
+            }
+        ],
+        "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+        "type": "drive time",
+        "unit": ""
+    },
+    "dent_e2sfca": {
+        "category": "Health",
+        "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+        ],
+        "data_type": "numeric",
+        "equity_category": "Availability",
+        "layer": "",
+        "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+        "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+        "measure_type": "index",
+        "short_description": "Index of dental care availability based on supply and demand of providers",
+        "short_name": "Dental care geographic availability",
+        "sources": [
+            {
+                "name": "WebMD Physician Directory",
+                "date_accessed": 2021,
+                "url": "https://doctor.webmd.com/"
+            }
+        ],
+        "statement": "The dental care availability for {features.name} is {value}.",
+        "type": "index",
+        "unit": ""
+    },
+    "monthly_rent_4br": {
+        "category": "Housing",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
+        "long_name": "4 Bedroom Dwelling Fair Market Rent",
+        "measure_type": "count",
+        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
+        "short_name": "4 Bedroom Dwelling Fair Market Rent",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "US Department of Housing and Urban Development (HUD)",
+                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
+            }
+        ],
+        "statement": "The Fair Market Rent (FMR) for a four bedroom dwelling in {features.name} is {value}.",
+        "type": "count",
+        "unit": "dollar"
+    },
+    "monthly_rent_3br": {
+        "category": "Housing",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
+        "long_name": "3 Bedroom Dwelling Fair Market Rent",
+        "measure_type": "count",
+        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
+        "short_name": "3 Bedroom Dwelling Fair Market Rent",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "US Department of Housing and Urban Development (HUD)",
+                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
+            }
+        ],
+        "statement": "The Fair Market Rent (FMR) for a three bedroom dwelling in {features.name} is {value}.",
+        "type": "count",
+        "unit": "dollar"
+    },
+    "monthly_rent_2br": {
+        "category": "Housing",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
+        "long_name": "2 Bedroom Dwelling Fair Market Rent",
+        "measure_type": "count",
+        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
+        "short_name": "2 Bedroom Dwelling Fair Market Rent",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "US Department of Housing and Urban Development (HUD)",
+                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
+            }
+        ],
+        "statement": "The Fair Market Rent (FMR) for a two bedroom dwelling in {features.name} is {value}.",
+        "type": "count",
+        "unit": "dollar"
+    },
+    "monthly_rent_1br": {
+        "category": "Housing",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
+        "long_name": "1 Bedroom Dwelling Fair Market Rent",
+        "measure_type": "count",
+        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
+        "short_name": "1 Bedroom Dwelling Fair Market Rent",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "US Department of Housing and Urban Development (HUD)",
+                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
+            }
+        ],
+        "statement": "The Fair Market Rent (FMR) for a one bedroom dwelling in {features.name} is {value}.",
+        "type": "count",
+        "unit": "dollar"
+    },
+    "monthly_rent_0br": {
+        "category": "Housing",
+        "citations": "",
+        "data_type": "numeric",
+        "equity_category": "",
+        "layer": "",
+        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
+        "long_name": "0 Bedroom Dwelling Fair Market Rent",
+        "measure_type": "count",
+        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
+        "short_name": "0 Bedroom Dwelling Fair Market Rent",
+        "sources": [
+            {
+                "date_accessed": 2023,
+                "name": "US Department of Housing and Urban Development (HUD)",
+                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
+            }
+        ],
+        "statement": "The Fair Market Rent (FMR) for a zero bedroom dwelling in {features.name} is {value}.",
+        "type": "count",
+        "unit": "dollar"
+    },
     "perc_income_avg_nat_package": {
         "category": "Broadband",
         "citations": "",
@@ -2678,301 +3767,17 @@
         "type": "percent",
         "unit": ""
     },
-    "perc_veteran": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
-        "long_name": "Veteran population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Veteran population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The Veteran population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_two_or_more": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Two or more races population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Two or more races population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The two or more races population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_other": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Other racial population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Other racial population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The Other racial population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_hispanic_or_latino": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Hispanic/Latino population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Hispanic/Latino population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_wht_alone": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "White population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "White population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The White population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_AAPI": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Asian American/Pacific Islander population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Asian American/Pacific Islander population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_native_alone": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Native population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Native population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The Native population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_afr_amer_alone": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Black population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Black population",
-        "sources": [
-            {
-                "name": "American Community Survey Table B01001",
-                "date_accessed": 2021,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The Black population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_female": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-        "long_name": "Female population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-        "short_name": "Female population",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "American Community Survey Table S0101",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The female population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_male": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-        "long_name": "Male population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-        "short_name": "Male population",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "American Community Survey Table S0101",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The male population is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_pop_under_20": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "Under 20 population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "Under 20 population",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "American Community Survey Table B01001",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_pop_65_plus": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "65 plus population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "65 plus population",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "American Community Survey Table B01001",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_pop_20_64": {
-        "category": "Demographics",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-        "long_name": "20 to 64 population (percent)",
-        "measure_type": "percentage",
-        "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-        "short_name": "20 to 64 population",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "American Community Survey Table B01001",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
     "average_years_schooling": {
         "category": "Education",
-        "type": "average",
-        "short_name": "Average Years of Schooling",
-        "long_name": "Education Index (Average Years of Schooling)",
-        "short_description": "Education Index (Average Years of Schooling)",
-        "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
-        "statement": "{value} is the avg yrs of schooling in {features.name}.",
+        "citations": "",
+        "data_type": "numeric",
         "equity_category": "Status",
+        "layer": "",
+        "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
+        "long_name": "Education Index (Average Years of Schooling)",
+        "measure_type": "average",
+        "short_description": "Education Index (Average Years of Schooling)",
+        "short_name": "Average Years of Schooling",
         "sources": [
             {
                 "name": "American Community Survey",
@@ -2981,9 +3786,9 @@
                 "url": "https://www.census.gov/programs-surveys/acs.html"
             }
         ],
-        "unit": "",
-        "data_type": "numeric",
-        "measure_type": "average"
+        "statement": "{value} is the avg yrs of schooling in {features.name}.",
+        "type": "average",
+        "unit": ""
     },
     "median_read_pass_rate": {
         "category": "Education",
@@ -3664,305 +4469,6 @@
         "type": "count",
         "unit": ""
     },
-    "earnings_per_job": {
-        "category": "Employment/Workforce Development",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-        "long_name": "Earnings per job",
-        "measure_type": "dollars",
-        "short_description": "Average of earnings per job.",
-        "short_name": "Earnings per job",
-        "sources": [
-            {
-                "name": "Bureau of Economic Analysis",
-                "date_accessed": "2021",
-                "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-            }
-        ],
-        "statement": "Earnings per job in {features.name} is {value}.",
-        "type": "dollar",
-        "unit": ""
-    },
-    "gini_index": {
-        "category": "Financial Well Being",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-        "long_name": "Income Inequality (Gini Index)",
-        "measure_type": "index",
-        "short_description": "The Gini Index is a summary measure of income inequality.",
-        "short_name": "Income Inequality (Gini Index)",
-        "sources": [
-            {
-                "name": "U.S. Census American Community Survey",
-                "location": "Table B19083",
-                "date_accessed": "2023"
-            }
-        ],
-        "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-        "type": "",
-        "unit": ""
-    },
-    "median_household_income": {
-        "category": "Financial Well Being",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-        "long_name": "Median household income",
-        "measure_type": "count",
-        "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-        "short_name": "Median household income",
-        "sources": [
-            {
-                "date_accessed": 2022,
-                "name": "American Community Survey",
-                "location": "Table B19013",
-                "url": "https://www.census.gov/programs-surveys/acs"
-            }
-        ],
-        "statement": "The median household income in {features.name} is {value} per year.",
-        "type": "dollar",
-        "unit": ""
-    },
-    "job_participate_rate": {
-        "category": "Employment/Workforce Development",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-        "long_name": "Job Participation Pecentage",
-        "measure_type": "percent",
-        "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-        "short_name": "Job Participation Pecentage",
-        "sources": [
-            {
-                "name": "American Community Survey",
-                "location": "Table B23025",
-                "date_accessed": "2023",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-        "type": "percent",
-        "unit": ""
-    },
-    "emp_rate": {
-        "category": "Employment/Workforce Development",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-        "long_name": "Percentage civilian employed",
-        "measure_type": "percent",
-        "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-        "short_name": "Percentage employed",
-        "sources": [
-            {
-                "name": "American Community Survey",
-                "location": "Table B23025",
-                "date_accessed": "2021",
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "{value} of the population in {features.name} is employed.",
-        "type": "percent",
-        "unit": ""
-    },
-    "secure_pc_snap_covid": {
-        "category": "Nutrition and Food Security",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "Proportion of food secure households after receiving an estimated amount of extended SNAP benefits that activated during the Covid-19 emergency, considering income category and household size. The food security status is determined after comparing household income versus cost-of-living. Cost of living includes eight categories, including food, housing, healthcare, childcare, transportation, taxes, internet, and other expenses.",
-        "long_name": "Estimated proportion of food secure households with extended SNAP benefits",
-        "measure_type": "percent",
-        "short_description": "Proportion of food secure households after receiving an estimated amount of extended SNAP benefits that activated during the Covid-19 emergency considering income category and household size.",
-        "short_name": "Food Secure Households Percent after SNAP with extended benefits",
-        "sources": [
-            {
-                "date_accessed": 2022,
-                "name": "USDA",
-                "url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-reports-monthly-reports"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Feeding America",
-                "url": "https://map.feedingamerica.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "U.S. Department of Housing and Urban Development",
-                "url": "https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Center for Neighborhood Technology",
-                "url": "https://cnt.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Health Insurance Market Place",
-                "url": "https://www.healthcare.gov/apply-and-enroll/how-to-apply/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Department   of Labor Women’s Bureau National",
-                "url": "https://www.dol.gov/agencies/wb/topics/featured-childcare"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "BroadbandNow",
-                "url": "https://broadbandnow.com/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "National Academy of Sciences",
-                "url": "https://www.nasonline.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "National   Bureau of Economic Research’s program TAXSIM Version 35",
-                "url": "http://taxsim.nber.org/taxsim35/"
-            }
-        ],
-        "statement": "{value} households in {features.name} are food secure.",
-        "type": "count",
-        "unit": ""
-    },
-    "secure_pc_snap": {
-        "category": "Nutrition and Food Security",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "Proportion of food secure households after receiving an estimated amount of SNAP benefits, considering income category and household size. The food security status is determined after comparing household income versus cost-of-living. Cost of living includes eight categories, including food, housing, healthcare, childcare, transportation, taxes, internet, and other expenses.",
-        "long_name": "Estimated proportion of food secure households",
-        "measure_type": "percent",
-        "short_description": "Proportion of food secure households after receiving an estimated amount of SNAP benefits considering income category and household size.",
-        "short_name": "Food Secure Households Percent after SNAP",
-        "sources": [
-            {
-                "date_accessed": 2022,
-                "name": "USDA",
-                "url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-reports-monthly-reports"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Feeding America",
-                "url": "https://map.feedingamerica.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "U.S. Department of Housing and Urban Development",
-                "url": "https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Center for Neighborhood Technology",
-                "url": "https://cnt.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Health Insurance Market Place",
-                "url": "https://www.healthcare.gov/apply-and-enroll/how-to-apply/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Department   of Labor Women’s Bureau National",
-                "url": "https://www.dol.gov/agencies/wb/topics/featured-childcare"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "BroadbandNow",
-                "url": "https://broadbandnow.com/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "National Academy of Sciences",
-                "url": "https://www.nasonline.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "National   Bureau of Economic Research’s program TAXSIM Version 35",
-                "url": "http://taxsim.nber.org/taxsim35/"
-            }
-        ],
-        "statement": "{value} households in {features.name} are food secure.",
-        "type": "count",
-        "unit": ""
-    },
-    "secure_pc_original": {
-        "category": "Nutrition and Food Security",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "Proportion of food secure households, based on a financial model considering income category and household size. The food security status is determined after comparing household income versus cost-of-living. Cost of living includes eight categories, including food, housing, healthcare, childcare, transportation, taxes, internet, and other expenses.",
-        "long_name": "Estimated proportion of food secure households",
-        "measure_type": "percent",
-        "short_description": "Proportion of food secure households, based on a financial model considering income category and household size.",
-        "short_name": "Food Secure Households Percent",
-        "sources": [
-            {
-                "date_accessed": 2022,
-                "name": "USDA",
-                "url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-reports-monthly-reports"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Feeding America",
-                "url": "https://map.feedingamerica.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "U.S. Department of Housing and Urban Development",
-                "url": "https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Center for Neighborhood Technology",
-                "url": "https://cnt.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Health Insurance Market Place",
-                "url": "https://www.healthcare.gov/apply-and-enroll/how-to-apply/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "Department   of Labor Women’s Bureau National",
-                "url": "https://www.dol.gov/agencies/wb/topics/featured-childcare"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "BroadbandNow",
-                "url": "https://broadbandnow.com/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "National Academy of Sciences",
-                "url": "https://www.nasonline.org/"
-            },
-            {
-                "date_accessed": 2022,
-                "name": "National   Bureau of Economic Research’s program TAXSIM Version 35",
-                "url": "http://taxsim.nber.org/taxsim35/"
-            }
-        ],
-        "statement": "{value} households in {features.name} are food secure.",
-        "type": "count",
-        "unit": ""
-    },
     "at_risk_pc_snap_covid": {
         "category": "Nutrition and Food Security",
         "citations": "",
@@ -3973,7 +4479,7 @@
         "long_name": "Estimated proportion of total households at-risk of facing food insecurity with extended SNAP benefits",
         "measure_type": "percent",
         "short_description": "Proportion of households at-risk of facing food insecurity after receiving an estimated amount of extended SNAP benefits that activated during the Covid-19 emergency considering income category and household size.",
-        "short_name": "At-risk of Food Insecurity Households Percent after SNAP with extended benefits",
+        "short_name": "Food Insecure 'At Risk' Households Percent including SNAP max benefits (UVA alpha ver.)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4035,7 +4541,7 @@
         "long_name": "Estimated proportion of total households at-risk of facing food insecurity",
         "measure_type": "percent",
         "short_description": "Proportion of households at-risk of facing food insecurity after receiving an estimated amount of SNAP benefits considering income category and household size.",
-        "short_name": "At-risk of Food Insecurity Households Percent after SNAP",
+        "short_name": "Food Insecure 'At Risk' Households Percent including SNAP (UVA alpha ver.)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4097,7 +4603,7 @@
         "long_name": "Estimated proportion of total households at-risk of facing food insecurity",
         "measure_type": "percent",
         "short_description": "Proportion of households at-risk of facing food insecurity, based on a financial model considering income category and household size.",
-        "short_name": "At-risk of Food Insecurity Households Percent",
+        "short_name": "Food Insecure 'At Risk' Households Percent (Unsubsidized, UVA alpha ver.)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4159,7 +4665,7 @@
         "long_name": "Estimated proportion of total households facing food insecurity with extended SNAP benefits",
         "measure_type": "percent",
         "short_description": "Proportion of households facing food insecurity after receiving an estimated amount of extended SNAP benefits that activated during the Covid-19 emergency considering income category and household size.",
-        "short_name": "Food Insecure Households Percent after SNAP with extended benefits",
+        "short_name": "Food Insecure Households Percent including SNAP max benefits (UVA alpha ver.)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4221,7 +4727,7 @@
         "long_name": "Estimated proportion of total households facing food insecurity",
         "measure_type": "percent",
         "short_description": "Proportion of households facing food insecurity after receiving an estimated amount of SNAP benefits considering income category and household size.",
-        "short_name": "Food Insecure Households Percent after SNAP",
+        "short_name": "Food Insecure Households Percent including SNAP (UVA alpha ver.)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4280,10 +4786,10 @@
         "equity_category": "",
         "layer": "",
         "long_description": "Proportion of households facing food insecurity, based on a financial model considering income category and household size. The food security status is determined after comparing household income versus cost-of-living. Cost of living includes eight categories, including food, housing, healthcare, childcare, transportation, taxes, internet, and other expenses.",
-        "long_name": "Estimated proportion of total households facing food insecurity",
+        "long_name": "Estimated percentage of total households facing food insecurity",
         "measure_type": "percent",
         "short_description": "Proportion of households facing food insecurity, based on a financial model considering income category and household size.",
-        "short_name": "Food Insecure Households Percent",
+        "short_name": "Food Insecure Households Percent (Unsubsidized, UVA alpha ver.)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4345,7 +4851,7 @@
         "long_name": "Estimated percentage of total people in food insecure households",
         "measure_type": "percent",
         "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-        "short_name": "Food Insecure Population Percentage",
+        "short_name": "Food Insecure Population Percentage (Feeding America)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4367,7 +4873,7 @@
         "long_name": "Estimated number of total people in food insecure households",
         "measure_type": "count",
         "short_description": "Food insecure persons are people living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-        "short_name": "Food Insecure Population Count",
+        "short_name": "Food Insecure Population Count (Feeding America)",
         "sources": [
             {
                 "date_accessed": 2022,
@@ -4516,587 +5022,52 @@
         "type": "index",
         "unit": ""
     },
-    "no_hlth_ins_pct": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
-        "long_name": "Percent of population without health insurance",
-        "measure_type": "percent",
-        "short_description": "Percent of the population (ages 19-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-        "short_name": "Uninsured population",
-        "sources": [
-            {
-                "name": "American Community Survey",
-                "location": "Table B27010",
-                "date_accessed": 2022,
-                "url": "https://www.census.gov/programs-surveys/acs.html"
-            }
-        ],
-        "statement": "{value} of the population does not have health insurance in {features.name}.",
-        "type": "percent",
-        "unit": ""
-    },
-    "prevent_hosp_rate": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-        "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
-        "measure_type": "rate per 100K",
-        "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-        "short_name": "Preventable hospitalizations per 100,000",
-        "sources": [
-            {
-                "name": "County Health Rankings",
-                "date_accessed": 2021,
-                "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
-            }
-        ],
-        "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
-        "type": "rate",
-        "unit": ""
-    },
-    "avg_monthly_rate": {
-        "category": "Behavioral Health, Substance Use Disorder and Recovery",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
-        "long_name": "Monthly average emergency department visits for drug overdose rate per 100,000 residents",
-        "measure_type": "rate per 100k",
-        "short_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
-        "short_name": "Monthly average ED visits for drug overdose",
-        "sources": [
-            {
-                "name": "Virginia Department of Health",
-                "date_accessed": "2021",
-                "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
-            }
-        ],
-        "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
-        "type": "rate",
-        "unit": ""
-    },
-    "perc_poor_phys_hlth_days_14_and_over": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-        "long_name": "Percentage reporting poor physical health",
-        "measure_type": "prevalence estimate",
-        "short_description": "Percent of the population self-reporting poor physical health",
-        "short_name": "Percentage reporting poor physical health",
-        "sources": [
-            {
-                "name": "Virginia Behavioral Risk Factor Surveillance System",
-                "date_accessed": 2021,
-                "url": "https://www.vdh.virginia.gov/brfss/"
-            }
-        ],
-        "statement": "{value} of the population in {features.name} reports poor physical health.",
-        "type": "percent",
-        "unit": ""
-    },
-    "perc_poor_ment_hlth_days_14_and_over": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Status",
-        "layer": "",
-        "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-        "long_name": "Percentage reporting poor mental health",
-        "measure_type": "prevalence estimate",
-        "short_description": "Percent of the population self-reporting poor mental health",
-        "short_name": "Percentage reporting poor mental health",
-        "sources": [
-            {
-                "name": "Virginia Behavioral Risk Factor Surveillance System",
-                "date_accessed": 2021,
-                "url": "https://www.vdh.virginia.gov/brfss/"
-            }
-        ],
-        "statement": "{value} of the population in {features.name} reports poor mental health.",
-        "type": "percent",
-        "unit": ""
-    },
-    "urgent_3sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": {
-            "source": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.urgent/master/data/points_2022.geojson"
-        },
-        "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-        "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of urgent care availability based on supply and demand of facilities",
-        "short_name": "Urgent care geographic availability",
-        "sources": [
-            {
-                "name": "Google Maps",
-                "date_accessed": 2022,
-                "url": "https://www.google.com/maps"
-            }
-        ],
-        "statement": "The urgent care availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "urgent_cnt": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": {
-            "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/urgent_care_points_2022.geojson"
-        },
-        "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
-        "long_name": "Availability of urgent care by count",
-        "measure_type": "count",
-        "short_description": "Count of urgent care facilities based on facility locations",
-        "short_name": "Urgent care availability (count)",
-        "sources": [
-            {
-                "name": "Google Maps",
-                "date_accessed": 2022,
-                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-            }
-        ],
-        "statement": "There are {value} urgent care facilities in {features.name}.",
-        "type": "count",
-        "unit": ""
-    },
-    "urgent_near_10_median": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": {
-            "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/urgent_care_points_2022.geojson"
-        },
-        "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-        "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
-        "measure_type": "count",
-        "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
-        "short_name": "Urgent care availability (drive time)",
-        "sources": [
-            {
-                "name": "Google Maps",
-                "date_accessed": 2022,
-                "url": "https://www.google.com/maps"
-            }
-        ],
-        "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
-        "type": "drive time",
-        "unit": ""
-    },
-    "primcare_e2sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
-        "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of primary care physician availability based on supply and demand of providers",
-        "short_name": "Primary care geographic availability",
-        "sources": [
-            {
-                "name": "WebMD Physician Directory",
-                "date_accessed": 2021,
-                "url": "https://doctor.webmd.com/"
-            }
-        ],
-        "statement": "The primary care availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "ped_e2sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Pediatric care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
-        "long_name": "Pediatric care geographic availability (2-step enhanced floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
-        "short_name": "Pediatric care geographic availability",
-        "sources": [
-            {
-                "name": "WebMD Physician Directory",
-                "date_accessed": 2021,
-                "url": "https://doctor.webmd.com/"
-            }
-        ],
-        "statement": "The pediatric care availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "obgyn_e2sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
-        "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of OBGYN care availability based on supply and demand of providers",
-        "short_name": "OBGYN care geographic availability",
-        "sources": [
-            {
-                "name": "WebMD Physician Directory",
-                "date_accessed": 2021,
-                "url": "https://doctor.webmd.com/"
-            }
-        ],
-        "statement": "The OBGYN availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "mental_3sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Mental health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-        "long_name": "Mental health services geographic availability (3-step  floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
-        "short_name": "Mental health services geographic availability",
-        "sources": [
-            {
-                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-                "date_accessed": 2021,
-                "url": "https://www.samhsa.gov/"
-            }
-        ],
-        "statement": "The mental health services availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "mental_cnt": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Count of mental health facilities based on facility locations. Location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository.",
-        "long_name": "Availability of mental health services by count",
-        "measure_type": "count",
-        "short_description": "Count of mental health facilities based on facility locations",
-        "short_name": "Mental health services availability (count)",
-        "sources": [
-            {
-                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-                "date_accessed": 2021,
-                "url": "https://www.samhsa.gov/"
-            }
-        ],
-        "statement": "There are {value} mental health facilities in {features.name}.",
-        "type": "count",
-        "unit": ""
-    },
-    "mental_near_10_median": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Median drive time in minutes to the ten closest mental health facilities. Facility location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-        "long_name": "Mental health availability by median drive time to the ten closest facilities in minutes",
-        "measure_type": "count",
-        "short_description": "Median drive time (minutes) to the ten closest mental health facilities",
-        "short_name": "Mental health availability (drive time)",
-        "sources": [
-            {
-                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-                "date_accessed": 2021,
-                "url": "https://findtreatment.gov/"
-            }
-        ],
-        "statement": "The median drive time to the ten closest mental health facilities to {features.name} is {value}.",
-        "type": "drive time",
-        "unit": ""
-    },
-    "hosp_cnt": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
-        "long_name": "Availability of hospitals by count",
-        "measure_type": "count",
-        "short_description": "Count of hospitals based on facility locations",
-        "short_name": "Hospital availability (count)",
-        "sources": [
-            {
-                "name": "Center for Medicare and Medicaid Services",
-                "date_accessed": 2022,
-                "url": "https://data.cms.gov/provider-data/topics/hospitals"
-            }
-        ],
-        "statement": "There are {value} hospitals in {features.name}.",
-        "type": "count",
-        "unit": ""
-    },
-    "hosp_3sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-        "long_name": "Hospital geographic availability (3-step floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of hospital availability based on supply and demand of facilities",
-        "short_name": "Hospital geographic availability",
-        "sources": [
-            {
-                "name": "Center for Medicare and Medicaid Services",
-                "date_accessed": 2022,
-                "url": "https://data.cms.gov/provider-data/topics/hospitals"
-            }
-        ],
-        "statement": "The hospital geographic availability score for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "hosp_near_10_median": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-        "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
-        "measure_type": "count",
-        "short_description": "Median drive time (minutes) to the ten closest hospitals",
-        "short_name": "Hospital drive time",
-        "sources": [
-            {
-                "name": "Center for Medicare and Medicaid Services",
-                "date_accessed": 2022,
-                "url": "https://data.cms.gov/provider-data/topics/hospitals"
-            }
-        ],
-        "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-        "type": "drive time",
-        "unit": ""
-    },
-    "ems_3sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-        "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
-        "short_name": "Emergency medical services geographic availability",
-        "sources": [
-            {
-                "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                "date_accessed": 2021,
-                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-            }
-        ],
-        "statement": "The emergency medical services availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "ems_cnt": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-        "long_name": "Availability of emergency medical services by count",
-        "measure_type": "count",
-        "short_description": "Count of emergency medical services facilities based on facility locations",
-        "short_name": "Emergency medical services availability (count)",
-        "sources": [
-            {
-                "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                "date_accessed": 2021,
-                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-            }
-        ],
-        "statement": "There are {value} emergency medical services facilities in {features.name}.",
-        "type": "count",
-        "unit": ""
-    },
-    "ems_near_10_median": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-        "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
-        "measure_type": "count",
-        "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
-        "short_name": "Emergency medical services availability (drive time)",
-        "sources": [
-            {
-                "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-                "date_accessed": 2021,
-                "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-            }
-        ],
-        "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
-        "type": "drive time",
-        "unit": ""
-    },
-    "subs_3sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Substance use/behavioral health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-        "long_name": "Substance use/behavioral health services geographic availability (3-step floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of substance use/behavioral health services availability based on supply and demand of facilities",
-        "short_name": "Substance use/behavioral health services geographic availability",
-        "sources": [
-            {
-                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-                "date_accessed": 2021,
-                "url": "https://www.samhsa.gov/"
-            }
-        ],
-        "statement": "The substance use/behavioral health services availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
-    "subs_cnt": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-        "long_name": "Availability of substance use/behavioral health by count",
-        "measure_type": "count",
-        "short_description": "Count of substance use/behavioral health facilities based on facility locations",
-        "short_name": "Substance use/behavioral health availability (count)",
-        "sources": [
-            {
-                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-                "date_accessed": 2021,
-                "url": "https://www.samhsa.gov/"
-            }
-        ],
-        "statement": "There are {value} substance use facilities in {features.name}.",
-        "type": "count",
-        "unit": ""
-    },
-    "subs_near_10_median": {
-        "category": "Health",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-        "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
-        "measure_type": "count",
-        "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-        "short_name": "Substance use/behavioral health services availability (drive time)",
-        "sources": [
-            {
-                "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-                "date_accessed": 2021,
-                "url": "https://www.samhsa.gov/"
-            }
-        ],
-        "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-        "type": "drive time",
-        "unit": ""
-    },
-    "dent_e2sfca": {
-        "category": "Health",
-        "citations": [
-            "lou04",
-            "lou09",
-            "lou03",
-            "saxon20"
-        ],
-        "data_type": "numeric",
-        "equity_category": "Availability",
-        "layer": "",
-        "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
-        "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
-        "measure_type": "index",
-        "short_description": "Index of dental care availability based on supply and demand of providers",
-        "short_name": "Dental care geographic availability",
-        "sources": [
-            {
-                "name": "WebMD Physician Directory",
-                "date_accessed": 2021,
-                "url": "https://doctor.webmd.com/"
-            }
-        ],
-        "statement": "The dental care availability for {features.name} is {value}.",
-        "type": "index",
-        "unit": ""
-    },
     "_references": {
+        "cdc11a": {
+            "id": "cdc11a",
+            "author": "Centers for Disease Control and Prevention",
+            "year": 2011,
+            "title": "Children’s Food Environment State Indicator Report",
+            "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+        },
+        "cdc11b": {
+            "id": "cdc11b",
+            "author": "Centers for Disease Control and Prevention",
+            "year": 2011,
+            "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+            "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+        },
+        "wan12": {
+            "id": "wan12",
+            "author": [
+                {
+                    "given": "Neng",
+                    "family": "Wan"
+                },
+                {
+                    "given": "Bin",
+                    "family": "Zou"
+                },
+                {
+                    "given": "Troy",
+                    "family": "Sternberg"
+                }
+            ],
+            "year": 2012,
+            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+            "journal": "International Journal of Geographical Information Science",
+            "volume": "26",
+            "page": "1073–1089",
+            "doi": "10.1080/13658816.2011.624987"
+        },
+        "bii21": {
+            "id": "bii21",
+            "author": "Biocomplexity Institute and Initiative",
+            "year": 2021,
+            "title": "catchment: Calculate spatial access and availability metrics",
+            "version": "0.0.1",
+            "url": "https://github.com/uva-bi-sdad/catchment"
+        },
         "lou04": {
             "id": "lou04",
             "author": [
@@ -5186,161 +5157,6 @@
             "journal": "University of Chicago: Center for Spatial Data Science",
             "volume": "Preprint",
             "doi": "10.13140/RG.2.2.12396.28807"
-        },
-        "cdc11a": {
-            "id": "cdc11a",
-            "author": "Centers for Disease Control and Prevention",
-            "year": 2011,
-            "title": "Children’s Food Environment State Indicator Report",
-            "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
-        },
-        "cdc11b": {
-            "id": "cdc11b",
-            "author": "Centers for Disease Control and Prevention",
-            "year": 2011,
-            "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
-            "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-        },
-        "wan12": {
-            "id": "wan12",
-            "author": [
-                {
-                    "given": "Neng",
-                    "family": "Wan"
-                },
-                {
-                    "given": "Bin",
-                    "family": "Zou"
-                },
-                {
-                    "given": "Troy",
-                    "family": "Sternberg"
-                }
-            ],
-            "year": 2012,
-            "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-            "journal": "International Journal of Geographical Information Science",
-            "volume": "26",
-            "page": "1073–1089",
-            "doi": "10.1080/13658816.2011.624987"
-        },
-        "bii21": {
-            "id": "bii21",
-            "author": "Biocomplexity Institute and Initiative",
-            "year": 2021,
-            "title": "catchment: Calculate spatial access and availability metrics",
-            "version": "0.0.1",
-            "url": "https://github.com/uva-bi-sdad/catchment"
         }
-    },
-    "monthly_rent_4br": {
-        "category": "Housing",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
-        "long_name": "4 Bedroom Dwelling Fair Market Rent",
-        "measure_type": "count",
-        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
-        "short_name": "4 Bedroom Dwelling Fair Market Rent",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "US Department of Housing and Urban Development (HUD)",
-                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
-            }
-        ],
-        "statement": "The Fair Market Rent (FMR) for a four bedroom dwelling in {features.name} is {value}.",
-        "type": "count",
-        "unit": "dollar"
-    },
-    "monthly_rent_3br": {
-        "category": "Housing",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
-        "long_name": "3 Bedroom Dwelling Fair Market Rent",
-        "measure_type": "count",
-        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
-        "short_name": "3 Bedroom Dwelling Fair Market Rent",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "US Department of Housing and Urban Development (HUD)",
-                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
-            }
-        ],
-        "statement": "The Fair Market Rent (FMR) for a three bedroom dwelling in {features.name} is {value}.",
-        "type": "count",
-        "unit": "dollar"
-    },
-    "monthly_rent_2br": {
-        "category": "Housing",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
-        "long_name": "2 Bedroom Dwelling Fair Market Rent",
-        "measure_type": "count",
-        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
-        "short_name": "2 Bedroom Dwelling Fair Market Rent",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "US Department of Housing and Urban Development (HUD)",
-                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
-            }
-        ],
-        "statement": "The Fair Market Rent (FMR) for a two bedroom dwelling in {features.name} is {value}.",
-        "type": "count",
-        "unit": "dollar"
-    },
-    "monthly_rent_1br": {
-        "category": "Housing",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
-        "long_name": "1 Bedroom Dwelling Fair Market Rent",
-        "measure_type": "count",
-        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
-        "short_name": "1 Bedroom Dwelling Fair Market Rent",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "US Department of Housing and Urban Development (HUD)",
-                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
-            }
-        ],
-        "statement": "The Fair Market Rent (FMR) for a one bedroom dwelling in {features.name} is {value}.",
-        "type": "count",
-        "unit": "dollar"
-    },
-    "monthly_rent_0br": {
-        "category": "Housing",
-        "citations": "",
-        "data_type": "numeric",
-        "equity_category": "",
-        "layer": "",
-        "long_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.  FMRs are estimated by HUD for metropolitan areas and nonmetropolitan counties.  We used HUD data at the ZIP Code and county levels to compute county and census tract level FMRs.",
-        "long_name": "0 Bedroom Dwelling Fair Market Rent",
-        "measure_type": "count",
-        "short_description": "The Fair Market Rent (FMR) is the 40th percentile of rents.",
-        "short_name": "0 Bedroom Dwelling Fair Market Rent",
-        "sources": [
-            {
-                "date_accessed": 2023,
-                "name": "US Department of Housing and Urban Development (HUD)",
-                "url": "https://www.huduser.gov/portal/datasets/fmr.html"
-            }
-        ],
-        "statement": "The Fair Market Rent (FMR) for a zero bedroom dwelling in {features.name} is {value}.",
-        "type": "count",
-        "unit": "dollar"
     }
 }
