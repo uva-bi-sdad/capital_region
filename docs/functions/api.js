@@ -1,5 +1,6 @@
 'use strict'
 const settings = require('../settings.json')
+settings.entity_info = {'data/entity_info.json': require('../data/entity_info.json')}
 settings.metadata.info = {}
 const dp = require('../data/datapackage.json')
 if (dp.measure_info) settings.metadata.measure_info = dp.measure_info

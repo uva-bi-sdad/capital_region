@@ -41,9 +41,9 @@ page_navbar(
         )
       ),
       '<p class="section-heading">Map Options</p>',
-      input_switch("Show Overlay", default_on = TRUE, id = "settings.map_overlay"),
+      input_switch("Show Point Overlay", default_on = TRUE, id = "settings.map_overlay"),
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
-      input_switch("Background On Top", default_on = TRUE, id = "settings.background_top"),
+      input_switch("Background Shapes On Top", default_on = TRUE, id = "settings.background_top"),
       input_select(
         "Animations", c("fly", "zoom", "none"), "fly",
         note = "Fly animates the whole move to different regions; Zoom only animates changes in zoom level.",
