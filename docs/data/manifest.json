@@ -97,6 +97,21 @@
                 "sha": "cd2330298dea8344ec34c628ebebbfcf00a59133",
                 "md5": "43352f50c79eaec34fb1b6d064d533f8"
             },
+            "Employment/Industry/data/distribution/va059_bg_mi_20102020_total_employment_by_industry.csv.xz": {
+                "size": 452856.0,
+                "sha": "89b07dd9dca99e54c901722e4dada5afff8d6333",
+                "md5": "65fb332e558119ba13ddf4b9daa6ad2c"
+            },
+            "Employment/Industry/data/distribution/va059_bg_mi_20102020_jobs_creation_by_industry.csv.xz": {
+                "size": 863716.0,
+                "sha": "dc4e762d0b94d03d96630a7e54f6ece1f12be619",
+                "md5": "1ffe8d461c216c835fc4a0c3840191d4"
+            },
+            "Employment/Industry/data/distribution/va059_bg_mi_20102019_jobs_destruction_by_industry.csv.xz": {
+                "size": 275872.0,
+                "sha": "7f2f442c9361128ff999296247dcc749e5102574",
+                "md5": "dd6ab68d197a5384fb7958e51e45e103"
+            },
             "Employment/Industry/data/distribution/ncr_tr_mi_20102020_total_employment_by_industry.csv.xz": {
                 "size": 1494072.0,
                 "sha": "b31f1c2f72469d3a65ac31c85e44a451f1827836",
@@ -131,6 +146,26 @@
                 "size": 3682088.0,
                 "sha": "37f45291961a597664ff94354a0fe130f96a55b3",
                 "md5": "e0c9192bdfb017a553703becc7d50ff4"
+            },
+            "Employment/Industry/data/distribution/ncr_bg_mi_20102020_jobs_creation_by_industry.csv.xz": {
+                "size": 6105408.0,
+                "sha": "835677065f54f1185e82edb2220111f5745a32c8",
+                "md5": "30139b26c6dc8e1ede4b0e80493c4378"
+            },
+            "Employment/Industry/data/distribution/ncr_bg_mi_20102019_jobs_destruction_by_industry.csv.xz": {
+                "size": 5755520.0,
+                "sha": "f9690c8a19d26841444b7e8fa6302fb2aea4ba4c",
+                "md5": "8aa9f8161b737e1f8607035adb27ed04"
+            },
+            "Business_characteristics/Industry/data/distribution/va059_bg_mi_20102020_exit_by_industry.csv.xz": {
+                "size": 392280.0,
+                "sha": "78ab451ac7b4fadc1bdcbcece6000f57abd9b9d7",
+                "md5": "78a45d6d6361ecc25a535e9813d94b27"
+            },
+            "Business_characteristics/Industry/data/distribution/va059_bg_mi_20102020_entry_by_industry.csv.xz": {
+                "size": 613836.0,
+                "sha": "1e8b488fcc904ecfd4d8d874d026483abbc2559b",
+                "md5": "a1a6ec26b91cc9df8644f91127a1d429"
             },
             "Business_characteristics/Industry/data/distribution/ncr_tr_mi_20122020_exit_by_industry.csv.xz": {
                 "size": 1647824.0,
@@ -171,41 +206,6 @@
                 "size": 3676120.0,
                 "sha": "9d848f85de8dd75d149b8a6dda2ae1fe58571cd1",
                 "md5": "9ba06006c6aebe72452c6e0cfa4638b8"
-            },
-            "Employment/Industry/data/distribution/va059_bg_mi_20102020_total_employment_by_industry.csv.xz": {
-                "size": 452856.0,
-                "sha": "89b07dd9dca99e54c901722e4dada5afff8d6333",
-                "md5": "65fb332e558119ba13ddf4b9daa6ad2c"
-            },
-            "Employment/Industry/data/distribution/va059_bg_mi_20102020_jobs_creation_by_industry.csv.xz": {
-                "size": 863716.0,
-                "sha": "dc4e762d0b94d03d96630a7e54f6ece1f12be619",
-                "md5": "1ffe8d461c216c835fc4a0c3840191d4"
-            },
-            "Employment/Industry/data/distribution/va059_bg_mi_20102019_jobs_destruction_by_industry.csv.xz": {
-                "size": 275872.0,
-                "sha": "7f2f442c9361128ff999296247dcc749e5102574",
-                "md5": "dd6ab68d197a5384fb7958e51e45e103"
-            },
-            "Employment/Industry/data/distribution/ncr_bg_mi_20102020_jobs_creation_by_industry.csv.xz": {
-                "size": 6105408.0,
-                "sha": "835677065f54f1185e82edb2220111f5745a32c8",
-                "md5": "30139b26c6dc8e1ede4b0e80493c4378"
-            },
-            "Employment/Industry/data/distribution/ncr_bg_mi_20102019_jobs_destruction_by_industry.csv.xz": {
-                "size": 5755520.0,
-                "sha": "f9690c8a19d26841444b7e8fa6302fb2aea4ba4c",
-                "md5": "8aa9f8161b737e1f8607035adb27ed04"
-            },
-            "Business_characteristics/Industry/data/distribution/va059_bg_mi_20102020_exit_by_industry.csv.xz": {
-                "size": 392280.0,
-                "sha": "78ab451ac7b4fadc1bdcbcece6000f57abd9b9d7",
-                "md5": "78a45d6d6361ecc25a535e9813d94b27"
-            },
-            "Business_characteristics/Industry/data/distribution/va059_bg_mi_20102020_entry_by_industry.csv.xz": {
-                "size": 613836.0,
-                "sha": "1e8b488fcc904ecfd4d8d874d026483abbc2559b",
-                "md5": "a1a6ec26b91cc9df8644f91127a1d429"
             },
             "Business_characteristics/Industry/data/distribution/ncr_bg_mi_20102020_exit_by_industry.csv.xz": {
                 "size": 3829380.0,
@@ -322,11 +322,6 @@
                 "sha": "e305471ee0246a62f2c29f5ca3df2893c6efee66",
                 "md5": "fd00482cd237492b231dad4e9cbf37e5"
             },
-            "Postsecondary/data/distribution/nces.csv.xz": {
-                "size": 12835288.0,
-                "sha": "27c881b65ed92177e7031362b7452742613d4f98",
-                "md5": "0d111b1301c3a948d6d4b12442340d1b"
-            },
             "Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv": {
                 "size": 1373717.0,
                 "sha": "6bdd3dd46bf539f225253a947d95ca5a6e87565d",
@@ -336,6 +331,11 @@
                 "size": 723260.0,
                 "sha": "34de62bf5ec6047e6a4dddb76a631022c0b02c55",
                 "md5": "3c3ff9bfae1b07d88e3ab8b2ef744a12"
+            },
+            "Postsecondary/data/distribution/nces.csv.xz": {
+                "size": 12835288.0,
+                "sha": "27c881b65ed92177e7031362b7452742613d4f98",
+                "md5": "0d111b1301c3a948d6d4b12442340d1b"
             },
             "Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz": {
                 "size": 7328.0,
@@ -347,26 +347,6 @@
     "uva-bi-sdad/sdc.financial_well_being": {
         "repository": "uva-bi-sdad/sdc.financial_well_being",
         "files": {
-            "Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv": {
-                "size": 1598711.0,
-                "sha": "4ea56bdf0e4e778737ea48c6867b17c984700e11",
-                "md5": "da62f5b748881edc90e5fec9651b98fc"
-            },
-            "Employment/data/distribution/ncr_cttr_2015_2021_job_participate_rate.csv": {
-                "size": 1010994.0,
-                "sha": "766a3b9562e8201ca0e04a465775754619cfbb0b",
-                "md5": "c31ba7b47f36bcf6a55dfc3e9e9f6d22"
-            },
-            "Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv": {
-                "size": 1419990.0,
-                "sha": "2d75256aa103cff26c640b1c0cb4621136a5f404",
-                "md5": "f974505300276d33d819924334abd6e9"
-            },
-            "Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv": {
-                "size": 904333.0,
-                "sha": "c94d81eb58ea707d78bde1dafdbae2ac26653ad8",
-                "md5": "4c73989c04a9d04fc4560ff1ee92005d"
-            },
             "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv": {
                 "size": 1491384.0,
                 "sha": "74de62fc4df7151efe71e2eb6c81805d7861216d",
@@ -376,6 +356,26 @@
                 "size": 947366.0,
                 "sha": "cb5473914638210202cef8f82f6c25b3e07d4e5e",
                 "md5": "bc115b7128b0269479e326d07fd75c14"
+            },
+            "Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv": {
+                "size": 1598711.0,
+                "sha": "4ea56bdf0e4e778737ea48c6867b17c984700e11",
+                "md5": "da62f5b748881edc90e5fec9651b98fc"
+            },
+            "Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv": {
+                "size": 1419990.0,
+                "sha": "2d75256aa103cff26c640b1c0cb4621136a5f404",
+                "md5": "f974505300276d33d819924334abd6e9"
+            },
+            "Employment/data/distribution/ncr_cttr_2015_2021_job_participate_rate.csv": {
+                "size": 1010994.0,
+                "sha": "766a3b9562e8201ca0e04a465775754619cfbb0b",
+                "md5": "c31ba7b47f36bcf6a55dfc3e9e9f6d22"
+            },
+            "Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv": {
+                "size": 904333.0,
+                "sha": "c94d81eb58ea707d78bde1dafdbae2ac26653ad8",
+                "md5": "4c73989c04a9d04fc4560ff1ee92005d"
             },
             "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz": {
                 "size": 274360.0,
@@ -407,16 +407,6 @@
                 "sha": "26c06c15551e621fb6ba4b8133d2659259482757",
                 "md5": "af328ea02d790c12a2f58dde09ee4f07"
             },
-            "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
-                "size": 985560.0,
-                "sha": "a8b585ffc7a4559adb0fb35a19ff70dff45dd30b",
-                "md5": "70a6fd988d8b9c03f88966c859ced338"
-            },
-            "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
-                "size": 571372.0,
-                "sha": "03fcf2b93e18440e4357b903df920fee57f26488",
-                "md5": "9fb6f38f7e85d61a30d9455f49e5b3b4"
-            },
             "Food Security/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
                 "size": 35484.0,
                 "sha": "c4652fa24b605d9a5d3d0bf696cb9a4b677403d0",
@@ -446,6 +436,16 @@
                 "size": 1196.0,
                 "sha": "1a7120ffdb6052a2914c074ce546e8a17e5ad7de",
                 "md5": "b24935e4c1987dd022949685bc6efb91"
+            },
+            "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
+                "size": 985560.0,
+                "sha": "a8b585ffc7a4559adb0fb35a19ff70dff45dd30b",
+                "md5": "70a6fd988d8b9c03f88966c859ced338"
+            },
+            "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
+                "size": 571372.0,
+                "sha": "03fcf2b93e18440e4357b903df920fee57f26488",
+                "md5": "9fb6f38f7e85d61a30d9455f49e5b3b4"
             }
         }
     },
