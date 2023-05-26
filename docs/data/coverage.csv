@@ -119,6 +119,9 @@
 "Other Services (except Public Administration)_total_job_creation",1,20883,0,152,0,0,0,11420,0
 "Other Services (except Public Administration)_total_job_destruction",1,19539,0,138,0,0,0,10693,0
 "ped_e2sfca",1,3605,62,14,0,0,0,1319,0
+"per_above30",1,0,0,112,0,0,0,10006,0
+"per_mor_above30",1,0,0,112,0,0,0,10006,0
+"per_rent_above30",1,26722,0,112,0,0,0,10006,0
 "perc_AAPI",1,26212,482,266,28,98,63,14151,280
 "perc_afr_amer_alone",1,26212,482,266,28,98,63,14151,280
 "perc_female",1,26212,482,266,28,98,63,14151,280
