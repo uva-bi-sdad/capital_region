@@ -1,9 +1,5 @@
 library(community)
 
-entity_info = jsonlite::read_json("../capital_region/docs/data/entity_info.json")
-entity_info$zip_code <- lapply(entity_info$zip_code, function(l) {l$county = "51059"; l})
-jsonlite::write_json(entity_info, "../capital_region/docs/data/entity_info.json", auto_unbox = TRUE)
-
 data_add(
   c(
     county = "county.csv.xz",
@@ -18,7 +14,10 @@ data_add(
   list(
     ids = list(
       variable = "ID",
-      map = "data/entity_info.json"
+      map = paste0(
+        "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/",
+        "entities/data/distribution/NCR.json"
+      )
     ),
     time = "time",
     variables = "measure_info.json"
