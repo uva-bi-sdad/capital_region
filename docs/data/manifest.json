@@ -77,6 +77,66 @@
   "uva-bi-sdad/sdc.business_climate": {
     "repository": "uva-bi-sdad/sdc.business_climate",
     "files": {
+      "Employment/Industry/data/distribution/va059_tr_mi_20102020_total_employment_by_industry.csv.xz": {
+        "size": 256100,
+        "sha": "d9852cbd7b724992e42ab1f42b87c99a27b7b0bb",
+        "md5": "4d8d120829d84568de16e05185a97083"
+      },
+      "Employment/Industry/data/distribution/va059_tr_mi_20102020_jobs_creation_by_industry.csv.xz": {
+        "size": 514840,
+        "sha": "e1efa103f2a055ad9ebca9ecd2a697773fe6dbc5",
+        "md5": "caef358419de0cc6e512763f1e7330d1"
+      },
+      "Employment/Industry/data/distribution/va059_ct_mi_20102020_total_employment_by_industry.csv.xz": {
+        "size": 8452,
+        "sha": "5f0217e8402cb4c7f558b30d39013171a0a01fe5",
+        "md5": "ac6524e3aba65be1386812c0773248db"
+      },
+      "Employment/Industry/data/distribution/va059_tr_mi_20102019_jobs_destruction_by_industry.csv.xz": {
+        "size": 197092,
+        "sha": "7ea02050fb4f5eaaa0941f607a34c64c3796646c",
+        "md5": "d112fc777433f2b0490d376077124c5f"
+      },
+      "Employment/Industry/data/distribution/va059_ct_mi_20102019_jobs_destruction_by_industry.csv.xz": {
+        "size": 8032,
+        "sha": "d2e9b3cf445c1e1180d5af3bece426c140deba0f",
+        "md5": "a697bbc1fef94fc4faaf71edfdee691d"
+      },
+      "Employment/Industry/data/distribution/va059_ct_mi_20102020_jobs_creation_by_industry.csv.xz": {
+        "size": 9292,
+        "sha": "36ba12088be2360688cc7db37f1cc46d9899ee3f",
+        "md5": "e89443e85910a6383530f557f4548b4e"
+      },
+      "Business_characteristics/Industry/data/distribution/va059_tr_mi_20122020_entry_by_industry.csv.xz": {
+        "size": 241152,
+        "sha": "e1e59c02acf45ff6079a2f3f9358693a7021c7cb",
+        "md5": "641330cbc2e75249b01d58aaca7a913f"
+      },
+      "Business_characteristics/Industry/data/distribution/va059_tr_mi_20102020_exit_by_industry.csv.xz": {
+        "size": 178200,
+        "sha": "d9ae803c51051a15c7318a40032a5f73a8045373",
+        "md5": "f6fb844b6de3804463b8951e60b3920f"
+      },
+      "Business_characteristics/Industry/data/distribution/ncr_tr_mi_20102020_exit_by_industry.csv.xz": {
+        "size": 1647824,
+        "sha": "abcf62e148d1db3aa3c3b9dcfc9f87271a3da4b8",
+        "md5": "c17dd1ac35374fffa80037b77298c016"
+      },
+      "Business_characteristics/Industry/data/distribution/va059_ct_mi_20102020_exit_by_industry.csv.xz": {
+        "size": 3244,
+        "sha": "5e2438e43d12ecfc809c437a4b7995362f80af3e",
+        "md5": "2f15608700bc2721cbf5d423602357f6"
+      },
+      "Business_characteristics/Industry/data/distribution/va059_ct_mi_20122020_entry_by_industry.csv.xz": {
+        "size": 3372,
+        "sha": "4f925519f17149a976ed36d70c6538ccca879ff8",
+        "md5": "478fe37f8a1f89970128e9d4a02cf695"
+      },
+      "Business_characteristics/Industry/data/distribution/ncr_ct_mi_20102020_exit_by_industry.csv.xz": {
+        "size": 38956,
+        "sha": "7509f633fd3c7b53a74f590a3782929b104d278e",
+        "md5": "3ea506230508355710703899990ca812"
+      },
       "Employment/Worker_diversity/data/distribution/va_ct_lodes_20102019_employment_by_minority_workers.csv.xz": {
         "size": 456,
         "sha": "76f68449e8ecb5bc35645fc779f4c6d103e75feb",
@@ -426,11 +486,6 @@
         "size": 1368756,
         "sha": "b3307c13ff9ba109bdb980be896175605f888e5d",
         "md5": "3cbbac8dd594db12833f6062f71d8aa8"
-      },
-      "Daycare/data/distribution/vdss.csv.xz": {
-        "size": 479888,
-        "sha": "e305471ee0246a62f2c29f5ca3df2893c6efee66",
-        "md5": "fd00482cd237492b231dad4e9cbf37e5"
       },
       "Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv": {
         "size": 1385078,
