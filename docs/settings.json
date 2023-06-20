@@ -547,495 +547,7 @@
           "id_property": "geoid"
         }
       ],
-      "overlays": [
-        {
-          "variable": "hhs:hospitals_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ]
-        },
-        {
-          "variable": "hhs:hospitals_min_drivetime",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ]
-        },
-        {
-          "variable": "hhs:intensive_care_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "total_icu_beds_7_day_avg",
-            "operator": "!=",
-            "value": 0
-          }
-        },
-        {
-          "variable": "hhs:intensive_care_min_drivetime",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "total_icu_beds_7_day_avg",
-            "operator": "!=",
-            "value": 0
-          }
-        },
-        {
-          "variable": "hhs:childrens_hospitals_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "hospital_subtype",
-            "operator": "=",
-            "value": "Childrens Hospitals"
-          }
-        },
-        {
-          "variable": "hhs:childrens_hospitals_min_drivetime",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "hospital_subtype",
-            "operator": "=",
-            "value": "Childrens Hospitals"
-          }
-        },
-        {
-          "variable": "nces:schools_2year_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "ICLEVEL",
-            "operator": "=",
-            "value": 2
-          }
-        },
-        {
-          "variable": "nces:schools_under2year_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "ICLEVEL",
-            "operator": "=",
-            "value": 3
-          }
-        },
-        {
-          "variable": "nces:schools_2year_min_drivetime",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "ICLEVEL",
-            "operator": "=",
-            "value": 2
-          }
-        },
-        {
-          "variable": "nces:schools_under2year_min_drivetime",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": {
-            "feature": "ICLEVEL",
-            "operator": "=",
-            "value": 3
-          }
-        },
-        {
-          "variable": "nces:schools_2year_with_biomedical_program_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": [
-            {
-              "feature": "ICLEVEL",
-              "operator": "=",
-              "value": 2
-            },
-            {
-              "feature": "biomedical",
-              "operator": "=",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "variable": "nces:schools_2year_with_computer_program_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": [
-            {
-              "feature": "ICLEVEL",
-              "operator": "=",
-              "value": 2
-            },
-            {
-              "feature": "computer",
-              "operator": "=",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "variable": "nces:schools_2year_with_engineering_program_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": [
-            {
-              "feature": "ICLEVEL",
-              "operator": "=",
-              "value": 2
-            },
-            {
-              "feature": "engineering",
-              "operator": "=",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "variable": "nces:schools_2year_with_physical_program_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": [
-            {
-              "feature": "ICLEVEL",
-              "operator": "=",
-              "value": 2
-            },
-            {
-              "feature": "physical",
-              "operator": "=",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "variable": "nces:schools_2year_with_science_program_per_100k",
-          "source": [
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2013.geojson",
-              "time": 2013
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2014.geojson",
-              "time": 2014
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2015.geojson",
-              "time": 2015
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2016.geojson",
-              "time": 2016
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2017.geojson",
-              "time": 2017
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2018.geojson",
-              "time": 2018
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2019.geojson",
-              "time": 2019
-            },
-            {
-              "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_2020.geojson",
-              "time": 2020
-            }
-          ],
-          "filter": [
-            {
-              "feature": "ICLEVEL",
-              "operator": "=",
-              "value": 2
-            },
-            {
-              "feature": "science",
-              "operator": "=",
-              "value": 1
-            }
-          ]
-        }
-      ],
+      "overlays": {},
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
@@ -1108,9 +620,169 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.20.0"
+      "version": "2.24.1"
     }
   },
   "endpoint": "https://ncr-data-commons.netlify.app/api",
-  "aggregated": true
+  "aggregated": true,
+  "tutorials": {
+    "fairfax_uc_loc": {
+      "title": "Fairfax Urgent Care Locations",
+      "description": "View the locations of urgent care providers in Fairfax and Arlington county.",
+      "reset": true,
+      "steps": [
+        {
+          "description": "Select the urgent care availability (count) variable.",
+          "focus": "selected_variable",
+          "before": {
+            "settings.polygon_outline": 2,
+            "settings.background_polygon_outline": 3
+          },
+          "after": [
+            "value:urgent_cnt"
+          ]
+        },
+        {
+          "description": "Select tract as the starting layer.",
+          "focus": "shape_type",
+          "after": [
+            "value:tract"
+          ]
+        },
+        {
+          "description": "Open the filter menu.",
+          "focus": "nav:Filter",
+          "after": [
+            "click"
+          ]
+        },
+        {
+          "description": "Filter to Fairfax and Arlington county.",
+          "focus": "filter.county",
+          "option": ["51013", "51059"],
+          "after": [
+            "set",
+            "close"
+          ],
+          "wait": 600
+        },
+        {
+          "description": "Open the export menu to download.",
+          "focus": "#export_button",
+          "after": [
+            "click"
+          ]
+        }
+      ],
+      "name": "fairfax_uc_loc"
+    },
+    "fairfax_uc_drive": {
+      "title": "Fairfax Urgent Care Drive Times",
+      "description": "View the drive time to urgent care providers in Fairfax and Arlington county.",
+      "reset": true,
+      "steps": [
+        {
+          "description": "Select the urgent care availability (drive time) variable.",
+          "focus": "selected_variable",
+          "before": {
+            "settings.polygon_outline": "2",
+            "settings.background_polygon_outline": "3",
+            "settings.summary_selection": "children"
+          },
+          "after": [
+            "value:urgent_near_10_median"
+          ]
+        },
+        {
+          "description": "Select tract as the starting layer.",
+          "focus": "shape_type",
+          "after": [
+            "value:tract"
+          ]
+        },
+        {
+          "description": "Open the filter menu.",
+          "focus": "nav:Filter",
+          "after": [
+            "click"
+          ]
+        },
+        {
+          "description": "Filter to Fairfax and Arlington county.",
+          "focus": "filter.county",
+          "option": ["51013", "51059"],
+          "after": [
+            "set",
+            "close"
+          ],
+          "wait": 600
+        },
+        {
+          "description": "Open the export menu to download.",
+          "focus": "#export_button",
+          "after": [
+            "click"
+          ]
+        }
+      ],
+      "name": "fairfax_uc_drive"
+    },
+    "fairfax_uc_access": {
+      "title": "Fairfax Urgent Care Access",
+      "description": "View a measure of access to urgent care providers in Fairfax and Arlington county.",
+      "reset": true,
+      "steps": [
+        {
+          "description": "Select the urgent care geographic availability variable.",
+          "focus": "selected_variable",
+          "before": {
+            "settings.polygon_outline": "2",
+            "settings.background_polygon_outline": "3",
+            "settings.summary_selection": "children",
+            "settings.color_by_order": "on"
+          },
+          "after": [
+            "value:urgent_3sfca"
+          ],
+          "time": 6
+        },
+        {
+          "description": "Select tract as the starting layer.",
+          "focus": "shape_type",
+          "after": [
+            "value:tract"
+          ],
+          "time": 5
+        },
+        {
+          "description": "Open the filter menu.",
+          "focus": "nav:Filter",
+          "after": [
+            "click"
+          ],
+          "time": 3
+        },
+        {
+          "description": "Filter to Fairfax and Arlington county.",
+          "focus": "filter.county",
+          "option": ["51013", "51059"],
+          "after": [
+            "set",
+            "close"
+          ],
+          "time": 4,
+          "wait": 600
+        },
+        {
+          "description": "Open the export menu to download.",
+          "focus": "#export_button",
+          "after": [
+            "click"
+          ],
+          "time": 4
+        }
+      ],
+      "name": "fairfax_uc_access"
+    }
+  }
 }

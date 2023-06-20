@@ -1761,292 +1761,6 @@
     "type": "percent",
     "unit": "households"
   },
-  "perc_veteran": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
-    "long_name": "Veteran population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Veteran population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Veteran population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_two_or_more": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Two or more races population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Two or more races population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The two or more races population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_other": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Other racial population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Other racial population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Other racial population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_hispanic_or_latino": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Hispanic/Latino population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Hispanic/Latino population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_wht_alone": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "White population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "White population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The White population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_AAPI": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Asian American/Pacific Islander population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Asian American/Pacific Islander population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_native_alone": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Native population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Native population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Native population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_afr_amer_alone": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Black population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Black population",
-    "sources": [
-      {
-        "name": "American Community Survey Table B01001",
-        "date_accessed": 2021,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The Black population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_female": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Female population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Female population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The female population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_male": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
-    "long_name": "Male population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
-    "short_name": "Male population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table S0101",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The male population is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_pop_under_20": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "Under 20 population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "Under 20 population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_pop_65_plus": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "65 plus population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "65 plus population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_pop_20_64": {
-    "category": "Demographics",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
-    "long_name": "20 to 64 population (percent)",
-    "measure_type": "percentage",
-    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-    "short_name": "20 to 64 population",
-    "sources": [
-      {
-        "date_accessed": 2023,
-        "name": "American Community Survey Table B01001",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
   "average_years_schooling": {
     "category": "Education",
     "citations": "",
@@ -2685,6 +2399,7 @@
     }
   },
   "Nonminority_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2708,6 +2423,7 @@
     "unit": ""
   },
   "Minority_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2731,6 +2447,7 @@
     "unit": ""
   },
   "Wholesale Trade_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2753,6 +2470,7 @@
     "unit": ""
   },
   "Wholesale Trade_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2775,6 +2493,7 @@
     "unit": ""
   },
   "Wholesale Trade_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2797,6 +2516,7 @@
     "unit": ""
   },
   "Utilities_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2819,6 +2539,7 @@
     "unit": ""
   },
   "Utilities_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2841,6 +2562,7 @@
     "unit": ""
   },
   "Utilities_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2863,6 +2585,7 @@
     "unit": ""
   },
   "Transportation and Warehousing_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2885,6 +2608,7 @@
     "unit": ""
   },
   "Transportation and Warehousing_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2907,6 +2631,7 @@
     "unit": ""
   },
   "Transportation and Warehousing_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2929,6 +2654,7 @@
     "unit": ""
   },
   "Retail Trade_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2951,6 +2677,7 @@
     "unit": ""
   },
   "Retail Trade_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2973,6 +2700,7 @@
     "unit": ""
   },
   "Retail Trade_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -2995,6 +2723,7 @@
     "unit": ""
   },
   "Real Estate and Rental and Leasing_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3017,6 +2746,7 @@
     "unit": ""
   },
   "Real Estate and Rental and Leasing_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3039,6 +2769,7 @@
     "unit": ""
   },
   "Real Estate and Rental and Leasing_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3061,6 +2792,7 @@
     "unit": ""
   },
   "Public Administration_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3083,6 +2815,7 @@
     "unit": ""
   },
   "Public Administration_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3105,6 +2838,7 @@
     "unit": ""
   },
   "Public Administration_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3127,6 +2861,7 @@
     "unit": ""
   },
   "Professional, Scientific, and Technical Services_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3149,6 +2884,7 @@
     "unit": ""
   },
   "Professional, Scientific, and Technical Services_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3171,6 +2907,7 @@
     "unit": ""
   },
   "Professional, Scientific, and Technical Services_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3193,6 +2930,7 @@
     "unit": ""
   },
   "Other Services (except Public Administration)_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3215,6 +2953,7 @@
     "unit": ""
   },
   "Other Services (except Public Administration)_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3237,6 +2976,7 @@
     "unit": ""
   },
   "Other Services (except Public Administration)_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3259,6 +2999,7 @@
     "unit": ""
   },
   "Nonclassifiable Establishments_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3281,6 +3022,7 @@
     "unit": ""
   },
   "Nonclassifiable Establishments_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3303,6 +3045,7 @@
     "unit": ""
   },
   "Nonclassifiable Establishments_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3325,6 +3068,7 @@
     "unit": ""
   },
   "Mining, Quarrying, and Oil and Gas Extraction_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3347,6 +3091,7 @@
     "unit": ""
   },
   "Mining, Quarrying, and Oil and Gas Extraction_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3369,6 +3114,7 @@
     "unit": ""
   },
   "Mining, Quarrying, and Oil and Gas Extraction_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3391,6 +3137,7 @@
     "unit": ""
   },
   "Manufacturing_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3413,6 +3160,7 @@
     "unit": ""
   },
   "Manufacturing_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3435,6 +3183,7 @@
     "unit": ""
   },
   "Manufacturing_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3457,6 +3206,7 @@
     "unit": ""
   },
   "Management of Companies and Enterprises_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3479,6 +3229,7 @@
     "unit": ""
   },
   "Management of Companies and Enterprises_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3501,6 +3252,7 @@
     "unit": ""
   },
   "Management of Companies and Enterprises_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3523,6 +3275,7 @@
     "unit": ""
   },
   "Information_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3545,6 +3298,7 @@
     "unit": ""
   },
   "Information_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3567,6 +3321,7 @@
     "unit": ""
   },
   "Information_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3589,6 +3344,7 @@
     "unit": ""
   },
   "Health Care and Social Assistance_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3611,6 +3367,7 @@
     "unit": ""
   },
   "Health Care and Social Assistance_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3633,6 +3390,7 @@
     "unit": ""
   },
   "Health Care and Social Assistance_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3655,6 +3413,7 @@
     "unit": ""
   },
   "Finance and Insurance_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3677,6 +3436,7 @@
     "unit": ""
   },
   "Finance and Insurance_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3699,6 +3459,7 @@
     "unit": ""
   },
   "Finance and Insurance_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3721,6 +3482,7 @@
     "unit": ""
   },
   "Educational Services_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3743,6 +3505,7 @@
     "unit": ""
   },
   "Educational Services_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3765,6 +3528,7 @@
     "unit": ""
   },
   "Educational Services_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3787,6 +3551,7 @@
     "unit": ""
   },
   "Construction_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3809,6 +3574,7 @@
     "unit": ""
   },
   "Construction_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3831,6 +3597,7 @@
     "unit": ""
   },
   "Construction_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3853,6 +3620,7 @@
     "unit": ""
   },
   "Arts, Entertainment, and Recreation_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3875,6 +3643,7 @@
     "unit": ""
   },
   "Arts, Entertainment, and Recreation_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3897,6 +3666,7 @@
     "unit": ""
   },
   "Arts, Entertainment, and Recreation_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3919,6 +3689,7 @@
     "unit": ""
   },
   "Agriculture, Forestry, Fishing and Hunting_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3941,6 +3712,7 @@
     "unit": ""
   },
   "Agriculture, Forestry, Fishing and Hunting_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3963,6 +3735,7 @@
     "unit": ""
   },
   "Agriculture, Forestry, Fishing and Hunting_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3985,6 +3758,7 @@
     "unit": ""
   },
   "Administrative and Support and Waste Management and Remediation Services_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4007,6 +3781,7 @@
     "unit": ""
   },
   "Administrative and Support and Waste Management and Remediation Services_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4029,6 +3804,7 @@
     "unit": ""
   },
   "Administrative and Support and Waste Management and Remediation Services_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4051,6 +3827,7 @@
     "unit": ""
   },
   "Accommodation and Food Services_total_employment": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4073,6 +3850,7 @@
     "unit": ""
   },
   "Accommodation and Food Services_total_job_destruction": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4095,6 +3873,7 @@
     "unit": ""
   },
   "Accommodation and Food Services_total_job_creation": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4117,6 +3896,7 @@
     "unit": ""
   },
   "Wholesale Trade_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4139,6 +3919,7 @@
     "unit": ""
   },
   "Wholesale Trade_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4161,6 +3942,7 @@
     "unit": ""
   },
   "Utilities_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4183,6 +3965,7 @@
     "unit": ""
   },
   "Utilities_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4205,6 +3988,7 @@
     "unit": ""
   },
   "Transportation and Warehousing_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4227,6 +4011,7 @@
     "unit": ""
   },
   "Transportation and Warehousing_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4249,6 +4034,7 @@
     "unit": ""
   },
   "Retail Trade_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4271,6 +4057,7 @@
     "unit": ""
   },
   "Retail Trade_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4293,6 +4080,7 @@
     "unit": ""
   },
   "Real Estate and Rental and Leasing_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4315,6 +4103,7 @@
     "unit": ""
   },
   "Real Estate and Rental and Leasing_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4337,6 +4126,7 @@
     "unit": ""
   },
   "Public Administration_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4359,6 +4149,7 @@
     "unit": ""
   },
   "Public Administration_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4381,6 +4172,7 @@
     "unit": ""
   },
   "Professional, Scientific, and Technical Services_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4403,6 +4195,7 @@
     "unit": ""
   },
   "Professional, Scientific, and Technical Services_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4425,6 +4218,7 @@
     "unit": ""
   },
   "Other Services (except Public Administration)_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4447,6 +4241,7 @@
     "unit": ""
   },
   "Other Services (except Public Administration)_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4469,6 +4264,7 @@
     "unit": ""
   },
   "Nonclassifiable Establishments_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4491,6 +4287,7 @@
     "unit": ""
   },
   "Nonclassifiable Establishments_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4513,6 +4310,7 @@
     "unit": ""
   },
   "Mining, Quarrying, and Oil and Gas Extraction_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4535,6 +4333,7 @@
     "unit": ""
   },
   "Mining, Quarrying, and Oil and Gas Extraction_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4557,6 +4356,7 @@
     "unit": ""
   },
   "Manufacturing_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4579,6 +4379,7 @@
     "unit": ""
   },
   "Manufacturing_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4601,6 +4402,7 @@
     "unit": ""
   },
   "Management of Companies and Enterprises_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4623,6 +4425,7 @@
     "unit": ""
   },
   "Management of Companies and Enterprises_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4645,6 +4448,7 @@
     "unit": ""
   },
   "Information_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4667,6 +4471,7 @@
     "unit": ""
   },
   "Information_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4689,6 +4494,7 @@
     "unit": ""
   },
   "Health Care and Social Assistance_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4711,6 +4517,7 @@
     "unit": ""
   },
   "Health Care and Social Assistance_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4733,6 +4540,7 @@
     "unit": ""
   },
   "Finance and Insurance_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4755,6 +4563,7 @@
     "unit": ""
   },
   "Finance and Insurance_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4777,6 +4586,7 @@
     "unit": ""
   },
   "Educational Services_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4799,6 +4609,7 @@
     "unit": ""
   },
   "Educational Services_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4821,6 +4632,7 @@
     "unit": ""
   },
   "Construction_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4843,6 +4655,7 @@
     "unit": ""
   },
   "Construction_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4865,6 +4678,7 @@
     "unit": ""
   },
   "Arts, Entertainment, and Recreation_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4887,6 +4701,7 @@
     "unit": ""
   },
   "Arts, Entertainment, and Recreation_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4909,6 +4724,7 @@
     "unit": ""
   },
   "Agriculture, Forestry, Fishing and Hunting_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4931,6 +4747,7 @@
     "unit": ""
   },
   "Agriculture, Forestry, Fishing and Hunting_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4953,6 +4770,7 @@
     "unit": ""
   },
   "Administrative and Support and Waste Management and Remediation Services_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4975,6 +4793,7 @@
     "unit": ""
   },
   "Administrative and Support and Waste Management and Remediation Services_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -4997,6 +4816,7 @@
     "unit": ""
   },
   "Accommodation and Food Services_exit_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -5019,6 +4839,7 @@
     "unit": ""
   },
   "Accommodation and Food Services_entry_rate": {
+    "aggregation_method": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -5037,6 +4858,292 @@
       }
     ],
     "statement": "The entry rate in Accommodation and Food Services in {features.name} is {value}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_veteran": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Veteran population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B21001.",
+    "long_name": "Veteran population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Veteran population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Veteran population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Veteran population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_two_or_more": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Two or more races population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The two or more races population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Two or more races population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The two or more races population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_other": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Other racial population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Other racial population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Other racial population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Other racial population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Other racial population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_hispanic_or_latino": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Hispanic/Latino population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Hispanic/Latino population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Hispanic/Latino population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Hispanic/Latino population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Hispanic/Latino population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_wht_alone": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The White population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "White population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The White population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "White population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The White population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_AAPI": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Asian American/Pacific Islander population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Asian American/Pacific Islander population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Asian American/Pacific Islander population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Asian American/Pacific Islander population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Asian American/Pacific Islander population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_native_alone": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Native population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Native population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Native population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Native population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Native population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_afr_amer_alone": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Black population percent. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Black population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The Black population population percent. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Black population",
+    "sources": [
+      {
+        "name": "American Community Survey Table B01001",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The Black population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_female": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of females in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Female population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of females in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Female population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The female population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_male": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of males in the total population. Based on American Community Survey ACS 2010/2021 5-year estimates table S0101.",
+    "long_name": "Male population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of males in population. Based on American Community Survey ACS 2010/2021 5-year estimates.",
+    "short_name": "Male population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table S0101",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The male population is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_pop_under_20": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "Under 20 population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of the population under age 20. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "Under 20 population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population under age 20 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_pop_65_plus": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "65 plus population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of the population over age 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "65 plus population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population over age 64 is {value} in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_pop_20_64": {
+    "category": "Demographics",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates Table B01001.",
+    "long_name": "20 to 64 population (percent)",
+    "measure_type": "percentage",
+    "short_description": "The percent of the population between age 20 and 64. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+    "short_name": "20 to 64 population",
+    "sources": [
+      {
+        "date_accessed": 2023,
+        "name": "American Community Survey Table B01001",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
     "type": "percent",
     "unit": ""
   }

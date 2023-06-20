@@ -102,12 +102,137 @@ page_navbar(
         input_button("Download All Data", "export", query = list(
           features = list(geoid = "id", name = "name")
         ), class = "btn-full"),
+        page_tutorials(
+          button = "View Tutorials",
+          class = "btn-full",
+          fairfax_uc_loc = list(
+            title = "Fairfax Urgent Care Locations",
+            description = "View the locations of urgent care providers in Fairfax and Arlington county.",
+            reset = TRUE,
+            steps = list(
+              list(
+                description = "Select the urgent care availability (count) variable.",
+                focus = "selected_variable",
+                before = c("settings.polygon_outline" = 2, "settings.background_polygon_outline" = 3),
+                after = "value:urgent_cnt"
+              ),
+              list(
+                description = "Select tract as the starting layer.",
+                focus = "shape_type",
+                after = "value:tract"
+              ),
+              list(
+                description = "Open the filter menu.",
+                focus = "nav:Filter",
+                after = "click"
+              ),
+              list(
+                description = "Filter to Fairfax and Arlington county.",
+                focus = "filter.county",
+                option = c("51013", "51059"),
+                after = c("set", "close"),
+                wait = 600
+              ),
+              list(
+                description = "Open the export menu to download.",
+                focus = "#export_button",
+                after = "click"
+              )
+            )
+          ),
+          fairfax_uc_drive = list(
+            title = "Fairfax Urgent Care Drive Times",
+            description = "View the drive time to urgent care providers in Fairfax and Arlington county.",
+            reset = TRUE,
+            steps = list(
+              list(
+                description = "Select the urgent care availability (drive time) variable.",
+                focus = "selected_variable",
+                before = c(
+                  "settings.polygon_outline" = 2,
+                  "settings.background_polygon_outline" = 3,
+                  "settings.summary_selection" = "children"
+                ),
+                after = "value:urgent_near_10_median"
+              ),
+              list(
+                description = "Select tract as the starting layer.",
+                focus = "shape_type",
+                after = "value:tract"
+              ),
+              list(
+                description = "Open the filter menu.",
+                focus = "nav:Filter",
+                after = "click"
+              ),
+              list(
+                description = "Filter to Fairfax and Arlington county.",
+                focus = "filter.county",
+                option = c("51013", "51059"),
+                after = c("set", "close"),
+                wait = 600
+              ),
+              list(
+                description = "Open the export menu to download.",
+                focus = "#export_button",
+                after = "click"
+              )
+            )
+          ),
+          fairfax_uc_access = list(
+            title = "Fairfax Urgent Care Access",
+            description = "View a measure of access to urgent care providers in Fairfax and Arlington county.",
+            reset = TRUE,
+            steps = list(
+              list(
+                description = "Select the urgent care geographic availability variable.",
+                focus = "selected_variable",
+                before = c(
+                  "settings.polygon_outline" = 2,
+                  "settings.background_polygon_outline" = 3,
+                  "settings.summary_selection" = "children",
+                  "settings.color_by_order" = "on"
+                ),
+                after = "value:urgent_3sfca",
+                time = 6
+              ),
+              list(
+                description = "Select tract as the starting layer.",
+                focus = "shape_type",
+                after = "value:tract",
+                time = 5
+              ),
+              list(
+                description = "Open the filter menu.",
+                focus = "nav:Filter",
+                after = "click",
+                time = 3
+              ),
+              list(
+                description = "Filter to Fairfax and Arlington county.",
+                focus = "filter.county",
+                option = c("51013", "51059"),
+                after = c("set", "close"),
+                time = 4,
+                wait = 600
+              ),
+              list(
+                description = "Open the export menu to download.",
+                focus = "#export_button",
+                after = "click",
+                time = 4
+              )
+            )
+          )
+        )
+      )),
+      page_text(c(
         "Credits",
         paste(
           "Built in [R](https://www.r-project.org) with the",
           "[community](https://uva-bi-sdad.github.io/community) package, using these resources:"
         )
-      ), class = c("", "", "h5")),
+      ), class = c("h5", "")),
       output_credits()
     )
   )
@@ -243,76 +368,6 @@ page_section(
           )
         }
       }), recursive = FALSE),
-      overlays = {
-        layers <- lapply(2013:2020, function(year) list(
-          url = paste0("https://raw.githubusercontent.com/uva-bi-sdad/dc.education/main/docs/points_", year, ".geojson"),
-          time = year
-        ))
-        hospital_layer <- list(list(
-          url = "https://raw.githubusercontent.com/uva-bi-sdad/dc.hifld.hosp/master/docs/points_2020.geojson",
-          time = 2020
-        ))
-        c(
-          list(
-            list(
-              variable = "hhs:hospitals_per_100k",
-              source = hospital_layer
-            ),
-            list(
-              variable = "hhs:hospitals_min_drivetime",
-              source = hospital_layer
-            ),
-            list(
-              variable = "hhs:intensive_care_per_100k",
-              source = hospital_layer,
-              filter = list(feature = "total_icu_beds_7_day_avg", operator = "!=", value = 0)
-            ),
-            list(
-              variable = "hhs:intensive_care_min_drivetime",
-              source = hospital_layer,
-              filter = list(feature = "total_icu_beds_7_day_avg", operator = "!=", value = 0)
-            ),
-            list(
-              variable = "hhs:childrens_hospitals_per_100k",
-              source = hospital_layer,
-              filter = list(feature = "hospital_subtype", operator = "=", value = "Childrens Hospitals")
-            ),
-            list(
-              variable = "hhs:childrens_hospitals_min_drivetime",
-              source = hospital_layer,
-              filter = list(feature = "hospital_subtype", operator = "=", value = "Childrens Hospitals")
-            ),
-            list(
-              variable = "nces:schools_2year_per_100k",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
-            ),
-            list(
-              variable = "nces:schools_under2year_per_100k",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
-            ),
-            list(
-              variable = "nces:schools_2year_min_drivetime",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
-            ),
-            list(
-              variable = "nces:schools_under2year_min_drivetime",
-              source = layers,
-              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
-            )
-          ),
-          lapply(c("biomedical", "computer", "engineering", "physical", "science"), function(p) list(
-            variable = paste0("nces:schools_2year_with_", p, "_program_per_100k"),
-            source = layers,
-            filter = list(
-              list(feature = "ICLEVEL", operator = "=", value = 2),
-              list(feature = p, operator = "=", value = 1)
-            )
-          ))
-        )
-      },
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
@@ -355,7 +410,7 @@ page_section(
         id = "variable_info_pane",
       ),
       page_popup(
-        "Export",
+        "Export", id = "export_button",
         page_section(
           wraps = "col",
           input_select("Table Format", c("tall", "mixed", "wide"), "mixed", id = "export_table_format"),
