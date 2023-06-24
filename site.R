@@ -212,9 +212,27 @@ page_navbar(
                 description = "Filter to Fairfax and Arlington county.",
                 focus = "filter.county",
                 option = c("51013", "51059"),
-                after = c("set", "close"),
+                after = "set",
                 time = 4,
                 wait = 600
+              ),
+              list(
+                description = "Add a filter on median household income.",
+                focus = "filter_variable_dropdown",
+                after = "value:median_household_income",
+                time = 4
+              ),
+              list(
+                description = "Change the operator to less than or equal to.",
+                focus = ".filter-body tr:last-of-type .form-select.filter-form-input",
+                after = "value:<=",
+                time = 3
+              ),
+              list(
+                description = "Set value to the first quantile.",
+                focus = ".filter-body tr:last-of-type td:nth-child(6) .filter-form-input",
+                after = c("value:Q1", "close"),
+                time = 3
               ),
               list(
                 description = "Open the export menu to download.",

@@ -1,697 +1,4 @@
 {
-  "earnings_per_job": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-    "long_name": "Earnings per job",
-    "measure_type": "",
-    "short_description": "Average of earnings per job.",
-    "short_name": "Earnings per job",
-    "sources": [
-      {
-        "name": "Bureau of Economic Analysis",
-        "date_accessed": "2021",
-        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-      }
-    ],
-    "statement": "Earnings per job in {features.name} is {value}.",
-    "type": "dollar",
-    "unit": "dollars"
-  },
-  "gini_index": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-    "long_name": "Income Inequality (Gini Index)",
-    "measure_type": "index",
-    "short_description": "The Gini Index is a summary measure of income inequality.",
-    "short_name": "Income Inequality (Gini Index)",
-    "sources": [
-      {
-        "name": "U.S. Census American Community Survey",
-        "location": "Table B19083",
-        "date_accessed": "2023"
-      }
-    ],
-    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-    "type": "",
-    "unit": ""
-  },
-  "median_household_income": {
-    "category": "Financial Well Being",
-    "citations": "",
-    "data_type": "integer",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates. The equation $a_{i} = b^\\frac{c}{d}$ was used.",
-    "long_name": "Median household income",
-    "measure_type": "count",
-    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-    "short_name": "Median household income",
-    "sources": [
-      {
-        "date_accessed": 2022,
-        "name": "American Community Survey",
-        "location": "Table B19013",
-        "url": "https://www.census.gov/programs-surveys/acs"
-      }
-    ],
-    "statement": "The median household income in {features.name} is {value} per year.",
-    "type": "dollar",
-    "unit": "dollars"
-  },
-  "job_participate_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Pecentage",
-    "measure_type": "percent",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Pecentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": "people"
-  },
-  "emp_rate": {
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-    "long_name": "Percentage civilian employed",
-    "measure_type": "percent",
-    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-    "short_name": "Percentage employed",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B23025",
-        "date_accessed": "2021",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} is employed.",
-    "type": "percent",
-    "unit": "people"
-  },
-  "no_hlth_ins_pct": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
-    "long_name": "Percent of population without health insurance",
-    "measure_type": "percent",
-    "short_description": "Percent of the population (ages 19-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-    "short_name": "Uninsured population",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B27010",
-        "date_accessed": 2022,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population does not have health insurance in {features.name}.",
-    "type": "percent",
-    "unit": ""
-  },
-  "prevent_hosp_rate": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "",
-    "layer": "",
-    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-    "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
-    "measure_type": "rate per 100K",
-    "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
-    "short_name": "Preventable hospitalizations per 100,000",
-    "sources": [
-      {
-        "name": "County Health Rankings",
-        "date_accessed": 2021,
-        "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
-      }
-    ],
-    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
-    "type": "rate",
-    "unit": ""
-  },
-  "avg_monthly_rate": {
-    "category": "Behavioral Health, Substance Use Disorder and Recovery",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
-    "long_name": "Monthly average emergency department visits for drug overdose rate per 100,000 residents",
-    "measure_type": "rate per 100k",
-    "short_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
-    "short_name": "Monthly average ED visits for drug overdose",
-    "sources": [
-      {
-        "name": "Virginia Department of Health",
-        "date_accessed": "2021",
-        "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
-      }
-    ],
-    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
-    "type": "rate",
-    "unit": ""
-  },
-  "perc_poor_phys_hlth_days_14_and_over": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-    "long_name": "Percentage reporting poor physical health",
-    "measure_type": "prevalence estimate",
-    "short_description": "Percent of the population self-reporting poor physical health",
-    "short_name": "Percentage reporting poor physical health",
-    "sources": [
-      {
-        "name": "Virginia Behavioral Risk Factor Surveillance System",
-        "date_accessed": 2021,
-        "url": "https://www.vdh.virginia.gov/brfss/"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} reports poor physical health.",
-    "type": "percent",
-    "unit": ""
-  },
-  "perc_poor_ment_hlth_days_14_and_over": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-    "long_name": "Percentage reporting poor mental health",
-    "measure_type": "prevalence estimate",
-    "short_description": "Percent of the population self-reporting poor mental health",
-    "short_name": "Percentage reporting poor mental health",
-    "sources": [
-      {
-        "name": "Virginia Behavioral Risk Factor Surveillance System",
-        "date_accessed": 2021,
-        "url": "https://www.vdh.virginia.gov/brfss/"
-      }
-    ],
-    "statement": "{value} of the population in {features.name} reports poor mental health.",
-    "type": "percent",
-    "unit": ""
-  },
-  "urgent_3sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health/main/Health%20Care%20Services/Urgent%20Care%20Centers/Service%20Access%20Scores/data/distribution/urgent_care_points_2022.geojson"
-    },
-    "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of urgent care availability based on supply and demand of facilities",
-    "short_name": "Urgent care geographic availability",
-    "sources": [
-      {
-        "name": "Google Maps",
-        "date_accessed": 2022,
-        "url": "https://www.google.com/maps"
-      }
-    ],
-    "statement": "The urgent care availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "urgent_cnt": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health/main/Health%20Care%20Services/Urgent%20Care%20Centers/Service%20Access%20Scores/data/distribution/urgent_care_points_2022.geojson"
-    },
-    "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
-    "long_name": "Availability of urgent care by count",
-    "measure_type": "count",
-    "short_description": "Count of urgent care facilities based on facility locations",
-    "short_name": "Urgent care availability (count)",
-    "sources": [
-      {
-        "name": "Google Maps",
-        "date_accessed": 2022,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ],
-    "statement": "There are {value} urgent care facilities in {features.name}.",
-    "type": "count",
-    "unit": ""
-  },
-  "urgent_near_10_median": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health/main/Health%20Care%20Services/Urgent%20Care%20Centers/Service%20Access%20Scores/data/distribution/urgent_care_points_2022.geojson"
-    },
-    "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
-    "measure_type": "count",
-    "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
-    "short_name": "Urgent care availability (drive time)",
-    "sources": [
-      {
-        "name": "Google Maps",
-        "date_accessed": 2022,
-        "url": "https://www.google.com/maps"
-      }
-    ],
-    "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
-    "type": "drive time",
-    "unit": ""
-  },
-  "primcare_e2sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
-    "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of primary care physician availability based on supply and demand of providers",
-    "short_name": "Primary care geographic availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ],
-    "statement": "The primary care availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "ped_e2sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Pediatric care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
-    "long_name": "Pediatric care geographic availability (2-step enhanced floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
-    "short_name": "Pediatric care geographic availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ],
-    "statement": "The pediatric care availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "obgyn_e2sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
-    "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of OBGYN care availability based on supply and demand of providers",
-    "short_name": "OBGYN care geographic availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ],
-    "statement": "The OBGYN availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "mental_3sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Mental health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "long_name": "Mental health services geographic availability (3-step  floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
-    "short_name": "Mental health services geographic availability",
-    "sources": [
-      {
-        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-        "date_accessed": 2021,
-        "url": "https://www.samhsa.gov/"
-      }
-    ],
-    "statement": "The mental health services availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "mental_cnt": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Count of mental health facilities based on facility locations. Location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository.",
-    "long_name": "Availability of mental health services by count",
-    "measure_type": "count",
-    "short_description": "Count of mental health facilities based on facility locations",
-    "short_name": "Mental health services availability (count)",
-    "sources": [
-      {
-        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-        "date_accessed": 2021,
-        "url": "https://www.samhsa.gov/"
-      }
-    ],
-    "statement": "There are {value} mental health facilities in {features.name}.",
-    "type": "count",
-    "unit": ""
-  },
-  "mental_near_10_median": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Median drive time in minutes to the ten closest mental health facilities. Facility location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "long_name": "Mental health availability by median drive time to the ten closest facilities in minutes",
-    "measure_type": "count",
-    "short_description": "Median drive time (minutes) to the ten closest mental health facilities",
-    "short_name": "Mental health availability (drive time)",
-    "sources": [
-      {
-        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-        "date_accessed": 2021,
-        "url": "https://findtreatment.gov/"
-      }
-    ],
-    "statement": "The median drive time to the ten closest mental health facilities to {features.name} is {value}.",
-    "type": "drive time",
-    "unit": ""
-  },
-  "hosp_cnt": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
-    "long_name": "Availability of hospitals by count",
-    "measure_type": "count",
-    "short_description": "Count of hospitals based on facility locations",
-    "short_name": "Hospital availability (count)",
-    "sources": [
-      {
-        "name": "Center for Medicare and Medicaid Services",
-        "date_accessed": 2022,
-        "url": "https://data.cms.gov/provider-data/topics/hospitals"
-      }
-    ],
-    "statement": "There are {value} hospitals in {features.name}.",
-    "type": "count",
-    "unit": ""
-  },
-  "hosp_3sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "long_name": "Hospital geographic availability (3-step floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of hospital availability based on supply and demand of facilities",
-    "short_name": "Hospital geographic availability",
-    "sources": [
-      {
-        "name": "Center for Medicare and Medicaid Services",
-        "date_accessed": 2022,
-        "url": "https://data.cms.gov/provider-data/topics/hospitals"
-      }
-    ],
-    "statement": "The hospital geographic availability score for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "hosp_near_10_median": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
-    "measure_type": "count",
-    "short_description": "Median drive time (minutes) to the ten closest hospitals",
-    "short_name": "Hospital drive time",
-    "sources": [
-      {
-        "name": "Center for Medicare and Medicaid Services",
-        "date_accessed": 2022,
-        "url": "https://data.cms.gov/provider-data/topics/hospitals"
-      }
-    ],
-    "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
-    "type": "drive time",
-    "unit": ""
-  },
-  "ems_3sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
-    "short_name": "Emergency medical services geographic availability",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ],
-    "statement": "The emergency medical services availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "ems_cnt": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-    "long_name": "Availability of emergency medical services by count",
-    "measure_type": "count",
-    "short_description": "Count of emergency medical services facilities based on facility locations",
-    "short_name": "Emergency medical services availability (count)",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ],
-    "statement": "There are {value} emergency medical services facilities in {features.name}.",
-    "type": "count",
-    "unit": ""
-  },
-  "ems_near_10_median": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
-    "measure_type": "count",
-    "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
-    "short_name": "Emergency medical services availability (drive time)",
-    "sources": [
-      {
-        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
-        "date_accessed": 2021,
-        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
-      }
-    ],
-    "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
-    "type": "drive time",
-    "unit": ""
-  },
-  "subs_3sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Substance use/behavioral health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-    "long_name": "Substance use/behavioral health services geographic availability (3-step floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of substance use/behavioral health services availability based on supply and demand of facilities",
-    "short_name": "Substance use/behavioral health services geographic availability",
-    "sources": [
-      {
-        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-        "date_accessed": 2021,
-        "url": "https://www.samhsa.gov/"
-      }
-    ],
-    "statement": "The substance use/behavioral health services availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
-  "subs_cnt": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-    "long_name": "Availability of substance use/behavioral health by count",
-    "measure_type": "count",
-    "short_description": "Count of substance use/behavioral health facilities based on facility locations",
-    "short_name": "Substance use/behavioral health availability (count)",
-    "sources": [
-      {
-        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-        "date_accessed": 2021,
-        "url": "https://www.samhsa.gov/"
-      }
-    ],
-    "statement": "There are {value} substance use facilities in {features.name}.",
-    "type": "count",
-    "unit": ""
-  },
-  "subs_near_10_median": {
-    "category": "Health",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-    "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
-    "measure_type": "count",
-    "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
-    "short_name": "Substance use/behavioral health services availability (drive time)",
-    "sources": [
-      {
-        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
-        "date_accessed": 2021,
-        "url": "https://www.samhsa.gov/"
-      }
-    ],
-    "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
-    "type": "drive time",
-    "unit": ""
-  },
-  "dent_e2sfca": {
-    "category": "Health",
-    "citations": [
-      "lou04",
-      "lou09",
-      "lou03",
-      "saxon20"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Availability",
-    "layer": "",
-    "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
-    "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
-    "measure_type": "index",
-    "short_description": "Index of dental care availability based on supply and demand of providers",
-    "short_name": "Dental care geographic availability",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ],
-    "statement": "The dental care availability for {features.name} is {value}.",
-    "type": "index",
-    "unit": ""
-  },
   "perc_income_avg_nat_package": {
     "aggregation_method": "percent",
     "category": "Broadband",
@@ -1760,643 +1067,6 @@
     "statement": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in {features.name} is {value}",
     "type": "percent",
     "unit": "households"
-  },
-  "average_years_schooling": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
-    "long_name": "Education Index (Average Years of Schooling)",
-    "measure_type": "average",
-    "short_description": "Education Index (Average Years of Schooling)",
-    "short_name": "Average Years of Schooling",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "Table B15001",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} is the avg yrs of schooling in {features.name}.",
-    "type": "average",
-    "unit": ""
-  },
-  "median_read_pass_rate": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-    "long_name": "Median percentage of 3rd graders passing reading test",
-    "measure_type": "percent",
-    "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
-    "short_name": "Median 3rd graders passing reading",
-    "sources": [
-      {
-        "name": "Virginia Department of Education",
-        "location": "Data & Reports > Statistics & Reports > SOL Test Pass Rates & Other Results",
-        "location_url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results",
-        "date_accessed": 2021,
-        "url": "https://www.doe.virginia.gov"
-      }
-    ],
-    "statement": "On average, {value} of 3rd graders pass reading in {region_name}.",
-    "type": "percent",
-    "unit": "%"
-  },
-  "acs_postsecondary_percent": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "Percentage of the population who reported any postsecondary education, according to the U.S. Census American Community Survey 5-year estimates.",
-    "long_name": "Estimated Percentage of Population With Any Postsecondary Education",
-    "measure_type": "percent",
-    "short_description": "Percentage of the population who reported any postsecondary education.",
-    "short_name": "Postsecondary Education (percent)",
-    "sources": [
-      {
-        "name": "U.S. Census, American Community Survey",
-        "location": "5-Year estimates, table B06009, via the API",
-        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of those in {region_name} report any postsecondary education.",
-    "type": "percent",
-    "unit": "%"
-  },
-  "schools_2year_with_science_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "science",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with science programs (any with Classification of Institutional Programs [CIP] codes starting with 41) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 41, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year science programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with science programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year science programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a science program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_physical_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "physical",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with physical science programs (any with Classification of Institutional Programs [CIP] codes starting with 40) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 40, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year physical science programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with physical science programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year physical science programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a physical science program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_engineering_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "engineering",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with engineering or related programs (any with Classification of Institutional Programs [CIP] codes starting with 14 or 15) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 14 or 15, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year engineering or related programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with engineering or related programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year engineering or related programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a engineering or related program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_computer_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "computer",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with computer science programs (any with Classification of Institutional Programs [CIP] codes starting with 11) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 11, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year computer science programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with computer science programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year computer science programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a computer science program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_with_biomedical_program_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": [
-        {
-          "feature": "ICLEVEL",
-          "operator": "=",
-          "value": 2
-        },
-        {
-          "feature": "biomedical",
-          "operator": "=",
-          "value": 1
-        }
-      ]
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with biomedical programs (any with Classification of Institutional Programs [CIP] codes starting with 26) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 26, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year biomedical programs per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools with biomedical programs per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year biomedical programs",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools with a biomedical program per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_under2year_min_drivetime": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 3
-      }
-    },
-    "long_description": "Minimal drive time to a schools authorized to award certificates that are typically obtained in less than 2 years from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "long_name": "drive time to nearest <2-year school",
-    "measure_type": "time",
-    "short_description": "Drive time to the nearest <2-year schools.",
-    "short_name": "<2-year school drive time",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "It takes {value} to drive to a <2-year school from {region_name}'s block group centroids on average.",
-    "type": "minutes",
-    "unit": "minutes"
-  },
-  "schools_under2year_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 3
-      }
-    },
-    "long_description": "Number of schools authorized to award certificates that are typically obtained in less than 2 years per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) <2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "<2-year schools per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of <2-year schools per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "<2-year schools",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} <2-year schools per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "schools_2year_min_drivetime": {
-    "category": "Education",
-    "citations": "",
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 2
-      }
-    },
-    "long_description": "Minimal drive time to a school authorized to award Associates degrees or 2-year or longer certificates from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
-    "long_name": "drive time to nearest 2-year school",
-    "measure_type": "time",
-    "short_description": "Drive time to the nearest 2-year schools.",
-    "short_name": "2-year school drive time",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "It takes {value} to drive to a 2-year school from {region_name}'s block group centroids on average.",
-    "type": "minutes",
-    "unit": "minutes"
-  },
-  "schools_2year_per_100k": {
-    "category": "Education",
-    "citations": [
-      "wan12",
-      "bii21"
-    ],
-    "data_type": "numeric",
-    "equity_category": "Accessibility",
-    "layer": {
-      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
-      "filter": {
-        "feature": "ICLEVEL",
-        "operator": "=",
-        "value": 2
-      }
-    },
-    "long_description": "Number of schools authorized to award Associates degrees or 2-year or longer certificates per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
-    "long_name": "2-year schools per 100k people over 14",
-    "measure_type": "ratio",
-    "short_description": "Number of 2-year schools per 100k people over 14, calculated within floating catchment areas.",
-    "short_name": "2-year schools",
-    "sources": [
-      {
-        "name": "National Center for Education Statistics",
-        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
-        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
-        "date_accessed": 2023,
-        "url": "https://nces.ed.gov"
-      },
-      {
-        "name": "American Community Survey",
-        "location": "data/5_year_seq_by_state",
-        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Open Source Routing Machine",
-        "date_accessed": 2022,
-        "url": "http://project-osrm.org"
-      }
-    ],
-    "statement": "There are {value} 2-year schools per 100k people over 14 in {region_name}.",
-    "type": "per 100k",
-    "unit": "per 100k"
-  },
-  "_references": {
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "cdc11a": {
-      "id": "cdc11a",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Children’s Food Environment State Indicator Report",
-      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
-    },
-    "cdc11b": {
-      "id": "cdc11b",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
-      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
-    },
-    "lou04": {
-      "id": "lou04",
-      "author": [
-        {
-          "given": "Wei",
-          "family": "Lou"
-        }
-      ],
-      "year": 2004,
-      "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
-      "journal": "Health & Place",
-      "volume": "10",
-      "number": 1,
-      "page": "1-11",
-      "doi": "10.1016/S1353-8292(02)00067-9"
-    },
-    "lou09": {
-      "id": "lou09",
-      "author": [
-        {
-          "given": "Wei",
-          "family": "Lou"
-        },
-        {
-          "given": "Yi",
-          "family": "Qi"
-        }
-      ],
-      "year": 2009,
-      "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
-      "journal": "Health & Place",
-      "volume": "15",
-      "number": 4,
-      "page": "1100-1107",
-      "doi": "10.1016/j.healthplace.2009.06.002"
-    },
-    "lou03": {
-      "id": "lou03",
-      "author": [
-        {
-          "given": "Wei",
-          "family": "Lou"
-        },
-        {
-          "given": "Fahui",
-          "family": "Wang"
-        }
-      ],
-      "year": 2003,
-      "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
-      "journal": "Environment and Planning B: Planning and Design",
-      "volume": "30",
-      "number": 6,
-      "page": "865-884",
-      "doi": "10.1068/b29120"
-    },
-    "saxon20": {
-      "id": "saxon20",
-      "author": [
-        {
-          "given": "James",
-          "family": "Saxon"
-        },
-        {
-          "given": "Julia",
-          "family": "Koschinsky"
-        },
-        {
-          "given": "Karina",
-          "family": "Acosta"
-        },
-        {
-          "given": "Vidal",
-          "family": "Anguiano"
-        },
-        {
-          "given": "Luc",
-          "family": "Anselin"
-        },
-        {
-          "given": "Sergio",
-          "family": "Rey"
-        }
-      ],
-      "year": 2020,
-      "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
-      "journal": "University of Chicago: Center for Spatial Data Science",
-      "volume": "Preprint",
-      "doi": "10.13140/RG.2.2.12396.28807"
-    }
   },
   "Nonminority_employment": {
     "aggregation_method": "",
@@ -5146,5 +3816,1376 @@
     "statement": "The percent of the population between age 20 and 64 is {value} in {features.name}.",
     "type": "percent",
     "unit": ""
+  },
+  "average_years_schooling": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The Education Index measures the average education level achieved by the adult population in an area. This is based on the average years of schooling in an area. The calculation used to calculate the index can be found in (Bennett, D.L. Educational Inequailty in the United States: Methodology and Historical Estimates of Education Gini Coefficients. Econ. Modeling Microeconom. Stud. Health 2001). Higher educational attainment has been shown to have positive impacts on economic earning and positive health outcomes.",
+    "long_name": "Education Index (Average Years of Schooling)",
+    "measure_type": "average",
+    "short_description": "Education Index (Average Years of Schooling)",
+    "short_name": "Average Years of Schooling",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B15001",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} is the avg yrs of schooling in {features.name}.",
+    "type": "average",
+    "unit": ""
+  },
+  "median_read_pass_rate": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Median percentage of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+    "long_name": "Median percentage of 3rd graders passing reading test",
+    "measure_type": "percent",
+    "short_description": "Median percentage of 3rd grade population passing reading test for schools in the region",
+    "short_name": "Median 3rd graders passing reading",
+    "sources": [
+      {
+        "name": "Virginia Department of Education",
+        "location": "Data & Reports > Statistics & Reports > SOL Test Pass Rates & Other Results",
+        "location_url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results",
+        "date_accessed": 2021,
+        "url": "https://www.doe.virginia.gov"
+      }
+    ],
+    "statement": "On average, {value} of 3rd graders pass reading in {region_name}.",
+    "type": "percent",
+    "unit": "%"
+  },
+  "acs_postsecondary_percent": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percentage of the population who reported any postsecondary education, according to the U.S. Census American Community Survey 5-year estimates.",
+    "long_name": "Estimated Percentage of Population With Any Postsecondary Education",
+    "measure_type": "percent",
+    "short_description": "Percentage of the population who reported any postsecondary education.",
+    "short_name": "Postsecondary Education (percent)",
+    "sources": [
+      {
+        "name": "U.S. Census, American Community Survey",
+        "location": "5-Year estimates, table B06009, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of those in {region_name} report any postsecondary education.",
+    "type": "percent",
+    "unit": "%"
+  },
+  "schools_2year_with_science_program_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "science",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with science programs (any with Classification of Institutional Programs [CIP] codes starting with 41) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 41, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year science programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with science programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year science programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a science program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_physical_program_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "physical",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with physical science programs (any with Classification of Institutional Programs [CIP] codes starting with 40) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 40, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year physical science programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with physical science programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year physical science programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a physical science program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_engineering_program_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "engineering",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with engineering or related programs (any with Classification of Institutional Programs [CIP] codes starting with 14 or 15) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 14 or 15, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year engineering or related programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with engineering or related programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year engineering or related programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a engineering or related program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_computer_program_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "computer",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with computer science programs (any with Classification of Institutional Programs [CIP] codes starting with 11) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 11, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year computer science programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with computer science programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year computer science programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a computer science program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_with_biomedical_program_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": [
+        {
+          "feature": "ICLEVEL",
+          "operator": "=",
+          "value": 2
+        },
+        {
+          "feature": "biomedical",
+          "operator": "=",
+          "value": 1
+        }
+      ]
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or less than 2-year or longer certificates with biomedical programs (any with Classification of Institutional Programs [CIP] codes starting with 26) per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools with any degrees conferred in the given year with a CIP code starting with 26, as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year biomedical programs per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools with biomedical programs per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year biomedical programs",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics and Completions files",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools with a biomedical program per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_under2year_min_drivetime": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 3
+      }
+    },
+    "long_description": "Minimal drive time to a schools authorized to award certificates that are typically obtained in less than 2 years from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "long_name": "drive time to nearest <2-year school",
+    "measure_type": "time",
+    "short_description": "Drive time to the nearest <2-year schools.",
+    "short_name": "<2-year school drive time",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "It takes {value} to drive to a <2-year school from {region_name}'s block group centroids on average.",
+    "type": "minutes",
+    "unit": "minutes"
+  },
+  "schools_under2year_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 3
+      }
+    },
+    "long_description": "Number of schools authorized to award certificates that are typically obtained in less than 2 years per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) <2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "<2-year schools per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of <2-year schools per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "<2-year schools",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} <2-year schools per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "schools_2year_min_drivetime": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 2
+      }
+    },
+    "long_description": "Minimal drive time to a school authorized to award Associates degrees or 2-year or longer certificates from the Census block group centroid, as calculated by the Open Source Routing Machine in 2022. School locations are from the National Center for Education Statistics. All distances are calculated at the block group level, then averaged up to higher-level geographies.",
+    "long_name": "drive time to nearest 2-year school",
+    "measure_type": "time",
+    "short_description": "Drive time to the nearest 2-year schools.",
+    "short_name": "2-year school drive time",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "It takes {value} to drive to a 2-year school from {region_name}'s block group centroids on average.",
+    "type": "minutes",
+    "unit": "minutes"
+  },
+  "schools_2year_per_100k": {
+    "aggregation_method": "",
+    "category": "Education",
+    "citations": [
+      "wan12",
+      "bii21"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Accessibility",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.education/main/Postsecondary/data/distribution/points_{time}.geojson",
+      "filter": {
+        "feature": "ICLEVEL",
+        "operator": "=",
+        "value": 2
+      }
+    },
+    "long_description": "Number of schools authorized to award Associates degrees or 2-year or longer certificates per 100k people over 14, based on 3-step floating catchment areas defined by distance. Catchment areas were calculated using (a) 2-year schools as listed by the National Center for Education Statistics, with supply values of 1, (b) Census block groups, with supply values as the population over the age of 14 as reported the American Community Survey 5-year summaries, and (c) distances between school locations and block group centroids, weighted by a Gaussian function with a scaling parameter set to 18, as calculated by the catchment R package.",
+    "long_name": "2-year schools per 100k people over 14",
+    "measure_type": "ratio",
+    "short_description": "Number of 2-year schools per 100k people over 14, calculated within floating catchment areas.",
+    "short_name": "2-year schools",
+    "sources": [
+      {
+        "name": "National Center for Education Statistics",
+        "location": "Integrated Postsecondary Education Data System, Institutional Characteristics",
+        "location_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+        "date_accessed": 2023,
+        "url": "https://nces.ed.gov"
+      },
+      {
+        "name": "American Community Survey",
+        "location": "data/5_year_seq_by_state",
+        "location_url": "https://www2.census.gov/programs-surveys/acs/summary_file",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Open Source Routing Machine",
+        "date_accessed": 2022,
+        "url": "http://project-osrm.org"
+      }
+    ],
+    "statement": "There are {value} 2-year schools per 100k people over 14 in {region_name}.",
+    "type": "per 100k",
+    "unit": "per 100k"
+  },
+  "earnings_per_job": {
+    "aggregation_method": "",
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis. For splitting the multi county observations in the df,we can perform splitting from 83 since thats when multi county occurs. So basically we have + and , which binds them so we need to split based on those signs, first we target all the + and we target only rows where there is , and splitting is done. Initially we are removing (,VA) from names and attaching them at the end of the process for our convenience. We are having the same values to be repeated for particular combination. The split entries are expanded into multiple rows using unnest function. In simple terms, first stage of splitting using + sign from row 83 then slitted rows are expanded. next splitting is for particular rows which contains , and then splitted entries are expanded.For example fairfax county, fairfax city, falls church city will have same values after splitting. For filling the Geofips, we are storing corresponding Geofips values in a vector and assigning it to the corresponding rows in correct order",
+    "long_name": "Earnings per job",
+    "measure_type": "",
+    "short_description": "Average of earnings per job.",
+    "short_name": "Earnings per job",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021",
+        "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+      }
+    ],
+    "statement": "Earnings per job in {features.name} is {value}.",
+    "type": "dollar",
+    "unit": "dollars"
+  },
+  "gini_index": {
+    "aggregation_method": "",
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+    "long_name": "Income Inequality (Gini Index)",
+    "measure_type": "index",
+    "short_description": "The Gini Index is a summary measure of income inequality.",
+    "short_name": "Income Inequality (Gini Index)",
+    "sources": [
+      {
+        "name": "U.S. Census American Community Survey",
+        "location": "Table B19083",
+        "date_accessed": "2023"
+      }
+    ],
+    "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+    "type": "",
+    "unit": ""
+  },
+  "median_household_income": {
+    "aggregation_method": "",
+    "category": "Financial Well Being",
+    "citations": "",
+    "data_type": "integer",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates. The equation $a_{i} = b^\\frac{c}{d}$ was used.",
+    "long_name": "Median household income",
+    "measure_type": "count",
+    "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+    "short_name": "Median household income",
+    "sources": [
+      {
+        "date_accessed": 2022,
+        "name": "American Community Survey",
+        "location": "Table B19013",
+        "url": "https://www.census.gov/programs-surveys/acs"
+      }
+    ],
+    "statement": "The median household income in {features.name} is {value} per year.",
+    "type": "dollar",
+    "unit": "dollars"
+  },
+  "job_participate_rate": {
+    "aggregation_method": "",
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+    "long_name": "Job Participation Pecentage",
+    "measure_type": "percent",
+    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+    "short_name": "Job Participation Pecentage",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2023",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+    "type": "percent",
+    "unit": "people"
+  },
+  "emp_rate": {
+    "aggregation_method": "",
+    "category": "Employment/Workforce Development",
+    "citations": "",
+    "data_type": "decimal",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+    "long_name": "Percentage civilian employed",
+    "measure_type": "percent",
+    "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+    "short_name": "Percentage employed",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B23025",
+        "date_accessed": "2021",
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} is employed.",
+    "type": "percent",
+    "unit": "people"
+  },
+  "no_hlth_ins_pct": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+    "long_name": "Percent of population without health insurance",
+    "measure_type": "percent",
+    "short_description": "Percent of the population (ages 19-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
+    "short_name": "Uninsured population",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "Table B27010",
+        "date_accessed": 2022,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ],
+    "statement": "{value} of the population does not have health insurance in {features.name}.",
+    "type": "percent",
+    "unit": ""
+  },
+  "prevent_hosp_rate": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "",
+    "layer": "",
+    "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
+    "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
+    "measure_type": "rate per 100K",
+    "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
+    "short_name": "Preventable hospitalizations per 100,000",
+    "sources": [
+      {
+        "name": "County Health Rankings",
+        "date_accessed": 2021,
+        "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+      }
+    ],
+    "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+    "type": "rate",
+    "unit": ""
+  },
+  "avg_monthly_rate": {
+    "aggregation_method": "",
+    "category": "Behavioral Health, Substance Use Disorder and Recovery",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
+    "long_name": "Monthly average emergency department visits for drug overdose rate per 100,000 residents",
+    "measure_type": "rate per 100k",
+    "short_description": "Monthly average emergency department visits for drug overdose per 100,000 residents.",
+    "short_name": "Monthly average ED visits for drug overdose",
+    "sources": [
+      {
+        "name": "Virginia Department of Health",
+        "date_accessed": "2021",
+        "url": "https://www.vdh.virginia.gov/surveillance-and-investigation/syndromic-surveillance/drug-overdose-surveillance/"
+      }
+    ],
+    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
+    "type": "rate",
+    "unit": ""
+  },
+  "perc_poor_phys_hlth_days_14_and_over": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+    "long_name": "Percentage reporting poor physical health",
+    "measure_type": "prevalence estimate",
+    "short_description": "Percent of the population self-reporting poor physical health",
+    "short_name": "Percentage reporting poor physical health",
+    "sources": [
+      {
+        "name": "Virginia Behavioral Risk Factor Surveillance System",
+        "date_accessed": 2021,
+        "url": "https://www.vdh.virginia.gov/brfss/"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} reports poor physical health.",
+    "type": "percent",
+    "unit": ""
+  },
+  "perc_poor_ment_hlth_days_14_and_over": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Status",
+    "layer": "",
+    "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+    "long_name": "Percentage reporting poor mental health",
+    "measure_type": "prevalence estimate",
+    "short_description": "Percent of the population self-reporting poor mental health",
+    "short_name": "Percentage reporting poor mental health",
+    "sources": [
+      {
+        "name": "Virginia Behavioral Risk Factor Surveillance System",
+        "date_accessed": 2021,
+        "url": "https://www.vdh.virginia.gov/brfss/"
+      }
+    ],
+    "statement": "{value} of the population in {features.name} reports poor mental health.",
+    "type": "percent",
+    "unit": ""
+  },
+  "urgent_3sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health/main/Health%20Care%20Services/Urgent%20Care%20Centers/Service%20Access%20Scores/data/distribution/urgent_care_points_2022.geojson"
+    },
+    "long_description": "Urgent care availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "long_name": "Urgent care geographic availability (3-step floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of urgent care availability based on supply and demand of facilities",
+    "short_name": "Urgent care geographic availability",
+    "sources": [
+      {
+        "name": "Google Maps",
+        "date_accessed": 2022,
+        "url": "https://www.google.com/maps"
+      }
+    ],
+    "statement": "The urgent care availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "urgent_cnt": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health/main/Health%20Care%20Services/Urgent%20Care%20Centers/Service%20Access%20Scores/data/distribution/urgent_care_points_2022.geojson"
+    },
+    "long_description": "Count of urgent care facilities based on facility locations. Location data was collected from Google Maps.",
+    "long_name": "Availability of urgent care by count",
+    "measure_type": "count",
+    "short_description": "Count of urgent care facilities based on facility locations",
+    "short_name": "Urgent care availability (count)",
+    "sources": [
+      {
+        "name": "Google Maps",
+        "date_accessed": 2022,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ],
+    "statement": "There are {value} urgent care facilities in {features.name}.",
+    "type": "count",
+    "unit": ""
+  },
+  "urgent_near_10_median": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": {
+      "source": "https://raw.githubusercontent.com/uva-bi-sdad/sdc.health/main/Health%20Care%20Services/Urgent%20Care%20Centers/Service%20Access%20Scores/data/distribution/urgent_care_points_2022.geojson"
+    },
+    "long_description": "Median drive time in minutes to the ten closest urgent care facilities. Facility location data were collected from Google Maps. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_name": "Urgent care availability by median drive time to the ten closest facilities in minutes",
+    "measure_type": "count",
+    "short_description": "Median drive time (minutes) to the ten closest urgent care facilities",
+    "short_name": "Urgent care availability (drive time)",
+    "sources": [
+      {
+        "name": "Google Maps",
+        "date_accessed": 2022,
+        "url": "https://www.google.com/maps"
+      }
+    ],
+    "statement": "The median drive time to the ten closest urgent care facilities to {features.name} is {value}.",
+    "type": "drive time",
+    "unit": ""
+  },
+  "primcare_e2sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+    "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of primary care physician availability based on supply and demand of providers",
+    "short_name": "Primary care geographic availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ],
+    "statement": "The primary care availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "ped_e2sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Pediatric care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
+    "long_name": "Pediatric care geographic availability (2-step enhanced floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
+    "short_name": "Pediatric care geographic availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ],
+    "statement": "The pediatric care availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "obgyn_e2sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+    "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+    "short_name": "OBGYN care geographic availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ],
+    "statement": "The OBGYN availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "mental_3sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Mental health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "long_name": "Mental health services geographic availability (3-step  floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+    "short_name": "Mental health services geographic availability",
+    "sources": [
+      {
+        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+        "date_accessed": 2021,
+        "url": "https://www.samhsa.gov/"
+      }
+    ],
+    "statement": "The mental health services availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "mental_cnt": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Count of mental health facilities based on facility locations. Location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository.",
+    "long_name": "Availability of mental health services by count",
+    "measure_type": "count",
+    "short_description": "Count of mental health facilities based on facility locations",
+    "short_name": "Mental health services availability (count)",
+    "sources": [
+      {
+        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+        "date_accessed": 2021,
+        "url": "https://www.samhsa.gov/"
+      }
+    ],
+    "statement": "There are {value} mental health facilities in {features.name}.",
+    "type": "count",
+    "unit": ""
+  },
+  "mental_near_10_median": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Median drive time in minutes to the ten closest mental health facilities. Facility location data were collected from the Substance Abuse and Mental Health Services Administration (SAMHSA) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_name": "Mental health availability by median drive time to the ten closest facilities in minutes",
+    "measure_type": "count",
+    "short_description": "Median drive time (minutes) to the ten closest mental health facilities",
+    "short_name": "Mental health availability (drive time)",
+    "sources": [
+      {
+        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+        "date_accessed": 2021,
+        "url": "https://findtreatment.gov/"
+      }
+    ],
+    "statement": "The median drive time to the ten closest mental health facilities to {features.name} is {value}.",
+    "type": "drive time",
+    "unit": ""
+  },
+  "hosp_cnt": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Count of hospitals based on facility locations. Location data were collected from the Center for Medicare and Medicaid Services.",
+    "long_name": "Availability of hospitals by count",
+    "measure_type": "count",
+    "short_description": "Count of hospitals based on facility locations",
+    "short_name": "Hospital availability (count)",
+    "sources": [
+      {
+        "name": "Center for Medicare and Medicaid Services",
+        "date_accessed": 2022,
+        "url": "https://data.cms.gov/provider-data/topics/hospitals"
+      }
+    ],
+    "statement": "There are {value} hospitals in {features.name}.",
+    "type": "count",
+    "unit": ""
+  },
+  "hosp_3sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "long_name": "Hospital geographic availability (3-step floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of hospital availability based on supply and demand of facilities",
+    "short_name": "Hospital geographic availability",
+    "sources": [
+      {
+        "name": "Center for Medicare and Medicaid Services",
+        "date_accessed": 2022,
+        "url": "https://data.cms.gov/provider-data/topics/hospitals"
+      }
+    ],
+    "statement": "The hospital geographic availability score for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "hosp_near_10_median": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data were collected from the Center for Medicare and Medicaid Services. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_name": "Hospital availability by median drive time to the ten closest facilities in minutes",
+    "measure_type": "count",
+    "short_description": "Median drive time (minutes) to the ten closest hospitals",
+    "short_name": "Hospital drive time",
+    "sources": [
+      {
+        "name": "Center for Medicare and Medicaid Services",
+        "date_accessed": 2022,
+        "url": "https://data.cms.gov/provider-data/topics/hospitals"
+      }
+    ],
+    "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
+    "type": "drive time",
+    "unit": ""
+  },
+  "ems_3sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
+    "short_name": "Emergency medical services geographic availability",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ],
+    "statement": "The emergency medical services availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "ems_cnt": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+    "long_name": "Availability of emergency medical services by count",
+    "measure_type": "count",
+    "short_description": "Count of emergency medical services facilities based on facility locations",
+    "short_name": "Emergency medical services availability (count)",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ],
+    "statement": "There are {value} emergency medical services facilities in {features.name}.",
+    "type": "count",
+    "unit": ""
+  },
+  "ems_near_10_median": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
+    "measure_type": "count",
+    "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+    "short_name": "Emergency medical services availability (drive time)",
+    "sources": [
+      {
+        "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+        "date_accessed": 2021,
+        "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+      }
+    ],
+    "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+    "type": "drive time",
+    "unit": ""
+  },
+  "subs_3sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Substance use/behavioral health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+    "long_name": "Substance use/behavioral health services geographic availability (3-step floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of substance use/behavioral health services availability based on supply and demand of facilities",
+    "short_name": "Substance use/behavioral health services geographic availability",
+    "sources": [
+      {
+        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+        "date_accessed": 2021,
+        "url": "https://www.samhsa.gov/"
+      }
+    ],
+    "statement": "The substance use/behavioral health services availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "subs_cnt": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+    "long_name": "Availability of substance use/behavioral health by count",
+    "measure_type": "count",
+    "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+    "short_name": "Substance use/behavioral health availability (count)",
+    "sources": [
+      {
+        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+        "date_accessed": 2021,
+        "url": "https://www.samhsa.gov/"
+      }
+    ],
+    "statement": "There are {value} substance use facilities in {features.name}.",
+    "type": "count",
+    "unit": ""
+  },
+  "subs_near_10_median": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+    "long_name": "Substance use/behavioral health services availability by median drive time to the ten closest facilities in minutes",
+    "measure_type": "count",
+    "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
+    "short_name": "Substance use/behavioral health services availability (drive time)",
+    "sources": [
+      {
+        "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+        "date_accessed": 2021,
+        "url": "https://www.samhsa.gov/"
+      }
+    ],
+    "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
+    "type": "drive time",
+    "unit": ""
+  },
+  "dent_e2sfca": {
+    "aggregation_method": "",
+    "category": "Health",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "data_type": "numeric",
+    "equity_category": "Availability",
+    "layer": "",
+    "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+    "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+    "measure_type": "index",
+    "short_description": "Index of dental care availability based on supply and demand of providers",
+    "short_name": "Dental care geographic availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ],
+    "statement": "The dental care availability for {features.name} is {value}.",
+    "type": "index",
+    "unit": ""
+  },
+  "_references": {
+    "lou04": {
+      "id": "lou04",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        }
+      ],
+      "year": 2004,
+      "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+      "journal": "Health & Place",
+      "volume": "10",
+      "number": 1,
+      "page": "1-11",
+      "doi": "10.1016/S1353-8292(02)00067-9"
+    },
+    "lou09": {
+      "id": "lou09",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Yi",
+          "family": "Qi"
+        }
+      ],
+      "year": 2009,
+      "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+      "journal": "Health & Place",
+      "volume": "15",
+      "number": 4,
+      "page": "1100-1107",
+      "doi": "10.1016/j.healthplace.2009.06.002"
+    },
+    "lou03": {
+      "id": "lou03",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Fahui",
+          "family": "Wang"
+        }
+      ],
+      "year": 2003,
+      "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+      "journal": "Environment and Planning B: Planning and Design",
+      "volume": "30",
+      "number": 6,
+      "page": "865-884",
+      "doi": "10.1068/b29120"
+    },
+    "saxon20": {
+      "id": "saxon20",
+      "author": [
+        {
+          "given": "James",
+          "family": "Saxon"
+        },
+        {
+          "given": "Julia",
+          "family": "Koschinsky"
+        },
+        {
+          "given": "Karina",
+          "family": "Acosta"
+        },
+        {
+          "given": "Vidal",
+          "family": "Anguiano"
+        },
+        {
+          "given": "Luc",
+          "family": "Anselin"
+        },
+        {
+          "given": "Sergio",
+          "family": "Rey"
+        }
+      ],
+      "year": 2020,
+      "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+      "journal": "University of Chicago: Center for Spatial Data Science",
+      "volume": "Preprint",
+      "doi": "10.13140/RG.2.2.12396.28807"
+    },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "cdc11a": {
+      "id": "cdc11a",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Children’s Food Environment State Indicator Report",
+      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+    },
+    "cdc11b": {
+      "id": "cdc11b",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    }
   }
 }

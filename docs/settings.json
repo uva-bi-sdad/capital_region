@@ -620,7 +620,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.24.1"
+      "version": "2.24.2"
     }
   },
   "endpoint": "https://ncr-data-commons.netlify.app/api",
@@ -767,11 +767,35 @@
           "focus": "filter.county",
           "option": ["51013", "51059"],
           "after": [
-            "set",
-            "close"
+            "set"
           ],
           "time": 4,
           "wait": 600
+        },
+        {
+          "description": "Add a filter on median household income.",
+          "focus": "filter_variable_dropdown",
+          "after": [
+            "value:median_household_income"
+          ],
+          "time": 4
+        },
+        {
+          "description": "Change the operator to less than or equal to.",
+          "focus": ".filter-body tr:last-of-type .form-select.filter-form-input",
+          "after": [
+            "value:<="
+          ],
+          "time": 3
+        },
+        {
+          "description": "Set value to the first quantile.",
+          "focus": ".filter-body tr:last-of-type td:nth-child(6) .filter-form-input",
+          "after": [
+            "value:Q1",
+            "close"
+          ],
+          "time": 3
         },
         {
           "description": "Open the export menu to download.",
