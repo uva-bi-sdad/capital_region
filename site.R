@@ -37,8 +37,9 @@ page_navbar(
         floating_label = FALSE,
         note = paste(
           "Determines which regions are included in summaries for box-plots and color scaling;",
-          "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
-          "Selected Region are filtered by region selection."
+          "summaries for All-Regions disregard all selection and filtering,",
+          "Selected Super-Region include sub-regions within a selected region regardless of additional filters,",
+          "and Showing Regions respect all forms of filtering."
         )
       ),
       '<p class="section-heading">Map Options</p>',
@@ -99,7 +100,7 @@ page_navbar(
           " of the [Biocomplexity Institute](https://biocomplexity.virginia.edu)."
         ),
         "View its source on [GitHub](https://github.com/uva-bi-sdad/capital_region).",
-        input_button("Download All Data", "export", query = list(
+        input_button("Download Loaded Data", "export", query = list(
           features = list(geoid = "id", name = "name")
         ), class = "btn-full"),
         page_tutorials(
