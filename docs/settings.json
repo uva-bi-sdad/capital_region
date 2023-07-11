@@ -213,14 +213,10 @@
   "info": {
     "variable_info_pane": {
       "title": "variables.short_name",
-      "body": [],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "variable_info": false
+      "variable_info": true
     },
     "info11": {
-      "title": "",
       "body": [
         {
           "name": "",
@@ -228,10 +224,8 @@
           "style": "table"
         }
       ],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "variable_info": false
+      "variable_info": true
     },
     "info12": {
       "title": "Filters",
@@ -242,25 +236,20 @@
           "style": "table"
         }
       ],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "variable_info": false
+      "variable_info": true
     },
     "info13": {
       "title": "features.name",
-      "body": [],
       "default": {
         "title": "National Capital Region",
         "body": "Hover over or select a region for more information."
       },
-      "floating": false,
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
-      "variable_info": false
+      "variable_info": true
     },
     "info14": {
-      "title": "",
       "body": [
         {
           "name": "variables.long_name",
@@ -273,11 +262,8 @@
           "style": "table"
         }
       ],
-      "default": [],
-      "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
-      "variable_info": false
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"]
     }
   },
   "text": {
@@ -377,14 +363,12 @@
   "button": {
     "DownloadLoadedData": {
       "effects": "export",
-      "dataview": {},
       "query": {
         "features": {
           "geoid": "id",
           "name": "name"
         }
-      },
-      "api": false
+      }
     },
     "Download": {
       "effects": "export",
@@ -397,8 +381,7 @@
         },
         "table_format": "export_table_format",
         "file_format": "export_file_format"
-      },
-      "api": false
+      }
     },
     "CopyAPIlink": {
       "effects": "copy",
@@ -412,8 +395,7 @@
         },
         "table_format": "export_table_format",
         "file_format": "export_file_format"
-      },
-      "api": false
+      }
     }
   },
   "datatable": {
@@ -547,7 +529,6 @@
           "id_property": "geoid"
         }
       ],
-      "overlays": {},
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
@@ -567,8 +548,7 @@
           "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         }
       }
-    },
-    "_raw": []
+    }
   },
   "legend": {
     "main_legend": {

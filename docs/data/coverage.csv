@@ -166,15 +166,15 @@
 "Retail Trade_total_employment",1,33463,0,153,0,0,0,13363,0
 "Retail Trade_total_job_creation",1,16963,0,152,0,0,0,10175,0
 "Retail Trade_total_job_destruction",1,16163,0,137,0,0,0,9730,0
+"schools_2year_all",1,29967,0,126,0,0,0,11230,0
 "schools_2year_min_drivetime",1,29967,0,126,0,0,0,11230,0
-"schools_2year_per_100k",1,29967,0,126,0,0,0,11230,0
-"schools_2year_with_biomedical_program_per_100k",1,29967,0,126,0,0,0,11230,0
-"schools_2year_with_computer_program_per_100k",1,29967,0,126,0,0,0,11230,0
-"schools_2year_with_engineering_program_per_100k",1,29967,0,126,0,0,0,11230,0
-"schools_2year_with_physical_program_per_100k",1,29967,0,126,0,0,0,11230,0
-"schools_2year_with_science_program_per_100k",1,29967,0,126,0,0,0,11230,0
+"schools_2year_with_biomedical_program",1,29967,0,126,0,0,0,11230,0
+"schools_2year_with_computer_program",1,29967,0,126,0,0,0,11230,0
+"schools_2year_with_engineering_program",1,29967,0,126,0,0,0,11230,0
+"schools_2year_with_physical_program",1,29967,0,126,0,0,0,11230,0
+"schools_2year_with_science_program",1,29967,0,126,0,0,0,11230,0
+"schools_under2year",1,29967,0,126,0,0,0,11230,0
 "schools_under2year_min_drivetime",1,29967,0,126,0,0,0,11230,0
-"schools_under2year_per_100k",1,29967,0,126,0,0,0,11230,0
 "subs_3sfca",1,3605,62,14,0,0,0,1325,0
 "subs_cnt",1,105,62,14,0,0,0,1331,0
 "subs_near_10_median",1,3605,62,14,0,0,0,1325,0
