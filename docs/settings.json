@@ -28,10 +28,8 @@
   "metadata": {
     "url": "",
     "package": "data/datapackage.json",
-    "datasets": ["block_group", "tract", "county", "civic_association", "zip_code", "planning_district", "supervisor_district", "human_services_region"],
-    "variables": {},
-    "entity_info": {},
-    "files": ["block_group.csv.xz", "tract.csv.xz", "county.csv.xz", "civic_association.csv.xz", "zip_code.csv.xz", "planning_district.csv.xz", "supervisor_district.csv.xz", "human_services_region.csv.xz"]
+    "datasets": ["block_group", "tract", "zip_code", "county", "civic_association", "supervisor_district", "planning_district", "human_services_region"],
+    "files": ["block_group.csv.xz", "tract.csv.xz", "zip_code.csv.xz", "county.csv.xz", "civic_association.csv.xz", "supervisor_district.csv.xz", "planning_district.csv.xz", "human_services_region.csv.xz"]
   },
   "rules": [
     {
@@ -39,8 +37,7 @@
         {
           "id": "selected_tract",
           "type": "!",
-          "value": "",
-          "any": false
+          "value": ""
         }
       ],
       "effects": {
@@ -71,8 +68,7 @@
         {
           "id": "selected_tract",
           "type": "!",
-          "value": "",
-          "any": false
+          "value": ""
         }
       ],
       "effects": {
@@ -89,14 +85,12 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             },
             {
               "id": "shape_type",
               "type": "=",
-              "value": "county",
-              "any": false
+              "value": "county"
             }
           ],
           "value": "tract"
@@ -106,8 +100,7 @@
             {
               "id": "selected_tract",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             }
           ],
           "value": "block_group"
@@ -133,15 +126,13 @@
             {
               "id": "shapes",
               "type": "=",
-              "value": "county",
-              "any": false
+              "value": "county"
             }
           ],
           "value": "selected_county"
         }
       ],
-      "default": "selected_tract",
-      "display": []
+      "default": "selected_tract"
     },
     {
       "id": "selected_region",
@@ -151,15 +142,13 @@
             {
               "id": "selected_tract",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             }
           ],
           "value": "selected_tract"
         }
       ],
-      "default": "selected_county",
-      "display": []
+      "default": "selected_county"
     },
     {
       "id": "set_palette",
@@ -169,15 +158,13 @@
             {
               "id": "settings.color_by_order",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             }
           ],
           "value": "lajolla"
         }
       ],
-      "default": "vik",
-      "display": []
+      "default": "vik"
     },
     {
       "id": "tract_subset",
@@ -187,15 +174,13 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             }
           ],
           "value": "siblings"
         }
       ],
-      "default": "full_filter",
-      "display": []
+      "default": "full_filter"
     }
   ],
   "dataviews": {
@@ -286,8 +271,7 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             }
           ],
           "button": {
@@ -307,8 +291,7 @@
             {
               "id": "selected_tract",
               "type": "",
-              "value": "",
-              "any": false
+              "value": ""
             }
           ],
           "text": [" > ", "selected_tract"]
@@ -324,8 +307,7 @@
               {
                 "id": "default",
                 "type": "",
-                "value": "",
-                "any": false
+                "value": ""
               }
             ]
           },
@@ -335,8 +317,7 @@
               {
                 "id": "selected_region",
                 "type": "",
-                "value": "",
-                "any": false
+                "value": ""
               }
             ]
           }
