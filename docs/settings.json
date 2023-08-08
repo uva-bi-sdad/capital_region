@@ -28,8 +28,8 @@
   "metadata": {
     "url": "",
     "package": "data/datapackage.json",
-    "datasets": ["block_group", "tract", "zip_code", "county", "civic_association", "supervisor_district", "planning_district", "human_services_region"],
-    "files": ["block_group.csv.xz", "tract.csv.xz", "zip_code.csv.xz", "county.csv.xz", "civic_association.csv.xz", "supervisor_district.csv.xz", "planning_district.csv.xz", "human_services_region.csv.xz"]
+    "datasets": ["block_group", "tract", "civic_association", "zip_code", "county", "planning_district", "supervisor_district", "human_services_region"],
+    "files": ["block_group.csv.xz", "tract.csv.xz", "civic_association.csv.xz", "zip_code.csv.xz", "county.csv.xz", "planning_district.csv.xz", "supervisor_district.csv.xz", "human_services_region.csv.xz"]
   },
   "rules": [
     {
