@@ -71,7 +71,7 @@ page_navbar(
       input_select("Plot Type", c("scatter", "scattergl", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
-        "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
+        "Use IQR Whiskers", id = "settings.iqr_box",
         note = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)."
       ),
       input_number(
@@ -303,11 +303,16 @@ input_variable("selected_region", list(
   "selected_tract" = "selected_tract"
 ), "selected_county")
 input_variable("set_palette", list(
-  "settings.color_by_order" = "lajolla"
+  "color_by_setting == rank" = "lajolla",
+  "color_by_setting == quintile" = "greens5"
 ), "vik")
 input_variable("tract_subset", list(
   "selected_county" = "siblings"
 ), "full_filter")
+input_rule("color_by_setting == value", list(settings.color_by_order = FALSE))
+input_rule("color_by_setting != value", list(settings.color_by_order = TRUE))
+input_rule("!settings.color_by_order", list(color_by_setting = "value"))
+input_rule("settings.color_by_order && color_by_setting == value", list(color_by_setting = "rank"))
 input_dataview(
   "primary_view",
   y = "selected_variable",
@@ -477,9 +482,17 @@ page_section(
     wraps = "col",
     sizes = c(5, 7),
     page_section(
-      output_legend(
-        "settings.palette", dataview = "primary_view", click = "region_select",
-        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+      page_section(
+        wraps = "col-md",
+        sizes = c(NA, 1),
+        output_legend(
+          "settings.palette", dataview = "primary_view", click = "region_select",
+          subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+        ),
+        input_checkbox(
+          "Color By", c("value", "rank", "quintile"), 0,
+          id = "color_by_setting", multi = FALSE, class = "compact"
+        )
       ),
       output_table("selected_variable", dataview = "primary_view", options = list(
         info = FALSE,

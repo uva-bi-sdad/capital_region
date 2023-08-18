@@ -74,6 +74,59 @@
       "effects": {
         "lock": "menu21"
       }
+    },
+    {
+      "condition": [
+        {
+          "id": "color_by_setting",
+          "type": "=",
+          "value": "value"
+        }
+      ],
+      "effects": {
+        "settings.color_by_order": false
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "color_by_setting",
+          "type": "!=",
+          "value": "value"
+        }
+      ],
+      "effects": {
+        "settings.color_by_order": true
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "settings.color_by_order",
+          "type": "!",
+          "value": ""
+        }
+      ],
+      "effects": {
+        "color_by_setting": "value"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "settings.color_by_order",
+          "type": "",
+          "value": ""
+        },
+        {
+          "id": "color_by_setting",
+          "type": "=",
+          "value": "value"
+        }
+      ],
+      "effects": {
+        "color_by_setting": "rank"
+      }
     }
   ],
   "variables": [
@@ -156,12 +209,22 @@
         {
           "condition": [
             {
-              "id": "settings.color_by_order",
-              "type": "",
-              "value": ""
+              "id": "color_by_setting",
+              "type": "=",
+              "value": "rank"
             }
           ],
           "value": "lajolla"
+        },
+        {
+          "condition": [
+            {
+              "id": "color_by_setting",
+              "type": "=",
+              "value": "quintile"
+            }
+          ],
+          "value": "greens5"
         }
       ],
       "default": "vik"
