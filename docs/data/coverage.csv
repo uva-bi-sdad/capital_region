@@ -45,7 +45,7 @@
 "Cost_Per_Meal",1,0,0,84,0,0,0,0,0
 "dent_e2sfca",1,3605,62,14,0,0,0,1325,0
 "devices",1,9732,0,42,0,0,0,3672,0
-"earnings_per_job",1,0,0,54,0,0,0,0,0
+"earnings_per_job",1,0,0,63,0,0,0,0,0
 "Educational Services_entry_rate",1,26846,0,152,0,0,0,12748,0
 "Educational Services_exit_rate",1,26846,0,152,0,0,0,12748,0
 "Educational Services_total_employment",1,26846,0,152,0,0,0,12748,0
@@ -98,7 +98,7 @@
 "Manufacturing_total_job_creation",1,6975,0,146,0,0,0,5258,0
 "Manufacturing_total_job_destruction",1,6010,0,131,0,0,0,4869,0
 "median_household_income",1,15918,0,70,0,0,0,6066,0
-"median_read_pass_rate",1,0,0,16,0,0,0,0,0
+"median_read_pass_rate",1,0,0,48,0,0,0,0,0
 "mental_3sfca",1,3605,62,14,0,0,0,1325,0
 "mental_cnt",1,88,62,14,0,0,0,1331,0
 "mental_near_10_median",1,3605,62,14,0,0,0,1325,0
