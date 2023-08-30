@@ -183,6 +183,11 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
+      "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
+        "size": 3800,
+        "sha": "2c203b2ac687d43c81687cb719ace1c5f22b005b",
+        "md5": "2e14b7b8e956beba08d80e0d57d11862"
+      },
       "Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz": {
         "size": 58644,
         "sha": "bbe17f6d1f31fd98d8b5f43152c4ebacb42c509e",
@@ -198,11 +203,6 @@
         "sha": "bab886dcb05a3a7a681f8385fac86e19b247ce43",
         "md5": "081bb20b8e6c7ba94f693715642102f4"
       },
-      "Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz": {
-        "size": 7328,
-        "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
-        "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
-      },
       "Postsecondary/data/distribution/acs.csv.xz": {
         "size": 1367956,
         "sha": "6e341c27b47fdfe358779e11467319a11f95bdba",
@@ -212,6 +212,11 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz": {
+        "size": 21656,
+        "sha": "d6cc288a8cd98d047d78d842d09eb2fecabdf706",
+        "md5": "21ad5469b139f8bca4f81727c0e30190"
+      },
       "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
         "size": 95904,
         "sha": "1587027182bfde647be58ba14544b0e16c1b0cd2",
@@ -241,11 +246,6 @@
         "size": 65300,
         "sha": "9140c4a9d50743178e7c374fe7124ab70e4b8430",
         "md5": "525862472927055660e67d6d92c14396"
-      },
-      "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2020_earnings_per_job.csv.xz": {
-        "size": 19232,
-        "sha": "fdc697ac7c7e28a3b4b92effb6a7b47f78ca2184",
-        "md5": "4115bf2b41ea30cb2d17d1f7538bcd11"
       },
       "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz": {
         "size": 274360,
