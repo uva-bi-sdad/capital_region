@@ -315,10 +315,10 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv.xz": {
-        "size": 4784,
-        "sha": "555ec9c7228112c14aafa63fc7ab8262853975f2",
-        "md5": "bf82bf28dcafbf789f07c2f0ea3c8c32"
+      "Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_hdct_2015_2021_preventable_hospitalizations.csv.xz": {
+        "size": 4512,
+        "sha": "b70dd7cbd18f4ed0f05c3673da78e3305896ad61",
+        "md5": "24fbd62eb7d93e3543be166c8c6c7308"
       },
       "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/ncr_bgtrct_gmap_2022_access_scores_urgent_care_centers.csv.xz": {
         "size": 510060,
