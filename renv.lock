@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://packagemanager.posit.co/cran/latest"
+        "URL": "https://cran.rstudio.com"
       }
     ]
   },
@@ -151,7 +151,6 @@
       "RemoteHost": "api.github.com",
       "RemoteRepo": "community",
       "RemoteUsername": "uva-bi-sdad",
-      "RemoteRef": "HEAD",
       "RemoteSha": "ab1feed14267ea9aae129f9ea5c2a89d8c89964f",
       "Requirements": [
         "R",
