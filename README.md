@@ -2,7 +2,7 @@
 
 This site was generated from the [Social Data Commons](https://github.com/uva-bi-sdad/social_data_commons)'s
 [capital_region](https://github.com/uva-bi-sdad/social_data_commons/blob/main/views/capital_region/view.json) view
-.
+
 
 To recompile from source repositories, clone that repository, and run this (assuming this repository is in the same directory):
 
