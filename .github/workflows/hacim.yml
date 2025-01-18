@@ -1,4 +1,4 @@
-name: build_vdh_dashboard
+name: build_dashboard
 on:
   # schedule:
   #   - cron: '0 21 * * 2,5' # Run on Tuesday and Friday 9pm UTC (5pm EST)
@@ -38,28 +38,29 @@ jobs:
         with:
           repository: uva-bi-sdad/social_data_commons
           path: 'parent/social_data_commons'
-      - name: copy renv and lock file to sdc
+      - name: copy lock file to sdc
         working-directory: ${{ github.workspace }}/parent/pre-pack-community
         run: |          
           cp renv.lock ${{ github.workspace }}/parent/social_data_commons/
-          wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/linux-renv/renv.zip -O renv.zip
-      - name: Unzip and move to proper locations
-        working-directory: ${{ github.workspace }}/parent/pre-pack-community      
-        run: |          
-          unzip renv.zip -d renv
-          mv renv/renv ${{ github.workspace }}/parent/social_data_commons/
-      - name: Run tree
-        run: |
-          tree ..
       - uses: r-lib/actions/setup-r@v2
+      - name: Cache downloaded dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/parent/social_data_commons/renv
+          key: ${{ runner.os }}-renv
+          restore-keys: |
+            ${{ runner.os }}-renv
       - name: Cache downloaded repositories
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/parent/social_data_commons/repos
           key: ${{ runner.os }}-repos
           restore-keys: |
             ${{ runner.os }}-repos
-      - name: Installing dependencies
+      - name: Run tree
+        run: |
+          tree ..
+      - name: Installing dependencies (needed to download things)
         run: |
            sudo apt-get install libcurl4-openssl-dev
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
@@ -98,9 +99,9 @@ jobs:
           remotes::install_github('uva-bi-sdad/community')
           source("build.R")
           renv::snapshot()
-      - name: List files
+      - name: Run tree (for debugging)
         run: |
-          ls -la
+          tree ..
       - name: Commit files # Commit changes. You need to do this so child sites work...
         working-directory: parent/${{ github.event.repository.name }}
         run: |
