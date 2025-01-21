@@ -182,6 +182,16 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz": {
+        "size": 301240,
+        "sha": "577246cb9a5b1597ebd2b020c647bbbe891c464b",
+        "md5": "e0f86a069c15e1a3e3589bc7f6096193"
+      },
+      "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2023_median_household_income.csv.xz": {
+        "size": 136280,
+        "sha": "58b5a63dd6fd3d64c1305f783d93b5e9a6b726ea",
+        "md5": "11be90927512a0618053044111a8878d"
+      },
       "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz": {
         "size": 21376,
         "sha": "23ca442c9762513ae6cdf59f668ac442c8007703",
@@ -197,25 +207,10 @@
         "sha": "a346a72267928905adf47a00133ba28467911ff4",
         "md5": "e5913e98912476bec8fc61e63d158787"
       },
-      "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz": {
-        "size": 305404,
-        "sha": "13146389615ac09f3474f5b4e53a1eb02a43a81b",
-        "md5": "78a088c063921d099504a79ee1e35097"
-      },
       "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
         "size": 63020,
         "sha": "d87c26a60feeea406e3c91900d0adb3c095a42b9",
         "md5": "1ee0eb90bc2eff3dc2180e73a2c7aeca"
-      },
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
-        "size": 188944,
-        "sha": "f3e7b7721ed574025ffd52a38862d6b8d8f8a9e9",
-        "md5": "b62c7c109fcd1a549592d37ec31bd4f1"
-      },
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz": {
-        "size": 290740,
-        "sha": "8f1a3cb2c2eff357c536d272bafbc1d4480c9402",
-        "md5": "70782517c5436e40017189869debcd12"
       },
       "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
         "size": 157836,
