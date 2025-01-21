@@ -153,10 +153,10 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz": {
-        "size": 3800,
-        "sha": "2c203b2ac687d43c81687cb719ace1c5f22b005b",
-        "md5": "2e14b7b8e956beba08d80e0d57d11862"
+      "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
+        "size": 3156,
+        "sha": "7efdb5a414f3839ba959d9562a582c5c72dda24b",
+        "md5": "44982f2bd318a00ef79f9ef505d182f7"
       },
       "Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz": {
         "size": 59996,
