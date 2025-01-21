@@ -1249,7 +1249,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2023_earnings_per_job.csv.xz"
   },
   "emp_rate": {
     "aggregation_method": "percent",
@@ -2143,7 +2143,7 @@
     "unit": "dollars",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz", "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2023_median_household_income.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz"
   },
   "mental_3sfca": {
     "aggregation_method": "",

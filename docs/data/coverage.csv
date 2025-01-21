@@ -45,7 +45,7 @@
 "Cost_Per_Meal",1,0,0,84,0,0,0,0,0
 "dent_e2sfca",1,3605,62,14,0,0,0,1325,0
 "devices",1,9732,0,42,0,0,0,3672,0
-"earnings_per_job",1,0,0,63,0,0,0,0,0
+"earnings_per_job",1,0,0,81,0,0,0,0,0
 "Educational Services_entry_rate",0,0,0,0,0,0,0,0,0
 "Educational Services_exit_rate",0,0,0,0,0,0,0,0,0
 "Educational Services_total_employment",0,0,0,0,0,0,0,0,0
@@ -68,7 +68,7 @@
 "gender_female_percent_parcels",1,36923,0,210,0,0,0,18152,0
 "gender_male_percent_direct",1,36923,926,210,60,0,135,18152,1015
 "gender_male_percent_parcels",1,36923,0,210,0,0,0,18152,0
-"gini_index",0,0,0,126,0,0,0,11346,0
+"gini_index",0,0,0,0,0,0,0,0,0
 "Health Care and Social Assistance_entry_rate",0,0,0,0,0,0,0,0,0
 "Health Care and Social Assistance_exit_rate",0,0,0,0,0,0,0,0,0
 "Health Care and Social Assistance_total_employment",0,0,0,0,0,0,0,0,0
