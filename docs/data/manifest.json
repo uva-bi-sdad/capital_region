@@ -182,6 +182,16 @@
         "sha": "94ea03b3fee1baa7626b29fb0b26ac46f4aed00e",
         "md5": "206f89b5ea4c459847575becbd7d7f94"
       },
+      "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz": {
+        "size": 98256,
+        "sha": "e3ba57dce6f479f2a79a2b5c947be38a74308f66",
+        "md5": "bf851fe9977b01ba5027fa232cbb9de9"
+      },
+      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
+        "size": 174052,
+        "sha": "1086191ae52f6a135d268230a20a19fb8fe12d58",
+        "md5": "4ca3532512b07d835c8ddf7cccfec503"
+      },
       "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz": {
         "size": 301240,
         "sha": "577246cb9a5b1597ebd2b020c647bbbe891c464b",
