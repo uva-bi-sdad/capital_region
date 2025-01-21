@@ -31,6 +31,14 @@
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
     },
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
+    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -127,14 +135,6 @@
       "year": 2021,
       "title": "Food Access Research Atlas",
       "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
-    },
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -1877,7 +1877,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_gender_demographics.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/ncr_cttrbg_acs_2009_2023_gender_demographics.csv.xz"]
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -2654,7 +2654,7 @@
     "unit": "households",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2023_cost_burdened_hhs.csv.xz"
   },
   "per_mor_above30": {
     "aggregation_method": "",
@@ -2683,7 +2683,7 @@
     "unit": "households",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2023_cost_burdened_hhs.csv.xz"
   },
   "per_rent_above30": {
     "aggregation_method": "",
@@ -2712,7 +2712,7 @@
     "unit": "households",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2023_cost_burdened_hhs.csv.xz"
   },
   "perc_hh_with_broadband": {
     "aggregation_method": "percent",
@@ -3503,7 +3503,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2023_race_demographics.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/ncr_cttrbg_acs_2009_2023_race_demographics.csv.xz"]
   },
   "schools_{variant.name}_min_drivetime": {
     "data_type": "decimal",
