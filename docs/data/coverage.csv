@@ -32,7 +32,7 @@
 "at_risk_low_pct",1,0,0,0,0,0,0,1272,0
 "at_risk_medium_cnt",1,0,0,0,0,0,0,1278,0
 "at_risk_medium_pct",1,0,0,0,0,0,0,1272,0
-"average_years_schooling",0,0,0,63,0,0,0,7331,0
+"average_years_schooling",0,0,0,126,0,0,0,11384,0
 "avg_down_using_devices",1,10494,0,42,0,0,0,3886,0
 "avg_monthly_rate",1,0,0,63,0,0,0,0,0
 "avg_up_using_devices",1,10494,0,42,0,0,0,3886,0
@@ -68,7 +68,7 @@
 "gender_female_percent_parcels",1,36923,0,210,0,0,0,18152,0
 "gender_male_percent_direct",1,36923,926,210,60,0,135,18152,1015
 "gender_male_percent_parcels",1,36923,0,210,0,0,0,18152,0
-"gini_index",0,0,0,98,0,0,0,8710,0
+"gini_index",0,0,0,126,0,0,0,11346,0
 "Health Care and Social Assistance_entry_rate",0,0,0,0,0,0,0,0,0
 "Health Care and Social Assistance_exit_rate",0,0,0,0,0,0,0,0,0
 "Health Care and Social Assistance_total_employment",0,0,0,0,0,0,0,0,0

@@ -153,20 +153,15 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
+      "Years of Schooling/data/distribution/ncr_trct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
+        "size": 30224,
+        "sha": "0e8cf3d017f52ee7096d442cc887175022857fb9",
+        "md5": "a44ee092ab9fe8fe172efed0b0a7434c"
+      },
       "Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz": {
         "size": 3156,
         "sha": "7efdb5a414f3839ba959d9562a582c5c72dda24b",
         "md5": "44982f2bd318a00ef79f9ef505d182f7"
-      },
-      "Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz": {
-        "size": 59996,
-        "sha": "d23d1dcbf9af671de80f7fb270ce7b14b7d2634d",
-        "md5": "93daa293820fc63c044d785104028592"
-      },
-      "Years of Schooling/data/distribution/va_hdcttr_acs5_2015_2021_years_of_schooling.csv.xz": {
-        "size": 131732,
-        "sha": "75ecff37dc85de952b89c56b55b2b15441741406",
-        "md5": "69a789559a5389c92eca7fa77425b99c"
       },
       "Postsecondary/data/distribution/nces.csv.xz": {
         "size": 11384852,
@@ -182,35 +177,25 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz": {
-        "size": 301240,
-        "sha": "577246cb9a5b1597ebd2b020c647bbbe891c464b",
-        "md5": "e0f86a069c15e1a3e3589bc7f6096193"
-      },
       "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2023_median_household_income.csv.xz": {
         "size": 136280,
         "sha": "58b5a63dd6fd3d64c1305f783d93b5e9a6b726ea",
         "md5": "11be90927512a0618053044111a8878d"
       },
+      "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz": {
+        "size": 59624,
+        "sha": "8401b6a02e8befbdc9c607318b4ac7e86dd07852",
+        "md5": "d823161f6168d99aa544cc9c394577f8"
+      },
+      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2023_median_household_income.csv.xz": {
+        "size": 301240,
+        "sha": "577246cb9a5b1597ebd2b020c647bbbe891c464b",
+        "md5": "e0f86a069c15e1a3e3589bc7f6096193"
+      },
       "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz": {
         "size": 21376,
         "sha": "23ca442c9762513ae6cdf59f668ac442c8007703",
         "md5": "615acd9f289582c3b0b485dad934bf53"
-      },
-      "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
-        "size": 105440,
-        "sha": "e63374168fd0359fbaa8010fcf5891ab79ea53f7",
-        "md5": "57f35e171042d21d748ad3576275c22e"
-      },
-      "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2021_income_inequality_gini_index.csv.xz": {
-        "size": 87060,
-        "sha": "a346a72267928905adf47a00133ba28467911ff4",
-        "md5": "e5913e98912476bec8fc61e63d158787"
-      },
-      "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
-        "size": 63020,
-        "sha": "d87c26a60feeea406e3c91900d0adb3c095a42b9",
-        "md5": "1ee0eb90bc2eff3dc2180e73a2c7aeca"
       },
       "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
         "size": 157836,
