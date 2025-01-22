@@ -32,7 +32,7 @@
 "at_risk_low_pct",1,0,0,0,0,0,0,1272,0
 "at_risk_medium_cnt",1,0,0,0,0,0,0,1278,0
 "at_risk_medium_pct",1,0,0,0,0,0,0,1272,0
-"average_years_schooling",0,0,0,126,0,0,0,11384,0
+"average_years_schooling",1,0,0,126,0,0,0,11384,0
 "avg_down_using_devices",1,10494,0,42,0,0,0,3886,0
 "avg_monthly_rate",1,0,0,63,0,0,0,0,0
 "avg_up_using_devices",1,10494,0,42,0,0,0,3886,0
@@ -51,7 +51,7 @@
 "Educational Services_total_employment",0,0,0,0,0,0,0,0,0
 "Educational Services_total_job_creation",0,0,0,0,0,0,0,0,0
 "Educational Services_total_job_destruction",0,0,0,0,0,0,0,0,0
-"emp_rate",1,0,0,98,0,0,0,8731,0
+"emp_rate",1,0,0,126,0,0,0,11375,0
 "ems_3sfca",1,3605,62,14,0,0,0,1325,0
 "ems_cnt",1,280,62,14,0,0,0,1331,0
 "ems_near_10_median",1,3605,62,14,0,0,0,1325,0
@@ -84,7 +84,7 @@
 "Information_total_employment",0,0,0,0,0,0,0,0,0
 "Information_total_job_creation",0,0,0,0,0,0,0,0,0
 "Information_total_job_destruction",0,0,0,0,0,0,0,0,0
-"job_participate_rate",0,0,0,98,0,0,0,8737,0
+"job_participate_rate",0,0,0,126,0,0,0,11384,0
 "language_hh_limited_english_percent_direct",1,27166,358,112,24,84,54,10151,414
 "language_hh_limited_english_percent_parcels",1,27166,0,112,24,84,54,10151,326
 "Management of Companies and Enterprises_entry_rate",0,0,0,0,0,0,0,0,0
