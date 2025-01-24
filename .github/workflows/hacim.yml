@@ -43,10 +43,17 @@ jobs:
         run: |          
           cp renv.lock ${{ github.workspace }}/parent/social_data_commons/
       - uses: r-lib/actions/setup-r@v2
-      - name: Cache downloaded dependencies
+      - name: Cache renv dependencies
         uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/parent/social_data_commons/renv
+          key: ${{ runner.os }}-renv
+          restore-keys: |
+            ${{ runner.os }}-renv
+      - name: Cache renv dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/parent/${{ github.event.repository.name }}/renv
           key: ${{ runner.os }}-renv
           restore-keys: |
             ${{ runner.os }}-renv
