@@ -111,13 +111,13 @@ jobs:
           git add -A
           git commit -m "generating dashboard"
           git push
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          # Upload entire repository
-          path: 'parent/${{ github.event.repository.name }}/docs'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v4
+      # - name: Upload artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     # Upload entire repository
+      #     path: 'parent/${{ github.event.repository.name }}/docs'
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
