@@ -177,11 +177,6 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz": {
-        "size": 101832,
-        "sha": "a1654cd4448c08e6df6c3f2e2705400779ac14f9",
-        "md5": "7c20e4fe64cb6751b2613339c30c9ab6"
-      },
       "Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz": {
         "size": 174052,
         "sha": "1086191ae52f6a135d268230a20a19fb8fe12d58",
@@ -202,6 +197,11 @@
         "sha": "58b5a63dd6fd3d64c1305f783d93b5e9a6b726ea",
         "md5": "11be90927512a0618053044111a8878d"
       },
+      "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz": {
+        "size": 101832,
+        "sha": "a1654cd4448c08e6df6c3f2e2705400779ac14f9",
+        "md5": "7c20e4fe64cb6751b2613339c30c9ab6"
+      },
       "Employment/data/distribution/ncr_cttr_2015_2023_employment_rate.csv.xz": {
         "size": 39528,
         "sha": "82fe93f60158059f67d9423425f9e304cebc1d7f",
@@ -216,6 +216,11 @@
         "size": 69256,
         "sha": "9f7d16f4a54a6f191cbc512632defb908b802726",
         "md5": "d1d75b4f3d570875a3e228dc123e08e0"
+      },
+      "Employment/data/distribution/va_cttr_acs_2015_2019_emp_rate.csv.xz": {
+        "size": 157836,
+        "sha": "c7c168a02d62ef9a098c53cf06f2ceeb422f8f13",
+        "md5": "820f52866e5ffeaef1550adf943ccd11"
       }
     }
   },
