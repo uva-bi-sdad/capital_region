@@ -1,5 +1,12 @@
 {
   "_references": {
+    "usdafara": {
+      "id": "usdafara",
+      "author": "Economic Research Service, U.S. DEPARTMENT OF AGRICULTURE",
+      "year": 2021,
+      "title": "Food Access Research Atlas",
+      "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
+    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -128,13 +135,6 @@
       "journal": "University of Chicago: Center for Spatial Data Science",
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
-    },
-    "usdafara": {
-      "id": "usdafara",
-      "author": "Economic Research Service, U.S. DEPARTMENT OF AGRICULTURE",
-      "year": 2021,
-      "title": "Food Access Research Atlas",
-      "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -1307,7 +1307,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2023_employment_rate.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2023_employment_rate.csv.xz"
   },
   "ems_3sfca": {
     "aggregation_method": "",
@@ -1935,7 +1935,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_hdcttr_2015_2023_income_inequality_gini_index_std.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2023_income_inequality_gini_index.csv.xz"
   },
   "hh_received_snap_cnt": {
     "aggregation_method": "",
@@ -1964,7 +1964,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2023_hh_receiving_snap.csv.xz"
   },
   "hh_received_snap_pct": {
     "aggregation_method": "",
@@ -1993,7 +1993,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2023_hh_receiving_snap.csv.xz"
   },
   "hosp_3sfca": {
     "aggregation_method": "",
