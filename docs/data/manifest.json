@@ -153,11 +153,6 @@
   },
   "uva-bi-sdad/sdc.education": {
     "files": {
-      "Years of Schooling/data/distribution/ncr_trct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
-        "size": 30224,
-        "sha": "0e8cf3d017f52ee7096d442cc887175022857fb9",
-        "md5": "a44ee092ab9fe8fe172efed0b0a7434c"
-      },
       "Postsecondary/data/distribution/acs.csv.xz": {
         "size": 1602380,
         "sha": "8991697cf518c5cf9635ef943c1d84b88f3d1b47",
@@ -167,6 +162,11 @@
         "size": 3156,
         "sha": "7efdb5a414f3839ba959d9562a582c5c72dda24b",
         "md5": "44982f2bd318a00ef79f9ef505d182f7"
+      },
+      "Years of Schooling/data/distribution/ncr_trct_acs5_2015_2023_years_of_schooling_std.csv.xz": {
+        "size": 30224,
+        "sha": "0e8cf3d017f52ee7096d442cc887175022857fb9",
+        "md5": "a44ee092ab9fe8fe172efed0b0a7434c"
       },
       "Postsecondary/data/distribution/nces.csv.xz": {
         "size": 11384852,
