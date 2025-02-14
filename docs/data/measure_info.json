@@ -1,51 +1,5 @@
 {
   "_references": {
-    "usdafara": {
-      "id": "usdafara",
-      "author": "Economic Research Service, U.S. DEPARTMENT OF AGRICULTURE",
-      "year": 2021,
-      "title": "Food Access Research Atlas",
-      "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
-    },
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -135,6 +89,52 @@
       "journal": "University of Chicago: Center for Spatial Data Science",
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
+    },
+    "usdafara": {
+      "id": "usdafara",
+      "author": "Economic Research Service, U.S. DEPARTMENT OF AGRICULTURE",
+      "year": 2021,
+      "title": "Food Access Research Atlas",
+      "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
+    },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -1054,7 +1054,7 @@
     "long_description": "Average download speed weighted by the number of devices.",
     "long_name": "Average Download Speed",
     "measure_type": "speed",
-    "short_description": "",
+    "short_description": "Average download speed weighted by the number of devices.",
     "short_name": "Average Download Speed",
     "sources": [
       {
@@ -1109,10 +1109,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Average upload speed weighted by the number of devices",
+    "long_description": "Average upload speed weighted by the number of devices.",
     "long_name": "Average Upload Speed",
     "measure_type": "speed",
-    "short_description": "",
+    "short_description": "Average upload speed weighted by the number of devices.",
     "short_name": "Average Upload Speed",
     "sources": [
       {
@@ -1157,7 +1157,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "Cost_Per_Meal": {
     "aggregation_method": "",
@@ -1230,10 +1230,10 @@
     "data_type": "decimal",
     "equity_category": "Accessibility",
     "layer": "",
-    "long_description": "The number of unique devices accessing Ookla Internet speed tests. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd_xx)",
+    "long_description": "Average download speed weighted by the number of devices. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "long_name": "Number of devices",
     "measure_type": "count",
-    "short_description": "",
+    "short_description": "Average download speed weighted by the number of devices. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "short_name": "Number of devices",
     "sources": [
       {
@@ -2528,7 +2528,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz"]
   },
   "Nonminority_employment": {
     "aggregation_method": "",
@@ -2586,7 +2586,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "number_food_insecure": {
     "aggregation_method": "",
@@ -2683,7 +2683,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"
   },
   "per_above30": {
     "aggregation_method": "",
@@ -2780,10 +2780,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd_xx)",
+    "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health District (51_hd)",
     "long_name": "Percentage of households with broadband",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health District (51_hd)",
     "short_name": "Households with broadband",
     "sources": [
       {
@@ -2799,7 +2799,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2023_hh_internet_type.csv.xz"
   },
   "perc_hh_with_cable_fiber_dsl": {
     "aggregation_method": "percent",
@@ -2809,10 +2809,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percentage of households self-reported to have a high-speed internet service. A high-speed internet service is defined as a cable, fiber optic, or DSL internet connection. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd_xx)",
+    "long_description": "Percentage of households self-reported to have a high-speed internet service. A high-speed internet service is defined as a cable, fiber optic, or DSL internet connection. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd)",
     "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percentage of households self-reported to have a high-speed internet service. A high-speed internet service is defined as a cable, fiber optic, or DSL internet connection. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd)",
     "short_name": "Households with cable, fiber optic, or DSL",
     "sources": [
       {
@@ -2828,7 +2828,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2023_hh_internet_type.csv.xz"
   },
   "perc_hh_without_compdev": {
     "aggregation_method": "percent",
@@ -2838,10 +2838,10 @@
     "data_type": "decimal",
     "equity_category": "Accessibility",
     "layer": "",
-    "long_description": "Percentage of households self-reported to not have a computer or device at home. Data is based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd_xx)",
+    "long_description": "Percentage of households self-reported to not have a computer or device at home. Data is based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health District (51_hd)",
     "long_name": "Percentage of households without a computer",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percentage of households self-reported to not have a computer or device at home. Data is based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health District (51_hd)",
     "short_name": "Households without a computer",
     "sources": [
       {
@@ -2857,7 +2857,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2023_hh_without_compdev.csv.xz"
   },
   "perc_hh_without_internet": {
     "aggregation_method": "percent",
@@ -2867,10 +2867,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percentage of households self-reported to not have internet access at home. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd_xx)",
+    "long_description": "Percentage of households self-reported to not have internet access at home. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health District (51_hd)",
     "long_name": "Percentage of households without internet access",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percentage of households self-reported to not have internet access at home. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health District (51_hd)",
     "short_name": "Households without internet access",
     "sources": [
       {
@@ -2886,7 +2886,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2023_hh_internet_type.csv.xz"
   },
   "perc_income_avg_nat_package": {
     "aggregation_method": "percent",
@@ -2899,7 +2899,7 @@
     "long_description": "The national average price for internet, which is $64, as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5)",
     "long_name": "The national average price for internet as a percentage of average income",
     "measure_type": "percent",
-    "short_description": "The national average price for internet ($64) as a percentage of median household income",
+    "short_description": "The national average price for internet, which is $64, as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5)",
     "short_name": "Percentage of income for internet (average)",
     "sources": [
       {
@@ -2932,10 +2932,10 @@
     "data_type": "decimal",
     "equity_category": "Affordability",
     "layer": "",
-    "long_description": "TThe minimum price for fast internet (which is defined as 100 MB/s upload) as a percentage of median household income. Geographis: Block group (12), Census Tract (11), County (5)",
+    "long_description": "The minimum price for fast internet (which is defined as 100 MB/s upload) as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5)",
     "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
     "measure_type": "percent",
-    "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+    "short_description": "The minimum price for fast internet (which is defined as 100 MB/s upload) as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5)",
     "short_name": "Percentage of income for fast internet",
     "sources": [
       {
@@ -2968,10 +2968,10 @@
     "data_type": "decimal",
     "equity_category": "Affordability",
     "layer": "",
-    "long_description": "The minimum price for good internet (which is defined as 25 MB/s upload) as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5) ",
+    "long_description": "The minimum price for good internet (which is defined as 25 MB/s upload) as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5)",
     "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
     "measure_type": "percent",
-    "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+    "short_description": "The minimum price for good internet (which is defined as 25 MB/s upload) as a percentage of median household income. Geographies: Block group (12), Census Tract (11), County (5)",
     "short_name": "Percentage of income for good internet",
     "sources": [
       {
@@ -3062,10 +3062,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percent of the total population with a fast internet speed, which is defined as above 100/20 MB/S and able to stream HD video on multiple devices or download large files quickly. Geographies: Block group (12), Census tract (11), County (5), Health Districts (h1_hd_xx) ",
+    "long_description": "Percent of the total population with a fast internet speed, which is defined as above 100/20 MB/S and able to stream HD video on multiple devices or download large files quickly. Geographies: Block group (12), Census tract (11), County (5), Health District (51_hd)",
     "long_name": "Percent of the Total Population with Fast Internet Speed",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percent of the total population with a fast internet speed, which is defined as above 100/20 MB/S and able to stream HD video on multiple devices or download large files quickly. Geographies: Block group (12), Census tract (11), County (5), Health District (51_hd)",
     "short_name": "Percent Fast (total)",
     "sources": [
       {
@@ -3091,10 +3091,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percent of the total population with a good internet speed, which is defined as above 25/3 MB/S and able to stream video or online games for one device. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd_xx)",
+    "long_description": "Percent of the total population with a good internet speed, which is defined as above 25/3 MB/S and able to stream video or online games for one device. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "long_name": "Percent of the Total Population with Good Internet Speed",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percent of the total population with a good internet speed, which is defined as above 25/3 MB/S and able to stream video or online games for one device. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "short_name": "Percent Good (total)",
     "sources": [
       {
@@ -3120,10 +3120,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percent of the internet-connected population with a fast internet speed, which is defined as above 100/20 MB/S and able to stream HD video on multiple devices or download large files quickly. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd_xx)",
+    "long_description": "Percent of the internet-connected population with a fast internet speed, which is defined as above 100/20 MB/S and able to stream HD video on multiple devices or download large files quickly. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percent of the internet-connected population with a fast internet speed, which is defined as above 100/20 MB/S and able to stream HD video on multiple devices or download large files quickly. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "short_name": "Percent Fast (internet-connected)",
     "sources": [
       {
@@ -3149,10 +3149,10 @@
     "data_type": "decimal",
     "equity_category": "Availability",
     "layer": "",
-    "long_description": "Percent of the internet-connected population with a good internet speed, which is defined as above 25/3 MB/S and able to stream video or online games for one device. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd_xx)",
+    "long_description": "Percent of the internet-connected population with a good internet speed, which is defined as above 25/3 MB/S and able to stream video or online games for one device. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
     "measure_type": "percent",
-    "short_description": "",
+    "short_description": "Percent of the internet-connected population with a good internet speed, which is defined as above 25/3 MB/S and able to stream video or online games for one device. Geographies: Block group (12), Census tract (11), County (5), Health Districts (51_hd)",
     "short_name": "Percent Good (internet-connected)",
     "sources": [
       {

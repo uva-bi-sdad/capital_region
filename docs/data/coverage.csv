@@ -132,10 +132,10 @@
 "per_above30",1,0,0,140,0,0,0,12668,0
 "per_mor_above30",1,0,0,140,0,0,0,12668,0
 "per_rent_above30",1,33974,0,140,0,0,0,12668,0
-"perc_hh_with_broadband",1,16987,0,70,0,0,0,6334,0
-"perc_hh_with_cable_fiber_dsl",1,16987,0,70,0,0,0,6334,0
-"perc_hh_without_compdev",1,16987,0,70,0,0,0,6334,0
-"perc_hh_without_internet",1,16987,0,70,0,0,0,6334,0
+"perc_hh_with_broadband",1,24239,0,98,0,0,0,8996,0
+"perc_hh_with_cable_fiber_dsl",1,24239,0,98,0,0,0,8996,0
+"perc_hh_without_compdev",1,24239,0,98,0,0,0,8996,0
+"perc_hh_without_internet",1,24239,0,98,0,0,0,8996,0
 "perc_income_avg_nat_package",1,3183,0,14,0,0,0,1213,0
 "perc_income_min_price_100",1,3163,0,14,0,0,0,1211,0
 "perc_income_min_price_25",1,3149,0,14,0,0,0,1211,0
